@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UBA Derecho - Recomendador y Planificador de Materias</title>
+    <meta name="description" content="Investiga cátedras, filtra comisiones por dificultad, opiniones, modalidad y detecta conflictos con tu agenda laboral o familiar.">
+    <!-- Open Graph SEO -->
+    <meta property="og:title" content="UBA Derecho - Recomendador de Materias">
+    <meta property="og:description" content="Planificador inteligente para organizar tu cuatrimestre y evitar conflictos horarios.">
+    <meta property="og:type" content="website">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- CSS stylesheet -->
+    <link rel="stylesheet" href="style.css?v=3">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Top Navigation / Header -->
+        <header class="app-header">
+            <div class="logo-area">
+                <span class="logo-badge">UBA</span>
+                <div class="logo-text">
+                    <h1>Planificador de Materias</h1>
+                    <p>Ciclo Profesional Común (CPC) — Unificado</p>
+                </div>
+            </div>
+            <div class="header-stats">
+                <div class="stat-pill">
+                    <span class="stat-val" id="total-commissions-badge">0</span>
+                    <span class="stat-label">Comisiones</span>
+                </div>
+                <div class="stat-pill">
+                    <span class="stat-val" id="selected-count-badge">0</span>
+                    <span class="stat-label">Seleccionadas</span>
+                </div>
+            </div>
+        </header>
+
+        <main class="app-main">
+            <!-- Left Sidebar: Filters -->
+            <section class="panel filters-panel">
+                <div class="panel-header">
+                    <h2>Filtros de Búsqueda</h2>
+                    <button class="btn-text" id="btn-reset-filters" aria-label="Limpiar todos los filtros">Limpiar</button>
+                </div>
+                <div class="panel-content">
+                    <!-- Text Search -->
+                    <div class="filter-group">
+                        <label for="search-input">Buscar Cátedra, Comisión o Comentario</label>
+                        <div class="search-wrapper">
+                            <svg class="search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                            <input type="text" id="search-input" placeholder="Ej: Rosenkrantz, 6050, choice...">
+                        </div>
+                    </div>
+
+                    <!-- Subject Select -->
+                    <div class="filter-group">
+                        <label for="subject-filter">Materia</label>
+                        <select id="subject-filter">
+                            <option value="">Todas las materias</option>
+                            <!-- Will be populated dynamically -->
+                        </select>
+                    </div>
+
+                    <!-- Modality Filter -->
+                    <div class="filter-group">
+                        <label>Modalidad</label>
+                        <div class="radio-group" style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.5rem;">
+                            <label class="radio-label">
+                                <input type="radio" name="modality" value="all" checked>
+                                <span>Todas</span>
+                            </label>
+                            <label class="radio-label">
+                                <input type="radio" name="modality" value="Presencial">
+                                <span>Presencial</span>
+                            </label>
+                            <label class="radio-label">
+                                <input type="radio" name="modality" value="Virtual">
+                                <span>Sólo Virtual</span>
+                            </label>
+                            <label class="radio-label">
+                                <input type="radio" name="modality" value="Mixta">
+                                <span>Mixta</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <!-- Difficulty Filter -->
+                    <div class="filter-group">
+                        <label>Dificultad Promedio</label>
+                        <div class="checkbox-group flex-row">
+                            <label class="chip-checkbox difficulty-baja">
+                                <input type="checkbox" name="difficulty" value="Baja" checked>
+                                <span>Baja</span>
+                            </label>
+                            <label class="chip-checkbox difficulty-media">
+                                <input type="checkbox" name="difficulty" value="Media" checked>
+                                <span>Media</span>
+                            </label>
+                            <label class="chip-checkbox difficulty-alta">
+                                <input type="checkbox" name="difficulty" value="Alta" checked>
+                                <span>Alta</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <!-- Toggle Filters -->
+                    <div class="filter-group toggle-group">
+                        <label class="toggle-switch">
+                            <input type="checkbox" id="pro-student-filter">
+                            <span class="slider"></span>
+                            <span class="toggle-text">Sólo recomendadas "Pro-Alumno"</span>
+                        </label>
+                    </div>
+
+                    <div class="filter-group toggle-group">
+                        <label class="toggle-switch">
+                            <input type="checkbox" id="hide-conflicts-filter">
+                            <span class="slider"></span>
+                            <span class="toggle-text text-warning">Ocultar con conflicto horario</span>
+                        </label>
+                    </div>
+
+                    <!-- Source badges filter -->
+                    <div class="filter-group">
+                        <label>Fuentes de Recomendación</label>
+                        <div class="checkbox-group flex-column">
+                            <label class="chip-checkbox source-badge recomellas">
+                                <input type="checkbox" name="sources" value="Recomellas" checked>
+                                <span>Recomellas</span>
+                            </label>
+                            <label class="chip-checkbox source-badge campora">
+                                <input type="checkbox" name="sources" value="La Campora" checked>
+                                <span>La Cámpora (2C 2025)</span>
+                            </label>
+                            <label class="chip-checkbox source-badge centeno">
+                                <input type="checkbox" name="sources" value="La Centeno" checked>
+                                <span>La Centeno (1C 2025)</span>
+                            </label>
+                        </div>
+                    </div>
+                    
+                    <button class="btn-primary" id="btn-apply-filters" style="width: 100%; margin-top: 1rem; justify-content: center;">Buscar Materias</button>
+                </div>
+            </section>
+
+            <!-- Center Column: Results List -->
+            <section class="panel results-panel">
+                <div class="panel-header">
+                    <div class="results-title-row">
+                        <h2>Comisiones Disponibles</h2>
+                        <span class="results-count" id="results-count-text">Mostrando 0 de 0</span>
+                    </div>
+                    <div class="sort-wrapper">
+                        <label for="sort-select">Ordenar por:</label>
+                        <select id="sort-select">
+                            <option value="subject">Materia y Comisión</option>
+                            <option value="professor">Profesor (A-Z)</option>
+                            <option value="difficulty-low">Dificultad (Menor a Mayor)</option>
+                            <option value="comments-count">Más opiniones</option>
+                            <option value="corte">Puntaje de corte (Menor a Mayor)</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="panel-content cards-container" id="cards-container">
+                    <!-- Cards will be populated dynamically by JavaScript -->
+                    <div class="loading-state">
+                        <div class="spinner"></div>
+                        <p>Cargando catálogo de materias unificado...</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Right Sidebar: Interactive Planner & Calendar -->
+            <section class="panel planner-panel">
+                <div class="panel-header">
+                    <h2>Mi Agenda Semanal</h2>
+                    <div class="tab-buttons">
+                        <button class="tab-btn active" id="tab-calendar">Calendario</button>
+                        <button class="tab-btn" id="tab-draft">Borrador</button>
+                    </div>
+                </div>
+                
+                <!-- Tab Content: Calendar Grid & Editor -->
+                <div class="panel-content tab-content-wrapper active" id="content-calendar">
+                    <div class="calendar-instructions">
+                        <p><strong>Instrucción:</strong> Haz clic o arrastra sobre las celdas para pintar tus <strong>horarios ocupados</strong> (trabajo, familia). Las comisiones que coincidan con estos horarios se marcarán en conflicto.</p>
+                        <div class="legend-row">
+                            <span class="legend-item busy">Ocupado (Personal)</span>
+                            <span class="legend-item course">Materia Elegida</span>
+                            <span class="legend-item conflict">Conflicto</span>
+                        </div>
+                    </div>
+
+                    <!-- Weekly Grid -->
+                    <div class="weekly-grid-container">
+                        <div class="weekly-grid" id="weekly-grid">
+                            <!-- Populated dynamically via JS -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tab Content: Draft Summary List -->
+                <div class="panel-content tab-content-wrapper" id="content-draft">
+                    <div class="draft-summary-box">
+                        <h3>Materias Seleccionadas</h3>
+                        <div class="draft-list" id="draft-list">
+                            <p class="empty-state-text">No has seleccionado ninguna materia aún. Haz clic en "Agregar a mi agenda" en las comisiones de interés.</p>
+                        </div>
+                        
+                        <div class="draft-totals-box" id="draft-totals-box" style="display: none;">
+                            <div class="total-row">
+                                <span>Total materias:</span>
+                                <span class="total-val" id="draft-total-count">0</span>
+                            </div>
+                            <div class="total-row">
+                                <span>Dificultad estimada:</span>
+                                <span class="total-val" id="draft-total-difficulty">-</span>
+                            </div>
+                            <div class="total-row">
+                                <span>Modalidades:</span>
+                                <span class="total-val" id="draft-total-modalities">-</span>
+                            </div>
+                            
+                            <div class="copy-box">
+                                <label for="copy-commissions-text">Comisiones para inscripción (copiar):</label>
+                                <div class="copy-input-row">
+                                    <input type="text" id="copy-commissions-text" readonly value="">
+                                    <button class="btn-primary" id="btn-copy-commissions">Copiar</button>
+                                </div>
+                                <span class="copy-success-msg" id="copy-success-msg">¡Copiado!</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <!-- Review Drawer for long opinions -->
+    <div class="drawer-overlay" id="review-drawer">
+        <div class="drawer-panel">
+            <div class="drawer-header">
+                <div class="drawer-titles">
+                    <h3 id="drawer-subject-title">Materia</h3>
+                    <h4 id="drawer-commission-title">Comisión / Cátedra</h4>
+                </div>
+                <button class="btn-close" id="btn-close-drawer" aria-label="Cerrar panel de opiniones">&times;</button>
+            </div>
+            <div class="drawer-body" id="drawer-reviews-content">
+                <!-- Loaded dynamically -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Toast Notifications Container -->
+    <div id="toast-container" class="toast-container" aria-live="polite"></div>
+
+    <script type="module" src="js/main.js"></script>
+</body>
+</html>

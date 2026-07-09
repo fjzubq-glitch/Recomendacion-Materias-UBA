@@ -1,0 +1,11 @@
+{
+  "name": "uba-derecho-recomendador",
+  "version": "1.0.0",
+  "description": "Recomendador y Planificador de Materias UBA Derecho",
+  "scripts": {
+    "start": "serve ."
+  },
+  "dependencies": {
+    "serve": "^14.2.4"
+  }
+}

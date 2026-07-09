@@ -1,0 +1,10 @@
+# Dependencias de Node
+Recomendacion Materias UBA/node_modules/
+node_modules/
+
+# Archivos de configuración de editores/sistema
+.vscode/
+.idea/
+*.log
+.DS_Store
+Thumbs.db
