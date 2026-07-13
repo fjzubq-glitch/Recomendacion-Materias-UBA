@@ -31,50 +31,104 @@ SHEET_RESOURCES = [
 CENTENO_DRIVE_FOLDER = "https://drive.google.com/drive/folders/1gFGp3XTpPTtr06AsxAeIen0V5Vpj3vto"
 
 SUBJECT_MAP_CPC = {
-    'TGD': 'Teoría General del Derecho',
-    'TDE': 'Teoría del Estado',
+    # Full names and accents variations for CPC subjects (to normalize all-caps / alternate spellings)
+    'TEORÍA GENERAL DEL DERECHO': 'Teoría General del Derecho',
+    'TEORIA GENERAL DEL DERECHO': 'Teoría General del Derecho',
+    'TEORÍA DEL ESTADO': 'Teoría del Estado',
+    'TEORIA DEL ESTADO': 'Teoría del Estado',
     'T. ESTADO': 'Teoría del Estado',
     'T. DEL ESTADO': 'Teoría del Estado',
+    'TDE': 'Teoría del Estado',
+    'TGD': 'Teoría General del Derecho',
+    
+    'ELEMENTOS DE DERECHO CIVIL': 'Elementos de Derecho Civil',
+    'DERECHO CIVIL': 'Elementos de Derecho Civil',
     'CIVIL': 'Elementos de Derecho Civil',
+    
+    'DERECHOS HUMANOS Y GARANTÍAS': 'Derechos Humanos y Garantías',
+    'DERECHOS HUMANOS Y GARANTIAS': 'Derechos Humanos y Garantías',
+    'DERECHOS HUMANOS': 'Derechos Humanos y Garantías',
     'DDHH': 'Derechos Humanos y Garantías',
+    
+    'ELEMENTOS DE ANÁLISIS ECONÓMICO Y FINANCIERO': 'Elementos de Análisis Económico y Financiero',
+    'ELEMENTOS DE ANALISIS ECONOMICO Y FINANCIERO': 'Elementos de Análisis Económico y Financiero',
+    'ANÁLISIS ECONÓMICO Y FINANCIERO': 'Elementos de Análisis Económico y Financiero',
+    'ANALISIS ECONOMICO Y FINANCIERO': 'Elementos de Análisis Económico y Financiero',
+    'ANÁLISIS ECONÓMICO': 'Elementos de Análisis Económico y Financiero',
+    'ANALISIS ECONÓMICO': 'Elementos de Análisis Económico y Financiero',
     'ANÁLISIS': 'Elementos de Análisis Económico y Financiero',
-    'ANÁLISIS ': 'Elementos de Análisis Económico y Financiero',
+    'ANALISIS': 'Elementos de Análisis Económico y Financiero',
+    
+    'ELEMENTOS DE DERECHO CONSTITUCIONAL': 'Elementos de Derecho Constitucional',
+    'DERECHO CONSTITUCIONAL': 'Elementos de Derecho Constitucional',
     'CONSTITUCIONAL': 'Elementos de Derecho Constitucional',
-    'CONSTITUCIONAL ': 'Elementos de Derecho Constitucional',
+    
+    'OBLIGACIONES CIVILES Y COMERCIALES': 'Obligaciones Civiles y Comerciales',
     'OBLIGACIONES': 'Obligaciones Civiles y Comerciales',
-    'OBLIGACIONES ': 'Obligaciones Civiles y Comerciales',
+    
+    'ELEMENTOS DE DERECHOS REALES': 'Elementos de Derechos Reales',
+    'DERECHOS REALES': 'Elementos de Derechos Reales',
     'REALES': 'Elementos de Derechos Reales',
-    'COMERCIAL': 'Elementos de Derecho Comercial',
-    'COMERCIAL ': 'Elementos de Derecho Comercial',
-    'PROCESAL': 'Elementos de Derecho Procesal Civil y Comercial',
+    
+    'ELEMENTOS DE DERECHO COMERCIAL': 'Elementos de Derecho Comercial',
+    # We avoid matching CPO 'Derecho Comercial (Sociedades)' to CPC element by using exact name checks
+    
+    'ELEMENTOS DE DERECHO PROCESAL CIVIL Y COMERCIAL': 'Elementos de Derecho Procesal Civil y Comercial',
+    'DERECHO PROCESAL CIVIL Y COMERCIAL': 'Elementos de Derecho Procesal Civil y Comercial',
+    'DERECHO PROCESAL CIVIL': 'Elementos de Derecho Procesal Civil y Comercial',
     'PROCESAL CIVIL': 'Elementos de Derecho Procesal Civil y Comercial',
+    'PROCESAL': 'Elementos de Derecho Procesal Civil y Comercial',
+    
+    'ELEMENTOS DE DERECHO PENAL Y PROCESAL PENAL': 'Elementos de Derecho Penal y Procesal Penal',
+    'DERECHO PENAL Y PROCESAL PENAL': 'Elementos de Derecho Penal y Procesal Penal',
+    'DERECHO PENAL': 'Elementos de Derecho Penal y Procesal Penal',
     'PENAL': 'Elementos de Derecho Penal y Procesal Penal',
-    'PENAL arranca en MARZO': 'Elementos de Derecho Penal y Procesal Penal',
-    'PENAL arranca el AGOSTO': 'Elementos de Derecho Penal y Procesal Penal',
-    'PENAL 1°C': 'Elementos de Derecho Penal y Procesal Penal',
-    'PENAL 2°C': 'Elementos de Derecho Penal y Procesal Penal',
+    
+    'CONTRATOS CIVILES Y COMERCIALES': 'Contratos Civiles y Comerciales',
     'CONTRATOS': 'Contratos Civiles y Comerciales',
-    'CONTRATOS arranca en MARZO': 'Contratos Civiles y Comerciales',
-    'CONTRATOS arranca en AGOSTO': 'Contratos Civiles y Comerciales',
-    'CONTRATOS 1°C': 'Contratos Civiles y Comerciales',
-    'CONTRATOS 2°C': 'Contratos Civiles y Comerciales',
+    
+    # CPO Subjects
+    'DERECHO ADMINISTRATIVO': 'Derecho Administrativo',
     'ADMINISTRATIVO': 'Derecho Administrativo',
-    'ADMINISTRATIVO ': 'Derecho Administrativo',
+    
+    'DERECHO DEL TRABAJO Y DE LA SEGURIDAD SOCIAL': 'Derecho del Trabajo y de la Seguridad Social',
+    'DERECHO DEL TRABAJO Y SEGURIDAD SOCIAL': 'Derecho del Trabajo y de la Seguridad Social',
+    'ELEMENTOS DE DERECHO DEL TRABAJO Y SEGURIDAD SOCIAL': 'Derecho del Trabajo y de la Seguridad Social',
+    'ELEMENTOS DE DERECHO DEL TRABAJO': 'Derecho del Trabajo y de la Seguridad Social',
     'LABORAL': 'Derecho del Trabajo y de la Seguridad Social',
+    
+    'DERECHO COMERCIAL (SOCIEDADES)': 'Derecho Comercial (Sociedades)',
     'SOCIEDADES': 'Derecho Comercial (Sociedades)',
+    
+    'DERECHO TRIBUTARIO Y FINANZAS PÚBLICAS': 'Derecho Tributario y Finanzas Públicas',
+    'DERECHO TRIBUTARIO Y FINANZAS PUBLICAS': 'Derecho Tributario y Finanzas Públicas',
     'TRIBUTARIO': 'Derecho Tributario y Finanzas Públicas',
+    
+    'DERECHO DE FAMILIA Y SUCESIONES': 'Derecho de Familia y Sucesiones',
     'FAMILIA': 'Derecho de Familia y Sucesiones',
+    
+    'DERECHO INTERNACIONAL PÚBLICO': 'Derecho Internacional Público',
+    'DERECHO INTERNACIONAL PUBLICO': 'Derecho Internacional Público',
     'DIP': 'Derecho Internacional Público',
     'INT. PÚBLICO': 'Derecho Internacional Público',
-    'INT. PÚBLICO ': 'Derecho Internacional Público',
-    'INTER. PÚBLICO': 'Derecho Internacional Público',
+    'INT PUBLICO': 'Derecho Internacional Público',
+    
+    'DERECHO INTERNACIONAL PRIVADO': 'Derecho Internacional Privado',
     'DIPr': 'Derecho Internacional Privado',
     'INT. PRIVADO': 'Derecho Internacional Privado',
-    'INTER. PRIVADO': 'Derecho Internacional Privado',
-    'INT PRIVADO': 'Derecho Internacional Privado',
-    'INT PUBLICO': 'Derecho Internacional Público',
-    'ANALISIS': 'Elementos de Análisis Económico y Financiero'
+    'INT PRIVADO': 'Derecho Internacional Privado'
 }
+
+def normalize_subject(subject):
+    if not subject:
+        return ""
+    subject_upper = str(subject).upper().strip()
+    
+    for key in sorted(SUBJECT_MAP_CPC.keys(), key=len, reverse=True):
+        if key in subject_upper:
+            return SUBJECT_MAP_CPC[key]
+            
+    return subject.strip()
 
 CPO_SHEETS = [
     'SOCIALES', 'DEPTO. SOCIALES', 'FILO', 'DEPTO. FILO', 'FILOSOFÍA', 'FILOSOFIA', 'PROCESAL', 'DEPTO. PROCESAL',
@@ -203,7 +257,7 @@ def parse_cpc_row(headers, row, sheet_name, source_name):
         return None
         
     subject = ""
-    for k in ['MATERIA', 'MATERIA ', 'CÁTEDRA', 'CATEDRA']:
+    for k in ['MATERIA', 'MATERIA ', 'CÁTEDRA', 'CATEDRA', 'ACTIVIDAD', 'ACTIVIDAD ']:
         if k in row_dict and not pd.isna(row_dict[k]):
             sval = str(row_dict[k]).strip()
             if not sval.isdigit() and len(sval) > 4:
@@ -218,6 +272,8 @@ def parse_cpc_row(headers, row, sheet_name, source_name):
                     break
     if not subject:
         subject = sheet_name
+        
+    subject = re.sub(r'^\w?\d+\s*(?:\([^)]*\))?\s*-\s*', '', subject).strip()
         
     prof = "A designar"
     for k in ['DOCENTE', 'DOCENTE ', 'CÁTEDRA', 'CATEDRA', 'COMISIÓN', 'COMISION']:
@@ -290,11 +346,7 @@ def parse_cpc_row(headers, row, sheet_name, source_name):
             break
             
     # Subject name normalization
-    subject_upper = subject.upper()
-    for key, mapped in SUBJECT_MAP_CPC.items():
-        if key in subject_upper:
-            subject = mapped
-            break
+    subject = normalize_subject(subject)
             
     return {
         'subject': subject,
@@ -326,7 +378,7 @@ def parse_cpo_row(headers, row, sheet_name, source_name):
         return None
         
     subject = ""
-    for k in ['MATERIA', 'MATERIA ', 'CÁTEDRA', 'CATEDRA']:
+    for k in ['MATERIA', 'MATERIA ', 'CÁTEDRA', 'CATEDRA', 'ACTIVIDAD', 'ACTIVIDAD ']:
         if k in row_dict and not pd.isna(row_dict[k]):
             sval = str(row_dict[k]).strip()
             if not sval.isdigit() and len(sval) > 4:
@@ -341,6 +393,8 @@ def parse_cpo_row(headers, row, sheet_name, source_name):
                     break
     if not subject:
         subject = sheet_name
+        
+    subject = re.sub(r'^\w?\d+\s*(?:\([^)]*\))?\s*-\s*', '', subject).strip()
         
     prof = "A designar"
     for k in ['DOCENTE', 'DOCENTE ', 'CÁTEDRA', 'CATEDRA', 'COMISIÓN', 'COMISION']:
@@ -413,11 +467,7 @@ def parse_cpo_row(headers, row, sheet_name, source_name):
             break
             
     # Subject name normalization for CPO elements
-    subject_upper = subject.upper()
-    for key, mapped in SUBJECT_MAP_CPC.items():
-        if key in subject_upper:
-            subject = mapped
-            break
+    subject = normalize_subject(subject)
             
     return {
         'subject': subject,
@@ -444,30 +494,9 @@ def parse_centeno_pdf(filepath):
         import pypdf
 
     filename = os.path.basename(filepath).upper()
-    subject = ""
-    for kw, full_name in SUBJECT_MAP_CPC.items():
-        if kw in filename:
-            subject = full_name
-            break
-            
-    if not subject:
-        if "CIVIL" in filename: subject = "Elementos de Derecho Civil"
-        elif "PENAL" in filename: subject = "Elementos de Derecho Penal y Procesal Penal"
-        elif "OBLIGACIONES" in filename: subject = "Obligaciones Civiles y Comerciales"
-        elif "TGD" in filename: subject = "Teoría General del Derecho"
-        elif "TDE" in filename: subject = "Teoría del Estado"
-        elif "CONTRATOS" in filename: subject = "Contratos Civiles y Comerciales"
-        elif "CONSTITUCIONAL" in filename: subject = "Elementos de Derecho Constitucional"
-        elif "DDHH" in filename: subject = "Derechos Humanos y Garantías"
-        elif "REALES" in filename: subject = "Elementos de Derechos Reales"
-        elif "COMERCIAL" in filename: subject = "Elementos de Derecho Comercial"
-        elif "PROCESAL" in filename: subject = "Elementos de Derecho Procesal Civil y Comercial"
-        elif "ADMINISTRATIVO" in filename: subject = "Derecho Administrativo"
-        elif "LABORAL" in filename: subject = "Derecho del Trabajo y de la Seguridad Social"
-        elif "SOCIEDADES" in filename: subject = "Derecho Comercial (Sociedades)"
-        elif "TRIBUTARIO" in filename: subject = "Derecho Tributario y Finanzas Públicas"
-        elif "FAMILIA" in filename: subject = "Derecho de Familia y Sucesiones"
-        else: subject = filename.split(".")[0].split()[0]
+    subject = normalize_subject(filename)
+    if not subject or subject == filename:
+        subject = filename.split(".")[0].split()[0]
         
     print(f"  [PDF La Centeno] Asignando materia: {subject}")
     
@@ -580,11 +609,26 @@ def download_online_databases():
 def compile_database():
     print("\n=== COMPILANDO BASE DE DATOS LOCAL ===")
     
-    # We will output two databases
-    for is_cpo_dir, dir_path, output_json in [(False, CPC_DIR, "cpc_data.json"), (True, CPO_DIR, "cpo_data.json")]:
-        print(f"\nProcesando ciclo {'CPO' if is_cpo_dir else 'CPC'} en: {os.path.basename(dir_path)}")
-        db = {}
-        
+    CPC_SUBJECTS = {
+        'Teoría General del Derecho',
+        'Teoría del Estado',
+        'Elementos de Derecho Civil',
+        'Derechos Humanos y Garantías',
+        'Elementos de Análisis Económico y Financiero',
+        'Elementos de Derecho Constitucional',
+        'Obligaciones Civiles y Comerciales',
+        'Elementos de Derechos Reales',
+        'Elementos de Derecho Comercial',
+        'Elementos de Derecho Procesal Civil y Comercial',
+        'Elementos de Derecho Penal y Procesal Penal',
+        'Contratos Civiles y Comerciales'
+    }
+    
+    # We will gather all commissions from BOTH CPC and CPO directories
+    all_parsed_commissions = {}
+    
+    for is_cpo_dir, dir_path in [(False, CPC_DIR), (True, CPO_DIR)]:
+        print(f"\nLeyendo archivos en: {os.path.basename(dir_path)}")
         if not os.path.exists(dir_path):
             continue
             
@@ -619,6 +663,7 @@ def compile_database():
                         is_cpo_sheet = sheet.strip().upper() in CPO_SHEETS or is_cpo_dir
                         rows_data = get_sheet_data(df)
                         
+                        last_subject = ""
                         for headers, row in rows_data:
                             if is_cpo_sheet:
                                 parsed = parse_cpo_row(headers, row, sheet, source_name)
@@ -629,6 +674,16 @@ def compile_database():
                                 continue
                                 
                             subj = parsed['subject']
+                            
+                            # Carry forward logic for empty/generic subjects
+                            if not subj or subj == "nan" or subj.upper() in ['CPC', 'CPO', 'TRADU', 'LECTO', 'PROFESORADO']:
+                                if last_subject:
+                                    subj = last_subject
+                                else:
+                                    subj = sheet
+                            else:
+                                last_subject = subj
+                                
                             comm = parsed['commission']
                             prof = parsed['professor']
                             comment_txt = parsed['comment']
@@ -637,8 +692,8 @@ def compile_database():
                                 continue
                                 
                             key = (subj, comm)
-                            if key not in db:
-                                db[key] = {
+                            if key not in all_parsed_commissions:
+                                all_parsed_commissions[key] = {
                                     'subject': subj,
                                     'commission': comm,
                                     'professor': prof,
@@ -656,18 +711,18 @@ def compile_database():
                                 }
                                 
                             if comment_txt and comment_txt != "nan" and len(comment_txt.strip()) > 3:
-                                existing = [c['text'].lower() for c in db[key]['comments']]
+                                existing = [c['text'].lower() for c in all_parsed_commissions[key]['comments']]
                                 if comment_txt.lower() not in existing:
-                                    db[key]['comments'].append({
+                                    all_parsed_commissions[key]['comments'].append({
                                         'source': source_name,
                                         'text': comment_txt
                                     })
                                     
-                            if source_name not in db[key]['sources']:
-                                db[key]['sources'].append(source_name)
+                            if source_name not in all_parsed_commissions[key]['sources']:
+                                all_parsed_commissions[key]['sources'].append(source_name)
                                 
-                            if db[key]['is_pro_student'] == False and is_pro_student(comment_txt):
-                                db[key]['is_pro_student'] = True
+                            if all_parsed_commissions[key]['is_pro_student'] == False and is_pro_student(comment_txt):
+                                all_parsed_commissions[key]['is_pro_student'] = True
                 except Exception as e:
                     print(f"    [Error] Falló al leer el excel {filename}: {e}")
                     
@@ -686,8 +741,8 @@ def compile_database():
                             continue
                             
                         key = (subj, comm)
-                        if key not in db:
-                            db[key] = {
+                        if key not in all_parsed_commissions:
+                            all_parsed_commissions[key] = {
                                 'subject': subj,
                                 'commission': comm,
                                 'professor': prof,
@@ -705,28 +760,43 @@ def compile_database():
                             }
                             
                         if comment_txt and comment_txt != "nan" and len(comment_txt.strip()) > 3:
-                            existing = [c['text'].lower() for c in db[key]['comments']]
+                            existing = [c['text'].lower() for c in all_parsed_commissions[key]['comments']]
                             if comment_txt.lower() not in existing:
-                                db[key]['comments'].append({
+                                all_parsed_commissions[key]['comments'].append({
                                     'source': source_name,
                                     'text': comment_txt
                                 })
                                 
-                        if source_name not in db[key]['sources']:
-                            db[key]['sources'].append(source_name)
+                        if source_name not in all_parsed_commissions[key]['sources']:
+                            all_parsed_commissions[key]['sources'].append(source_name)
                             
-                        if db[key]['is_pro_student'] == False and is_pro_student(comment_txt):
-                            db[key]['is_pro_student'] = True
+                        if all_parsed_commissions[key]['is_pro_student'] == False and is_pro_student(comment_txt):
+                            all_parsed_commissions[key]['is_pro_student'] = True
                 except Exception as e:
                     print(f"    [Error] Falló al procesar el PDF {filename}: {e}")
                     
-        # Write to JSON
-        final_list = list(db.values())
-        output_filepath = os.path.join(WORKSPACE_DIR, output_json)
-        with open(output_filepath, 'w', encoding='utf-8') as f:
-            json.dump(final_list, f, ensure_ascii=False, indent=4)
-        print(f"  [OK] Guardado catálogo compilado: {output_json} ({len(final_list)} comisiones)")
+    # Now route dynamically based on CPC_SUBJECTS (case-insensitive)
+    CPC_SUBJECTS_UPPER = {s.upper() for s in CPC_SUBJECTS}
+    cpc_list = []
+    cpo_list = []
+    
+    for comm in all_parsed_commissions.values():
+        if comm['subject'].upper() in CPC_SUBJECTS_UPPER or comm['subject'].upper() == 'CPC':
+            cpc_list.append(comm)
+        else:
+            cpo_list.append(comm)
+            
+    # Write CPC file
+    cpc_filepath = os.path.join(WORKSPACE_DIR, "cpc_data.json")
+    with open(cpc_filepath, 'w', encoding='utf-8') as f:
+        json.dump(cpc_list, f, ensure_ascii=False, indent=4)
+    print(f"  [OK] Guardado catálogo CPC: cpc_data.json ({len(cpc_list)} comisiones)")
 
+    # Write CPO file
+    cpo_filepath = os.path.join(WORKSPACE_DIR, "cpo_data.json")
+    with open(cpo_filepath, 'w', encoding='utf-8') as f:
+        json.dump(cpo_list, f, ensure_ascii=False, indent=4)
+    print(f"  [OK] Guardado catálogo CPO: cpo_data.json ({len(cpo_list)} comisiones)")
 if __name__ == "__main__":
     # 1. Download online sheets & drive folders
     download_online_databases()
