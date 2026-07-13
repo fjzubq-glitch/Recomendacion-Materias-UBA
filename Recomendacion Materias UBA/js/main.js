@@ -2,7 +2,7 @@ import { state, loadLocalStorageData, saveLocalStorageData } from './state.js';
 import { loadCommissionsData } from './api.js';
 import { applyFilters } from './filters.js';
 import { initCalendarGrid, renderCoursesOnGrid, toggleCellBusy } from './calendar.js';
-import { renderCards, renderDraftList, closeDrawer, debounce, showToast, openReportDrawer } from './ui.js';
+import { renderCards, renderDraftList, closeDrawer, debounce, showToast, openReportModal, closeReportModal } from './ui.js';
 
 // Drag select state
 let isMouseDown = false;
@@ -97,7 +97,7 @@ function setupEventListeners() {
     const btnReport = document.getElementById('btn-generate-report');
     if (btnReport) {
         btnReport.addEventListener('click', () => {
-            openReportDrawer();
+            openReportModal();
         });
     }
 
@@ -110,6 +110,18 @@ function setupEventListeners() {
     if (drawerOverlay) {
         drawerOverlay.addEventListener('click', (e) => {
             if (e.target.id === 'review-drawer') closeDrawer();
+        });
+    }
+
+    // Report Modal Close
+    const closeReportModalBtn = document.getElementById('btn-close-report-modal');
+    if (closeReportModalBtn) {
+        closeReportModalBtn.addEventListener('click', closeReportModal);
+    }
+    const reportModalOverlay = document.getElementById('report-modal');
+    if (reportModalOverlay) {
+        reportModalOverlay.addEventListener('click', (e) => {
+            if (e.target.id === 'report-modal') closeReportModal();
         });
     }
 

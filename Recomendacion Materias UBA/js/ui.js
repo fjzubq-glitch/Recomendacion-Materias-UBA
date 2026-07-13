@@ -375,7 +375,11 @@ export function renderDraftList() {
     document.getElementById('copy-commissions-text').value = commNumbers;
 }
 
-export function openReportDrawer() {
+export function closeReportModal() {
+    document.getElementById('report-modal').classList.remove('active');
+}
+
+export function openReportModal() {
     const draftCommissions = state.draftCommissions;
     if (draftCommissions.length === 0) {
         showToast("No tienes materias en el borrador.", "error");
@@ -385,9 +389,9 @@ export function openReportDrawer() {
     const subjects = [...new Set(draftCommissions.map(c => c.subject))];
     const subjectText = subjects.join(' / ');
 
-    // Set Drawer Titles
-    document.getElementById('drawer-subject-title').textContent = "Informe de Planificación";
-    document.getElementById('drawer-commission-title').textContent = `Resumen exclusivo para tu Notion (${subjectText})`;
+    // Set Modal Titles
+    document.getElementById('modal-report-title').textContent = "✨ Informe de Planificación Académica";
+    document.getElementById('modal-report-subtitle').textContent = `Resumen exclusivo para tu Notion y exportación a PDF (${subjectText})`;
 
     // Generate Markdown
     let md = `Aquí tienes el resumen exclusivo de las opciones para **${subjectText}** (Segunda mitad de 2026), para que las pases a tu Notion. Todas están seleccionadas para que no choquen con tu anual de **Contratos (7355)** y respeten tu meta de **promedio 8+**.\n\n`;
@@ -478,45 +482,28 @@ export function openReportDrawer() {
     });
 
     // Populate bodyContent
-    const bodyContent = document.getElementById('drawer-reviews-content');
+    const bodyContent = document.getElementById('report-modal-body');
     bodyContent.innerHTML = '';
-
-    // Create Copy Button
-    const copyBtnWrapper = document.createElement('div');
-    copyBtnWrapper.style.marginBottom = '1.5rem';
-    copyBtnWrapper.innerHTML = `
-        <button class="btn-primary" id="btn-copy-report-md" style="width: 100%; display: flex; align-items: center; justify-content: center; gap: 0.5rem; background: linear-gradient(135deg, #10b981 0%, #059669 100%); font-weight: 600;">
-            📋 Copiar informe para Notion (Markdown)
-        </button>
-        <span id="copy-report-success-msg" style="display: none; color: #10b981; font-size: 0.8rem; margin-top: 0.25rem; text-align: center; font-weight: 500;">¡Informe copiado al portapapeles!</span>
-    `;
 
     // Create Markdown Preview container
     const previewContainer = document.createElement('div');
-    previewContainer.className = 'report-preview';
-    previewContainer.style.background = 'rgba(0,0,0,0.2)';
-    previewContainer.style.padding = '1.25rem';
-    previewContainer.style.borderRadius = 'var(--radius-md)';
-    previewContainer.style.border = '1px solid var(--border-color)';
-    previewContainer.style.fontSize = '0.85rem';
-    previewContainer.style.lineHeight = '1.5';
-    previewContainer.style.color = 'var(--text-primary)';
+    previewContainer.className = 'report-preview-large';
     
     // Parse a subset of markdown for display (since we want a nice visual presentation)
     // We can do simple HTML mapping
     let htmlPreview = md
         .replace(/\n\n/g, '<br><br>')
         .replace(/\n/g, '<br>')
-        .replace(/### (.*)/g, '<h3 style="margin-top:1.5rem; margin-bottom:0.5rem; color:var(--text-primary); font-family:\'Outfit\',sans-serif; font-size:1rem; border-bottom: 1px solid rgba(255,255,255,0.05); padding-bottom: 0.25rem;">$1</h3>')
+        .replace(/### (.*)/g, '<h3>$1</h3>')
         .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
         .replace(/\*(.*?)\*/g, '<em>$1</em>')
-        .replace(/---/g, '<hr style="border: 0; border-top: 1px solid var(--border-color); margin: 1.5rem 0;">');
+        .replace(/---/g, '<hr style="border: 0; border-top: 1px solid var(--border-color); margin: 2rem 0;">');
 
     // Handle tables in HTML
     if (htmlPreview.includes('|')) {
         const lines = htmlPreview.split('<br>');
         let inTable = false;
-        let tableHtml = '<div style="overflow-x:auto; margin-top:1rem;"><table style="width:100%; border-collapse:collapse; font-size:0.75rem; text-align:left; border: 1px solid var(--border-color);">';
+        let tableHtml = '<div class="report-table-wrapper"><table class="report-table">';
         
         lines.forEach(line => {
             if (line.trim().startsWith('|')) {
@@ -528,13 +515,13 @@ export function openReportDrawer() {
                     return;
                 }
                 
-                tableHtml += '<tr style="border-bottom: 1px solid var(--border-color);">';
+                tableHtml += '<tr>';
                 cells.forEach(cell => {
                     // check if header or body
                     if (line.includes('**Prioridad**') || line.includes('Comisión')) {
-                        tableHtml += `<th style="padding:0.5rem; background:rgba(255,255,255,0.05); font-weight:600; color:var(--text-primary);">${cell}</th>`;
+                        tableHtml += `<th>${cell}</th>`;
                     } else {
-                        tableHtml += `<td style="padding:0.5rem; color:var(--text-secondary);">${cell}</td>`;
+                        tableHtml += `<td>${cell}</td>`;
                     }
                 });
                 tableHtml += '</tr>';
@@ -553,19 +540,23 @@ export function openReportDrawer() {
     }
 
     previewContainer.innerHTML = htmlPreview;
-    bodyContent.appendChild(copyBtnWrapper);
     bodyContent.appendChild(previewContainer);
 
-    // Bind copy report action
-    bodyContent.querySelector('#btn-copy-report-md').addEventListener('click', () => {
+    // Bind modal actions
+    const btnCopyNotion = document.getElementById('btn-modal-copy-notion');
+    const btnDownloadPdf = document.getElementById('btn-modal-download-pdf');
+    
+    // Clean old event listeners by cloning
+    const newBtnCopyNotion = btnCopyNotion.cloneNode(true);
+    btnCopyNotion.parentNode.replaceChild(newBtnCopyNotion, btnCopyNotion);
+    
+    const newBtnDownloadPdf = btnDownloadPdf.cloneNode(true);
+    btnDownloadPdf.parentNode.replaceChild(newBtnDownloadPdf, btnDownloadPdf);
+
+    newBtnCopyNotion.addEventListener('click', () => {
         navigator.clipboard.writeText(md)
             .then(() => {
-                const msg = document.getElementById('copy-report-success-msg');
-                msg.style.display = 'block';
-                showToast("Informe copiado para Notion.");
-                setTimeout(() => {
-                    msg.style.display = 'none';
-                }, 2500);
+                showToast("¡Informe en Markdown copiado para Notion!");
             })
             .catch(err => {
                 console.error('Error al copiar: ', err);
@@ -573,5 +564,9 @@ export function openReportDrawer() {
             });
     });
 
-    document.getElementById('review-drawer').classList.add('active');
+    newBtnDownloadPdf.addEventListener('click', () => {
+        window.print();
+    });
+
+    document.getElementById('report-modal').classList.add('active');
 }

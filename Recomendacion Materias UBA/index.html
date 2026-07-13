@@ -261,6 +261,30 @@
         </div>
     </div>
 
+    <!-- Large Report Modal -->
+    <div class="modal-overlay" id="report-modal">
+        <div class="modal-container report-modal-container">
+            <div class="modal-header">
+                <div class="modal-titles">
+                    <h2 id="modal-report-title">✨ Informe de Planificación Académica</h2>
+                    <p id="modal-report-subtitle">Resumen exclusivo para tu Notion y exportación a PDF</p>
+                </div>
+                <button class="btn-close" id="btn-close-report-modal" aria-label="Cerrar modal de informe">&times;</button>
+            </div>
+            <div class="modal-actions-bar">
+                <button class="btn-primary btn-success" id="btn-modal-copy-notion">
+                    📋 Copiar para Notion (Markdown)
+                </button>
+                <button class="btn-primary btn-info" id="btn-modal-download-pdf">
+                    📄 Descargar / Imprimir PDF
+                </button>
+            </div>
+            <div class="modal-body" id="report-modal-body">
+                <!-- Report preview goes here -->
+            </div>
+        </div>
+    </div>
+
     <!-- Toast Notifications Container -->
     <div id="toast-container" class="toast-container" aria-live="polite"></div>
 
