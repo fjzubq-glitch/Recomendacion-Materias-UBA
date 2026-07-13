@@ -1,3 +1,3 @@
 # Reglas del Proyecto
 
-- **Guardado de cambios en Git:** Cuando el usuario solicite guardar cambios en el repositorio, asegúrate de realizar el commit y hacer push (`git push`) para que los cambios queden disponibles de forma remota y puedan ser descargados/abiertos en su netbook más tarde.
+- **Guardado de cambios automático en Git:** Cada vez que finalicemos una tarea, o cuando estemos realizando avances significativos durante la sesión de trabajo, debes realizar un commit y hacer push (`git push`) automáticamente al repositorio de GitHub. Esto garantiza que todos los cambios estén siempre disponibles de forma remota para poder abrirlos en la netbook más tarde.
