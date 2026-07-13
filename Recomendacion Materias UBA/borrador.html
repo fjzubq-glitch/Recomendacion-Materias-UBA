@@ -387,7 +387,7 @@
                 const item = document.createElement('div');
                 item.className = 'selected-item';
                 item.innerHTML = `
-                    <div class="item-info">
+                    <div class="item-info" style="cursor: pointer;" title="Ver opiniones en detalle">
                         <span class="item-subject">${rec.subject} (Comisión ${rec.commission})</span>
                         <span class="item-details">${rec.professor} — ${rec.schedule} [${rec.modality}]</span>
                     </div>
@@ -396,9 +396,15 @@
                     </div>
                 `;
                 
-                item.querySelector('.btn-remove-item').addEventListener('click', () => {
+                // Show opinions slide-out drawer on click
+                item.querySelector('.item-info').addEventListener('click', () => {
+                    openReviewsModal(rec.subject, rec.commission);
+                });
+
+                item.querySelector('.btn-remove-item').addEventListener('click', (e) => {
+                    e.stopPropagation(); // Prevent opening drawer when clicking remove
                     const currentDraft = loadDraft();
-                    const removed = currentDraft.splice(idx, 1);
+                    currentDraft.splice(idx, 1);
                     saveDraft(currentDraft);
                     renderPage();
                 });
@@ -523,6 +529,56 @@
                 .catch(err => console.error(err));
         };
 
+        // Setup drawer logic
+        function openReviewsModal(subjectName, commissionNum) {
+            const draft = loadDraft();
+            const course = draft.find(c => c.commission === commissionNum && c.subject === subjectName);
+            if (!course) return;
+
+            document.getElementById('drawer-subject-title').textContent = course.subject;
+            document.getElementById('drawer-commission-title').textContent = `Cátedra: ${course.professor} — Comisión ${course.commission}`;
+
+            const commentsList = document.getElementById('drawer-comments-list');
+            commentsList.innerHTML = '';
+
+            if (!course.comments || course.comments.length === 0) {
+                commentsList.innerHTML = '<p class="empty-state-text" style="color: var(--text-muted); font-size: 0.85rem; padding: 1.5rem; text-align: center;">Sin opiniones registradas para esta comisión.</p>';
+            } else {
+                course.comments.forEach(comment => {
+                    const card = document.createElement('div');
+                    card.className = 'comment-card';
+                    
+                    const cleanSource = (comment.source || 'Recomellas').replace('La ', '').replace(' ', '').toLowerCase();
+                    
+                    card.innerHTML = `
+                        <div class="comment-meta">
+                            <span class="comment-source ${cleanSource}">${comment.source}</span>
+                        </div>
+                        <p class="comment-text">${comment.text}</p>
+                    `;
+                    commentsList.appendChild(card);
+                });
+            }
+
+            document.getElementById('review-drawer').classList.add('active');
+        }
+
+        function closeDrawer() {
+            document.getElementById('review-drawer').classList.remove('active');
+        }
+
+        // Setup drawer close listeners
+        const btnCloseDrawer = document.getElementById('btn-close-drawer');
+        if (btnCloseDrawer) {
+            btnCloseDrawer.onclick = closeDrawer;
+        }
+        const drawerOverlay = document.getElementById('review-drawer');
+        if (drawerOverlay) {
+            drawerOverlay.onclick = (e) => {
+                if (e.target.id === 'review-drawer') closeDrawer();
+            };
+        }
+
         // Listen for storage events to keep the tab in sync with the search page
         window.addEventListener('storage', () => {
             renderPage();
@@ -531,5 +587,21 @@
         // Initial render
         renderPage();
     </script>
+
+    <!-- Review Drawer for long opinions -->
+    <div class="drawer-overlay" id="review-drawer">
+        <div class="drawer-panel">
+            <div class="drawer-header">
+                <div class="drawer-titles">
+                    <h3 id="drawer-subject-title">Materia</h3>
+                    <h4 id="drawer-commission-title">Comisión / Cátedra</h4>
+                </div>
+                <button class="btn-close" id="btn-close-drawer" aria-label="Cerrar panel de opiniones">&times;</button>
+            </div>
+            <div class="drawer-content" id="drawer-comments-list">
+                <!-- Comments will be populated dynamically -->
+            </div>
+        </div>
+    </div>
 </body>
 </html>
