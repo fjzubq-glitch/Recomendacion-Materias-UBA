@@ -396,11 +396,6 @@ export function openReportModal() {
     // Generate Markdown
     let md = `Aquí tienes el resumen exclusivo de las opciones para **${subjectText}** (Segunda mitad de 2026), para que las pases a tu Notion. Todas están seleccionadas para que no choquen con tu anual de **Contratos (7355)** y respeten tu meta de **promedio 8+**.\n\n`;
 
-    const getOptionLabel = (idx) => {
-        const labels = ['"A" (La favorita)', '"Sincro" (Antes de Contratos)', '"Múltiple Choice"', '"Autodidacta"'];
-        return labels[idx] || `"${idx + 1}"`;
-    };
-
     // Helper functions for content generation
     const getClave8 = (rec) => {
         if (!rec.comments || rec.comments.length === 0) {
@@ -458,12 +453,11 @@ export function openReportModal() {
     };
 
     draftCommissions.forEach((rec, idx) => {
-        const optionLabel = getOptionLabel(idx);
-        md += `### ${idx + 1}. Opción ${optionLabel}: Comisión ${rec.commission} - ${rec.professor}\n\n`;
-        md += `Es la opción con el beneficio de "exoneración" - **Horario:** ${rec.schedule}.\n`;
+        md += `### Opción ${idx + 1}: ${rec.subject} - Comisión ${rec.commission}\n\n`;
+        md += `- **Horario:** ${rec.schedule}\n`;
         md += `- **Modalidad:** **${rec.modality || 'Presencial'}**\n`;
         md += `- **Clave del 8+:** ${getClave8(rec)}\n`;
-        md += `- **Reseña:** *${getResena(rec)}*.\n\n`;
+        md += `- **Reseña:** *${getResena(rec)}*\n\n`;
     });
 
     md += `---\n\n### Tabla (Planificación Estratégica)\n\n`;
@@ -471,8 +465,7 @@ export function openReportModal() {
     md += `| --- | --- | --- | --- | --- | --- |\n`;
 
     const getPriorityLabel = (idx) => {
-        const priorities = ['Opción A', 'Opción B', 'Opción C', 'Opción D'];
-        return priorities[idx] || `Opción ${idx + 1}`;
+        return `Opción ${idx + 1}`;
     };
 
     draftCommissions.forEach((rec, idx) => {
