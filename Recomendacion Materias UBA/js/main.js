@@ -2,7 +2,7 @@ import { state, loadLocalStorageData, saveLocalStorageData } from './state.js';
 import { loadCommissionsData } from './api.js';
 import { applyFilters } from './filters.js';
 import { initCalendarGrid, renderCoursesOnGrid, toggleCellBusy } from './calendar.js';
-import { renderCards, renderDraftList, closeDrawer, debounce, showToast } from './ui.js';
+import { renderCards, renderDraftList, closeDrawer, debounce, showToast, openReportDrawer } from './ui.js';
 
 // Drag select state
 let isMouseDown = false;
@@ -90,6 +90,14 @@ function setupEventListeners() {
                     console.error('Error al copiar: ', err);
                     showToast("Error al copiar al portapapeles.", "error");
                 });
+        });
+    }
+
+    // Generate report button
+    const btnReport = document.getElementById('btn-generate-report');
+    if (btnReport) {
+        btnReport.addEventListener('click', () => {
+            openReportDrawer();
         });
     }
 

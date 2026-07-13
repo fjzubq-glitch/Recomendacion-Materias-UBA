@@ -374,3 +374,204 @@ export function renderDraftList() {
     const commNumbers = state.draftCommissions.map(c => c.commission).join(', ');
     document.getElementById('copy-commissions-text').value = commNumbers;
 }
+
+export function openReportDrawer() {
+    const draftCommissions = state.draftCommissions;
+    if (draftCommissions.length === 0) {
+        showToast("No tienes materias en el borrador.", "error");
+        return;
+    }
+
+    const subjects = [...new Set(draftCommissions.map(c => c.subject))];
+    const subjectText = subjects.join(' / ');
+
+    // Set Drawer Titles
+    document.getElementById('drawer-subject-title').textContent = "Informe de Planificación";
+    document.getElementById('drawer-commission-title').textContent = `Resumen exclusivo para tu Notion (${subjectText})`;
+
+    // Generate Markdown
+    let md = `Aquí tienes el resumen exclusivo de las opciones para **${subjectText}** (Segunda mitad de 2026), para que las pases a tu Notion. Todas están seleccionadas para que no choquen con tu anual de **Contratos (7355)** y respeten tu meta de **promedio 8+**.\n\n`;
+
+    const getOptionLabel = (idx) => {
+        const labels = ['"A" (La favorita)', '"Sincro" (Antes de Contratos)', '"Múltiple Choice"', '"Autodidacta"'];
+        return labels[idx] || `"${idx + 1}"`;
+    };
+
+    // Helper functions for content generation
+    const getClave8 = (rec) => {
+        if (!rec.comments || rec.comments.length === 0) {
+            return "Tomas lo que dan en clase. Con estudio constante y entregando los TPs, es muy promocionable.";
+        }
+        
+        const keywords = ['exime', 'exim', 'choice', 'quizz', 'virtual', 'tp', 'promociona', 'nota', 'graba', 'manual'];
+        let bestSentence = "";
+        
+        for (const comment of rec.comments) {
+            const sentences = comment.text.split(/[.|\n]/);
+            for (let sentence of sentences) {
+                sentence = sentence.trim();
+                if (sentence.length < 20 || sentence.length > 150) continue;
+                
+                let count = 0;
+                keywords.forEach(kw => {
+                    if (sentence.toLowerCase().includes(kw)) count++;
+                });
+                
+                if (count > 0 && (!bestSentence || count > bestSentence.count)) {
+                    bestSentence = { text: sentence, count: count };
+                }
+            }
+        }
+        
+        if (bestSentence && bestSentence.text) {
+            let s = bestSentence.text.charAt(0).toUpperCase() + bestSentence.text.slice(1);
+            if (!s.endsWith('.')) s += '.';
+            return s;
+        }
+        
+        if (rec.evaluation) {
+            return `Cursada organizada. Evaluación basada en ${rec.evaluation.toLowerCase()}.`;
+        }
+        
+        return "Los docentes tienen excelente predisposición y toman exactamente lo dado en clase.";
+    };
+
+    const getResena = (rec) => {
+        if (!rec.comments || rec.comments.length === 0) {
+            return "Sin opiniones registradas.";
+        }
+        for (const comment of rec.comments) {
+            const sentences = comment.text.split(/[.|\n]/);
+            for (let sentence of sentences) {
+                sentence = sentence.trim();
+                if (sentence.length >= 30 && sentence.length <= 120) {
+                    return `"${sentence}"`;
+                }
+            }
+        }
+        const firstText = rec.comments[0].text.trim().split('\n')[0];
+        return `"${firstText.length > 100 ? firstText.substring(0, 100) + '...' : firstText}"`;
+    };
+
+    draftCommissions.forEach((rec, idx) => {
+        const optionLabel = getOptionLabel(idx);
+        md += `### ${idx + 1}. Opción ${optionLabel}: Comisión ${rec.commission} - ${rec.professor}\n\n`;
+        md += `Es la opción con el beneficio de "exoneración" - **Horario:** ${rec.schedule}.\n`;
+        md += `- **Modalidad:** **${rec.modality || 'Presencial'}**\n`;
+        md += `- **Clave del 8+:** ${getClave8(rec)}\n`;
+        md += `- **Reseña:** *${getResena(rec)}*.\n\n`;
+    });
+
+    md += `---\n\n### Tabla (Planificación Estratégica)\n\n`;
+    md += `| **Prioridad** | **Comisión** | **Cátedra** | **Días** | **Modalidad** | **Beneficio 8+** |\n`;
+    md += `| --- | --- | --- | --- | --- | --- |\n`;
+
+    const getPriorityLabel = (idx) => {
+        const priorities = ['Opción A', 'Opción B', 'Opción C', 'Opción D'];
+        return priorities[idx] || `Opción ${idx + 1}`;
+    };
+
+    draftCommissions.forEach((rec, idx) => {
+        const priority = getPriorityLabel(idx);
+        const daysStr = rec.days ? rec.days.join('-') : 'A designar';
+        md += `| **${priority}** | **${rec.commission}** | ${rec.professor.split('-')[0]} | ${daysStr} | ${rec.modality || 'Presencial'} | **${getClave8(rec)}** |\n`;
+    });
+
+    // Populate bodyContent
+    const bodyContent = document.getElementById('drawer-reviews-content');
+    bodyContent.innerHTML = '';
+
+    // Create Copy Button
+    const copyBtnWrapper = document.createElement('div');
+    copyBtnWrapper.style.marginBottom = '1.5rem';
+    copyBtnWrapper.innerHTML = `
+        <button class="btn-primary" id="btn-copy-report-md" style="width: 100%; display: flex; align-items: center; justify-content: center; gap: 0.5rem; background: linear-gradient(135deg, #10b981 0%, #059669 100%); font-weight: 600;">
+            📋 Copiar informe para Notion (Markdown)
+        </button>
+        <span id="copy-report-success-msg" style="display: none; color: #10b981; font-size: 0.8rem; margin-top: 0.25rem; text-align: center; font-weight: 500;">¡Informe copiado al portapapeles!</span>
+    `;
+
+    // Create Markdown Preview container
+    const previewContainer = document.createElement('div');
+    previewContainer.className = 'report-preview';
+    previewContainer.style.background = 'rgba(0,0,0,0.2)';
+    previewContainer.style.padding = '1.25rem';
+    previewContainer.style.borderRadius = 'var(--radius-md)';
+    previewContainer.style.border = '1px solid var(--border-color)';
+    previewContainer.style.fontSize = '0.85rem';
+    previewContainer.style.lineHeight = '1.5';
+    previewContainer.style.color = 'var(--text-primary)';
+    
+    // Parse a subset of markdown for display (since we want a nice visual presentation)
+    // We can do simple HTML mapping
+    let htmlPreview = md
+        .replace(/\n\n/g, '<br><br>')
+        .replace(/\n/g, '<br>')
+        .replace(/### (.*)/g, '<h3 style="margin-top:1.5rem; margin-bottom:0.5rem; color:var(--text-primary); font-family:\'Outfit\',sans-serif; font-size:1rem; border-bottom: 1px solid rgba(255,255,255,0.05); padding-bottom: 0.25rem;">$1</h3>')
+        .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+        .replace(/\*(.*?)\*/g, '<em>$1</em>')
+        .replace(/---/g, '<hr style="border: 0; border-top: 1px solid var(--border-color); margin: 1.5rem 0;">');
+
+    // Handle tables in HTML
+    if (htmlPreview.includes('|')) {
+        const lines = htmlPreview.split('<br>');
+        let inTable = false;
+        let tableHtml = '<div style="overflow-x:auto; margin-top:1rem;"><table style="width:100%; border-collapse:collapse; font-size:0.75rem; text-align:left; border: 1px solid var(--border-color);">';
+        
+        lines.forEach(line => {
+            if (line.trim().startsWith('|')) {
+                inTable = true;
+                const cells = line.split('|').map(c => c.trim()).filter((c, i, arr) => i > 0 && i < arr.length - 1);
+                
+                // Skip separator rows
+                if (line.includes('---')) {
+                    return;
+                }
+                
+                tableHtml += '<tr style="border-bottom: 1px solid var(--border-color);">';
+                cells.forEach(cell => {
+                    // check if header or body
+                    if (line.includes('**Prioridad**') || line.includes('Comisión')) {
+                        tableHtml += `<th style="padding:0.5rem; background:rgba(255,255,255,0.05); font-weight:600; color:var(--text-primary);">${cell}</th>`;
+                    } else {
+                        tableHtml += `<td style="padding:0.5rem; color:var(--text-secondary);">${cell}</td>`;
+                    }
+                });
+                tableHtml += '</tr>';
+            } else {
+                if (inTable) {
+                    inTable = false;
+                    tableHtml += '</table></div>';
+                    htmlPreview = htmlPreview.replace(line, tableHtml + line);
+                }
+            }
+        });
+        
+        // Clean up remaining markdown lines from HTML preview
+        htmlPreview = htmlPreview.replace(/\|.*?\|<br>/g, '');
+        htmlPreview = htmlPreview.replace(/\|.*?\|/g, '');
+    }
+
+    previewContainer.innerHTML = htmlPreview;
+    bodyContent.appendChild(copyBtnWrapper);
+    bodyContent.appendChild(previewContainer);
+
+    // Bind copy report action
+    bodyContent.querySelector('#btn-copy-report-md').addEventListener('click', () => {
+        navigator.clipboard.writeText(md)
+            .then(() => {
+                const msg = document.getElementById('copy-report-success-msg');
+                msg.style.display = 'block';
+                showToast("Informe copiado para Notion.");
+                setTimeout(() => {
+                    msg.style.display = 'none';
+                }, 2500);
+            })
+            .catch(err => {
+                console.error('Error al copiar: ', err);
+                showToast("Error al copiar el informe.", "error");
+            });
+    });
+
+    document.getElementById('review-drawer').classList.add('active');
+}
