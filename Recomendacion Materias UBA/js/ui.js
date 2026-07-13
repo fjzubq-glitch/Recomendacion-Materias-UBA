@@ -304,67 +304,45 @@ export function renderDraftList() {
     const fragment = document.createDocumentFragment();
 
     state.draftCommissions.forEach(rec => {
-        const itemContainer = document.createElement('div');
-        itemContainer.className = 'draft-item-container';
+        const item = document.createElement('div');
+        item.className = 'draft-item';
         
         const hasComments = rec.comments && rec.comments.length > 0;
-        const commentsHtml = hasComments ? `
-            <div class="draft-item-comments" style="display: none;">
-                ${rec.comments.map(comment => {
-                    const cleanSrc = comment.source.replace('La ', '');
-                    return `
-                        <div class="draft-comment-card">
-                            <div class="draft-comment-meta">
-                                <span class="draft-comment-source ${cleanSrc}">${comment.source}</span>
-                            </div>
-                            <p class="draft-comment-text">${comment.text}</p>
-                        </div>
-                    `;
-                }).join('')}
-            </div>
-        ` : '';
 
-        itemContainer.innerHTML = `
-            <div class="draft-item">
-                <div class="draft-item-info">
-                    <span class="draft-item-title">${rec.subject} (C. ${rec.commission})</span>
-                    <span class="draft-item-meta">${rec.professor} — ${rec.schedule}</span>
-                </div>
-                <div class="draft-item-actions">
-                    ${hasComments ? `
-                        <button class="draft-item-toggle-comments" aria-expanded="false" title="Ver opiniones">
-                            💬 ${rec.comments.length}
-                        </button>
-                    ` : ''}
-                    <button class="draft-item-remove" title="Quitar" aria-label="Quitar comisión ${rec.commission}">&times;</button>
-                </div>
+        item.innerHTML = `
+            <div class="draft-item-info" style="cursor: pointer;" title="Ver recomendaciones en panel">
+                <span class="draft-item-title">${rec.subject} (C. ${rec.commission})</span>
+                <span class="draft-item-meta">${rec.professor} — ${rec.schedule}</span>
             </div>
-            ${commentsHtml}
+            <div class="draft-item-actions">
+                ${hasComments ? `
+                    <button class="draft-item-toggle-comments" title="Ver opiniones en panel">
+                        💬 ${rec.comments.length}
+                    </button>
+                ` : ''}
+                <button class="draft-item-remove" title="Quitar" aria-label="Quitar comisión ${rec.commission}">&times;</button>
+            </div>
         `;
         
-        itemContainer.querySelector('.draft-item-remove').addEventListener('click', () => {
-            toggleDraftSubject(rec.commission, false);
+        // Open sliding review drawer when clicking on the course info
+        item.querySelector('.draft-item-info').addEventListener('click', () => {
+            openReviewsModal(rec.subject, rec.commission);
         });
 
+        // Open sliding review drawer when clicking the comments button
         if (hasComments) {
-            const toggleBtn = itemContainer.querySelector('.draft-item-toggle-comments');
-            const commentsDiv = itemContainer.querySelector('.draft-item-comments');
-            
-            toggleBtn.addEventListener('click', () => {
-                const isExpanded = toggleBtn.getAttribute('aria-expanded') === 'true';
-                if (isExpanded) {
-                    commentsDiv.style.display = 'none';
-                    toggleBtn.setAttribute('aria-expanded', 'false');
-                    toggleBtn.classList.remove('active');
-                } else {
-                    commentsDiv.style.display = 'flex';
-                    toggleBtn.setAttribute('aria-expanded', 'true');
-                    toggleBtn.classList.add('active');
-                }
+            item.querySelector('.draft-item-toggle-comments').addEventListener('click', () => {
+                openReviewsModal(rec.subject, rec.commission);
             });
         }
 
-        fragment.appendChild(itemContainer);
+        // Remove item from draft
+        item.querySelector('.draft-item-remove').addEventListener('click', (e) => {
+            e.stopPropagation(); // Avoid triggering openReviewsModal
+            toggleDraftSubject(rec.commission, false);
+        });
+
+        fragment.appendChild(item);
     });
 
     listContainer.appendChild(fragment);
