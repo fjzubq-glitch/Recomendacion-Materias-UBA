@@ -259,25 +259,13 @@
                         <button class="btn-primary" id="btn-copy-commissions" style="padding: 0.5rem 1rem;">Copiar</button>
                     </div>
                 </div>
-            </div>
-        </div>
-    </div>
 
-    <!-- Live Notion Report Area -->
-    <div class="report-section" id="report-section" style="display: none;">
-        <div class="report-header-row">
-            <h2 style="margin: 0; border: none; padding: 0; font-family: 'Outfit', sans-serif; font-size: 1.4rem;">✨ Informe de Planificación Estratégica</h2>
-            <div class="report-actions">
-                <button class="btn-primary" id="btn-copy-notion" style="background: linear-gradient(135deg, #6366f1 0%, #4f46e5 100%);">
-                    <span>Copiar para Notion</span>
-                </button>
-                <button class="btn-primary" id="btn-print-pdf" style="background: rgba(255,255,255,0.05); border: 1px solid var(--border-color); color: var(--text-secondary);">
-                    <span>Descargar PDF</span>
-                </button>
+                <div class="report-box" style="margin-top: 1.5rem; border-top: 1px solid var(--border-color); padding-top: 1rem; width: 100%;">
+                    <button class="btn-primary" id="btn-generate-report" style="width: 100%; display: flex; align-items: center; justify-content: center; gap: 0.5rem; background: linear-gradient(135deg, #6366f1 0%, #4f46e5 100%); padding: 0.75rem 1rem;">
+                        <span>✨ Generar Informe Notion y PDF</span>
+                    </button>
+                </div>
             </div>
-        </div>
-        <div id="report-preview-container">
-            <!-- Populated dynamically -->
         </div>
     </div>
 
@@ -373,11 +361,11 @@
                         <p style="font-size: 0.8rem; margin-top: 0.5rem;">Agrega comisiones desde el buscador principal.</p>
                     </div>
                 `;
-                totalCountEl.textContent = '0';
                 totalDifficultyEl.textContent = '-';
                 totalModalitiesEl.textContent = '-';
                 copyInput.value = '';
-                reportSection.style.display = 'none';
+                const btnGenReport = document.getElementById('btn-generate-report');
+                if (btnGenReport) btnGenReport.style.display = 'none';
                 return;
             }
 
@@ -434,9 +422,11 @@
             const codes = draft.map(d => d.commission).join(' - ');
             copyInput.value = codes;
 
-            // Render Notion report
-            reportSection.style.display = 'block';
-            generateReport(draft);
+            // Toggle Report Button Visibility
+            const btnGenReport = document.getElementById('btn-generate-report');
+            if (btnGenReport) {
+                btnGenReport.style.display = 'flex';
+            }
         }
 
         function generateReport(draft) {
@@ -506,16 +496,23 @@
                 htmlPreview = htmlPreview.replace(/\|.*?\|/g, '');
             }
 
-            document.getElementById('report-preview-container').innerHTML = htmlPreview;
+            // Populate modal body content
+            const bodyContent = document.getElementById('report-modal-body');
+            bodyContent.innerHTML = '';
 
-            // Setup listeners for copy and print
-            document.getElementById('btn-copy-notion').onclick = () => {
+            const previewContainer = document.createElement('div');
+            previewContainer.className = 'report-preview-large';
+            previewContainer.innerHTML = htmlPreview;
+            bodyContent.appendChild(previewContainer);
+
+            // Setup listeners for copy and print in the modal
+            document.getElementById('btn-modal-copy-notion').onclick = () => {
                 navigator.clipboard.writeText(md)
                     .then(() => alert("¡Informe copiado al portapapeles!"))
                     .catch(err => console.error(err));
             };
 
-            document.getElementById('btn-print-pdf').onclick = () => {
+            document.getElementById('btn-modal-download-pdf').onclick = () => {
                 window.print();
             };
         }
@@ -579,6 +576,39 @@
             };
         }
 
+        // Trigger report generation & show modal
+        const btnGenReport = document.getElementById('btn-generate-report');
+        if (btnGenReport) {
+            btnGenReport.onclick = () => {
+                const draft = loadDraft();
+                if (draft.length === 0) return;
+                generateReport(draft);
+                
+                // Set modal title details dynamically
+                const subjects = [...new Set(draft.map(c => c.subject))];
+                const subjectText = subjects.join(' / ');
+                document.getElementById('modal-report-subtitle').textContent = `Resumen exclusivo para tu Notion y exportación a PDF (${subjectText})`;
+                
+                document.getElementById('report-modal').classList.add('active');
+            };
+        }
+
+        // Setup modal close listeners
+        const btnCloseReportModal = document.getElementById('btn-close-report-modal');
+        if (btnCloseReportModal) {
+            btnCloseReportModal.onclick = () => {
+                document.getElementById('report-modal').classList.remove('active');
+            };
+        }
+        const reportModalOverlay = document.getElementById('report-modal');
+        if (reportModalOverlay) {
+            reportModalOverlay.onclick = (e) => {
+                if (e.target.id === 'report-modal') {
+                    document.getElementById('report-modal').classList.remove('active');
+                }
+            };
+        }
+
         // Listen for storage events to keep the tab in sync with the search page
         window.addEventListener('storage', () => {
             renderPage();
@@ -600,6 +630,28 @@
             </div>
             <div class="drawer-content" id="drawer-comments-list">
                 <!-- Comments will be populated dynamically -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Large Report Modal -->
+    <div class="modal-overlay" id="report-modal">
+        <div class="modal-container report-modal-container">
+            <div class="modal-header">
+                <div class="modal-title-group">
+                    <h2 id="modal-report-title">✨ Informe de Planificación Académica</h2>
+                    <p id="modal-report-subtitle" class="modal-subtitle">Resumen exclusivo para tu Notion y exportación a PDF</p>
+                </div>
+                <button class="btn-close" id="btn-close-report-modal" aria-label="Cerrar modal">&times;</button>
+            </div>
+            
+            <div class="modal-body" id="report-modal-body">
+                <!-- Dynamic Report Content -->
+            </div>
+            
+            <div class="modal-actions-bar">
+                <button class="btn-primary" id="btn-modal-copy-notion">Copiar para Notion (Markdown)</button>
+                <button class="btn-primary" id="btn-modal-download-pdf" style="background: rgba(255,255,255,0.05); border: 1px solid var(--border-color); color: var(--text-secondary);">Descargar / Imprimir PDF</button>
             </div>
         </div>
     </div>
