@@ -535,26 +535,28 @@
             document.getElementById('drawer-subject-title').textContent = course.subject;
             document.getElementById('drawer-commission-title').textContent = `Cátedra: ${course.professor} — Comisión ${course.commission}`;
 
-            const commentsList = document.getElementById('drawer-comments-list');
-            commentsList.innerHTML = '';
+            const bodyContent = document.getElementById('drawer-reviews-content');
+            bodyContent.innerHTML = '';
 
-            if (!course.comments || course.comments.length === 0) {
-                commentsList.innerHTML = '<p class="empty-state-text" style="color: var(--text-muted); font-size: 0.85rem; padding: 1.5rem; text-align: center;">Sin opiniones registradas para esta comisión.</p>';
-            } else {
+            if (course.comments && course.comments.length > 0) {
+                const fragment = document.createDocumentFragment();
                 course.comments.forEach(comment => {
-                    const card = document.createElement('div');
-                    card.className = 'comment-card';
+                    const reviewItem = document.createElement('div');
+                    reviewItem.className = 'drawer-review-item';
                     
-                    const cleanSource = (comment.source || 'Recomellas').replace('La ', '').replace(' ', '').toLowerCase();
-                    
-                    card.innerHTML = `
-                        <div class="comment-meta">
-                            <span class="comment-source ${cleanSource}">${comment.source}</span>
+                    const cleanSrc = comment.source.replace('La ', '');
+
+                    reviewItem.innerHTML = `
+                        <div class="review-meta">
+                            <span class="review-source ${cleanSrc}">${comment.source}</span>
                         </div>
-                        <p class="comment-text">${comment.text}</p>
+                        <div class="review-text">${comment.text}</div>
                     `;
-                    commentsList.appendChild(card);
+                    fragment.appendChild(reviewItem);
                 });
+                bodyContent.appendChild(fragment);
+            } else {
+                bodyContent.innerHTML = `<p style="color: var(--text-muted); text-align: center; padding: 2rem;">No hay opiniones registradas para esta comisión.</p>`;
             }
 
             document.getElementById('review-drawer').classList.add('active');
@@ -628,7 +630,7 @@
                 </div>
                 <button class="btn-close" id="btn-close-drawer" aria-label="Cerrar panel de opiniones">&times;</button>
             </div>
-            <div class="drawer-content" id="drawer-comments-list">
+            <div class="drawer-body" id="drawer-reviews-content">
                 <!-- Comments will be populated dynamically -->
             </div>
         </div>
