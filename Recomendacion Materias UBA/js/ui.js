@@ -1,6 +1,5 @@
 import { state, saveLocalStorageData } from './state.js';
 import { applyFilters } from './filters.js';
-import { renderCoursesOnGrid } from './calendar.js';
 
 // ==========================================================================
 // TOAST NOTIFICATIONS
@@ -285,7 +284,6 @@ export function toggleDraftSubject(commissionNum, shouldAdd) {
     saveLocalStorageData();
     updateSelectedBadge();
     applyFilters(); 
-    renderCoursesOnGrid();
     renderDraftList();
 }
 

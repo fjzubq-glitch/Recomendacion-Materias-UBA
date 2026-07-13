@@ -24,9 +24,16 @@
                 <span class="logo-badge">UBA</span>
                 <div class="logo-text">
                     <h1>Planificador de Materias</h1>
-                    <p>Ciclo Profesional Común (CPC) — Unificado</p>
+                    <p id="app-subtitle">Ciclo Profesional Común (CPC) — Recomendaciones</p>
                 </div>
             </div>
+            
+            <!-- Segmented Control for CPC / CPO -->
+            <div class="cycle-selector">
+                <button class="cycle-btn active" id="btn-cycle-cpc" data-cycle="cpc">CPC</button>
+                <button class="cycle-btn" id="btn-cycle-cpo" data-cycle="cpo">CPO</button>
+            </div>
+
             <div class="header-stats">
                 <div class="stat-pill">
                     <span class="stat-val" id="total-commissions-badge">0</span>
@@ -116,29 +123,25 @@
                         </label>
                     </div>
 
-                    <div class="filter-group toggle-group">
-                        <label class="toggle-switch">
-                            <input type="checkbox" id="hide-conflicts-filter">
-                            <span class="slider"></span>
-                            <span class="toggle-text text-warning">Ocultar con conflicto horario</span>
-                        </label>
-                    </div>
-
                     <!-- Source badges filter -->
                     <div class="filter-group">
                         <label>Fuentes de Recomendación</label>
                         <div class="checkbox-group flex-column">
                             <label class="chip-checkbox source-badge recomellas">
                                 <input type="checkbox" name="sources" value="Recomellas" checked>
-                                <span>Recomellas</span>
+                                <span>Recomellas (2C 2026)</span>
                             </label>
                             <label class="chip-checkbox source-badge campora">
                                 <input type="checkbox" name="sources" value="La Campora" checked>
-                                <span>La Cámpora (2C 2025)</span>
+                                <span>La Cámpora (2C 2026)</span>
                             </label>
                             <label class="chip-checkbox source-badge centeno">
                                 <input type="checkbox" name="sources" value="La Centeno" checked>
-                                <span>La Centeno (1C 2025)</span>
+                                <span>La Centeno (2C 2026)</span>
+                            </label>
+                            <label class="chip-checkbox source-badge nexo">
+                                <input type="checkbox" name="sources" value="Nexo" checked>
+                                <span>Nexo (2C 2026)</span>
                             </label>
                         </div>
                     </div>
@@ -174,37 +177,14 @@
                 </div>
             </section>
 
-            <!-- Right Sidebar: Interactive Planner & Calendar -->
+            <!-- Right Sidebar: Selected subjects Draft -->
             <section class="panel planner-panel">
                 <div class="panel-header">
-                    <h2>Mi Agenda Semanal</h2>
-                    <div class="tab-buttons">
-                        <button class="tab-btn active" id="tab-calendar">Calendario</button>
-                        <button class="tab-btn" id="tab-draft">Borrador</button>
-                    </div>
+                    <h2>Mi Borrador</h2>
                 </div>
                 
-                <!-- Tab Content: Calendar Grid & Editor -->
-                <div class="panel-content tab-content-wrapper active" id="content-calendar">
-                    <div class="calendar-instructions">
-                        <p><strong>Instrucción:</strong> Haz clic o arrastra sobre las celdas para pintar tus <strong>horarios ocupados</strong> (trabajo, familia). Las comisiones que coincidan con estos horarios se marcarán en conflicto.</p>
-                        <div class="legend-row">
-                            <span class="legend-item busy">Ocupado (Personal)</span>
-                            <span class="legend-item course">Materia Elegida</span>
-                            <span class="legend-item conflict">Conflicto</span>
-                        </div>
-                    </div>
-
-                    <!-- Weekly Grid -->
-                    <div class="weekly-grid-container">
-                        <div class="weekly-grid" id="weekly-grid">
-                            <!-- Populated dynamically via JS -->
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Tab Content: Draft Summary List -->
-                <div class="panel-content tab-content-wrapper" id="content-draft">
+                <!-- Draft Summary List -->
+                <div class="panel-content" id="content-draft">
                     <div class="draft-summary-box">
                         <h3>Materias Seleccionadas</h3>
                         <div class="draft-list" id="draft-list">

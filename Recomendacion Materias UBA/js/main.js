@@ -1,60 +1,96 @@
 import { state, loadLocalStorageData, saveLocalStorageData } from './state.js';
-import { loadCommissionsData } from './api.js';
+import { loadCycleData } from './api.js';
 import { applyFilters } from './filters.js';
-import { initCalendarGrid, renderCoursesOnGrid, toggleCellBusy } from './calendar.js';
-import { renderCards, renderDraftList, closeDrawer, debounce, showToast, openReportModal, closeReportModal } from './ui.js';
-
-// Drag select state
-let isMouseDown = false;
-let dragMode = true; // true = paint busy, false = erase busy
+import { renderCards, renderDraftList, closeDrawer, showToast, openReportModal, closeReportModal } from './ui.js';
 
 // ==========================================================================
 // INITIALIZATION
 // ==========================================================================
 document.addEventListener('DOMContentLoaded', async () => {
     loadLocalStorageData();
-    initCalendarGrid();
     setupEventListeners();
-    await loadCommissionsData();
+    setupCycleSelectorListeners();
+    renderDraftList(); // Render any saved items initially
+    await loadCycleData('cpc'); // Load CPC by default
 });
 
 // ==========================================================================
-// EVENT LISTENERS & DRAG PAINT
+// CYCLE SELECTOR
 // ==========================================================================
-function setupEventListeners() {
-    // Tab buttons
-    const tabCalendar = document.getElementById('tab-calendar');
-    const tabDraft = document.getElementById('tab-draft');
+setupCycleSelectorListeners();
+
+function setupCycleSelectorListeners() {
+    const btnCPC = document.getElementById('btn-cycle-cpc');
+    const btnCPO = document.getElementById('btn-cycle-cpo');
+    const subtitle = document.getElementById('app-subtitle');
     
-    if (tabCalendar) {
-        tabCalendar.addEventListener('click', () => switchTab('calendar'));
-    }
-    if (tabDraft) {
-        tabDraft.addEventListener('click', () => {
-            switchTab('draft');
-            renderDraftList();
+    if (btnCPC && btnCPO) {
+        btnCPC.addEventListener('click', async () => {
+            if (btnCPC.classList.contains('active')) return;
+            btnCPC.classList.add('active');
+            btnCPO.classList.remove('active');
+            if (subtitle) subtitle.textContent = "Ciclo Profesional Común (CPC) — Recomendaciones";
+            
+            // Show loading state
+            const container = document.getElementById('cards-container');
+            if (container) {
+                container.innerHTML = `
+                    <div class="loading-state">
+                        <div class="spinner"></div>
+                        <p>Cargando CPC...</p>
+                    </div>
+                `;
+            }
+            await loadCycleData('cpc');
+        });
+        
+        btnCPO.addEventListener('click', async () => {
+            if (btnCPO.classList.contains('active')) return;
+            btnCPO.classList.add('active');
+            btnCPC.classList.remove('active');
+            if (subtitle) subtitle.textContent = "Ciclo Profesional Orientado (CPO) — Recomendaciones";
+            
+            // Show loading state
+            const container = document.getElementById('cards-container');
+            if (container) {
+                container.innerHTML = `
+                    <div class="loading-state">
+                        <div class="spinner"></div>
+                        <p>Cargando CPO...</p>
+                    </div>
+                `;
+            }
+            await loadCycleData('cpo');
         });
     }
+}
 
-    // Filters are now applied on button click
+// ==========================================================================
+// EVENT LISTENERS
+// ==========================================================================
+function setupEventListeners() {
+    // Filters are applied on button click
     const btnApply = document.getElementById('btn-apply-filters');
     if (btnApply) {
         btnApply.addEventListener('click', applyFilters);
     }
     
-    // Sort stays immediate as it's outside the filter panel
+    // Sort stays immediate
     const sortSelect = document.getElementById('sort-select');
     if (sortSelect) sortSelect.addEventListener('change', applyFilters);
 
     // Reset filters
     const btnReset = document.getElementById('btn-reset-filters');
+    const searchInput = document.getElementById('search-input');
+    const subjectFilter = document.getElementById('subject-filter');
+    const proStudentFilter = document.getElementById('pro-student-filter');
+
     if (btnReset) {
         btnReset.addEventListener('click', () => {
             if (searchInput) searchInput.value = '';
             if (subjectFilter) subjectFilter.value = '';
             if (sortSelect) sortSelect.value = 'subject';
             if (proStudentFilter) proStudentFilter.checked = false;
-            if (hideConflictsFilter) hideConflictsFilter.checked = false;
             
             // Reset modality radio
             const modAll = document.querySelector('input[name="modality"][value="all"]');
@@ -75,7 +111,7 @@ function setupEventListeners() {
         btnCopy.addEventListener('click', () => {
             const copyText = document.getElementById('copy-commissions-text');
             copyText.select();
-            copyText.setSelectionRange(0, 99999); // For mobile devices
+            copyText.setSelectionRange(0, 99999);
             
             navigator.clipboard.writeText(copyText.value)
                 .then(() => {
@@ -123,65 +159,5 @@ function setupEventListeners() {
         reportModalOverlay.addEventListener('click', (e) => {
             if (e.target.id === 'report-modal') closeReportModal();
         });
-    }
-
-    // Grid painting drag handlers
-    const grid = document.getElementById('weekly-grid');
-    if (grid) {
-        grid.addEventListener('mousedown', (e) => {
-            const cell = e.target.closest('.grid-cell:not(.time-label)');
-            if (!cell) return;
-            
-            isMouseDown = true;
-            const day = cell.dataset.day;
-            const hour = parseInt(cell.dataset.hour, 10);
-            
-            // Toggle action based on first clicked cell
-            dragMode = !(state.busySchedule[day] && state.busySchedule[day][hour]);
-            toggleCellBusy(cell, day, hour, dragMode);
-        });
-
-        grid.addEventListener('mouseover', (e) => {
-            if (!isMouseDown) return;
-            const cell = e.target.closest('.grid-cell:not(.time-label)');
-            if (!cell) return;
-
-            const day = cell.dataset.day;
-            const hour = parseInt(cell.dataset.hour, 10);
-            toggleCellBusy(cell, day, hour, dragMode);
-        });
-    }
-
-    document.addEventListener('mouseup', () => {
-        if (isMouseDown) {
-            isMouseDown = false;
-            saveLocalStorageData();
-            // Re-render courses on grid since conflicts might change
-            renderCoursesOnGrid();
-            // Re-apply filters if "hide conflicts" filter is enabled
-            const hideConflictsFilter = document.getElementById('hide-conflicts-filter');
-            if (hideConflictsFilter && hideConflictsFilter.checked) {
-                applyFilters();
-            } else {
-                renderCards(); // Cards might show new warnings
-            }
-        }
-    });
-}
-
-function switchTab(tabId) {
-    document.querySelectorAll('.planner-panel .tab-btn').forEach(btn => btn.classList.remove('active'));
-    document.querySelectorAll('.planner-panel .tab-content-wrapper').forEach(content => content.classList.remove('active'));
-
-    if (tabId === 'calendar') {
-        const tab = document.getElementById('tab-calendar');
-        const content = document.getElementById('content-calendar');
-        if(tab) tab.classList.add('active');
-        if(content) content.classList.add('active');
-    } else {
-        const tab = document.getElementById('tab-draft');
-        const content = document.getElementById('content-draft');
-        if(tab) tab.classList.add('active');
-        if(content) content.classList.add('active');
     }
 }

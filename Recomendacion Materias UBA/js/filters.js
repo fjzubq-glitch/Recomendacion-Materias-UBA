@@ -1,6 +1,5 @@
 import { state } from './state.js';
 import { renderWelcomeState, renderCards } from './ui.js';
-import { hasPersonalConflict } from './calendar.js';
 
 // ==========================================================================
 // FILTER AND SORT LOGIC
@@ -33,9 +32,6 @@ export function applyFilters() {
     // Toggles
     const proStudentFilter = document.getElementById('pro-student-filter');
     const onlyPro = proStudentFilter ? proStudentFilter.checked : false;
-    
-    const hideConflictsFilter = document.getElementById('hide-conflicts-filter');
-    const hideConflicts = hideConflictsFilter ? hideConflictsFilter.checked : false;
 
     state.filteredCommissions = state.allCommissions.filter(rec => {
         // 1. Subject filter
@@ -56,11 +52,7 @@ export function applyFilters() {
         // 5. Pro Student filter
         if (onlyPro && !rec.is_pro_student) return false;
 
-        // 6. Personal schedule conflict filter
-        const isConflict = hasPersonalConflict(rec);
-        if (hideConflicts && isConflict) return false;
-
-        // 7. Text Search (matches subject, commission, professor, comments text)
+        // 6. Text Search (matches subject, commission, professor, comments text)
         if (searchVal) {
             const commentsText = rec.comments.map(c => c.text).join(' ').toLowerCase();
             const subjectMatch = rec.subject.toLowerCase().includes(searchVal);
