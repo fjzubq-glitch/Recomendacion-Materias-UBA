@@ -1028,6 +1028,106 @@ select option {
     color: #ef4444;
 }
 
+/* Collapsible Comments in Draft */
+.draft-item-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.25rem;
+}
+
+.draft-item-actions {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.draft-item-toggle-comments {
+    background: rgba(99, 102, 241, 0.1);
+    border: 1px solid rgba(99, 102, 241, 0.25);
+    color: var(--accent-color);
+    padding: 0.2rem 0.45rem;
+    border-radius: 4px;
+    font-size: 0.7rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: var(--transition-smooth);
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+}
+
+.draft-item-toggle-comments:hover {
+    background: rgba(99, 102, 241, 0.2);
+    border-color: rgba(99, 102, 241, 0.45);
+    color: #fff;
+}
+
+.draft-item-toggle-comments.active {
+    background: var(--accent-color);
+    color: #fff;
+    border-color: var(--accent-color);
+}
+
+.draft-item-comments {
+    margin-top: 0.4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    padding-left: 0.5rem;
+    border-left: 2px solid rgba(99, 102, 241, 0.3);
+    margin-bottom: 0.5rem;
+}
+
+.draft-comment-card {
+    background: rgba(255, 255, 255, 0.015);
+    border: 1px solid var(--border-color);
+    padding: 0.5rem 0.65rem;
+    border-radius: var(--radius-sm);
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+}
+
+.draft-comment-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.draft-comment-source {
+    font-size: 0.6rem;
+    font-weight: 700;
+    padding: 0.05rem 0.3rem;
+    border-radius: 3px;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+}
+
+.draft-comment-source.Recomellas {
+    background: rgba(139, 92, 246, 0.15);
+    color: #c084fc;
+    border: 1px solid rgba(139, 92, 246, 0.3);
+}
+
+.draft-comment-source.Campora {
+    background: rgba(59, 130, 246, 0.15);
+    color: #93c5fd;
+    border: 1px solid rgba(59, 130, 246, 0.3);
+}
+
+.draft-comment-source.Centeno {
+    background: rgba(6, 182, 212, 0.15);
+    color: #67e8f9;
+    border: 1px solid rgba(6, 182, 212, 0.3);
+}
+
+.draft-comment-text {
+    font-size: 0.72rem;
+    color: var(--text-secondary);
+    line-height: 1.35;
+    white-space: pre-wrap;
+}
+
 .draft-totals-box {
     background: rgba(255, 255, 255, 0.02);
     border: 1px solid var(--border-color);

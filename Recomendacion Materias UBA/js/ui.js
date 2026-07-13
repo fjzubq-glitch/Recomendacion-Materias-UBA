@@ -304,21 +304,67 @@ export function renderDraftList() {
     const fragment = document.createDocumentFragment();
 
     state.draftCommissions.forEach(rec => {
-        const item = document.createElement('div');
-        item.className = 'draft-item';
-        item.innerHTML = `
-            <div class="draft-item-info">
-                <span class="draft-item-title">${rec.subject} (C. ${rec.commission})</span>
-                <span class="draft-item-meta">${rec.professor} — ${rec.schedule}</span>
+        const itemContainer = document.createElement('div');
+        itemContainer.className = 'draft-item-container';
+        
+        const hasComments = rec.comments && rec.comments.length > 0;
+        const commentsHtml = hasComments ? `
+            <div class="draft-item-comments" style="display: none;">
+                ${rec.comments.map(comment => {
+                    const cleanSrc = comment.source.replace('La ', '');
+                    return `
+                        <div class="draft-comment-card">
+                            <div class="draft-comment-meta">
+                                <span class="draft-comment-source ${cleanSrc}">${comment.source}</span>
+                            </div>
+                            <p class="draft-comment-text">${comment.text}</p>
+                        </div>
+                    `;
+                }).join('')}
             </div>
-            <button class="draft-item-remove" title="Quitar" aria-label="Quitar comisión ${rec.commission}">&times;</button>
+        ` : '';
+
+        itemContainer.innerHTML = `
+            <div class="draft-item">
+                <div class="draft-item-info">
+                    <span class="draft-item-title">${rec.subject} (C. ${rec.commission})</span>
+                    <span class="draft-item-meta">${rec.professor} — ${rec.schedule}</span>
+                </div>
+                <div class="draft-item-actions">
+                    ${hasComments ? `
+                        <button class="draft-item-toggle-comments" aria-expanded="false" title="Ver opiniones">
+                            💬 ${rec.comments.length}
+                        </button>
+                    ` : ''}
+                    <button class="draft-item-remove" title="Quitar" aria-label="Quitar comisión ${rec.commission}">&times;</button>
+                </div>
+            </div>
+            ${commentsHtml}
         `;
         
-        item.querySelector('.draft-item-remove').addEventListener('click', () => {
+        itemContainer.querySelector('.draft-item-remove').addEventListener('click', () => {
             toggleDraftSubject(rec.commission, false);
         });
 
-        fragment.appendChild(item);
+        if (hasComments) {
+            const toggleBtn = itemContainer.querySelector('.draft-item-toggle-comments');
+            const commentsDiv = itemContainer.querySelector('.draft-item-comments');
+            
+            toggleBtn.addEventListener('click', () => {
+                const isExpanded = toggleBtn.getAttribute('aria-expanded') === 'true';
+                if (isExpanded) {
+                    commentsDiv.style.display = 'none';
+                    toggleBtn.setAttribute('aria-expanded', 'false');
+                    toggleBtn.classList.remove('active');
+                } else {
+                    commentsDiv.style.display = 'flex';
+                    toggleBtn.setAttribute('aria-expanded', 'true');
+                    toggleBtn.classList.add('active');
+                }
+            });
+        }
+
+        fragment.appendChild(itemContainer);
     });
 
     listContainer.appendChild(fragment);
