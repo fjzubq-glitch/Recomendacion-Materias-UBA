@@ -1,7 +1,7 @@
 import { state, loadLocalStorageData, saveLocalStorageData } from './state.js';
 import { loadCycleData } from './api.js';
 import { applyFilters } from './filters.js';
-import { renderCards, renderDraftList, closeDrawer, showToast, openReportModal, closeReportModal } from './ui.js';
+import { renderCards, renderDraftList, closeDrawer, showToast, openReportModal, closeReportModal, updateSelectedBadge } from './ui.js';
 
 // ==========================================================================
 // INITIALIZATION
@@ -10,7 +10,15 @@ document.addEventListener('DOMContentLoaded', async () => {
     loadLocalStorageData();
     setupEventListeners();
     setupCycleSelectorListeners();
-    renderDraftList(); // Render any saved items initially
+    updateSelectedBadge(); // Make sure the header badge is updated initially
+    
+    // Sync draft state in real-time across browser tabs
+    window.addEventListener('storage', () => {
+        loadLocalStorageData();
+        updateSelectedBadge();
+        applyFilters(); // Re-render course cards selection state
+    });
+
     await loadCycleData('cpc'); // Load CPC by default
 });
 
@@ -69,6 +77,14 @@ function setupCycleSelectorListeners() {
 // EVENT LISTENERS
 // ==========================================================================
 function setupEventListeners() {
+    // Open Borrador in new tab
+    const btnBorrador = document.getElementById('btn-open-borrador');
+    if (btnBorrador) {
+        btnBorrador.addEventListener('click', () => {
+            window.open('borrador.html', '_blank');
+        });
+    }
+
     // Filters are applied on button click
     const btnApply = document.getElementById('btn-apply-filters');
     if (btnApply) {

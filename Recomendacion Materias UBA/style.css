@@ -166,7 +166,7 @@ h1, h2, h3, h4 {
 /* Main Grid Layout */
 .app-main {
     display: grid;
-    grid-template-columns: 310px minmax(0, 1fr) 400px;
+    grid-template-columns: 310px minmax(0, 1fr);
     gap: 1rem;
     flex: 1;
     min-height: 0; /* Important for scroll nested columns */
@@ -1263,17 +1263,13 @@ select option {
    ========================================================================== */
 @media (max-width: 1400px) {
     .app-main {
-        grid-template-columns: 280px minmax(0, 1fr) 340px;
+        grid-template-columns: 280px minmax(0, 1fr);
     }
 }
 
 @media (max-width: 1200px) {
     .app-main {
         grid-template-columns: 280px minmax(0, 1fr);
-    }
-    .planner-panel {
-        grid-column: 1 / span 2;
-        min-height: 500px;
     }
 }
 
@@ -1288,10 +1284,6 @@ select option {
     }
     .panel {
         max-height: 700px;
-    }
-    .planner-panel {
-        max-height: none;
-        height: 600px;
     }
 }
 

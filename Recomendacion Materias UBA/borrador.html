@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Borrador de Inscripción — UBA Derecho</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: var(--bg-base);
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            color: var(--text-primary);
+            padding: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .borrador-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 2.5rem;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 1.5rem;
+        }
+
+        .borrador-title h1 {
+            font-family: 'Outfit', sans-serif;
+            font-size: 2.2rem;
+            font-weight: 800;
+            background: linear-gradient(135deg, #a5b4fc 0%, #6366f1 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .borrador-title p {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+            margin-top: 0.25rem;
+        }
+
+        .borrador-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 2rem;
+            margin-bottom: 3rem;
+        }
+
+        .borrador-panel {
+            background: var(--bg-surface);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-lg);
+            padding: 1.5rem;
+            box-shadow: var(--shadow-premium);
+        }
+
+        .borrador-panel h2 {
+            font-family: 'Outfit', sans-serif;
+            font-size: 1.3rem;
+            font-weight: 700;
+            margin-bottom: 1.25rem;
+            color: var(--text-primary);
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 0.75rem;
+        }
+
+        .selected-list {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+
+        .selected-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: rgba(255, 255, 255, 0.02);
+            border: 1px solid var(--border-color);
+            padding: 1rem 1.25rem;
+            border-radius: var(--radius-md);
+            transition: transform 0.2s, background-color 0.2s;
+        }
+
+        .selected-item:hover {
+            transform: translateX(4px);
+            background: rgba(255, 255, 255, 0.03);
+        }
+
+        .item-info {
+            display: flex;
+            flex-direction: column;
+            gap: 0.25rem;
+        }
+
+        .item-subject {
+            font-weight: 700;
+            font-size: 1rem;
+            color: var(--text-primary);
+        }
+
+        .item-details {
+            font-size: 0.8rem;
+            color: var(--text-secondary);
+        }
+
+        .item-actions {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+
+        .btn-remove-item {
+            background: rgba(239, 68, 68, 0.1);
+            color: #ef4444;
+            border: 1px solid rgba(239, 68, 68, 0.2);
+            padding: 0.4rem 0.8rem;
+            border-radius: var(--radius-sm);
+            font-size: 0.8rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .btn-remove-item:hover {
+            background: #ef4444;
+            color: #ffffff;
+        }
+
+        .borrador-totals-box {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+
+        .borrador-totals-box .total-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-bottom: 0.75rem;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+        }
+
+        .borrador-totals-box .total-row:last-of-type {
+            border-bottom: none;
+        }
+
+        .report-section {
+            background: var(--bg-surface);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-lg);
+            padding: 2rem;
+            margin-top: 2rem;
+            box-shadow: var(--shadow-premium);
+        }
+
+        .report-header-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1.5rem;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 1rem;
+        }
+
+        .report-actions {
+            display: flex;
+            gap: 0.75rem;
+        }
+
+        .empty-state {
+            text-align: center;
+            padding: 3rem 1.5rem;
+            color: var(--text-muted);
+        }
+
+        .empty-state svg {
+            margin-bottom: 1rem;
+            opacity: 0.5;
+        }
+
+        /* Print styles */
+        @media print {
+            body {
+                background: #fff !important;
+                color: #000 !important;
+                padding: 0 !important;
+            }
+
+            .borrador-header, .borrador-grid, .report-header-row .report-actions, .btn-remove-item {
+                display: none !important;
+            }
+
+            .report-section {
+                border: none !important;
+                box-shadow: none !important;
+                padding: 0 !important;
+                background: #fff !important;
+                color: #000 !important;
+            }
+
+            .report-preview-large {
+                color: #000 !important;
+            }
+
+            .report-preview-large h3 {
+                color: #000 !important;
+                border-bottom: 1px solid #ddd !important;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="borrador-header">
+        <div class="borrador-title">
+            <h1>Mi Planificación Académica</h1>
+            <p>Borrador de inscripción y recomendaciones — UBA Derecho</p>
+        </div>
+        <button class="btn-primary" onclick="window.close()" style="background: rgba(255,255,255,0.05); border: 1px solid var(--border-color); color: var(--text-secondary);">
+            Volver al Buscador
+        </button>
+    </div>
+
+    <div class="borrador-grid">
+        <!-- Selected Items Column -->
+        <div class="borrador-panel">
+            <h2>📋 Materias en el Borrador</h2>
+            <div id="selected-list-container" class="selected-list">
+                <!-- Will be populated dynamically -->
+            </div>
+        </div>
+
+        <!-- Totals & Copy Code Column -->
+        <div class="borrador-panel" style="height: fit-content;">
+            <h2>📊 Resumen del Plan</h2>
+            <div class="borrador-totals-box">
+                <div class="total-row">
+                    <span>Total de materias:</span>
+                    <span class="total-val" id="total-count" style="font-weight: 700;">0</span>
+                </div>
+                <div class="total-row">
+                    <span>Dificultad estimada:</span>
+                    <span class="total-val" id="total-difficulty" style="font-weight: 700;">-</span>
+                </div>
+                <div class="total-row">
+                    <span>Modalidades:</span>
+                    <span class="total-val" id="total-modalities" style="font-weight: 700;">-</span>
+                </div>
+                
+                <div class="copy-box" style="margin-top: 1rem; width: 100%;">
+                    <label for="copy-commissions-text" style="font-size: 0.8rem; color: var(--text-secondary); margin-bottom: 0.5rem; display: block;">Comisiones para inscripción (copiar):</label>
+                    <div class="copy-input-row" style="display: flex; gap: 0.5rem; width: 100%;">
+                        <input type="text" id="copy-commissions-text" readonly value="" style="flex: 1; background: rgba(0,0,0,0.2); border: 1px solid var(--border-color); padding: 0.5rem; border-radius: var(--radius-sm); color: var(--text-primary); font-family: monospace; font-size: 0.9rem;">
+                        <button class="btn-primary" id="btn-copy-commissions" style="padding: 0.5rem 1rem;">Copiar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Live Notion Report Area -->
+    <div class="report-section" id="report-section" style="display: none;">
+        <div class="report-header-row">
+            <h2 style="margin: 0; border: none; padding: 0; font-family: 'Outfit', sans-serif; font-size: 1.4rem;">✨ Informe de Planificación Estratégica</h2>
+            <div class="report-actions">
+                <button class="btn-primary" id="btn-copy-notion" style="background: linear-gradient(135deg, #6366f1 0%, #4f46e5 100%);">
+                    <span>Copiar para Notion</span>
+                </button>
+                <button class="btn-primary" id="btn-print-pdf" style="background: rgba(255,255,255,0.05); border: 1px solid var(--border-color); color: var(--text-secondary);">
+                    <span>Descargar PDF</span>
+                </button>
+            </div>
+        </div>
+        <div id="report-preview-container">
+            <!-- Populated dynamically -->
+        </div>
+    </div>
+
+    <script type="module">
+        // Helper functions for content generation
+        const getClave8 = (rec) => {
+            if (!rec.comments || rec.comments.length === 0) {
+                return "Tomas lo que dan en clase. Con estudio constante y entregando los TPs, es muy promocionable.";
+            }
+            
+            const keywords = ['exime', 'exim', 'choice', 'quizz', 'virtual', 'tp', 'promociona', 'nota', 'graba', 'manual'];
+            let bestSentence = "";
+            
+            for (const comment of rec.comments) {
+                const sentences = comment.text.split(/[.|\n]/);
+                for (let sentence of sentences) {
+                    sentence = sentence.trim();
+                    if (sentence.length < 20 || sentence.length > 150) continue;
+                    
+                    let count = 0;
+                    keywords.forEach(kw => {
+                        if (sentence.toLowerCase().includes(kw)) count++;
+                    });
+                    
+                    if (count > 0 && (!bestSentence || count > bestSentence.count)) {
+                        bestSentence = { text: sentence, count: count };
+                    }
+                }
+            }
+            
+            if (bestSentence && bestSentence.text) {
+                let s = bestSentence.text.charAt(0).toUpperCase() + bestSentence.text.slice(1);
+                if (!s.endsWith('.')) s += '.';
+                return s;
+            }
+            
+            if (rec.evaluation) {
+                return `Cursada organizada. Evaluación basada en ${rec.evaluation.toLowerCase()}.`;
+            }
+            
+            return "Los docentes tienen excelente predisposición y toman exactamente lo dado en clase.";
+        };
+
+        const getResena = (rec) => {
+            if (!rec.comments || rec.comments.length === 0) {
+                return "Sin opiniones registradas.";
+            }
+            for (const comment of rec.comments) {
+                const sentences = comment.text.split(/[.|\n]/);
+                for (let sentence of sentences) {
+                    sentence = sentence.trim();
+                    if (sentence.length >= 30 && sentence.length <= 120) {
+                        return `"${sentence}"`;
+                    }
+                }
+            }
+            const firstText = rec.comments[0].text.trim().split('\n')[0];
+            return `"${firstText.length > 100 ? firstText.substring(0, 100) + '...' : firstText}"`;
+        };
+
+        const getPriorityLabel = (idx) => {
+            return `Opción ${idx + 1}`;
+        };
+
+        // Load data from LocalStorage
+        function loadDraft() {
+            const savedDraft = localStorage.getItem('uba_draft_commissions');
+            return savedDraft ? JSON.parse(savedDraft) : [];
+        }
+
+        function saveDraft(draft) {
+            localStorage.setItem('uba_draft_commissions', JSON.stringify(draft));
+            // Trigger storage event manually to keep tabs in sync
+            window.dispatchEvent(new Event('storage'));
+        }
+
+        function renderPage() {
+            const draft = loadDraft();
+            const listContainer = document.getElementById('selected-list-container');
+            const totalCountEl = document.getElementById('total-count');
+            const totalDifficultyEl = document.getElementById('total-difficulty');
+            const totalModalitiesEl = document.getElementById('total-modalities');
+            const copyInput = document.getElementById('copy-commissions-text');
+            const reportSection = document.getElementById('report-section');
+
+            if (draft.length === 0) {
+                listContainer.innerHTML = `
+                    <div class="empty-state">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+                        </svg>
+                        <p>No tienes ninguna materia en el borrador aún.</p>
+                        <p style="font-size: 0.8rem; margin-top: 0.5rem;">Agrega comisiones desde el buscador principal.</p>
+                    </div>
+                `;
+                totalCountEl.textContent = '0';
+                totalDifficultyEl.textContent = '-';
+                totalModalitiesEl.textContent = '-';
+                copyInput.value = '';
+                reportSection.style.display = 'none';
+                return;
+            }
+
+            // Render list
+            listContainer.innerHTML = '';
+            draft.forEach((rec, idx) => {
+                const item = document.createElement('div');
+                item.className = 'selected-item';
+                item.innerHTML = `
+                    <div class="item-info">
+                        <span class="item-subject">${rec.subject} (Comisión ${rec.commission})</span>
+                        <span class="item-details">${rec.professor} — ${rec.schedule} [${rec.modality}]</span>
+                    </div>
+                    <div class="item-actions">
+                        <button class="btn-remove-item" data-idx="${idx}">Quitar</button>
+                    </div>
+                `;
+                
+                item.querySelector('.btn-remove-item').addEventListener('click', () => {
+                    const currentDraft = loadDraft();
+                    const removed = currentDraft.splice(idx, 1);
+                    saveDraft(currentDraft);
+                    renderPage();
+                });
+                
+                listContainer.appendChild(item);
+            });
+
+            // Update stats
+            totalCountEl.textContent = draft.length;
+
+            // Difficulty logic
+            const diffWeight = { 'Baja': 1, 'Media': 2, 'Alta': 3 };
+            let totalWeight = 0;
+            draft.forEach(d => totalWeight += (diffWeight[d.difficulty] || 2));
+            const avgWeight = totalWeight / draft.length;
+            let finalDiff = 'Media';
+            if (avgWeight < 1.7) finalDiff = 'Baja 🟢';
+            else if (avgWeight > 2.3) finalDiff = 'Alta 🔴';
+            else finalDiff = 'Media 🟡';
+            totalDifficultyEl.textContent = finalDiff;
+
+            // Modalities summary
+            const modalities = [...new Set(draft.map(d => d.modality))];
+            totalModalitiesEl.textContent = modalities.join(' + ');
+
+            // Copy codes
+            const codes = draft.map(d => d.commission).join(' - ');
+            copyInput.value = codes;
+
+            // Render Notion report
+            reportSection.style.display = 'block';
+            generateReport(draft);
+        }
+
+        function generateReport(draft) {
+            const subjects = [...new Set(draft.map(c => c.subject))];
+            const subjectText = subjects.join(' / ');
+
+            let md = `Aquí tienes el resumen exclusivo de las opciones para **${subjectText}** (Segunda mitad de 2026), para que las pases a tu Notion. Todas están seleccionadas para que no choquen con tu anual de **Contratos (7355)** y respeten tu meta de **promedio 8+**.\n\n`;
+
+            draft.forEach((rec, idx) => {
+                md += `### Opción ${idx + 1}: ${rec.subject} - Comisión ${rec.commission}\n\n`;
+                md += `- **Horario:** ${rec.schedule}\n`;
+                md += `- **Modalidad:** **${rec.modality || 'Presencial'}**\n`;
+                md += `- **Clave del 8+:** ${getClave8(rec)}\n`;
+                md += `- **Reseña:** *${getResena(rec)}*\n\n`;
+            });
+
+            md += `---\n\n### Tabla (Planificación Estratégica)\n\n`;
+            md += `| **Prioridad** | **Comisión** | **Cátedra** | **Días** | **Modalidad** | **Beneficio 8+** |\n`;
+            md += `| --- | --- | --- | --- | --- | --- |\n`;
+
+            draft.forEach((rec, idx) => {
+                const priority = getPriorityLabel(idx);
+                const daysStr = rec.days ? rec.days.join('-') : 'A designar';
+                md += `| **${priority}** | **${rec.commission}** | ${rec.professor.split('-')[0]} | ${daysStr} | ${rec.modality || 'Presencial'} | **${getClave8(rec)}** |\n`;
+            });
+
+            // Convert simple Markdown to HTML for preview
+            let htmlPreview = md
+                .replace(/\n\n/g, '<br><br>')
+                .replace(/\n/g, '<br>')
+                .replace(/### (.*)/g, '<h3 style="font-family: \'Outfit\', sans-serif; font-size: 1.25rem; font-weight: 700; color: #a5b4fc; margin-top: 1.5rem; border-bottom: 1px solid rgba(255,255,255,0.05); padding-bottom: 0.5rem;">$1</h3>')
+                .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+                .replace(/\*(.*?)\*/g, '<em>$1</em>')
+                .replace(/---/g, '<hr style="border: 0; border-top: 1px solid var(--border-color); margin: 2rem 0;">');
+
+            // Handle tables
+            if (htmlPreview.includes('|')) {
+                const lines = htmlPreview.split('<br>');
+                let inTable = false;
+                let tableHtml = '<div class="report-table-wrapper" style="margin-top: 1.5rem; overflow-x: auto; border: 1px solid var(--border-color); border-radius: var(--radius-md);"><table class="report-table" style="width: 100%; border-collapse: collapse; text-align: left; font-size: 0.85rem;">';
+                
+                lines.forEach(line => {
+                    if (line.trim().startsWith('|')) {
+                        inTable = true;
+                        const cells = line.split('|').map(c => c.trim()).filter((c, i, arr) => i > 0 && i < arr.length - 1);
+                        if (line.includes('---')) return;
+                        
+                        tableHtml += '<tr>';
+                        cells.forEach(cell => {
+                            if (line.includes('**Prioridad**') || line.includes('Comisión')) {
+                                tableHtml += `<th style="background: rgba(255,255,255,0.03); padding: 0.75rem 1rem; font-weight: 700; border-bottom: 1px solid var(--border-color);">${cell}</th>`;
+                            } else {
+                                tableHtml += `<td style="padding: 0.75rem 1rem; border-bottom: 1px solid rgba(255,255,255,0.05);">${cell}</td>`;
+                            }
+                        });
+                        tableHtml += '</tr>';
+                    } else {
+                        if (inTable) {
+                            inTable = false;
+                            tableHtml += '</table></div>';
+                            htmlPreview = htmlPreview.replace(line, tableHtml + line);
+                        }
+                    }
+                });
+                
+                htmlPreview = htmlPreview.replace(/\|.*?\|<br>/g, '');
+                htmlPreview = htmlPreview.replace(/\|.*?\|/g, '');
+            }
+
+            document.getElementById('report-preview-container').innerHTML = htmlPreview;
+
+            // Setup listeners for copy and print
+            document.getElementById('btn-copy-notion').onclick = () => {
+                navigator.clipboard.writeText(md)
+                    .then(() => alert("¡Informe copiado al portapapeles!"))
+                    .catch(err => console.error(err));
+            };
+
+            document.getElementById('btn-print-pdf').onclick = () => {
+                window.print();
+            };
+        }
+
+        // Setup copy button for commission codes
+        document.getElementById('btn-copy-commissions').onclick = () => {
+            const input = document.getElementById('copy-commissions-text');
+            input.select();
+            navigator.clipboard.writeText(input.value)
+                .then(() => alert("Comisiones copiadas al portapapeles."))
+                .catch(err => console.error(err));
+        };
+
+        // Listen for storage events to keep the tab in sync with the search page
+        window.addEventListener('storage', () => {
+            renderPage();
+        });
+
+        // Initial render
+        renderPage();
+    </script>
+</body>
+</html>

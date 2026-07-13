@@ -289,6 +289,7 @@ export function toggleDraftSubject(commissionNum, shouldAdd) {
 
 export function renderDraftList() {
     const listContainer = document.getElementById('draft-list');
+    if (!listContainer) return;
     const totalsBox = document.getElementById('draft-totals-box');
     listContainer.innerHTML = '';
 
