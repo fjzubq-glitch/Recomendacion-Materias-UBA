@@ -73,7 +73,7 @@ export function openReviewsModal(subjectName, commissionNum) {
             const reviewItem = document.createElement('div');
             reviewItem.className = 'drawer-review-item';
             
-            const cleanSrc = comment.source.replace('La ', ''); // Campora, Centeno, Recomellas
+            const cleanSrc = comment.source.replace('La ', '').replace(' ', '').replace('á', 'a').replace('ó', 'o');
 
             reviewItem.innerHTML = `
                 <div class="review-meta">
@@ -163,7 +163,7 @@ export function renderCards() {
         card.className = `course-card${isSelected ? ' selected' : ''}${hasConflict ? ' has-conflict' : ''}`;
         
         const sourcesDots = rec.sources.map(src => {
-            const cleanSrc = src.replace('La ', '');
+            const cleanSrc = src.replace('La ', '').replace(' ', '').replace('á', 'a').replace('ó', 'o');
             return `<span class="src-dot ${cleanSrc}" title="Recomendado por ${src}"></span>`;
         }).join('');
 

@@ -544,7 +544,7 @@
                     const reviewItem = document.createElement('div');
                     reviewItem.className = 'drawer-review-item';
                     
-                    const cleanSrc = comment.source.replace('La ', '');
+                    const cleanSrc = comment.source.replace('La ', '').replace(' ', '').replace('á', 'a').replace('ó', 'o');
 
                     reviewItem.innerHTML = `
                         <div class="review-meta">

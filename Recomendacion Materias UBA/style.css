@@ -43,6 +43,9 @@
     --src-recomellas: #8b5cf6;  /* Violet */
     --src-campora: #3b82f6;     /* Blue */
     --src-centeno: #06b6d4;     /* Cyan */
+    --src-nexo: #f97316;        /* Orange */
+    --src-nuevo: #10b981;       /* Emerald */
+    --src-franja: #a855f7;      /* Purple */
     
     /* Layout Variables */
     --radius-sm: 8px;
@@ -451,6 +454,21 @@ select option {
     border-color: var(--src-centeno);
     color: #22d3ee;
 }
+.source-badge.nexo input:checked + span {
+    background: rgba(249, 115, 22, 0.15);
+    border-color: var(--src-nexo);
+    color: #fb923c;
+}
+.source-badge.nuevo-derecho input:checked + span {
+    background: rgba(16, 185, 129, 0.15);
+    border-color: var(--src-nuevo);
+    color: #34d399;
+}
+.source-badge.franja-morada input:checked + span {
+    background: rgba(168, 85, 247, 0.15);
+    border-color: var(--src-franja);
+    color: #c084fc;
+}
 
 /* Toggle switch component */
 .toggle-switch {
@@ -721,6 +739,49 @@ select option {
 .src-dot.Recomellas { background-color: var(--src-recomellas); }
 .src-dot.Campora { background-color: var(--src-campora); }
 .src-dot.Centeno { background-color: var(--src-centeno); }
+.src-dot.Nexo { background-color: var(--src-nexo); }
+.src-dot.NuevoDerecho { background-color: var(--src-nuevo); }
+.src-dot.FranjaMorada { background-color: var(--src-franja); }
+
+/* Review Source Pill Badges (Drawer) */
+.review-source {
+    font-size: 0.72rem;
+    font-weight: 600;
+    padding: 0.15rem 0.5rem;
+    border-radius: var(--radius-sm);
+    display: inline-block;
+    border: 1px solid transparent;
+}
+.review-source.Recomellas {
+    background: rgba(139, 92, 246, 0.12);
+    border-color: rgba(139, 92, 246, 0.25);
+    color: #a78bfa;
+}
+.review-source.Campora {
+    background: rgba(59, 130, 246, 0.12);
+    border-color: rgba(59, 130, 246, 0.25);
+    color: #60a5fa;
+}
+.review-source.Centeno {
+    background: rgba(6, 182, 212, 0.12);
+    border-color: rgba(6, 182, 212, 0.25);
+    color: #22d3ee;
+}
+.review-source.Nexo {
+    background: rgba(249, 115, 22, 0.12);
+    border-color: rgba(249, 115, 22, 0.25);
+    color: #fb923c;
+}
+.review-source.NuevoDerecho {
+    background: rgba(16, 185, 129, 0.12);
+    border-color: rgba(16, 185, 129, 0.25);
+    color: #34d399;
+}
+.review-source.FranjaMorada {
+    background: rgba(168, 85, 247, 0.12);
+    border-color: rgba(168, 85, 247, 0.25);
+    color: #c084fc;
+}
 
 /* Extra info row */
 .extra-info-row {
