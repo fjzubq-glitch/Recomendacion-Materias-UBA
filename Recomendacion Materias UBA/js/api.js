@@ -23,7 +23,7 @@ export async function loadCycleData(cycle) {
         });
 
         // Populate subject dropdown
-        populateSubjectDropdown();
+        populateSubjectDropdown(cycle);
         
         // Update stats
         document.getElementById('total-commissions-badge').textContent = state.allCommissions.length;
@@ -44,8 +44,8 @@ export async function loadCycleData(cycle) {
     }
 }
 
-// Populate the subject filter select element (grouped by department)
-function populateSubjectDropdown() {
+// Populate the subject filter select element (flat for CPC, grouped for CPO)
+function populateSubjectDropdown(cycle) {
     const select = document.getElementById('subject-filter');
     if (!select) return;
     
@@ -55,7 +55,18 @@ function populateSubjectDropdown() {
     // Get unique subject names
     const subjects = [...new Set(state.allCommissions.map(c => c.subject))].sort();
     
-    // Helper to categorize subject by department/area
+    // If it's CPC, render flat list of options
+    if (cycle === 'cpc') {
+        subjects.forEach(sub => {
+            const opt = document.createElement('option');
+            opt.value = sub;
+            opt.textContent = sub;
+            select.appendChild(opt);
+        });
+        return;
+    }
+    
+    // Helper to categorize subject by department/area (CPO)
     function getSubjectDepartment(subjectName) {
         const sub = (subjectName || '').toUpperCase();
         if (sub.includes('(PRI)') || sub.includes('PRIVADO')) return 'Derecho Privado';
