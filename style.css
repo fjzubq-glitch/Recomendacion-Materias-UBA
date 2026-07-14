@@ -1773,3 +1773,17 @@ select option {
     .filters-panel { height: max-content !important; margin-bottom: 2rem; }
     .results-panel { height: max-content !important; }
 }
+
+@media (max-width: 900px), (max-width: 1024px) and (orientation: portrait) {
+    .course-card * {
+        white-space: normal !important;
+        word-break: break-word !important;
+        overflow-wrap: anywhere !important;
+    }
+    .card-action-row {
+        flex-direction: column !important;
+    }
+    .btn-primary, .btn-secondary, .btn-outline {
+        width: 100% !important;
+    }
+}
