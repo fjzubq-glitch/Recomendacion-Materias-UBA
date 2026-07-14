@@ -108,7 +108,6 @@ function setupEventListeners() {
 
     // Reset filters
     const btnReset = document.getElementById('btn-reset-filters');
-    const searchInput = document.getElementById('search-input');
     const subjectFilter = document.getElementById('subject-filter');
     const proStudentFilter = document.getElementById('pro-student-filter');
 
