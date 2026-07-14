@@ -91,6 +91,17 @@ function setupEventListeners() {
         btnApply.addEventListener('click', applyFilters);
     }
     
+    // Search on Enter key
+    const searchInput = document.getElementById('search-input');
+    if (searchInput) {
+        searchInput.addEventListener('keydown', (e) => {
+            if (e.key === 'Enter') {
+                e.preventDefault();
+                applyFilters();
+            }
+        });
+    }
+    
     // Sort stays immediate
     const sortSelect = document.getElementById('sort-select');
     if (sortSelect) sortSelect.addEventListener('change', applyFilters);

@@ -1716,3 +1716,8 @@ select option {
     .course-actions button { width: 100%; }
     .sort-wrapper { flex-direction: column; align-items: flex-start; }
 }
+
+@media (max-width: 900px) {
+    .filters-panel { height: max-content !important; margin-bottom: 2rem; }
+    .results-panel { height: max-content !important; }
+}
