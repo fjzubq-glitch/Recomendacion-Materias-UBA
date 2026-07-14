@@ -1707,3 +1707,12 @@ select option {
         justify-content: center;
     }
 }
+
+@media (max-width: 768px) {
+    .drawer-panel { width: 100% !important; right: -100% !important; }
+    .drawer-overlay.active .drawer-panel { right: 0 !important; }
+    .app-container { padding: 0.5rem; }
+    .course-actions { flex-direction: column; align-items: flex-start; gap: 1rem; }
+    .course-actions button { width: 100%; }
+    .sort-wrapper { flex-direction: column; align-items: flex-start; }
+}
