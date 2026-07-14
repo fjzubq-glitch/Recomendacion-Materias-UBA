@@ -1369,7 +1369,7 @@ select option {
     }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 900px), (max-width: 1024px) and (orientation: portrait) {
     .app-container {
         min-height: auto;
         overflow-y: visible;
@@ -1733,7 +1733,7 @@ select option {
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 768px), (max-width: 1024px) and (orientation: portrait) {
     /* Bottom sheet for mobile comments drawer */
     .drawer-panel { 
         width: 100% !important; 
@@ -1769,7 +1769,7 @@ select option {
     .sort-wrapper { flex-direction: column; align-items: flex-start; }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 900px), (max-width: 1024px) and (orientation: portrait) {
     .filters-panel { height: max-content !important; margin-bottom: 2rem; }
     .results-panel { height: max-content !important; }
 }
