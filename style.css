@@ -1680,8 +1680,11 @@ select option {
   text-align: center;
   padding: 20px;
   margin-top: 40px;
-  color: #666;
-  font-size: 14px;
+  color: #888;
+  font-size: 13px;
+  font-weight: 300;
+  letter-spacing: 0.05em;
+  font-family: 'Inter', sans-serif;
 }
 
 @media (max-width: 600px) {
