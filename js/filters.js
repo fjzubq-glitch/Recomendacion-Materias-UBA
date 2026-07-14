@@ -68,13 +68,18 @@ export function applyFilters() {
 
         // 6. Text Search (matches subject, commission, professor, comments text)
         if (searchVal) {
-            const commentsText = rec.comments.map(c => c.text).join(' ').toLowerCase();
-            const subjectMatch = rec.subject.toLowerCase().includes(searchVal);
-            const profMatch = rec.professor.toLowerCase().includes(searchVal);
-            const commMatch = rec.commission.includes(searchVal);
-            const commentMatch = commentsText.includes(searchVal);
-            
-            if (!subjectMatch && !profMatch && !commMatch && !commentMatch) return false;
+            const isNumeric = /^\d+$/.test(searchVal);
+            if (isNumeric) {
+                // Exact match for commission if search is purely a number
+                if (rec.commission !== searchVal) return false;
+            } else {
+                const commentsText = rec.comments.map(c => c.text).join(' ').toLowerCase();
+                const subjectMatch = rec.subject.toLowerCase().includes(searchVal);
+                const profMatch = rec.professor.toLowerCase().includes(searchVal);
+                const commentMatch = commentsText.includes(searchVal);
+                
+                if (!subjectMatch && !profMatch && !commentMatch) return false;
+            }
         }
 
         return true;

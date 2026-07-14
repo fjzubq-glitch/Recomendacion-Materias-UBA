@@ -106,6 +106,12 @@ function setupEventListeners() {
             if (e.key === 'Enter') {
                 e.preventDefault();
                 applyFilters();
+                if (window.innerWidth <= 900) {
+                    const resultsSection = document.querySelector('.results-panel');
+                    if (resultsSection) {
+                        resultsSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                    }
+                }
             }
         });
     }
