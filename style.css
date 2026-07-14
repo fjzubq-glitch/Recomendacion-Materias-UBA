@@ -379,6 +379,7 @@ select option {
     flex: 1;
     cursor: pointer;
     text-align: center;
+    height: 100%;
 }
 
 .radio-label input {
@@ -386,13 +387,18 @@ select option {
 }
 
 .radio-label span {
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
     padding: 0.3rem 0.5rem;
     font-size: 0.75rem;
     font-weight: 400;
     color: var(--text-secondary);
     border-radius: calc(var(--radius-sm) - 2px);
     transition: var(--transition-smooth);
+    line-height: 1.2;
 }
 
 .radio-label input:checked + span {
