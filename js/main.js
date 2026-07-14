@@ -81,7 +81,7 @@ function setupEventListeners() {
     const btnBorrador = document.getElementById('btn-open-borrador');
     if (btnBorrador) {
         btnBorrador.addEventListener('click', () => {
-            window.open('borrador.html', '_blank');
+            window.location.href = 'borrador.html';
         });
     }
 
