@@ -71,12 +71,15 @@ SUBJECT_MAP_CPC = {
     'REALES': 'Elementos de Derechos Reales',
     
     'ELEMENTOS DE DERECHO COMERCIAL': 'Elementos de Derecho Comercial',
-    # We avoid matching CPO 'Derecho Comercial (Sociedades)' to CPC element by using exact name checks
+    'DERECHO COMERCIAL': 'Elementos de Derecho Comercial',
+    'COMERCIAL': 'Elementos de Derecho Comercial',
     
     'ELEMENTOS DE DERECHO PROCESAL CIVIL Y COMERCIAL': 'Elementos de Derecho Procesal Civil y Comercial',
     'DERECHO PROCESAL CIVIL Y COMERCIAL': 'Elementos de Derecho Procesal Civil y Comercial',
     'DERECHO PROCESAL CIVIL': 'Elementos de Derecho Procesal Civil y Comercial',
     'PROCESAL CIVIL': 'Elementos de Derecho Procesal Civil y Comercial',
+    'PROC. CIVIL': 'Elementos de Derecho Procesal Civil y Comercial',
+    'PROC.CIVIL': 'Elementos de Derecho Procesal Civil y Comercial',
     'PROCESAL': 'Elementos de Derecho Procesal Civil y Comercial',
     
     'ELEMENTOS DE DERECHO PENAL Y PROCESAL PENAL': 'Elementos de Derecho Penal y Procesal Penal',
@@ -805,9 +808,13 @@ def compile_database():
         json.dump(cpo_list, f, ensure_ascii=False, indent=4)
     print(f"  [OK] Guardado catálogo CPO: cpo_data.json ({len(cpo_list)} comisiones)")
 if __name__ == "__main__":
-    # 1. Download online sheets & drive folders
-    download_online_databases()
+    import sys
+    compile_only = "--compile-only" in sys.argv
     
+    if not compile_only:
+        # 1. Download online sheets & drive folders
+        download_online_databases()
+        
     # 2. Re-compile local files
     compile_database()
     
