@@ -168,9 +168,9 @@ h1, h2, h3, h4 {
 
 /* Main Grid Layout */
 .app-main {
-    display: grid;
-    grid-template-columns: 310px minmax(0, 1fr);
-    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
     flex: 1;
 }
 
@@ -208,6 +208,18 @@ h1, h2, h3, h4 {
     display: flex;
     flex-direction: column;
     gap: 1.25rem;
+}
+
+/* Make filters layout horizontal/grid based */
+.filters-panel .panel-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.25rem;
+    align-items: flex-end;
+}
+
+.filters-panel .panel-header {
+    padding: 0.75rem 1.25rem;
 }
 
 /* Custom scrollbars */
@@ -1357,13 +1369,19 @@ select option {
         min-height: auto;
         overflow-y: visible;
     }
-    .app-main {
-        grid-template-columns: 1fr;
-        height: auto;
+    .filters-panel .panel-content {
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
     }
-    .panel {
-        height: auto;
+    .filters-panel .filter-group:first-child {
+        grid-column: span 2;
     }
+    .filters-panel #btn-apply-filters {
+        grid-column: span 2;
+        width: 100% !important;
+    }
+    .btn-apply-filters { width: 100%; }
+
 }
 
 /* ==========================================================================
