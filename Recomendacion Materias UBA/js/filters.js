@@ -29,6 +29,10 @@ export function applyFilters() {
     const diffEls = document.querySelectorAll('input[name="difficulty"]:checked');
     const allowedDiffs = Array.from(diffEls).map(el => el.value);
 
+    // Shifts checkbox values
+    const shiftEls = document.querySelectorAll('input[name="shifts"]:checked');
+    const allowedShifts = Array.from(shiftEls).map(el => el.value);
+
     // Sources checkbox values
     const srcEls = document.querySelectorAll('input[name="sources"]:checked');
     const allowedSources = Array.from(srcEls).map(el => el.value);
@@ -51,6 +55,10 @@ export function applyFilters() {
         if (modalityVal !== 'all') {
             if (rec.modality !== modalityVal) return false;
         }
+
+        // 2.5 Turno filter
+        const commShift = getCommissionShift(rec.schedule);
+        if (!allowedShifts.includes(commShift)) return false;
 
         // 3. Difficulty filter
         if (!allowedDiffs.includes(rec.difficulty)) return false;
@@ -113,4 +121,25 @@ function sortCommissions() {
         }
         return 0;
     });
+}
+
+// Helper to classify schedule into shifts (Mañana, Tarde, Noche)
+function getCommissionShift(scheduleStr) {
+    if (!scheduleStr) return 'Mañana';
+    
+    // Check for HH:MM pattern
+    const match = scheduleStr.match(/(\d{2}):(\d{2})/);
+    if (match) {
+        const hour = parseInt(match[1], 10);
+        if (hour < 13) return 'Mañana';
+        if (hour >= 13 && hour < 18) return 'Tarde';
+        return 'Noche';
+    }
+    
+    // String keyword fallbacks
+    const upper = scheduleStr.toUpperCase();
+    if (upper.includes('NOCHE') || upper.includes('20:') || upper.includes('21:') || upper.includes('18:30') || upper.includes('19:')) return 'Noche';
+    if (upper.includes('TARDE') || upper.includes('14:') || upper.includes('15:') || upper.includes('16:') || upper.includes('17:')) return 'Tarde';
+    
+    return 'Mañana';
 }
