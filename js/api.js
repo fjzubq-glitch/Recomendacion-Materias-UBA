@@ -13,11 +13,13 @@ export async function loadCycleData(cycle) {
         
         // Normalize modality
         state.allCommissions.forEach(rec => {
+            // Apply fixes to raw fields
             let mod = (rec.modality || '').toLowerCase();
             let isPresencial = mod.includes('presencial') || mod.includes('presencual');
             let isVirtual = mod.includes('virtual') || mod.includes('remota');
+            let isMixta = mod.includes('mixta') || mod.includes('remota/presencial') || (isPresencial && isVirtual);
 
-            if (isPresencial && isVirtual) rec.modality = 'Remota/Presencial';
+            if (isMixta) rec.modality = 'Remota/Presencial';
             else if (isVirtual) rec.modality = 'Remota';
             else rec.modality = 'Presencial';
         });
