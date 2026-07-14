@@ -84,8 +84,30 @@ export function openReviewsModal(subjectName, commissionNum) {
             fragment.appendChild(reviewItem);
         });
         bodyContent.appendChild(fragment);
+        
+        // Agregar nota para las agrupaciones que no dejaron comentario escrito
+        const sourcesWithComments = course.comments.map(c => c.source);
+        const missingSources = course.sources.filter(s => !sourcesWithComments.includes(s));
+        
+        if (missingSources.length > 0) {
+            const notice = document.createElement('div');
+            notice.style.fontSize = '0.85rem';
+            notice.style.color = 'var(--text-muted)';
+            notice.style.marginTop = '1.5rem';
+            notice.style.padding = '1rem';
+            notice.style.border = '1px dashed var(--border-color)';
+            notice.style.borderRadius = 'var(--radius-md)';
+            notice.innerHTML = `<strong>Nota:</strong> Esta comisión también es recomendada por <strong>${missingSources.join(', ')}</strong>, pero no adjuntaron una reseña escrita detallada en su listado oficial.`;
+            bodyContent.appendChild(notice);
+        }
+        
     } else {
-        bodyContent.innerHTML = `<p style="color: var(--text-muted); text-align: center; padding: 2rem;">No hay opiniones registradas para esta comisión.</p>`;
+        const sourcesText = course.sources.join(', ');
+        bodyContent.innerHTML = `
+            <div style="text-align: center; padding: 2rem; color: var(--text-muted);">
+                <p>Las agrupaciones que recomiendan esta comisión (<strong>${sourcesText}</strong>) solo publicaron el número de comisión en sus planillas, pero no adjuntaron ninguna reseña escrita detallada.</p>
+            </div>
+        `;
     }
 
     document.getElementById('review-drawer').classList.add('active');
