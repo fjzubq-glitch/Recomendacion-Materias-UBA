@@ -89,7 +89,7 @@ h1, h2, h3, h4 {
 .app-container {
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    min-height: 100vh;
     padding: 1rem;
     gap: 1rem;
     max-width: 1800px;
@@ -172,7 +172,6 @@ h1, h2, h3, h4 {
     grid-template-columns: 310px minmax(0, 1fr);
     gap: 1rem;
     flex: 1;
-    min-height: 0; /* Important for scroll nested columns */
 }
 
 /* Panels */
@@ -184,7 +183,7 @@ h1, h2, h3, h4 {
     border: 1px solid var(--border-color);
     border-radius: var(--radius-md);
     box-shadow: var(--shadow-premium);
-    min-height: 0; /* Enable scrollbars in panels */
+    height: 100%;
 }
 
 .panel-header {
@@ -205,8 +204,7 @@ h1, h2, h3, h4 {
 
 .panel-content {
     padding: 1.25rem;
-    overflow-y: auto;
-    flex: 1;
+    overflow: visible;
     display: flex;
     flex-direction: column;
     gap: 1.25rem;
@@ -246,6 +244,15 @@ h1, h2, h3, h4 {
     cursor: pointer;
     transition: var(--transition-smooth);
 }
+
+.filters-panel {
+    position: sticky;
+    top: 1rem;
+    align-self: flex-start;
+    height: calc(100vh - 2rem);
+    overflow-y: auto;
+}
+
 .btn-primary:hover {
     background: var(--accent-color-hover);
     box-shadow: 0 4px 12px rgba(99, 102, 241, 0.25);
@@ -1353,7 +1360,7 @@ select option {
 
 @media (max-width: 900px) {
     .app-container {
-        height: auto;
+        min-height: auto;
         overflow-y: visible;
     }
     .app-main {
@@ -1361,7 +1368,7 @@ select option {
         height: auto;
     }
     .panel {
-        max-height: 700px;
+        height: auto;
     }
 }
 
