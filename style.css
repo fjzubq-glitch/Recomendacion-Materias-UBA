@@ -1709,8 +1709,35 @@ select option {
 }
 
 @media (max-width: 768px) {
-    .drawer-panel { width: 100% !important; right: -100% !important; }
-    .drawer-overlay.active .drawer-panel { right: 0 !important; }
+    /* Bottom sheet for mobile comments drawer */
+    .drawer-panel { 
+        width: 100% !important; 
+        height: 85vh !important; 
+        top: auto !important; 
+        bottom: -100% !important; 
+        right: 0 !important; 
+        border-left: none !important;
+        border-top: 1px solid var(--border-color);
+        border-radius: 24px 24px 0 0;
+        transition: bottom 0.35s cubic-bezier(0.16, 1, 0.3, 1) !important;
+    }
+    .drawer-overlay.active .drawer-panel { 
+        bottom: 0 !important; 
+    }
+    .drawer-panel::before {
+        content: '';
+        position: absolute;
+        top: 8px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 40px;
+        height: 4px;
+        background: rgba(255, 255, 255, 0.2);
+        border-radius: 4px;
+    }
+    .drawer-header {
+        padding-top: 1.75rem !important;
+    }
     .app-container { padding: 0.5rem; }
     .course-actions { flex-direction: column; align-items: flex-start; gap: 1rem; }
     .course-actions button { width: 100%; }
