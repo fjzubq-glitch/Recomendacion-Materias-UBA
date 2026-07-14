@@ -66,7 +66,7 @@ export function applyFilters() {
         // 5. Pro Student filter
         if (onlyPro && !rec.is_pro_student) return false;
 
-        // 6. Text Search (matches subject, commission, professor, comments text)
+        // 6. Text Search (matches subject, commission, professor, comments text, and sources)
         if (searchVal) {
             const isNumeric = /^\d+$/.test(searchVal);
             if (isNumeric) {
@@ -74,11 +74,14 @@ export function applyFilters() {
                 if (rec.commission !== searchVal) return false;
             } else {
                 const commentsText = rec.comments.map(c => c.text).join(' ').toLowerCase();
+                const sourcesText = (rec.sources || []).join(' ').toLowerCase();
+                
                 const subjectMatch = rec.subject.toLowerCase().includes(searchVal);
                 const profMatch = rec.professor.toLowerCase().includes(searchVal);
                 const commentMatch = commentsText.includes(searchVal);
+                const sourceMatch = sourcesText.includes(searchVal);
                 
-                if (!subjectMatch && !profMatch && !commentMatch) return false;
+                if (!subjectMatch && !profMatch && !commentMatch && !sourceMatch) return false;
             }
         }
 
