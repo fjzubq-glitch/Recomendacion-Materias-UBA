@@ -33,9 +33,7 @@ export function applyFilters() {
     const shiftEls = document.querySelectorAll('input[name="shifts"]:checked');
     const allowedShifts = Array.from(shiftEls).map(el => el.value);
 
-    // Sources checkbox values
-    const srcEls = document.querySelectorAll('input[name="sources"]:checked');
-    const allowedSources = Array.from(srcEls).map(el => el.value);
+
 
     // Toggles
     const proStudentFilter = document.getElementById('pro-student-filter');
@@ -63,9 +61,7 @@ export function applyFilters() {
         // 3. Difficulty filter
         if (allowedDiffs.length > 0 && !allowedDiffs.includes(rec.difficulty)) return false;
 
-        // 4. Sources filter
-        const hasCheckedSource = rec.sources.some(src => allowedSources.includes(src));
-        if (!hasCheckedSource) return false;
+
 
         // 5. Pro Student filter
         if (onlyPro && !rec.is_pro_student) return false;
