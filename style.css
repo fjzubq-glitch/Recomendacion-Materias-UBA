@@ -246,11 +246,7 @@ h1, h2, h3, h4 {
 }
 
 .filters-panel {
-    position: sticky;
-    top: 1rem;
-    align-self: flex-start;
-    height: calc(100vh - 2rem);
-    overflow-y: auto;
+    /* Removed sticky and fixed height so it flows naturally */
 }
 
 .btn-primary:hover {
@@ -548,7 +544,7 @@ select option {
    RESULTS COLUMN: CARDS CONTAINER
    ========================================================================== */
 .results-panel {
-    min-height: 0;
+    /* Removed min-height: 0 to allow natural expansion */
 }
 
 .results-title-row {
@@ -579,8 +575,6 @@ select option {
 }
 
 .cards-container {
-    overflow-y: auto;
-    overflow-x: hidden;
     display: flex;
     flex-direction: column;
     gap: 0.75rem;
