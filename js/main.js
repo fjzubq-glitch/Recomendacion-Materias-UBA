@@ -88,7 +88,15 @@ function setupEventListeners() {
     // Filters are applied on button click
     const btnApply = document.getElementById('btn-apply-filters');
     if (btnApply) {
-        btnApply.addEventListener('click', applyFilters);
+        btnApply.addEventListener('click', () => {
+            applyFilters();
+            if (window.innerWidth <= 900) {
+                const resultsSection = document.querySelector('.results-panel');
+                if (resultsSection) {
+                    resultsSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+            }
+        });
     }
     
     // Search on Enter key

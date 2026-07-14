@@ -17,8 +17,8 @@ export async function loadCycleData(cycle) {
             let isPresencial = mod.includes('presencial') || mod.includes('presencual');
             let isVirtual = mod.includes('virtual') || mod.includes('remota');
 
-            if (isPresencial && isVirtual) rec.modality = 'Mixta';
-            else if (isVirtual) rec.modality = 'Virtual';
+            if (isPresencial && isVirtual) rec.modality = 'Remota/Presencial';
+            else if (isVirtual) rec.modality = 'Remota';
             else rec.modality = 'Presencial';
         });
 
