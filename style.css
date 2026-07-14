@@ -64,6 +64,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+body, html {
+    margin: 0;
+    padding: 0;
+    max-width: 100vw;
+    overflow-x: hidden;
+}
 
 body {
     background-color: var(--bg-base);
@@ -360,6 +366,7 @@ select option {
     padding: 0.25rem;
     border-radius: var(--radius-sm);
     border: 1px solid var(--border-color);
+    flex-wrap: wrap;
 }
 
 .radio-label {
@@ -391,6 +398,7 @@ select option {
 .checkbox-group {
     display: flex;
     gap: 0.5rem;
+    flex-wrap: wrap;
 }
 .checkbox-group.flex-row {
     flex-direction: row;
@@ -549,7 +557,11 @@ select option {
 
 .results-title-row {
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    flex-wrap: wrap;
+    gap: 0.5rem;
 }
 
 .results-count {
@@ -645,6 +657,7 @@ select option {
     justify-content: space-between;
     align-items: flex-start;
     gap: 1rem;
+    flex-wrap: wrap;
 }
 
 .subject-name {
@@ -681,6 +694,7 @@ select option {
     gap: 0.5rem;
     font-size: 0.8rem;
     color: var(--text-secondary);
+    flex-wrap: wrap;
 }
 .schedule-icon {
     color: var(--text-muted);
@@ -809,6 +823,7 @@ select option {
     color: var(--text-muted);
     border-top: 1px solid rgba(255, 255, 255, 0.04);
     padding-top: 0.5rem;
+    flex-wrap: wrap;
 }
 .extra-info-item span {
     color: var(--text-secondary);
@@ -846,6 +861,7 @@ select option {
 .card-action-row {
     display: flex;
     gap: 0.5rem;
+    flex-wrap: wrap;
 }
 .card-action-row button {
     flex: 1;
@@ -864,6 +880,7 @@ select option {
     padding: 0.2rem;
     border-radius: var(--radius-sm);
     border: 1px solid var(--border-color);
+    flex-wrap: wrap;
 }
 .tab-btn {
     border: none;
@@ -1356,10 +1373,18 @@ select option {
     .app-container {
         min-height: auto;
         overflow-y: visible;
+        padding: 0.5rem;
     }
     .app-main {
         grid-template-columns: 1fr;
+    }
+    .filters-panel {
+        position: static;
+        width: 100%;
         height: auto;
+    }
+    .course-card {
+        padding: 0.75rem 1rem;
     }
     .panel {
         height: auto;
