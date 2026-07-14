@@ -791,6 +791,9 @@ def compile_database():
     cpo_list = []
     
     for comm in all_parsed_commissions.values():
+        if comm['professor'].lower().strip() == 'a designar':
+            continue
+            
         if comm['subject'].upper() in CPC_SUBJECTS_UPPER or comm['subject'].upper() == 'CPC':
             cpc_list.append(comm)
         else:

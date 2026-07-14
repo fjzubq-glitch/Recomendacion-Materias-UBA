@@ -58,10 +58,10 @@ export function applyFilters() {
 
         // 2.5 Turno filter
         const commShift = getCommissionShift(rec.schedule);
-        if (!allowedShifts.includes(commShift)) return false;
+        if (allowedShifts.length > 0 && !allowedShifts.includes(commShift)) return false;
 
         // 3. Difficulty filter
-        if (!allowedDiffs.includes(rec.difficulty)) return false;
+        if (allowedDiffs.length > 0 && !allowedDiffs.includes(rec.difficulty)) return false;
 
         // 4. Sources filter
         const hasCheckedSource = rec.sources.some(src => allowedSources.includes(src));
