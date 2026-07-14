@@ -252,7 +252,14 @@ h1, h2, h3, h4 {
 }
 
 .filters-panel {
-    /* Removed sticky and fixed height so it flows naturally */
+    background: #1e293b;
+    border-radius: var(--radius-lg);
+    border: 1px solid var(--border-color);
+    padding: 1.5rem;
+    position: sticky;
+    top: 1rem;
+    height: calc(100vh - 2rem);
+    overflow-y: auto;
 }
 
 .btn-primary:hover {

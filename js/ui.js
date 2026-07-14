@@ -183,8 +183,7 @@ export function renderCards() {
             commentsSection = `
                 <div class="reviews-summary-row">
                     <span class="reviews-count-text">💬 ${rec.comments.length} opinión${rec.comments.length > 1 ? 'es' : ''}</span>
-                    <span class="reviews-peek">"${firstComment.text}"</span>
-                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
                 </div>
             `;
         } else {
