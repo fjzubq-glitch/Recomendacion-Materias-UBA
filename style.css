@@ -2,11 +2,11 @@
    DESIGN SYSTEM & CUSTOM VARIABLES
    ========================================================================== */
 :root {
-    /* Color Palette - Premium Slate & Dark Indigo Theme */
-    --bg-base: #0b0f19;
-    --bg-surface: rgba(21, 32, 54, 0.65);
-    --bg-surface-hover: rgba(30, 45, 75, 0.85);
-    --bg-surface-active: rgba(38, 57, 95, 0.95);
+    /* Color Palette - Premium Pure Black & Dark Indigo Theme */
+    --bg-base: #000000;
+    --bg-surface: rgba(15, 15, 15, 0.75);
+    --bg-surface-hover: rgba(25, 25, 25, 0.85);
+    --bg-surface-active: rgba(35, 35, 35, 0.95);
     
     --border-color: rgba(255, 255, 255, 0.08);
     --border-color-focus: rgba(99, 102, 241, 0.4);
@@ -252,7 +252,8 @@ h1, h2, h3, h4 {
 }
 
 .filters-panel {
-    background: #1e293b;
+    background: var(--bg-surface);
+    backdrop-filter: blur(12px);
     border-radius: var(--radius-lg);
     border: 1px solid var(--border-color);
     padding: 1.5rem;
@@ -361,7 +362,7 @@ select:focus {
     border-color: var(--accent-color);
 }
 select option {
-    background: #0f172a;
+    background: var(--bg-surface);
     color: var(--text-primary);
 }
 
@@ -1241,7 +1242,8 @@ select option {
     right: -480px;
     width: 480px;
     height: 100vh;
-    background: #0f172a;
+    background: var(--bg-surface);
+    backdrop-filter: blur(16px);
     border-left: 1px solid var(--border-color);
     box-shadow: -10px 0 30px rgba(0, 0, 0, 0.6);
     z-index: 101;
@@ -1474,7 +1476,8 @@ select option {
 }
 
 .modal-container {
-    background: #0f172a;
+    background: var(--bg-surface);
+    backdrop-filter: blur(16px);
     border: 1px solid var(--border-color);
     border-radius: var(--radius-lg);
     box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
