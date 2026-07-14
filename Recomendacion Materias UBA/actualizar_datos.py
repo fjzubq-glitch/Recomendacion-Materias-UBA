@@ -257,7 +257,7 @@ def parse_cpc_row(headers, row, sheet_name, source_name):
         return None
         
     subject = ""
-    for k in ['MATERIA', 'MATERIA ', 'CÁTEDRA', 'CATEDRA', 'ACTIVIDAD', 'ACTIVIDAD ']:
+    for k in ['MATERIA', 'MATERIA ', 'ACTIVIDAD', 'ACTIVIDAD ']:
         if k in row_dict and not pd.isna(row_dict[k]):
             sval = str(row_dict[k]).strip()
             if not sval.isdigit() and len(sval) > 4:
@@ -378,7 +378,7 @@ def parse_cpo_row(headers, row, sheet_name, source_name):
         return None
         
     subject = ""
-    for k in ['MATERIA', 'MATERIA ', 'CÁTEDRA', 'CATEDRA', 'ACTIVIDAD', 'ACTIVIDAD ']:
+    for k in ['MATERIA', 'MATERIA ', 'ACTIVIDAD', 'ACTIVIDAD ']:
         if k in row_dict and not pd.isna(row_dict[k]):
             sval = str(row_dict[k]).strip()
             if not sval.isdigit() and len(sval) > 4:
