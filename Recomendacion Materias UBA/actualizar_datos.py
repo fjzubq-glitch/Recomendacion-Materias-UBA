@@ -621,7 +621,14 @@ def compile_database():
         'Elementos de Derecho Comercial',
         'Elementos de Derecho Procesal Civil y Comercial',
         'Elementos de Derecho Penal y Procesal Penal',
-        'Contratos Civiles y Comerciales'
+        'Contratos Civiles y Comerciales',
+        'Derecho Internacional Público',
+        'Derecho del Trabajo y de la Seguridad Social',
+        'Derecho Administrativo',
+        'Derecho Comercial (Sociedades)',
+        'Derecho de Familia y Sucesiones',
+        'Derecho Tributario y Finanzas Públicas',
+        'Derecho Internacional Privado'
     }
     
     # We will gather all commissions from BOTH CPC and CPO directories

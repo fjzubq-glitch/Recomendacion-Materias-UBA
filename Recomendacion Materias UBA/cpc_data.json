@@ -4564,6 +4564,36 @@
         "is_pro_student": true
     },
     {
+        "subject": "Derecho del Trabajo y de la Seguridad Social",
+        "commission": "772",
+        "professor": "PRESENCIAL",
+        "days": [],
+        "time_start": "08:30",
+        "time_end": "10:00",
+        "schedule": "ARIAS GIBERT ENRIQUE",
+        "modality": "Presencial",
+        "difficulty": "Media",
+        "corte_puntos": "-",
+        "aula": "",
+        "comments": [
+            {
+                "source": "Recomellas",
+                "text": "Recomendable, notas altas, muy interesante. Excelente equipo docente."
+            },
+            {
+                "source": "La Cámpora",
+                "text": "Perspectiva popular. Muchos docentes e invitados del ámbito académico, político y sindical. Muy recomendada"
+            }
+        ],
+        "sources": [
+            "Recomellas",
+            "Franja Morada",
+            "Nexo",
+            "La Cámpora"
+        ],
+        "is_pro_student": true
+    },
+    {
         "subject": "Derechos Humanos y Garantías",
         "commission": "722",
         "professor": "REMOTA",
@@ -5504,6 +5534,42 @@
         "is_pro_student": true
     },
     {
+        "subject": "Derecho del Trabajo y de la Seguridad Social",
+        "commission": "1933",
+        "professor": "VIVES ALEJANDRA",
+        "days": [],
+        "time_start": "08:30",
+        "time_end": "10:00",
+        "schedule": "8:30 A 10",
+        "modality": "Virtual",
+        "difficulty": "Media",
+        "corte_puntos": "-",
+        "aula": "",
+        "comments": [],
+        "sources": [
+            "Recomellas"
+        ],
+        "is_pro_student": false
+    },
+    {
+        "subject": "Derecho del Trabajo y de la Seguridad Social",
+        "commission": "4107",
+        "professor": "MORALES AMARANTE",
+        "days": [],
+        "time_start": "08:30",
+        "time_end": "10:00",
+        "schedule": "8:30 A 10",
+        "modality": "Presencial",
+        "difficulty": "Media",
+        "corte_puntos": "-",
+        "aula": "",
+        "comments": [],
+        "sources": [
+            "Recomellas"
+        ],
+        "is_pro_student": false
+    },
+    {
         "subject": "Teoría General del Derecho",
         "commission": "110",
         "professor": "VIRGILI CLAUDIO",
@@ -5525,6 +5591,24 @@
             "Recomellas",
             "Franja Morada",
             "Nexo"
+        ],
+        "is_pro_student": false
+    },
+    {
+        "subject": "Derecho del Trabajo y de la Seguridad Social",
+        "commission": "1516",
+        "professor": "MICALE ADRIANA",
+        "days": [],
+        "time_start": "10:00",
+        "time_end": "11:30",
+        "schedule": "10 A 11:30",
+        "modality": "Presencial",
+        "difficulty": "Media",
+        "corte_puntos": "-",
+        "aula": "",
+        "comments": [],
+        "sources": [
+            "Recomellas"
         ],
         "is_pro_student": false
     },
@@ -5579,6 +5663,29 @@
         "is_pro_student": false
     },
     {
+        "subject": "Derecho del Trabajo y de la Seguridad Social",
+        "commission": "567",
+        "professor": "RUGGIERO MARTA",
+        "days": [],
+        "time_start": "10:00",
+        "time_end": "13:00",
+        "schedule": "10 A 13",
+        "modality": "Presencial",
+        "difficulty": "Media",
+        "corte_puntos": "-",
+        "aula": "",
+        "comments": [
+            {
+                "source": "Recomellas",
+                "text": "No hay información"
+            }
+        ],
+        "sources": [
+            "Recomellas"
+        ],
+        "is_pro_student": false
+    },
+    {
         "subject": "Elementos de Derecho Procesal Civil y Comercial",
         "commission": "188",
         "professor": "KLEIMAN PABLO",
@@ -5619,6 +5726,31 @@
             {
                 "source": "Recomellas",
                 "text": "No hay mucha información pero los pocos comentarios que hay dicen que las clases son un poco aburridas y que el profesor tiene humor particular"
+            }
+        ],
+        "sources": [
+            "Recomellas",
+            "Franja Morada",
+            "Nexo"
+        ],
+        "is_pro_student": false
+    },
+    {
+        "subject": "Derecho del Trabajo y de la Seguridad Social",
+        "commission": "181",
+        "professor": "NOVOA MARISA",
+        "days": [],
+        "time_start": "14:00",
+        "time_end": "15:30",
+        "schedule": "14 A 15:30",
+        "modality": "Presencial",
+        "difficulty": "Media",
+        "corte_puntos": "-",
+        "aula": "",
+        "comments": [
+            {
+                "source": "Recomellas",
+                "text": "Recomendada - Marisa es una gran docente - El examen fue con todo lo visto en clase sin sorpresas. Hiper dispuesta a ayudar. Constesta los mails y esta muy pendiente que todos entendamos. Gran porcentaje de promocionados y pone notas altas. Se tienen que entregar Tps a lo largo de la cursada que son largos pero se realizan grupalmente"
             }
         ],
         "sources": [
@@ -5797,6 +5929,79 @@
         "is_pro_student": false
     },
     {
+        "subject": "Derecho del Trabajo y de la Seguridad Social",
+        "commission": "597",
+        "professor": "SEDA JUAN",
+        "days": [],
+        "time_start": "20:00",
+        "time_end": "21:30",
+        "schedule": "20 A 21:30",
+        "modality": "Presencial",
+        "difficulty": "Media",
+        "corte_puntos": "-",
+        "aula": "",
+        "comments": [
+            {
+                "source": "Recomellas",
+                "text": "Recomendable, excelente materia. Toman unos trabajos practicos para la regularidad."
+            }
+        ],
+        "sources": [
+            "Recomellas"
+        ],
+        "is_pro_student": false
+    },
+    {
+        "subject": "Derecho del Trabajo y de la Seguridad Social",
+        "commission": "134",
+        "professor": "LAS HERAS HORACIO",
+        "days": [],
+        "time_start": "20:00",
+        "time_end": "21:30",
+        "schedule": "20 A 21:30",
+        "modality": "Presencial",
+        "difficulty": "Media",
+        "corte_puntos": "-",
+        "aula": "",
+        "comments": [
+            {
+                "source": "Recomellas",
+                "text": "Recomendable, buen docente y buena llegada a lxs alumnos."
+            }
+        ],
+        "sources": [
+            "Recomellas",
+            "Franja Morada",
+            "Nexo"
+        ],
+        "is_pro_student": false
+    },
+    {
+        "subject": "Derecho del Trabajo y de la Seguridad Social",
+        "commission": "142",
+        "professor": "LAS HERAS HORACIO",
+        "days": [],
+        "time_start": "20:00",
+        "time_end": "21:30",
+        "schedule": "20 A 21:30",
+        "modality": "Presencial",
+        "difficulty": "Media",
+        "corte_puntos": "-",
+        "aula": "",
+        "comments": [
+            {
+                "source": "Recomellas",
+                "text": "Recomendable, buen docente y buena llegada a lxs alumnos."
+            }
+        ],
+        "sources": [
+            "Recomellas",
+            "Franja Morada",
+            "Nexo"
+        ],
+        "is_pro_student": false
+    },
+    {
         "subject": "Elementos de Derecho Procesal Civil y Comercial",
         "commission": "168",
         "professor": "REYBET CECILIA",
@@ -5852,6 +6057,31 @@
         "is_pro_student": true
     },
     {
+        "subject": "Derecho del Trabajo y de la Seguridad Social",
+        "commission": "4108",
+        "professor": "LANCHINI MATIAS",
+        "days": [],
+        "time_start": "17:00",
+        "time_end": "20:00",
+        "schedule": "17 A 20",
+        "modality": "Presencial",
+        "difficulty": "Media",
+        "corte_puntos": "-",
+        "aula": "",
+        "comments": [
+            {
+                "source": "Recomellas",
+                "text": "Recomiendan se aprende, hay que hacer un trabajo de investigacion. Muy copado"
+            }
+        ],
+        "sources": [
+            "Recomellas",
+            "Franja Morada",
+            "Nexo"
+        ],
+        "is_pro_student": false
+    },
+    {
         "subject": "Teoría General del Derecho",
         "commission": "4117",
         "professor": "GIANIBELLI GUILLERMO",
@@ -5873,6 +6103,36 @@
             "Recomellas",
             "Franja Morada",
             "Nexo"
+        ],
+        "is_pro_student": true
+    },
+    {
+        "subject": "Derecho del Trabajo y de la Seguridad Social",
+        "commission": "136",
+        "professor": "PEPE CARLOS",
+        "days": [],
+        "time_start": "18:30",
+        "time_end": "21:30",
+        "schedule": "18:30 A 21:30",
+        "modality": "Presencial",
+        "difficulty": "Media",
+        "corte_puntos": "-",
+        "aula": "",
+        "comments": [
+            {
+                "source": "Recomellas",
+                "text": "Recomendable, se ve un monton de temas. Se ve practica profesional."
+            },
+            {
+                "source": "La Cámpora",
+                "text": "Es todo practico. Todas las semanas nos hacen formar grupos y resolver casos practicos pero es facil. El cuerpo docente es muy atento y contestan todas las dudas. Las mayoria de las clases las da Pepe y son muy claras. El primer parcial fue realizar 3/4 escritos como los que se realizan en clase, te permite tener el material de apoyo. El segundo parcial fue una liquidacion por despido sin causa. Se hace un simulacro de juicio, sin nota. Toman lista siempre y dan las 3 horas de clase. Aprendes mucho, pro alumno."
+            }
+        ],
+        "sources": [
+            "Recomellas",
+            "Franja Morada",
+            "Nexo",
+            "La Cámpora"
         ],
         "is_pro_student": true
     },
@@ -9219,6 +9479,31 @@
         "is_pro_student": true
     },
     {
+        "subject": "Derecho Internacional Público",
+        "commission": "1834",
+        "professor": "VIGEVANO MARTA",
+        "days": [],
+        "time_start": "17:00",
+        "time_end": "18:30",
+        "schedule": "17 A 18:30",
+        "modality": "Presencial",
+        "difficulty": "Media",
+        "corte_puntos": "-",
+        "aula": "",
+        "comments": [
+            {
+                "source": "Recomellas",
+                "text": "Los profesores dan clases muy dedicadas e interesantes, proporcionan el material de lectura; y hacia el final de la materia los temas son más relacionados al derecho internacional público"
+            }
+        ],
+        "sources": [
+            "Recomellas",
+            "Franja Morada",
+            "Nexo"
+        ],
+        "is_pro_student": false
+    },
+    {
         "subject": "Elementos de Derecho Constitucional",
         "commission": "157",
         "professor": "SAGUES MARIA SOFIA",
@@ -11018,6 +11303,10 @@
             {
                 "source": "Recomellas",
                 "text": "Catedra dinamica, hay trabajos practicos. Recomendable, buen docente."
+            },
+            {
+                "source": "Recomellas",
+                "text": "La catedra varia el docente ofertado cada  cuatrimestre, a principio de año es Pedro Caminos. Pero el curso es el mismo, las clases son muy dinámicas y entretenidas. Toma lo dado en clase y cuando cursé promocionaron todos. No toma asistencia."
             }
         ],
         "sources": [
@@ -23613,6 +23902,972 @@
         "is_pro_student": false
     },
     {
+        "subject": "Derecho del Trabajo y de la Seguridad Social",
+        "commission": "8200",
+        "professor": "GIANIBELLI",
+        "days": [
+            "MI"
+        ],
+        "time_start": "15:30",
+        "time_end": "18:30",
+        "schedule": "Mie 15:30 a 18:30",
+        "modality": "Presencial",
+        "difficulty": "Media",
+        "corte_puntos": "-",
+        "aula": "",
+        "comments": [
+            {
+                "source": "Otros",
+                "text": "tuvo Cátedra recomendable. Los parciales son escritos y toman lo que dan en la clase. No toman lista. No toman trabajos prácticos. Los docentes tienen buena llegada con los estudiantes."
+            }
+        ],
+        "sources": [
+            "Franja Morada",
+            "Otros"
+        ],
+        "is_pro_student": false
+    },
+    {
+        "subject": "Derecho del Trabajo y de la Seguridad Social",
+        "commission": "8210",
+        "professor": "GIANIBELLI-TOSCA DIEGO",
+        "days": [
+            "MA",
+            "VI"
+        ],
+        "time_start": "08:30",
+        "time_end": "10:00",
+        "schedule": "Mar 08:30 a 10:00 - Vie 08:30 a 10:00",
+        "modality": "Presencial",
+        "difficulty": "Media",
+        "corte_puntos": "-",
+        "aula": "",
+        "comments": [
+            {
+                "source": "Otros",
+                "text": "tuvo"
+            }
+        ],
+        "sources": [
+            "Franja Morada",
+            "Otros"
+        ],
+        "is_pro_student": false
+    },
+    {
+        "subject": "Derecho del Trabajo y de la Seguridad Social",
+        "commission": "8211",
+        "professor": "GIANIBELLI-TOSCA DIEGO",
+        "days": [
+            "MA",
+            "VI"
+        ],
+        "time_start": "10:00",
+        "time_end": "11:30",
+        "schedule": "Mar 10:00 a 11:30 - Vie 10:00 a 11:30",
+        "modality": "Presencial",
+        "difficulty": "Media",
+        "corte_puntos": "-",
+        "aula": "",
+        "comments": [
+            {
+                "source": "Otros",
+                "text": "tuvo Cátedra no recomendable. La docente no tiene buena predisposición con los estudiantes. Los parciales son mitad múltiple choice y mitad escrito. No toman asistencia ni trabajos prácticos. La docente empieza las clases media hora más tarde y son cortas. Es exigente tanto en el parcial, cómo a la hora de corregir."
+            }
+        ],
+        "sources": [
+            "Franja Morada",
+            "Otros"
+        ],
+        "is_pro_student": true
+    },
+    {
+        "subject": "Derecho del Trabajo y de la Seguridad Social",
+        "commission": "8212",
+        "professor": "GIANIBELLI-SUDERA A.",
+        "days": [
+            "LU",
+            "JU"
+        ],
+        "time_start": "15:30",
+        "time_end": "17:00",
+        "schedule": "Lun 15:30 a 17:00 - Jue 15:30 a 17:00",
+        "modality": "Presencial",
+        "difficulty": "Media",
+        "corte_puntos": "-",
+        "aula": "",
+        "comments": [
+            {
+                "source": "Otros",
+                "text": "tuvo Cátedra recomendable para aprender. Los docentes tienen buena llegada con los estudiantes y saben un montón. Los parciales son orales, a diferencia de que el segundo lo toman en conjunto a un caso práctico."
+            }
+        ],
+        "sources": [
+            "Franja Morada",
+            "Otros"
+        ],
+        "is_pro_student": false
+    },
+    {
+        "subject": "Derecho del Trabajo y de la Seguridad Social",
+        "commission": "8213",
+        "professor": "GIANIBELLI-PINTO V.S.",
+        "days": [
+            "MA",
+            "VI"
+        ],
+        "time_start": "15:30",
+        "time_end": "17:00",
+        "schedule": "Mar 15:30 a 17:00 - Vie 15:30 a 17:00",
+        "modality": "Presencial",
+        "difficulty": "Media",
+        "corte_puntos": "-",
+        "aula": "",
+        "comments": [
+            {
+                "source": "Otros",
+                "text": "tuvo"
+            }
+        ],
+        "sources": [
+            "Franja Morada",
+            "Otros"
+        ],
+        "is_pro_student": false
+    },
+    {
+        "subject": "Derecho del Trabajo y de la Seguridad Social",
+        "commission": "8214",
+        "professor": "GIANIBELLI-PINTO V.S.",
+        "days": [
+            "MA",
+            "VI"
+        ],
+        "time_start": "17:00",
+        "time_end": "18:30",
+        "schedule": "Mar 17:00 a 18:30 - Vie 17:00 a 18:30",
+        "modality": "Presencial",
+        "difficulty": "Media",
+        "corte_puntos": "-",
+        "aula": "",
+        "comments": [
+            {
+                "source": "Otros",
+                "text": "tuvo Cátedra recomendable para aprender. La docente tiene muy buena llegada con los estudiantes y sabe un montón. Los parciales son escritos a desarrollar y son exigentes a la hora de corregir."
+            }
+        ],
+        "sources": [
+            "Franja Morada",
+            "Otros"
+        ],
+        "is_pro_student": false
+    },
+    {
+        "subject": "Derecho del Trabajo y de la Seguridad Social",
+        "commission": "8215",
+        "professor": "GIANIBELLI-SALPETER",
+        "days": [
+            "MI"
+        ],
+        "time_start": "20:00",
+        "time_end": "23:00",
+        "schedule": "Mie 20:00 a 23:00",
+        "modality": "Presencial",
+        "difficulty": "Media",
+        "corte_puntos": "-",
+        "aula": "",
+        "comments": [
+            {
+                "source": "Otros",
+                "text": "tuvo Cátedra recomendada para aprender. Los parciales son multiple choice y te dan 50 minutos para hacerlo, es presencial y hay preguntas que tienen más de una opción correcta. Los recuperatorios son escritos a desarrollar. Como condición de regularidad hay que hacer un video en grupo hablando sobre un tema del cronograma."
+            }
+        ],
+        "sources": [
+            "Franja Morada",
+            "Otros"
+        ],
+        "is_pro_student": false
+    },
+    {
+        "subject": "Derecho del Trabajo y de la Seguridad Social",
+        "commission": "8220",
+        "professor": "TOPET-TRUBUZIO JOSE",
+        "days": [
+            "MA",
+            "VI"
+        ],
+        "time_start": "08:30",
+        "time_end": "10:00",
+        "schedule": "Mar 08:30 a 10:00 - Vie 08:30 a 10:00",
+        "modality": "Virtual",
+        "difficulty": "Media",
+        "corte_puntos": "-",
+        "aula": "",
+        "comments": [],
+        "sources": [
+            "Franja Morada"
+        ],
+        "is_pro_student": false
+    },
+    {
+        "subject": "Derecho del Trabajo y de la Seguridad Social",
+        "commission": "8221",
+        "professor": "TOPET-MURUA",
+        "days": [
+            "MA",
+            "VI"
+        ],
+        "time_start": "15:30",
+        "time_end": "17:00",
+        "schedule": "Mar 15:30 a 17:00 - Vie 15:30 a 17:00",
+        "modality": "Virtual",
+        "difficulty": "Media",
+        "corte_puntos": "-",
+        "aula": "",
+        "comments": [],
+        "sources": [
+            "Franja Morada"
+        ],
+        "is_pro_student": false
+    },
+    {
+        "subject": "Derecho del Trabajo y de la Seguridad Social",
+        "commission": "8222",
+        "professor": "TOPET-REYBET C.",
+        "days": [
+            "LU",
+            "JU"
+        ],
+        "time_start": "20:00",
+        "time_end": "21:30",
+        "schedule": "Lun 20:00 a 21:30 - Jue 20:00 a 21:30",
+        "modality": "Presencial",
+        "difficulty": "Media",
+        "corte_puntos": "-",
+        "aula": "",
+        "comments": [
+            {
+                "source": "Otros",
+                "text": "tuvo Cátedra recomendable. Los parciales son orales y una exposición en grupo. Es una cátedra tranquila, el docente toma lo que da en la clase. Los docentes dan lugar al debate. No son exigentes, pero buscan que incorporen y utilicen el vocabulario jurídico. VIRTUALES TURNO MAÑANA 8220 Remota TOPET-TRUBUZIO JOSE Mar 08:30 a 10:00 - Vie 08:30 a 10:00 Corte 1C 2025: no tuvo Cátedra nueva, sin información. TURNO TARDE 8252 Remota MAZA-MANAUTA Lun 14:00 a 15:30 - Jue 14:00 a 15:30 Corte 1C 2025: no tuvo Cátedra recomendada para aprender. Toma asistencia. Los parciales son una parte a desarrollar y otra múltiple choice, donde las incorrectas restan. Toma un solo trabajo práctico. El docente es muy predispuesto con la materia y los estudiantes y explica muy bien, pero es exigente la hora de corregir. 8231 Remota RECALDE-FERNANDEZ MADRID JAVIER Lun 14:00 a 15:30 - Jue 14:00 a 15:30 Corte 1C 2025: no tuvo 8233 Remota RECALDE-FERNANDEZ MADRID JAVIER Lun 15:30 a 17:00 - Jue 15:30 a 17:00 Corte 1C 2025: no tuvo Cátedra recomendable. Los docentes son unos genios, saben un montón y tienen muy buena llegada con los estudiantes. Los parciales son virtuales, múltiple choice. 8221 Remota TOPET-MURUA Mar 15:30 a 17:00 - Vie 15:30 a 17:00 Corte 1C 2025: no tuvo Cátedra recomendable. Los docentes tienen buena llegada con los estudiantes. Los exámenes son orales. Mandan guías de preguntas no obligatorias que ayudan a practicar para el parcial. Utilizan el manual de Grisolía. TURNO NOCHE 8234 Remota RECALDE-NAGATA Lun 20:00 a 21:30 - Jue 20:00 a 21:30 Corte 1C 2025: 7,56 8235 Remota RECALDE-NAGATA Lun 20:00 a 21:30 - Jue 20:00 a 21:30 Corte 1C 2025: 7,74 Cátedra recomendable. No toma asistencia. El parcial es presencial. Los docentes tienen buena llegada con los estudiantes y explican muy bien. 8223 Remota TOPET-COPANI Lun 21:30 a 23:00 - Jue 21:30 a 23:00 Corte 1C 2025: 6,92 Opiniones encontradas entre los estudiantes. Si bien los docentes saben un montón, se pierden al momento de dar los temas de las clases y los mezclan. Toman asistencia y son exigentes con la misma. Los parciales son una parte a desarrollar y otra múltiple choice domiciliarios. No toman trabajos prácticos. 8224 Remota TOPET-DUCROS NOVELLI D. Lun 18:30 a 20:00 - Jue 18:30 a 20:00 Corte 1C 2025: 6,06 Cátedra recomendable. Los docentes tienen buena llegada con los estudiantes y saben un montón, hacen que la clase sea interesante y están muy predispuestos con la materia. Los parciales son múltiple choice, en donde las que están mal restan y toman lo que dan en clase. Toman lista."
+            }
+        ],
+        "sources": [
+            "Franja Morada",
+            "Otros"
+        ],
+        "is_pro_student": false
+    },
+    {
+        "subject": "Derecho del Trabajo y de la Seguridad Social",
+        "commission": "8223",
+        "professor": "TOPET-COPANI",
+        "days": [
+            "LU",
+            "JU"
+        ],
+        "time_start": "21:30",
+        "time_end": "23:00",
+        "schedule": "Lun 21:30 a 23:00 - Jue 21:30 a 23:00",
+        "modality": "Virtual",
+        "difficulty": "Media",
+        "corte_puntos": "-",
+        "aula": "",
+        "comments": [],
+        "sources": [
+            "Franja Morada"
+        ],
+        "is_pro_student": false
+    },
+    {
+        "subject": "Derecho del Trabajo y de la Seguridad Social",
+        "commission": "8224",
+        "professor": "TOPET-DUCROS NOVELLI D.",
+        "days": [
+            "LU",
+            "JU"
+        ],
+        "time_start": "18:30",
+        "time_end": "20:00",
+        "schedule": "Lun 18:30 a 20:00 - Jue 18:30 a 20:00",
+        "modality": "Virtual",
+        "difficulty": "Media",
+        "corte_puntos": "-",
+        "aula": "",
+        "comments": [],
+        "sources": [
+            "Franja Morada"
+        ],
+        "is_pro_student": false
+    },
+    {
+        "subject": "Derecho del Trabajo y de la Seguridad Social",
+        "commission": "8225",
+        "professor": "TOPET-HIERREZUELO R.",
+        "days": [
+            "MA",
+            "VI"
+        ],
+        "time_start": "18:30",
+        "time_end": "20:00",
+        "schedule": "Mar 18:30 a 20:00 - Vie 18:30 a 20:00",
+        "modality": "Presencial",
+        "difficulty": "Media",
+        "corte_puntos": "-",
+        "aula": "",
+        "comments": [
+            {
+                "source": "Otros",
+                "text": "Cátedra recomendable.Toman asistencia. El parcial son preguntas a desarrollar y toma lo dado en clase. No toma trabajos prácticos. El docente tiene buena llegada con los estudiantes, las clases son llevaderas y explica muy bien. Buen nivel de aprobados."
+            }
+        ],
+        "sources": [
+            "Franja Morada",
+            "Otros"
+        ],
+        "is_pro_student": true
+    },
+    {
+        "subject": "Derecho del Trabajo y de la Seguridad Social",
+        "commission": "8226",
+        "professor": "TOPET-PRECEDO E.",
+        "days": [
+            "LU",
+            "JU"
+        ],
+        "time_start": "14:00",
+        "time_end": "15:30",
+        "schedule": "Lun 14:00 a 15:30 - Jue 14:00 a 15:30",
+        "modality": "Presencial",
+        "difficulty": "Media",
+        "corte_puntos": "-",
+        "aula": "",
+        "comments": [
+            {
+                "source": "Otros",
+                "text": "tuvo Cátedra recomendable. Toma asistencia y son exigentes con la puntualidad. Los parciales son escritos a desarrollar con los temas vistos en clase. No toma trabajos prácticos. Los docentes son unos genios, saben un montón y tienen buena llegada con los alumnos. TURNO NOCHE"
+            }
+        ],
+        "sources": [
+            "Franja Morada",
+            "Otros"
+        ],
+        "is_pro_student": false
+    },
+    {
+        "subject": "Derecho del Trabajo y de la Seguridad Social",
+        "commission": "8230",
+        "professor": "RECALDE-GAMBACORTA",
+        "days": [
+            "MI"
+        ],
+        "time_start": "10:00",
+        "time_end": "13:00",
+        "schedule": "Mie 10:00 a 13:00",
+        "modality": "Presencial",
+        "difficulty": "Media",
+        "corte_puntos": "-",
+        "aula": "",
+        "comments": [
+            {
+                "source": "Otros",
+                "text": "Cátedra no recomendable. El docente no tiene buena llegada con los estudiantes y las clases son densas. Es una cátedra desorganizada. Los parciales son orales.. Se utiliza un manual a elección y se hace mucho énfasis en la ley de contrato de trabajo. TURNO TARDE"
+            }
+        ],
+        "sources": [
+            "Franja Morada",
+            "Otros"
+        ],
+        "is_pro_student": false
+    },
+    {
+        "subject": "Derecho del Trabajo y de la Seguridad Social",
+        "commission": "8231",
+        "professor": "RECALDE-FERNANDEZ MADRID JAVIER",
+        "days": [
+            "LU",
+            "JU"
+        ],
+        "time_start": "14:00",
+        "time_end": "15:30",
+        "schedule": "Lun 14:00 a 15:30 - Jue 14:00 a 15:30",
+        "modality": "Virtual",
+        "difficulty": "Media",
+        "corte_puntos": "-",
+        "aula": "",
+        "comments": [],
+        "sources": [
+            "Franja Morada"
+        ],
+        "is_pro_student": false
+    },
+    {
+        "subject": "Derecho del Trabajo y de la Seguridad Social",
+        "commission": "8232",
+        "professor": "RECALDE-GAMBACORTA",
+        "days": [
+            "MI"
+        ],
+        "time_start": "14:00",
+        "time_end": "17:00",
+        "schedule": "Mie 14:00 a 17:00",
+        "modality": "Presencial",
+        "difficulty": "Media",
+        "corte_puntos": "-",
+        "aula": "",
+        "comments": [
+            {
+                "source": "Otros",
+                "text": "tuvo Cátedra no recomendable. El docente no tiene buena llegada con los estudiantes y las clases son densas. Es una cátedra desorganizada. Los parciales son orales. Se utiliza un manual a elección y se hace mucho énfasis en la ley de contrato de trabajo."
+            }
+        ],
+        "sources": [
+            "Franja Morada",
+            "Otros"
+        ],
+        "is_pro_student": false
+    },
+    {
+        "subject": "Derecho del Trabajo y de la Seguridad Social",
+        "commission": "8233",
+        "professor": "RECALDE-FERNANDEZ MADRID JAVIER",
+        "days": [
+            "LU",
+            "JU"
+        ],
+        "time_start": "15:30",
+        "time_end": "17:00",
+        "schedule": "Lun 15:30 a 17:00 - Jue 15:30 a 17:00",
+        "modality": "Virtual",
+        "difficulty": "Media",
+        "corte_puntos": "-",
+        "aula": "",
+        "comments": [],
+        "sources": [
+            "Franja Morada"
+        ],
+        "is_pro_student": false
+    },
+    {
+        "subject": "Derecho del Trabajo y de la Seguridad Social",
+        "commission": "8234",
+        "professor": "RECALDE-NAGATA",
+        "days": [
+            "LU",
+            "JU"
+        ],
+        "time_start": "20:00",
+        "time_end": "21:30",
+        "schedule": "Lun 20:00 a 21:30 - Jue 20:00 a 21:30",
+        "modality": "Virtual",
+        "difficulty": "Media",
+        "corte_puntos": "-",
+        "aula": "",
+        "comments": [],
+        "sources": [
+            "Franja Morada"
+        ],
+        "is_pro_student": false
+    },
+    {
+        "subject": "Derecho del Trabajo y de la Seguridad Social",
+        "commission": "8235",
+        "professor": "RECALDE-NAGATA",
+        "days": [
+            "LU",
+            "JU"
+        ],
+        "time_start": "20:00",
+        "time_end": "21:30",
+        "schedule": "Lun 20:00 a 21:30 - Jue 20:00 a 21:30",
+        "modality": "Virtual",
+        "difficulty": "Media",
+        "corte_puntos": "-",
+        "aula": "",
+        "comments": [],
+        "sources": [
+            "Franja Morada"
+        ],
+        "is_pro_student": false
+    },
+    {
+        "subject": "Derecho del Trabajo y de la Seguridad Social",
+        "commission": "8240",
+        "professor": "MUGNOLO-FRANZOSI MARÍA L.",
+        "days": [
+            "MI"
+        ],
+        "time_start": "14:00",
+        "time_end": "17:00",
+        "schedule": "Mie 14:00 a 17:00",
+        "modality": "Presencial",
+        "difficulty": "Media",
+        "corte_puntos": "-",
+        "aula": "",
+        "comments": [
+            {
+                "source": "Otros",
+                "text": "tuvo Cátedra no recomendable. Opiniones encontradas entre los estudiantes. Toman un múltiple choice en clase sin nota. Toman lista. Los parciales son escritos, largos y confusos. Hay docentes con buena llegada a los estudiantes y otros que no. Las clases son muy completas, pero igualmente se debe completar con el manual."
+            }
+        ],
+        "sources": [
+            "Franja Morada",
+            "Otros"
+        ],
+        "is_pro_student": false
+    },
+    {
+        "subject": "Derecho del Trabajo y de la Seguridad Social",
+        "commission": "8241",
+        "professor": "MUGNOLO-GUISADO",
+        "days": [
+            "LU",
+            "JU"
+        ],
+        "time_start": "15:30",
+        "time_end": "17:00",
+        "schedule": "Lun 15:30 a 17:00 - Jue 15:30 a 17:00",
+        "modality": "Presencial",
+        "difficulty": "Media",
+        "corte_puntos": "-",
+        "aula": "",
+        "comments": [
+            {
+                "source": "Otros",
+                "text": "Opiniones encontradas entre los estudiantes. Toman asistencia. Los parciales son multiple choice y las respuestas que están mal, restan. Los docentes saben un montón, pero la manera de dar clase es un poco densa. Hacen mucho enfásis en la ley."
+            }
+        ],
+        "sources": [
+            "Franja Morada",
+            "Otros"
+        ],
+        "is_pro_student": false
+    },
+    {
+        "subject": "Derecho del Trabajo y de la Seguridad Social",
+        "commission": "8242",
+        "professor": "MUGNOLO-RAGUSA",
+        "days": [
+            "MA",
+            "VI"
+        ],
+        "time_start": "15:30",
+        "time_end": "17:00",
+        "schedule": "Mar 15:30 a 17:00 - Vie 15:30 a 17:00",
+        "modality": "Presencial",
+        "difficulty": "Media",
+        "corte_puntos": "-",
+        "aula": "",
+        "comments": [
+            {
+                "source": "Otros",
+                "text": "tuvo Cátedra recomendable aunque desorganizada. Toma asistencia. No toma trabajos prácticos.. Los parciales son escritos a desarrollar. Buen nivel de aprobados."
+            }
+        ],
+        "sources": [
+            "Franja Morada",
+            "Otros"
+        ],
+        "is_pro_student": false
+    },
+    {
+        "subject": "Derecho del Trabajo y de la Seguridad Social",
+        "commission": "8243",
+        "professor": "MUGNOLO-MONSALVO",
+        "days": [
+            "LU",
+            "JU"
+        ],
+        "time_start": "17:00",
+        "time_end": "18:30",
+        "schedule": "Lun 17:00 a 18:30 - Jue 17:00 a 18:30",
+        "modality": "Presencial",
+        "difficulty": "Media",
+        "corte_puntos": "-",
+        "aula": "",
+        "comments": [
+            {
+                "source": "Otros",
+                "text": "tuvo Cátedra exigente. Toma asistencia. Los parciales son escritos a desarrollar. Tiene mucha lectura de bibliografía para complementar con la clase y son estrictos a la hora de corregir. Los docentes saben un montón y tienen buena llegada con los estudiantes. Suelen mandar trabajos prácticos antes del segundo parcial para practicar."
+            }
+        ],
+        "sources": [
+            "Franja Morada",
+            "Otros"
+        ],
+        "is_pro_student": false
+    },
+    {
+        "subject": "Derecho del Trabajo y de la Seguridad Social",
+        "commission": "8244",
+        "professor": "MUGNOLO-ZEBALLOS MARIANO",
+        "days": [
+            "MA",
+            "VI"
+        ],
+        "time_start": "18:30",
+        "time_end": "20:00",
+        "schedule": "Mar 18:30 a 20:00 - Vie 18:30 a 20:00",
+        "modality": "Presencial",
+        "difficulty": "Media",
+        "corte_puntos": "-",
+        "aula": "",
+        "comments": [
+            {
+                "source": "Otros",
+                "text": "tuvo Cátedra recomendable. Los docentes son unos genios, tienen buena llegada con los estudiantes y saben un montón. Los parciales son escritos a desarrollar."
+            }
+        ],
+        "sources": [
+            "Franja Morada",
+            "Otros"
+        ],
+        "is_pro_student": false
+    },
+    {
+        "subject": "Derecho del Trabajo y de la Seguridad Social",
+        "commission": "8245",
+        "professor": "MUGNOLO-CAPARROS LUCAS JOSE",
+        "days": [
+            "LU",
+            "JU"
+        ],
+        "time_start": "18:30",
+        "time_end": "20:00",
+        "schedule": "Lun 18:30 a 20:00 - Jue 18:30 a 20:00",
+        "modality": "Presencial",
+        "difficulty": "Media",
+        "corte_puntos": "-",
+        "aula": "",
+        "comments": [
+            {
+                "source": "Otros",
+                "text": "Cátedra recomendable. El docente tiene muy buena predisposición tanto con los alumnos como con la materia, sabe un montón y es una cátedra muy organizada. Los parciales son múltiple choice y los recuperatorios orales. Toma lo dado en clase."
+            }
+        ],
+        "sources": [
+            "Franja Morada",
+            "Otros"
+        ],
+        "is_pro_student": true
+    },
+    {
+        "subject": "Derecho del Trabajo y de la Seguridad Social",
+        "commission": "8246",
+        "professor": "MUGNOLO-RODRIGUEZ H.",
+        "days": [
+            "MA",
+            "VI"
+        ],
+        "time_start": "20:00",
+        "time_end": "21:30",
+        "schedule": "Mar 20:00 a 21:30 - Vie 20:00 a 21:30",
+        "modality": "Presencial",
+        "difficulty": "Media",
+        "corte_puntos": "-",
+        "aula": "",
+        "comments": [
+            {
+                "source": "Otros",
+                "text": "tuvo Cátedra recomendable. El docente toma lo que da en la clase. Los parciales son escritos a desarrollar. El docente sabe un montón y tiene muy buena predisposición con los estudiantes."
+            }
+        ],
+        "sources": [
+            "Franja Morada",
+            "Otros"
+        ],
+        "is_pro_student": true
+    },
+    {
+        "subject": "Derecho del Trabajo y de la Seguridad Social",
+        "commission": "8250",
+        "professor": "MAZA-MANAUTA",
+        "days": [
+            "LU",
+            "JU"
+        ],
+        "time_start": "07:00",
+        "time_end": "08:30",
+        "schedule": "Lun 07:00 a 08:30 - Jue 07:00 a 08:30",
+        "modality": "Presencial",
+        "difficulty": "Media",
+        "corte_puntos": "-",
+        "aula": "",
+        "comments": [
+            {
+                "source": "Otros",
+                "text": "tuvo Recomendada para aprender. El docente sabe un montón y tiene buena predisposición con los estudiantes. Manda un pdf con las clases y es ordenado. Si bien es una cátedra exigente, el docente está predispuesto a que aprendas y genera que disfrutes la materia. Los parciales son a desarrollar y multiple choice. Toma asistencia y un trabajo práctico."
+            }
+        ],
+        "sources": [
+            "Franja Morada",
+            "Otros"
+        ],
+        "is_pro_student": true
+    },
+    {
+        "subject": "Derecho del Trabajo y de la Seguridad Social",
+        "commission": "8251",
+        "professor": "MAZA-URRETAVIZCAYA",
+        "days": [
+            "MA",
+            "VI"
+        ],
+        "time_start": "14:00",
+        "time_end": "15:30",
+        "schedule": "Mar 14:00 a 15:30 - Vie 14:00 a 15:30",
+        "modality": "Presencial",
+        "difficulty": "Media",
+        "corte_puntos": "-",
+        "aula": "",
+        "comments": [
+            {
+                "source": "Otros",
+                "text": "tuvo Cátedra recomendable. Evalúan con 2 parciales escritos a desarrollar, con buen nivel de aprobados. Los profesores tienen buena llegada hacia los estudiantes. Toman asistencia."
+            }
+        ],
+        "sources": [
+            "Franja Morada",
+            "Otros"
+        ],
+        "is_pro_student": false
+    },
+    {
+        "subject": "Derecho del Trabajo y de la Seguridad Social",
+        "commission": "8252",
+        "professor": "MAZA-MANAUTA",
+        "days": [
+            "LU",
+            "JU"
+        ],
+        "time_start": "14:00",
+        "time_end": "15:30",
+        "schedule": "Lun 14:00 a 15:30 - Jue 14:00 a 15:30",
+        "modality": "Virtual",
+        "difficulty": "Media",
+        "corte_puntos": "-",
+        "aula": "",
+        "comments": [],
+        "sources": [
+            "Franja Morada"
+        ],
+        "is_pro_student": false
+    },
+    {
+        "subject": "Derecho del Trabajo y de la Seguridad Social",
+        "commission": "8255",
+        "professor": "MAZA-URRETAVIZCAYA",
+        "days": [
+            "MA",
+            "VI"
+        ],
+        "time_start": "18:30",
+        "time_end": "20:00",
+        "schedule": "Mar 18:30 a 20:00 - Vie 18:30 a 20:00",
+        "modality": "Presencial",
+        "difficulty": "Media",
+        "corte_puntos": "-",
+        "aula": "",
+        "comments": [
+            {
+                "source": "Otros",
+                "text": "tuvo Cátedra recomendable para aprender. Toma trabajos prácticos. Toman dos parciales que se divide en la primera parte en un múltiple choice y la segunda parte escrita, pero tenes que aprobar el choice, sino no corrigen la parte escrita. El docente sabe un montón y tiene buena predisposición con la materia, pero es exigente a la hora de corregir."
+            }
+        ],
+        "sources": [
+            "Franja Morada",
+            "Otros"
+        ],
+        "is_pro_student": true
+    },
+    {
+        "subject": "Derecho del Trabajo y de la Seguridad Social",
+        "commission": "8260",
+        "professor": "LITTERIO-VIRGILI C.",
+        "days": [
+            "LU",
+            "JU"
+        ],
+        "time_start": "08:30",
+        "time_end": "10:00",
+        "schedule": "Lun 08:30 a 10:00 - Jue 08:30 a 10:00",
+        "modality": "Presencial",
+        "difficulty": "Media",
+        "corte_puntos": "-",
+        "aula": "",
+        "comments": [
+            {
+                "source": "Otros",
+                "text": "tuvo Cátedra no recomendable. Los parciales son escritos a desarrollar y los recuperatorios también. Los docentes no explican bien y no dieron muchas clases."
+            }
+        ],
+        "sources": [
+            "Franja Morada",
+            "Otros"
+        ],
+        "is_pro_student": false
+    },
+    {
+        "subject": "Derecho del Trabajo y de la Seguridad Social",
+        "commission": "8261",
+        "professor": "LITTERIO-SAN MARTIN MARIA BELEN",
+        "days": [
+            "LU",
+            "JU"
+        ],
+        "time_start": "20:00",
+        "time_end": "21:30",
+        "schedule": "Lun 20:00 a 21:30 - Jue 20:00 a 21:30",
+        "modality": "Presencial",
+        "difficulty": "Media",
+        "corte_puntos": "-",
+        "aula": "",
+        "comments": [
+            {
+                "source": "Otros",
+                "text": "tuvo"
+            }
+        ],
+        "sources": [
+            "Franja Morada",
+            "Otros"
+        ],
+        "is_pro_student": false
+    },
+    {
+        "subject": "Derecho del Trabajo y de la Seguridad Social",
+        "commission": "8262",
+        "professor": "LITTERIO-SAN MARTIN MARIA BELEN",
+        "days": [
+            "LU",
+            "JU"
+        ],
+        "time_start": "20:00",
+        "time_end": "21:30",
+        "schedule": "Lun 20:00 a 21:30 - Jue 20:00 a 21:30",
+        "modality": "Presencial",
+        "difficulty": "Media",
+        "corte_puntos": "-",
+        "aula": "",
+        "comments": [
+            {
+                "source": "Otros",
+                "text": "tuvo Cátedra recomendable. Los docentes tienen muy buena llegada con los estudiantes y hacen que las clases sean amenas. Toman lista. Van cambiando la modalidad de exámen, puede ser múltiple choice o a desarrollar y un caso práctico. No toma trabajos prácticos. Utilizan la ley y podes elegir que manual utilizar."
+            }
+        ],
+        "sources": [
+            "Franja Morada",
+            "Otros"
+        ],
+        "is_pro_student": false
+    },
+    {
+        "subject": "Derecho del Trabajo y de la Seguridad Social",
+        "commission": "8263",
+        "professor": "LITTERIO-RAMONET JOSÉ IGNACIO",
+        "days": [
+            "LU",
+            "JU"
+        ],
+        "time_start": "14:00",
+        "time_end": "15:30",
+        "schedule": "Lun 14:00 a 15:30 - Jue 14:00 a 15:30",
+        "modality": "Presencial",
+        "difficulty": "Media",
+        "corte_puntos": "-",
+        "aula": "",
+        "comments": [
+            {
+                "source": "Otros",
+                "text": "tuvo Cátedra no recomendable. Opiniones encontradas entre los estudiantes. Toman asistencia y un trabajo práctico sobre liquidaciones para prácticar. Los parciales son escritos y los docentes son estrictos a la hora de corregir."
+            }
+        ],
+        "sources": [
+            "Franja Morada",
+            "Otros"
+        ],
+        "is_pro_student": false
+    },
+    {
+        "subject": "Derecho del Trabajo y de la Seguridad Social",
+        "commission": "8264",
+        "professor": "LITTERIO-HOCKL CECILIA",
+        "days": [
+            "MA",
+            "VI"
+        ],
+        "time_start": "17:00",
+        "time_end": "18:30",
+        "schedule": "Mar 17:00 a 18:30 - Vie 17:00 a 18:30",
+        "modality": "Presencial",
+        "difficulty": "Media",
+        "corte_puntos": "-",
+        "aula": "",
+        "comments": [
+            {
+                "source": "Otros",
+                "text": "tuvo Cátedra recomendable para aprender. La docente es una genia, sabe mucho sobre derecho laboral y es muy predispuesta con la clase. En la clase analizan fallos y se aprende a hacer liquidaciones durante la cursada. La docente tiene muy buena llegada con los estudiantes, así como sus ayudantes."
+            }
+        ],
+        "sources": [
+            "Franja Morada",
+            "Otros"
+        ],
+        "is_pro_student": false
+    },
+    {
+        "subject": "Derecho del Trabajo y de la Seguridad Social",
+        "commission": "8270",
+        "professor": "GARCÍA-GARCÍA VIOR A.",
+        "days": [
+            "LU",
+            "JU"
+        ],
+        "time_start": "18:30",
+        "time_end": "20:00",
+        "schedule": "Lun 18:30 a 20:00 - Jue 18:30 a 20:00",
+        "modality": "Presencial",
+        "difficulty": "Media",
+        "corte_puntos": "-",
+        "aula": "",
+        "comments": [
+            {
+                "source": "Otros",
+                "text": "tuvo Cátedra recomendable para aprender. Toman lista y un trabajo práctico optativo que sumaba si no te iba bien en el parcial y otro grupal obligatorio. Los docentes saben un montón y son apasionados por el derecho laboral. Los parciales son escritos a desarrollar y multiple choice."
+            }
+        ],
+        "sources": [
+            "Franja Morada",
+            "Otros"
+        ],
+        "is_pro_student": false
+    },
+    {
+        "subject": "Derecho del Trabajo y de la Seguridad Social",
+        "commission": "8271",
+        "professor": "GARCIA-ROGGI CARLA SUSANA",
+        "days": [
+            "MI"
+        ],
+        "time_start": "18:30",
+        "time_end": "21:30",
+        "schedule": "Mie 18:30 a 21:30",
+        "modality": "Presencial",
+        "difficulty": "Media",
+        "corte_puntos": "-",
+        "aula": "",
+        "comments": [
+            {
+                "source": "Otros",
+                "text": "tuvo Cátedra no recomendable. Los parciales son escritos. La docente no explica bien y no llega a dar todo el contenido que después pregunta en el parcial. Es exigente a la hora de corregir."
+            }
+        ],
+        "sources": [
+            "Franja Morada",
+            "Otros"
+        ],
+        "is_pro_student": false
+    },
+    {
         "subject": "Elementos de Análisis Económico y Financiero",
         "commission": "8615",
         "professor": "STORDEUR-GARCES ALEJANDRO",
@@ -24663,6 +25918,1056 @@
         "is_pro_student": false
     },
     {
+        "subject": "Derecho Internacional Público",
+        "commission": "9200",
+        "professor": "G.NAPOLITANO-MENDICOA",
+        "days": [
+            "MA",
+            "VI"
+        ],
+        "time_start": "08:30",
+        "time_end": "10:00",
+        "schedule": "Mar 08:30 a 10:00 - Vie 08:30 a 10:00",
+        "modality": "Presencial",
+        "difficulty": "Media",
+        "corte_puntos": "-",
+        "aula": "",
+        "comments": [
+            {
+                "source": "Otros",
+                "text": "tuvo. Cátedra recomendable. La profe da muy buenas clases y tiene buena llegada a los estudiantes. Toman 2 parciales VyF con un caso práctico. Toman 2 trabajos prácticos para mantener la regularidad y además dan actividades por forms para reforzar (no infieren en la regularidad). Buen nivel de aprobados."
+            }
+        ],
+        "sources": [
+            "Franja Morada",
+            "Otros"
+        ],
+        "is_pro_student": false
+    },
+    {
+        "subject": "Derecho Internacional Público",
+        "commission": "9210",
+        "professor": "ARMAS-CHIRINIAN",
+        "days": [
+            "LU",
+            "JU"
+        ],
+        "time_start": "07:00",
+        "time_end": "08:30",
+        "schedule": "Lun 07:00 a 08:30 - Jue 07:00 a 08:30",
+        "modality": "Presencial",
+        "difficulty": "Media",
+        "corte_puntos": "-",
+        "aula": "",
+        "comments": [
+            {
+                "source": "Otros",
+                "text": "tuvo"
+            }
+        ],
+        "sources": [
+            "Franja Morada",
+            "Otros"
+        ],
+        "is_pro_student": false
+    },
+    {
+        "subject": "Derecho Internacional Público",
+        "commission": "9211",
+        "professor": "ARMAS-CHIRINIAN",
+        "days": [
+            "LU",
+            "JU"
+        ],
+        "time_start": "08:30",
+        "time_end": "10:00",
+        "schedule": "Lun 08:30 a 10:00 - Jue 08:30 a 10:00",
+        "modality": "Presencial",
+        "difficulty": "Media",
+        "corte_puntos": "-",
+        "aula": "",
+        "comments": [
+            {
+                "source": "Otros",
+                "text": "tuvo Cátedra sin info."
+            }
+        ],
+        "sources": [
+            "Franja Morada",
+            "Otros"
+        ],
+        "is_pro_student": false
+    },
+    {
+        "subject": "Derecho Internacional Público",
+        "commission": "9212",
+        "professor": "ARMAS-NOVILE",
+        "days": [
+            "MA",
+            "VI"
+        ],
+        "time_start": "14:00",
+        "time_end": "15:30",
+        "schedule": "Mar 14:00 a 15:30 - Vie 14:00 a 15:30",
+        "modality": "Virtual",
+        "difficulty": "Media",
+        "corte_puntos": "-",
+        "aula": "",
+        "comments": [],
+        "sources": [
+            "Franja Morada"
+        ],
+        "is_pro_student": false
+    },
+    {
+        "subject": "Derecho Internacional Público",
+        "commission": "9213",
+        "professor": "ARMAS-DEMYDA",
+        "days": [
+            "MI"
+        ],
+        "time_start": "14:00",
+        "time_end": "17:00",
+        "schedule": "Mie 14:00 a 17:00",
+        "modality": "Presencial",
+        "difficulty": "Media",
+        "corte_puntos": "-",
+        "aula": "",
+        "comments": [
+            {
+                "source": "Otros",
+                "text": "tuvo. Cátedra recomendable. Buena llegada a los estudiantes. Las profes dan muy buenas clases y se toma lo que se da en clase. Evalúan mediante 2 parciales y 2 trabajos prácticos promediando las 4 notas. Toman lista."
+            }
+        ],
+        "sources": [
+            "Franja Morada",
+            "Otros"
+        ],
+        "is_pro_student": false
+    },
+    {
+        "subject": "Derecho Internacional Público",
+        "commission": "9214",
+        "professor": "ARMAS-NOVILE",
+        "days": [
+            "MA",
+            "VI"
+        ],
+        "time_start": "15:30",
+        "time_end": "17:00",
+        "schedule": "Mar 15:30 a 17:00 - Vie 15:30 a 17:00",
+        "modality": "Virtual",
+        "difficulty": "Media",
+        "corte_puntos": "-",
+        "aula": "",
+        "comments": [],
+        "sources": [
+            "Franja Morada"
+        ],
+        "is_pro_student": false
+    },
+    {
+        "subject": "Derecho Internacional Público",
+        "commission": "9215",
+        "professor": "ARMAS-DANESSA SOFIA",
+        "days": [
+            "LU",
+            "JU"
+        ],
+        "time_start": "17:00",
+        "time_end": "18:30",
+        "schedule": "Lun 17:00 a 18:30 - Jue 17:00 a 18:30",
+        "modality": "Presencial",
+        "difficulty": "Media",
+        "corte_puntos": "-",
+        "aula": "",
+        "comments": [
+            {
+                "source": "Otros",
+                "text": "tuvo. Cátedra no recomendable. Desorganizada. Suelen dar clases opcionales fuera de horario pero que sirven un montón.Evalúan con 5 parciales, 3 escritos a desarrollar con casos prácticos, los cuales eran bastante extensos y 2 mp/vof. Además tomaban un trabajo práctico con exposición oral en grupo. Toma asistencia."
+            }
+        ],
+        "sources": [
+            "Franja Morada",
+            "Otros"
+        ],
+        "is_pro_student": false
+    },
+    {
+        "subject": "Derecho Internacional Público",
+        "commission": "9216",
+        "professor": "ARMAS-DANESSA SOFIA",
+        "days": [
+            "LU",
+            "JU"
+        ],
+        "time_start": "18:30",
+        "time_end": "20:00",
+        "schedule": "Lun 18:30 a 20:00 - Jue 18:30 a 20:00",
+        "modality": "Presencial",
+        "difficulty": "Media",
+        "corte_puntos": "-",
+        "aula": "",
+        "comments": [
+            {
+                "source": "Otros",
+                "text": "tuvo. Cátedra recomendable. Buena llegada a los estudiantes. Evalúa con 3 parciales escritos y 2 “test” escritos también. Toma asistencia. No toma trabajos prácticos."
+            }
+        ],
+        "sources": [
+            "Franja Morada",
+            "Otros"
+        ],
+        "is_pro_student": false
+    },
+    {
+        "subject": "Derecho Internacional Público",
+        "commission": "9217",
+        "professor": "ARMAS-BRADI",
+        "days": [
+            "MA",
+            "VI"
+        ],
+        "time_start": "10:00",
+        "time_end": "11:30",
+        "schedule": "Mar 10:00 a 11:30 - Vie 10:00 a 11:30",
+        "modality": "Presencial",
+        "difficulty": "Media",
+        "corte_puntos": "-",
+        "aula": "",
+        "comments": [
+            {
+                "source": "Otros",
+                "text": "tuvo Cátedra recomendable. Buena llegada con los estudiantes. Evalúa con un parcial y un trabajo de investigación con exposición oral."
+            }
+        ],
+        "sources": [
+            "Franja Morada",
+            "Otros"
+        ],
+        "is_pro_student": false
+    },
+    {
+        "subject": "Derecho Internacional Público",
+        "commission": "9220",
+        "professor": "BUIS-GASOL V.",
+        "days": [
+            "MA",
+            "VI"
+        ],
+        "time_start": "08:30",
+        "time_end": "10:00",
+        "schedule": "Mar 08:30 a 10:00 - Vie 08:30 a 10:00",
+        "modality": "Presencial",
+        "difficulty": "Media",
+        "corte_puntos": "-",
+        "aula": "",
+        "comments": [
+            {
+                "source": "Otros",
+                "text": "tuvo"
+            }
+        ],
+        "sources": [
+            "Franja Morada",
+            "Otros"
+        ],
+        "is_pro_student": false
+    },
+    {
+        "subject": "Derecho Internacional Público",
+        "commission": "9221",
+        "professor": "BUIS-GASOL V.",
+        "days": [
+            "MA",
+            "VI"
+        ],
+        "time_start": "07:00",
+        "time_end": "08:30",
+        "schedule": "Mar 07:00 a 08:30 - Vie 07:00 a 08:30",
+        "modality": "Presencial",
+        "difficulty": "Media",
+        "corte_puntos": "-",
+        "aula": "",
+        "comments": [
+            {
+                "source": "Otros",
+                "text": "tuvo Catedra recomendable. Toman parciales escritos a desarrollar. Toman TP's optativos para repasar para los parciales."
+            }
+        ],
+        "sources": [
+            "Franja Morada",
+            "Otros"
+        ],
+        "is_pro_student": false
+    },
+    {
+        "subject": "Derecho Internacional Público",
+        "commission": "9222",
+        "professor": "BUIS-MALKASSIAN",
+        "days": [
+            "LU",
+            "JU"
+        ],
+        "time_start": "11:30",
+        "time_end": "13:00",
+        "schedule": "Lun 11:30 a 13:00 - Jue 11:30 a 13:00",
+        "modality": "Presencial",
+        "difficulty": "Media",
+        "corte_puntos": "-",
+        "aula": "",
+        "comments": [
+            {
+                "source": "Otros",
+                "text": "tuvo. Cátedra no recomendable. Desorganizada. Tienen mala llegada a los estudiantes. Evalúa con un parcial a desarrollar y otro oral. Bajo nivel de aprobados y con notas bajas. No toma trabajos prácticos. No toma lista."
+            }
+        ],
+        "sources": [
+            "Franja Morada",
+            "Otros"
+        ],
+        "is_pro_student": false
+    },
+    {
+        "subject": "Derecho Internacional Público",
+        "commission": "9223",
+        "professor": "BUIS-FERRANTE",
+        "days": [
+            "LU",
+            "JU"
+        ],
+        "time_start": "14:00",
+        "time_end": "15:30",
+        "schedule": "Lun 14:00 a 15:30 - Jue 14:00 a 15:30",
+        "modality": "Virtual",
+        "difficulty": "Media",
+        "corte_puntos": "-",
+        "aula": "",
+        "comments": [],
+        "sources": [
+            "Franja Morada"
+        ],
+        "is_pro_student": false
+    },
+    {
+        "subject": "Derecho Internacional Público",
+        "commission": "9224",
+        "professor": "BUIS-CASTILLO",
+        "days": [
+            "MA",
+            "VI"
+        ],
+        "time_start": "14:00",
+        "time_end": "15:30",
+        "schedule": "Mar 14:00 a 15:30 - Vie 14:00 a 15:30",
+        "modality": "Presencial",
+        "difficulty": "Media",
+        "corte_puntos": "-",
+        "aula": "",
+        "comments": [
+            {
+                "source": "Otros",
+                "text": "tuvo."
+            }
+        ],
+        "sources": [
+            "Franja Morada",
+            "Otros"
+        ],
+        "is_pro_student": false
+    },
+    {
+        "subject": "Derecho Internacional Público",
+        "commission": "9225",
+        "professor": "BUIS-FERRANTE",
+        "days": [
+            "LU",
+            "JU"
+        ],
+        "time_start": "15:30",
+        "time_end": "17:00",
+        "schedule": "Lun 15:30 a 17:00 - Jue 15:30 a 17:00",
+        "modality": "Virtual",
+        "difficulty": "Media",
+        "corte_puntos": "-",
+        "aula": "",
+        "comments": [],
+        "sources": [
+            "Franja Morada"
+        ],
+        "is_pro_student": false
+    },
+    {
+        "subject": "Derecho Internacional Público",
+        "commission": "9226",
+        "professor": "BUIS-CASTILLO",
+        "days": [
+            "MA",
+            "VI"
+        ],
+        "time_start": "15:30",
+        "time_end": "17:00",
+        "schedule": "Mar 15:30 a 17:00 - Vie 15:30 a 17:00",
+        "modality": "Presencial",
+        "difficulty": "Media",
+        "corte_puntos": "-",
+        "aula": "",
+        "comments": [
+            {
+                "source": "Otros",
+                "text": "Cátedra recomendable. Buena llegada a los estudiantes. Toma el 1er parcial oral y el segundo escrito a desarrollar con VyF. Dan muy buenas clases. No toma trabajos prácticos y tampoco toma asistencia."
+            }
+        ],
+        "sources": [
+            "Franja Morada",
+            "Otros"
+        ],
+        "is_pro_student": false
+    },
+    {
+        "subject": "Derecho Internacional Público",
+        "commission": "9227",
+        "professor": "BUIS-NEGRO",
+        "days": [
+            "MA",
+            "VI"
+        ],
+        "time_start": "18:30",
+        "time_end": "20:00",
+        "schedule": "Mar 18:30 a 20:00 - Vie 18:30 a 20:00",
+        "modality": "Virtual",
+        "difficulty": "Media",
+        "corte_puntos": "-",
+        "aula": "",
+        "comments": [],
+        "sources": [
+            "Franja Morada"
+        ],
+        "is_pro_student": false
+    },
+    {
+        "subject": "Derecho Internacional Público",
+        "commission": "9228",
+        "professor": "BUIS-MOLLAR",
+        "days": [
+            "MA",
+            "VI"
+        ],
+        "time_start": "18:30",
+        "time_end": "20:00",
+        "schedule": "Mar 18:30 a 20:00 - Vie 18:30 a 20:00",
+        "modality": "Presencial",
+        "difficulty": "Media",
+        "corte_puntos": "-",
+        "aula": "",
+        "comments": [
+            {
+                "source": "Otros",
+                "text": "tuvo"
+            }
+        ],
+        "sources": [
+            "Franja Morada",
+            "Otros"
+        ],
+        "is_pro_student": false
+    },
+    {
+        "subject": "Derecho Internacional Público",
+        "commission": "9229",
+        "professor": "BUIS-NEGRO",
+        "days": [
+            "MA",
+            "VI"
+        ],
+        "time_start": "20:00",
+        "time_end": "21:30",
+        "schedule": "Mar 20:00 a 21:30 - Vie 20:00 a 21:30",
+        "modality": "Virtual",
+        "difficulty": "Media",
+        "corte_puntos": "-",
+        "aula": "",
+        "comments": [],
+        "sources": [
+            "Franja Morada"
+        ],
+        "is_pro_student": false
+    },
+    {
+        "subject": "Derecho Internacional Público",
+        "commission": "9230",
+        "professor": "BUIS-MOLLAR",
+        "days": [
+            "MA",
+            "VI"
+        ],
+        "time_start": "20:00",
+        "time_end": "21:30",
+        "schedule": "Mar 20:00 a 21:30 - Vie 20:00 a 21:30",
+        "modality": "Presencial",
+        "difficulty": "Media",
+        "corte_puntos": "-",
+        "aula": "",
+        "comments": [
+            {
+                "source": "Otros",
+                "text": "tuvo Cátedra recomendable. Primer parcial a libro abierto y segundo parcial oral. Hay trabajos prácticos individuales. Toman asistencia."
+            }
+        ],
+        "sources": [
+            "Franja Morada",
+            "Otros"
+        ],
+        "is_pro_student": false
+    },
+    {
+        "subject": "Derecho Internacional Público",
+        "commission": "9231",
+        "professor": "BUIS-FRYDMAN",
+        "days": [
+            "LU",
+            "JU"
+        ],
+        "time_start": "18:30",
+        "time_end": "20:00",
+        "schedule": "Lun 18:30 a 20:00 - Jue 18:30 a 20:00",
+        "modality": "Presencial",
+        "difficulty": "Media",
+        "corte_puntos": "-",
+        "aula": "",
+        "comments": [
+            {
+                "source": "Otros",
+                "text": "tuvo. Cátedra recomendable. Buena llegada a los estudiantes. Toman el primer parcial escrito y el segundo parcial oral. Toma asistencia."
+            }
+        ],
+        "sources": [
+            "Franja Morada",
+            "Otros"
+        ],
+        "is_pro_student": false
+    },
+    {
+        "subject": "Derecho Internacional Público",
+        "commission": "9232",
+        "professor": "BUIS-PADIN",
+        "days": [
+            "LU",
+            "JU"
+        ],
+        "time_start": "20:00",
+        "time_end": "21:30",
+        "schedule": "Lun 20:00 a 21:30 - Jue 20:00 a 21:30",
+        "modality": "Presencial",
+        "difficulty": "Media",
+        "corte_puntos": "-",
+        "aula": "",
+        "comments": [
+            {
+                "source": "Otros",
+                "text": "tuvo Cátedra recomendable. Buena llegada de los docentes. Evalúa con dos parciales y dos trabajos prácticos. Buen nivel de aprobados. No toma asistencia. Se hace una simulación de Modelo de Naciones Unidas."
+            }
+        ],
+        "sources": [
+            "Franja Morada",
+            "Otros"
+        ],
+        "is_pro_student": false
+    },
+    {
+        "subject": "Derecho Internacional Público",
+        "commission": "9240",
+        "professor": "G.NAPOLITANO-BOTTINI GABRIEL",
+        "days": [
+            "MA",
+            "VI"
+        ],
+        "time_start": "07:00",
+        "time_end": "08:30",
+        "schedule": "Mar 07:00 a 08:30 - Vie 07:00 a 08:30",
+        "modality": "Virtual",
+        "difficulty": "Media",
+        "corte_puntos": "-",
+        "aula": "",
+        "comments": [],
+        "sources": [
+            "Franja Morada"
+        ],
+        "is_pro_student": false
+    },
+    {
+        "subject": "Derecho Internacional Público",
+        "commission": "9241",
+        "professor": "G.NAPOLITANO-VERNET",
+        "days": [
+            "LU",
+            "JU"
+        ],
+        "time_start": "08:30",
+        "time_end": "10:00",
+        "schedule": "Lun 08:30 a 10:00 - Jue 08:30 a 10:00",
+        "modality": "Presencial",
+        "difficulty": "Media",
+        "corte_puntos": "-",
+        "aula": "",
+        "comments": [
+            {
+                "source": "Otros",
+                "text": "tuvo. Cátedra recomendable. Buena llegada a los estudiantes, los profes saben un montón y hacen la cursada muy llevadera. Evalúan con parciales escritos a desarrollar de varios puntos dando la opción a que pregunta preferías responder. No toman trabajos prácticos. Toman lista. TURNO TARDE"
+            }
+        ],
+        "sources": [
+            "Franja Morada",
+            "Otros"
+        ],
+        "is_pro_student": true
+    },
+    {
+        "subject": "Derecho Internacional Público",
+        "commission": "9242",
+        "professor": "G.NAPOLITANO-LOZZA MARIANA",
+        "days": [
+            "LU",
+            "JU"
+        ],
+        "time_start": "08:30",
+        "time_end": "10:00",
+        "schedule": "Lun 08:30 a 10:00 - Jue 08:30 a 10:00",
+        "modality": "Presencial",
+        "difficulty": "Media",
+        "corte_puntos": "-",
+        "aula": "",
+        "comments": [],
+        "sources": [
+            "Franja Morada"
+        ],
+        "is_pro_student": false
+    },
+    {
+        "subject": "Derecho Internacional Público",
+        "commission": "9243",
+        "professor": "G.NAPOLITANO-BOTTINI GABRIEL",
+        "days": [
+            "MI"
+        ],
+        "time_start": "10:00",
+        "time_end": "13:00",
+        "schedule": "Mie 10:00 a 13:00",
+        "modality": "Presencial",
+        "difficulty": "Media",
+        "corte_puntos": "-",
+        "aula": "",
+        "comments": [
+            {
+                "source": "Otros",
+                "text": "tuvo. Cátedra recomendable. Buena llegada a los estudiantes. Toman un parcial a desarrollar con 5 preguntas cortas y puntuales. Y el segundo parcial multiple choice. Toma asistencia."
+            }
+        ],
+        "sources": [
+            "Franja Morada",
+            "Otros"
+        ],
+        "is_pro_student": false
+    },
+    {
+        "subject": "Derecho Internacional Público",
+        "commission": "9244",
+        "professor": "G.NAPOLITANO-MIGUEZ",
+        "days": [
+            "LU",
+            "JU"
+        ],
+        "time_start": "13:00",
+        "time_end": "14:30",
+        "schedule": "Lun 13:00 a 14:30 - Jue 13:00 a 14:30",
+        "modality": "Virtual",
+        "difficulty": "Media",
+        "corte_puntos": "-",
+        "aula": "",
+        "comments": [],
+        "sources": [
+            "Franja Morada"
+        ],
+        "is_pro_student": false
+    },
+    {
+        "subject": "Derecho Internacional Público",
+        "commission": "9245",
+        "professor": "G.NAPOLITANO-MENDICOA",
+        "days": [
+            "MA",
+            "VI"
+        ],
+        "time_start": "17:00",
+        "time_end": "18:30",
+        "schedule": "Mar 17:00 a 18:30 - Vie 17:00 a 18:30",
+        "modality": "Presencial",
+        "difficulty": "Media",
+        "corte_puntos": "-",
+        "aula": "",
+        "comments": [
+            {
+                "source": "Otros",
+                "text": "tuvo. Cátedra recomendable. La profe da muy buenas clases y tiene buena llegada a los estudiantes. Toman 2 parciales VyF con un caso práctico. Toman 2 trabajos prácticos para mantener la regularidad y además dan actividades por Google Forms para reforzar (no infieren en la regularidad). Buen nivel de aprobados."
+            }
+        ],
+        "sources": [
+            "Franja Morada",
+            "Otros"
+        ],
+        "is_pro_student": false
+    },
+    {
+        "subject": "Derecho Internacional Público",
+        "commission": "9246",
+        "professor": "G.NAPOLITANO-MIGUEZ",
+        "days": [
+            "LU",
+            "JU"
+        ],
+        "time_start": "20:00",
+        "time_end": "21:30",
+        "schedule": "Lun 20:00 a 21:30 - Jue 20:00 a 21:30",
+        "modality": "Presencial",
+        "difficulty": "Media",
+        "corte_puntos": "-",
+        "aula": "",
+        "comments": [
+            {
+                "source": "Otros",
+                "text": "tuvo. Cátedra recomendable. Buena llegada a los estudiantes. Toman asistencia. Toman TPs por Google Forms sin nota. Toman un parcial escrito con caso práctico y su recuperatorio oral. El segundo parcial es una simulación de juicio."
+            }
+        ],
+        "sources": [
+            "Franja Morada",
+            "Otros"
+        ],
+        "is_pro_student": false
+    },
+    {
+        "subject": "Derecho Internacional Público",
+        "commission": "9247",
+        "professor": "G.NAPOLITANO-VERNET",
+        "days": [
+            "LU",
+            "JU"
+        ],
+        "time_start": "20:00",
+        "time_end": "21:30",
+        "schedule": "Lun 20:00 a 21:30 - Jue 20:00 a 21:30",
+        "modality": "Presencial",
+        "difficulty": "Media",
+        "corte_puntos": "-",
+        "aula": "",
+        "comments": [
+            {
+                "source": "Otros",
+                "text": "recomendable. Buena llegada a los estudiantes, los profes saben un montón y hacen la cursada muy llevadera. Evalúan con parciales escritos a desarrollar de varios puntos dando la opción de que elijas la pregunta a responder. No toman trabajos prácticos. Toman lista."
+            }
+        ],
+        "sources": [
+            "Franja Morada",
+            "Otros"
+        ],
+        "is_pro_student": true
+    },
+    {
+        "subject": "Derecho Internacional Público",
+        "commission": "9250",
+        "professor": "PINTO-MAISLEY",
+        "days": [
+            "LU",
+            "JU"
+        ],
+        "time_start": "17:00",
+        "time_end": "18:30",
+        "schedule": "Lun 17:00 a 18:30 - Jue 17:00 a 18:30",
+        "modality": "Presencial",
+        "difficulty": "Media",
+        "corte_puntos": "-",
+        "aula": "",
+        "comments": [
+            {
+                "source": "Otros",
+                "text": "tuvo. Cátedra recomendable. Buena llegada a los estudiantes. Evalúan con un 1er parcial escrito con un caso práctico y un 2do parcial domiciliario también con un caso un poco más extenso y otras preguntas conceptuales. Toma trabajos prácticos. No toma asistencia."
+            }
+        ],
+        "sources": [
+            "Franja Morada",
+            "Otros"
+        ],
+        "is_pro_student": false
+    },
+    {
+        "subject": "Derecho Internacional Público",
+        "commission": "9251",
+        "professor": "PINTO-VIGEVANO",
+        "days": [
+            "MI"
+        ],
+        "time_start": "17:00",
+        "time_end": "20:00",
+        "schedule": "Mie 17:00 a 20:00",
+        "modality": "Presencial",
+        "difficulty": "Media",
+        "corte_puntos": "-",
+        "aula": "",
+        "comments": [
+            {
+                "source": "Otros",
+                "text": "tuvo Cátedra recomendable. Buena llegada a los estudiantes. Toman parciales con casos prácticos. Toma asistencia. Toman trabajos prácticos que sirven para el exámen. TURNO NOCHE"
+            }
+        ],
+        "sources": [
+            "Franja Morada",
+            "Otros"
+        ],
+        "is_pro_student": false
+    },
+    {
+        "subject": "Derecho Internacional Público",
+        "commission": "9253",
+        "professor": "PINTO-FURBATTO MARÍA FLORENCIA",
+        "days": [
+            "MA",
+            "VI"
+        ],
+        "time_start": "18:30",
+        "time_end": "20:00",
+        "schedule": "Mar 18:30 a 20:00 - Vie 18:30 a 20:00",
+        "modality": "Presencial",
+        "difficulty": "Media",
+        "corte_puntos": "-",
+        "aula": "",
+        "comments": [
+            {
+                "source": "Otros",
+                "text": "tuvo. Cátedra recomendable para aprender. Buena llegada a los estudiantes, las profes son unas genias, saben un montón y hacen que la cursada sea muy dinámica y llevadera. Las clases sirven mucho y a las profes les encanta que participen y se forme debate. Toma parciales escritos con casos a resolver, preguntas conceptuales y VyF. Además toma 2 trabajos prácticos a modo de simulacro de parcial. Tiene buen nivel de aprobados pero es recomendable para quienes siguen la orientación, ya que los parciales son bastantes complejos. No toman lista."
+            }
+        ],
+        "sources": [
+            "Franja Morada",
+            "Otros"
+        ],
+        "is_pro_student": true
+    },
+    {
+        "subject": "Derecho Internacional Público",
+        "commission": "9254",
+        "professor": "PINTO-GUERRA",
+        "days": [
+            "LU",
+            "JU"
+        ],
+        "time_start": "20:00",
+        "time_end": "21:30",
+        "schedule": "Lun 20:00 a 21:30 - Jue 20:00 a 21:30",
+        "modality": "Presencial",
+        "difficulty": "Media",
+        "corte_puntos": "-",
+        "aula": "",
+        "comments": [
+            {
+                "source": "Otros",
+                "text": "tuvo. Cátedra recomendable. Buena llegada a los estudiantes. El primer parcial es escrito a desarrollar y el 2do oral. Suman un trabajo práctico que ayuda a levantar la nota. Usan el manual de Napolitano y un drive donde suben toda la jurisprudencia."
+            }
+        ],
+        "sources": [
+            "Franja Morada",
+            "Otros"
+        ],
+        "is_pro_student": false
+    },
+    {
+        "subject": "Derecho Internacional Público",
+        "commission": "9255",
+        "professor": "PINTO-LUTERSTEIN",
+        "days": [
+            "MA",
+            "VI"
+        ],
+        "time_start": "20:00",
+        "time_end": "21:30",
+        "schedule": "Mar 20:00 a 21:30 - Vie 20:00 a 21:30",
+        "modality": "Presencial",
+        "difficulty": "Media",
+        "corte_puntos": "-",
+        "aula": "",
+        "comments": [
+            {
+                "source": "Otros",
+                "text": "tuvo. Cátedra exigente. Toman parciales escritos a desarrollar y hacen preguntas muy específicas sobre todos los temas del programa y, el recuperatorio del 2do parcial es oral. Toma 2 trabajos prácticos y da mucho material para leer antes de cada clase. Después de cada clase mandan un cuestionario para resolver, sin nota y no obligatorio solo para ver que si se entendieron los conceptos. Las clases son muy completas y las da junto con un pp, también pide que lleven el material impreso además de que hace preguntas sobre el mismo. Es recomendable si te interesa la orientación. Toma asistencia. VIRTUALES TURNO MAÑANA 9240 Remota G.NAPOLITANO-BOTTINI GABRIEL Mar 07:00 a 08:30 - Vie 07:00 a 08:30 Corte 1C 2025: no tuvo Cátedra recomendable. Buena llegada a los estudiantes. Toman un parcial a desarrollar con 5 preguntas cortas y puntuales. Y el segundo parcial multiple choice. Toma asistencia. TURNO TARDE 9212 Remota ARMAS-NOVILE Mar 14:00 a 15:30 - Vie 14:00 a 15:30 9214 Remota ARMAS-NOVILE Mar 15:30 a 17:00 - Vie 15:30 a 17:00 Corte 1C 2025: No tuvo. Cátedra recomendable. Buena llegada a los estudiantes, las profes son unas genias, hacen la cursada llevadera y dinámica. Evalúa con 2 parciales escritos a desarrollar (presenciales) que tratan sobre un recorte periodístico relacionado a los temas dados en clase. Además toman 2 test que van con nota y se promedian. Dan trabajos prácticos todas las clases pero para debatir, no son parte de la nota. Toman asistencia. 9223 Remota BUIS-FERRANTE Lun 14:00 a 15:30 - Jue 14:00 a 15:30 Corte 1C 2025: No tuvo. 9225 Remota BUIS-FERRANTE Lun 15:30 a 17:00 - Jue 15:30 a 17:00 Corte 1C 2025: No tuvo. Cátedra recomendable. Buena llegada a los estudiantes, los profes son unos genios, están siempre a disposición y hacen las clases dinámicas y llevaderas. Evalúan de manera oral. No toman trabajos prácticos. Toman asistencia pero no con frecuencia. 9244 Remota G.NAPOLITANO-MIGUEZ Lun 13:00 a 14:30 - Jue 13:00 a 14:30 Corte 1C 2025: no tuvo Cátedra recomendable. Buena llegada a los estudiantes. Toman asistencia. Toman TPs por Google Forms sin nota. Toman un parcial escrito con caso práctico y su recuperatorio oral. El segundo parcial es una simulación de juicio. TURNO NOCHE 9227 Remota BUIS-NEGRO Mar 18:30 a 20:00 - Vie 18:30 a 20:00 Corte 1C 2025: no tuvo. 9229 Remota BUIS-NEGRO Mar 20:00 a 21:30 - Vie 20:00 a 21:30 Corte 1C 2025: no tuvo. Cátedra recomendable, tranquila. Parciales domiciliarios con una semana para hacerlo. Suele poner notas altas. Toma tps grupales semanales como condición de regularidad."
+            }
+        ],
+        "sources": [
+            "Franja Morada",
+            "Otros"
+        ],
+        "is_pro_student": true
+    },
+    {
+        "subject": "Derecho Internacional Público",
+        "commission": "9260",
+        "professor": "DELICH-ARCOS ROMINA",
+        "days": [
+            "MA",
+            "VI"
+        ],
+        "time_start": "20:00",
+        "time_end": "21:30",
+        "schedule": "Mar 20:00 a 21:30 - Vie 20:00 a 21:30",
+        "modality": "Presencial",
+        "difficulty": "Media",
+        "corte_puntos": "-",
+        "aula": "",
+        "comments": [
+            {
+                "source": "Otros",
+                "text": "tuvo. Cátedra recomendable. Tienen buena llegada a los estudiantes, la profesora es una genia. Dan buenas clases. El material lo suben al campus, hay Power Points de cada clase. Evalúan con 3 parciales verdadero o falso."
+            }
+        ],
+        "sources": [
+            "Franja Morada",
+            "Otros"
+        ],
+        "is_pro_student": false
+    },
+    {
+        "subject": "Derecho Internacional Público",
+        "commission": "9261",
+        "professor": "DELICH-TARAPOW",
+        "days": [
+            "LU",
+            "JU"
+        ],
+        "time_start": "10:00",
+        "time_end": "11:30",
+        "schedule": "Lun 10:00 a 11:30 - Jue 10:00 a 11:30",
+        "modality": "Presencial",
+        "difficulty": "Media",
+        "corte_puntos": "-",
+        "aula": "",
+        "comments": [
+            {
+                "source": "Otros",
+                "text": "10:00 a 11:30 - Jue 10:00 a 11:30 Corte 1C 2025:"
+            }
+        ],
+        "sources": [
+            "Franja Morada",
+            "Otros"
+        ],
+        "is_pro_student": false
+    },
+    {
+        "subject": "Derecho Internacional Público",
+        "commission": "9262",
+        "professor": "DELICH-TARAPOW",
+        "days": [
+            "LU",
+            "JU"
+        ],
+        "time_start": "08:30",
+        "time_end": "10:00",
+        "schedule": "Lun 08:30 a 10:00 - Jue 08:30 a 10:00",
+        "modality": "Presencial",
+        "difficulty": "Media",
+        "corte_puntos": "-",
+        "aula": "",
+        "comments": [
+            {
+                "source": "Otros",
+                "text": "tuvo. Cátedra recomendable, para aprender. Buena llegada a los estudiantes. Toman 2 parciales escritos a desarrollar. Toman 2 trabajos prácticos, uno antes antes de cada parcial para la regularidad. Toman asistencia y son exigentes con eso, ellos mismos te avisan si te quedas sin faltas. Podes asistir a ambas comisiones independientemente de a cual estés anotado mientras le avises al profesor. Buen nivel de aprobados."
+            }
+        ],
+        "sources": [
+            "Franja Morada",
+            "Otros"
+        ],
+        "is_pro_student": false
+    },
+    {
+        "subject": "Derecho Internacional Público",
+        "commission": "9263",
+        "professor": "DELICH-ULANOVSKY",
+        "days": [
+            "LU",
+            "JU"
+        ],
+        "time_start": "15:30",
+        "time_end": "17:00",
+        "schedule": "Lun 15:30 a 17:00 - Jue 15:30 a 17:00",
+        "modality": "Presencial",
+        "difficulty": "Media",
+        "corte_puntos": "-",
+        "aula": "",
+        "comments": [
+            {
+                "source": "Otros",
+                "text": "15:30 a 17:00 - Jue 15:30 a 17:00 Corte 1C 2025:"
+            }
+        ],
+        "sources": [
+            "Franja Morada",
+            "Otros"
+        ],
+        "is_pro_student": false
+    },
+    {
+        "subject": "Derecho Internacional Público",
+        "commission": "9264",
+        "professor": "DELICH-ULANOVSKY",
+        "days": [
+            "LU",
+            "JU"
+        ],
+        "time_start": "17:00",
+        "time_end": "18:30",
+        "schedule": "Lun 17:00 a 18:30 - Jue 17:00 a 18:30",
+        "modality": "Presencial",
+        "difficulty": "Media",
+        "corte_puntos": "-",
+        "aula": "",
+        "comments": [
+            {
+                "source": "Otros",
+                "text": "tuvo. Cátedra Nueva, sin info."
+            }
+        ],
+        "sources": [
+            "Franja Morada",
+            "Otros"
+        ],
+        "is_pro_student": false
+    },
+    {
+        "subject": "Derecho Internacional Público",
+        "commission": "9265",
+        "professor": "DELICH-ARCOS ROMINA",
+        "days": [
+            "MA",
+            "VI"
+        ],
+        "time_start": "18:30",
+        "time_end": "20:00",
+        "schedule": "Mar 18:30 a 20:00 - Vie 18:30 a 20:00",
+        "modality": "Presencial",
+        "difficulty": "Media",
+        "corte_puntos": "-",
+        "aula": "",
+        "comments": [
+            {
+                "source": "Otros",
+                "text": "Cátedra recomendable. Tienen buena llegada a los estudiantes, la profesora es una genia. Dan buenas clases. El material lo suben al campus, hay Power Points de cada clase. Evalúan con 3 parciales verdadero o falso."
+            }
+        ],
+        "sources": [
+            "Franja Morada",
+            "Otros"
+        ],
+        "is_pro_student": false
+    },
+    {
         "subject": "Contratos Civiles y Comerciales",
         "commission": "466",
         "professor": "SOLIGNAC NIDIA",
@@ -24739,6 +27044,115 @@
         "time_end": "20:00",
         "schedule": "Lun 18:30 a 20:00 - Jue 18:30 a 20:00",
         "modality": "Virtual",
+        "difficulty": "Media",
+        "corte_puntos": "-",
+        "aula": "",
+        "comments": [],
+        "sources": [
+            "Franja Morada",
+            "Nexo"
+        ],
+        "is_pro_student": false
+    },
+    {
+        "subject": "Derecho del Trabajo y de la Seguridad Social",
+        "commission": "4678",
+        "professor": "RUGGIERO MARTA",
+        "days": [
+            "LU",
+            "JU"
+        ],
+        "time_start": "08:30",
+        "time_end": "10:00",
+        "schedule": "Lun 08:30 a 10:00 - Jue 08:30 a 10:00",
+        "modality": "Presencial",
+        "difficulty": "Media",
+        "corte_puntos": "-",
+        "aula": "",
+        "comments": [],
+        "sources": [
+            "Franja Morada",
+            "Nexo"
+        ],
+        "is_pro_student": false
+    },
+    {
+        "subject": "Derecho del Trabajo y de la Seguridad Social",
+        "commission": "4677",
+        "professor": "RUGGIERO MARTA",
+        "days": [
+            "LU",
+            "JU"
+        ],
+        "time_start": "08:30",
+        "time_end": "10:00",
+        "schedule": "Lun 08:30 a 10:00 - Jue 08:30 a 10:00",
+        "modality": "Presencial",
+        "difficulty": "Media",
+        "corte_puntos": "-",
+        "aula": "",
+        "comments": [],
+        "sources": [
+            "Franja Morada",
+            "Nexo"
+        ],
+        "is_pro_student": false
+    },
+    {
+        "subject": "Derecho del Trabajo y de la Seguridad Social",
+        "commission": "4080",
+        "professor": "MICALE ADRIANA",
+        "days": [
+            "MA",
+            "VI"
+        ],
+        "time_start": "08:30",
+        "time_end": "10:00",
+        "schedule": "Mar 08:30 a 10:00 - Vie 08:30 a 10:00",
+        "modality": "Presencial",
+        "difficulty": "Media",
+        "corte_puntos": "-",
+        "aula": "",
+        "comments": [],
+        "sources": [
+            "Franja Morada",
+            "Nexo"
+        ],
+        "is_pro_student": false
+    },
+    {
+        "subject": "Derecho del Trabajo y de la Seguridad Social",
+        "commission": "4758",
+        "professor": "BRASBURG MARCELO",
+        "days": [
+            "MA",
+            "VI"
+        ],
+        "time_start": "11:30",
+        "time_end": "13:00",
+        "schedule": "Mar 11:30 a 13:00 - Vie 11:30 a 13:00",
+        "modality": "Presencial",
+        "difficulty": "Media",
+        "corte_puntos": "-",
+        "aula": "",
+        "comments": [],
+        "sources": [
+            "Franja Morada",
+            "Nexo"
+        ],
+        "is_pro_student": false
+    },
+    {
+        "subject": "Derecho del Trabajo y de la Seguridad Social",
+        "commission": "4089",
+        "professor": "YASIN OMAR",
+        "days": [
+            "MI"
+        ],
+        "time_start": "10:00",
+        "time_end": "13:00",
+        "schedule": "Mie 10:00 a 13:00",
+        "modality": "Presencial",
         "difficulty": "Media",
         "corte_puntos": "-",
         "aula": "",
@@ -25205,6 +27619,7 @@
         "comments": [],
         "sources": [
             "Franja Morada",
+            "Recomellas",
             "Nexo"
         ],
         "is_pro_student": false
@@ -25227,6 +27642,7 @@
         "comments": [],
         "sources": [
             "Franja Morada",
+            "Recomellas",
             "Nexo"
         ],
         "is_pro_student": false
@@ -25269,6 +27685,7 @@
         "comments": [],
         "sources": [
             "Franja Morada",
+            "Recomellas",
             "Nexo"
         ],
         "is_pro_student": false
@@ -25287,9 +27704,15 @@
         "difficulty": "Media",
         "corte_puntos": "-",
         "aula": "",
-        "comments": [],
+        "comments": [
+            {
+                "source": "Recomellas",
+                "text": "Cátedra exigente. Las clases están buenas, el profesor es claro y la carga de lectura es acorde a la cantidad de contenidos. Si la llevas aldía no es pesada pero imposible leer todo de golpe cuando hay que sentarse a escribir losmemoriales. La modalidad de evaluación es un trabajo final al final de la cursada,"
+            }
+        ],
         "sources": [
             "Franja Morada",
+            "Recomellas",
             "Nexo"
         ],
         "is_pro_student": false
@@ -25308,12 +27731,18 @@
         "difficulty": "Media",
         "corte_puntos": "-",
         "aula": "",
-        "comments": [],
+        "comments": [
+            {
+                "source": "Recomellas",
+                "text": "Recomendable. Es un choice al final del bimestre. Las clases son re llevaderas proque el profe es muy buena onda \ny encima se ven temas interesantes de la vida cotidiana."
+            }
+        ],
         "sources": [
             "Franja Morada",
+            "Recomellas",
             "Nexo"
         ],
-        "is_pro_student": false
+        "is_pro_student": true
     },
     {
         "subject": "Elementos de Derecho Constitucional",
@@ -25329,12 +27758,18 @@
         "difficulty": "Media",
         "corte_puntos": "-",
         "aula": "",
-        "comments": [],
+        "comments": [
+            {
+                "source": "Recomellas",
+                "text": "Recomendable. Es un choice al final del bimestre. Las clases son re llevaderas proque el profe es muy buena onda \ny encima se ven temas interesantes de la vida cotidiana."
+            }
+        ],
         "sources": [
             "Franja Morada",
+            "Recomellas",
             "Nexo"
         ],
-        "is_pro_student": false
+        "is_pro_student": true
     },
     {
         "subject": "Elementos de Derecho Constitucional",
@@ -25353,6 +27788,7 @@
         "comments": [],
         "sources": [
             "Franja Morada",
+            "Recomellas",
             "Nexo"
         ],
         "is_pro_student": false
@@ -25371,9 +27807,15 @@
         "difficulty": "Media",
         "corte_puntos": "-",
         "aula": "",
-        "comments": [],
+        "comments": [
+            {
+                "source": "Recomellas",
+                "text": "Cátedra recomendable. Buena llegada a los estudiantes. Evalúa mediante tps sobre las clases."
+            }
+        ],
         "sources": [
             "Franja Morada",
+            "Recomellas",
             "Nexo"
         ],
         "is_pro_student": false
@@ -25392,9 +27834,15 @@
         "difficulty": "Media",
         "corte_puntos": "-",
         "aula": "",
-        "comments": [],
+        "comments": [
+            {
+                "source": "Recomellas",
+                "text": "Catedra recomendable, pro alumnx y muy interesante. No toman lista."
+            }
+        ],
         "sources": [
             "Franja Morada",
+            "Recomellas",
             "Nexo"
         ],
         "is_pro_student": false
@@ -25416,6 +27864,7 @@
         "comments": [],
         "sources": [
             "Franja Morada",
+            "Recomellas",
             "Nexo"
         ],
         "is_pro_student": false
@@ -26045,6 +28494,60 @@
         "is_pro_student": false
     },
     {
+        "subject": "Derecho del Trabajo y de la Seguridad Social",
+        "commission": "1421",
+        "professor": "LEDESMA ITURBIDE DIEGO",
+        "days": [],
+        "time_start": "08:30",
+        "time_end": "10:00",
+        "schedule": " 08:30 a 10:00",
+        "modality": "Presencial",
+        "difficulty": "Media",
+        "corte_puntos": "-",
+        "aula": "",
+        "comments": [],
+        "sources": [
+            "Nexo"
+        ],
+        "is_pro_student": false
+    },
+    {
+        "subject": "Derecho del Trabajo y de la Seguridad Social",
+        "commission": "1424",
+        "professor": "BRUNO OSCAR",
+        "days": [],
+        "time_start": "08:30",
+        "time_end": "10:00",
+        "schedule": " 08:30 a 10:00",
+        "modality": "Presencial",
+        "difficulty": "Media",
+        "corte_puntos": "-",
+        "aula": "",
+        "comments": [],
+        "sources": [
+            "Nexo"
+        ],
+        "is_pro_student": false
+    },
+    {
+        "subject": "Derecho del Trabajo y de la Seguridad Social",
+        "commission": "1427",
+        "professor": "REYBET CECILIA",
+        "days": [],
+        "time_start": "08:30",
+        "time_end": "10:00",
+        "schedule": " 08:30 a 10:00",
+        "modality": "Presencial",
+        "difficulty": "Media",
+        "corte_puntos": "-",
+        "aula": "",
+        "comments": [],
+        "sources": [
+            "Nexo"
+        ],
+        "is_pro_student": false
+    },
+    {
         "subject": "Elementos de Análisis Económico y Financiero",
         "commission": "1441",
         "professor": "HOFMANN CLAUDIA LILIANA",
@@ -26084,6 +28587,60 @@
         "subject": "Elementos de Análisis Económico y Financiero",
         "commission": "1447",
         "professor": "LOUNGE CARLOS",
+        "days": [],
+        "time_start": "08:30",
+        "time_end": "10:00",
+        "schedule": " 08:30 a 10:00",
+        "modality": "Presencial",
+        "difficulty": "Media",
+        "corte_puntos": "-",
+        "aula": "",
+        "comments": [],
+        "sources": [
+            "Nexo"
+        ],
+        "is_pro_student": false
+    },
+    {
+        "subject": "Derecho Internacional Público",
+        "commission": "1631",
+        "professor": "RAYMUNDO ANTONELA",
+        "days": [],
+        "time_start": "08:30",
+        "time_end": "10:00",
+        "schedule": " 08:30 a 10:00",
+        "modality": "Presencial",
+        "difficulty": "Media",
+        "corte_puntos": "-",
+        "aula": "",
+        "comments": [],
+        "sources": [
+            "Nexo"
+        ],
+        "is_pro_student": false
+    },
+    {
+        "subject": "Derecho Internacional Público",
+        "commission": "1634",
+        "professor": "LOGIOVINE YAMILA A",
+        "days": [],
+        "time_start": "08:30",
+        "time_end": "10:00",
+        "schedule": " 08:30 a 10:00",
+        "modality": "Presencial",
+        "difficulty": "Media",
+        "corte_puntos": "-",
+        "aula": "",
+        "comments": [],
+        "sources": [
+            "Nexo"
+        ],
+        "is_pro_student": false
+    },
+    {
+        "subject": "Derecho Internacional Público",
+        "commission": "1637",
+        "professor": "SORRENTINO AGUSTÍN",
         "days": [],
         "time_start": "08:30",
         "time_end": "10:00",
@@ -28427,6 +30984,29 @@
         "is_pro_student": false
     },
     {
+        "subject": "Elementos de Derecho Constitucional",
+        "commission": "4372",
+        "professor": "SABA ROBERTO",
+        "days": [],
+        "time_start": "08:30",
+        "time_end": "11:30",
+        "schedule": "08:30 a 11:30",
+        "modality": "Presencial",
+        "difficulty": "Media",
+        "corte_puntos": "-",
+        "aula": "",
+        "comments": [
+            {
+                "source": "Recomellas",
+                "text": "Catedra recomendable. Las clases son muy buenas. Toman parciales con cosas que se ven en clase. Toman lista."
+            }
+        ],
+        "sources": [
+            "Recomellas"
+        ],
+        "is_pro_student": false
+    },
+    {
         "subject": "Teoría General del Derecho",
         "commission": "6086",
         "professor": "GAIDO-TOLNAY",
@@ -28496,6 +31076,32 @@
             {
                 "source": "La Cámpora",
                 "text": "TOMA EXMAEN CAMINANDO POR LA FACU PARA QUE NO TE PONGAS NERVIOSO ,EL DOCENTE ES EXCELENTE Y EQUIPO DOCENTE TAMBIEN, ENVIAN EL CRONOGRAMA Y  LISTADO DE PREGUNTAS PARA ESTUDIAR.APRENDES UN  MONTON"
+            }
+        ],
+        "sources": [
+            "La Cámpora"
+        ],
+        "is_pro_student": false
+    },
+    {
+        "subject": "Derecho del Trabajo y de la Seguridad Social",
+        "commission": "4104",
+        "professor": "VIVES ALEJANDRA",
+        "days": [
+            "LU",
+            "JU"
+        ],
+        "time_start": "08:30",
+        "time_end": "10:00",
+        "schedule": "LU Y JU 8:30 A 10:00HS",
+        "modality": "Presencial",
+        "difficulty": "Media",
+        "corte_puntos": "-",
+        "aula": "",
+        "comments": [
+            {
+                "source": "La Cámpora",
+                "text": "Este curso se propone discutir los alcances y las tensiones en torno al cuidado en el mundo del trabajo desde una perspectiva de derechos humanos"
             }
         ],
         "sources": [

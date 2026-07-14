@@ -1,5 +1,6 @@
 import { state } from './state.js';
 import { renderWelcomeState, renderCards } from './ui.js';
+import { getSubjectDepartment } from './api.js';
 
 // ==========================================================================
 // FILTER AND SORT LOGIC
@@ -8,11 +9,14 @@ export function applyFilters() {
     const searchInput = document.getElementById('search-input');
     const searchVal = searchInput ? searchInput.value.toLowerCase().trim() : '';
     
+    const deptFilter = document.getElementById('dept-filter');
+    const deptVal = deptFilter ? deptFilter.value : '';
+    
     const subjectFilter = document.getElementById('subject-filter');
     const subjectVal = subjectFilter ? subjectFilter.value : '';
     
     // Toggle welcome/initial search state if no searches are active
-    if (!searchVal && !subjectVal && !state.showAllByDefault) {
+    if (!searchVal && !subjectVal && !deptVal && !state.showAllByDefault) {
         renderWelcomeState();
         return;
     }
@@ -34,6 +38,12 @@ export function applyFilters() {
     const onlyPro = proStudentFilter ? proStudentFilter.checked : false;
 
     state.filteredCommissions = state.allCommissions.filter(rec => {
+        // 0. Department filter
+        if (deptVal) {
+            const commissionDept = getSubjectDepartment(rec.subject);
+            if (commissionDept !== deptVal) return false;
+        }
+
         // 1. Subject filter
         if (subjectVal && rec.subject !== subjectVal) return false;
 

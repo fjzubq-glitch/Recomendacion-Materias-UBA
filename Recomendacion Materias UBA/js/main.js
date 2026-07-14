@@ -104,6 +104,11 @@ function setupEventListeners() {
     if (btnReset) {
         btnReset.addEventListener('click', () => {
             if (searchInput) searchInput.value = '';
+            const deptFilter = document.getElementById('dept-filter');
+            if (deptFilter) {
+                deptFilter.value = '';
+                deptFilter.dispatchEvent(new Event('change'));
+            }
             if (subjectFilter) subjectFilter.value = '';
             if (sortSelect) sortSelect.value = 'subject';
             if (proStudentFilter) proStudentFilter.checked = false;
