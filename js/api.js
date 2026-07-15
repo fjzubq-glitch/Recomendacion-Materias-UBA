@@ -75,7 +75,7 @@ export function populateSubjectDropdown(cycle) {
     const deptGroup = document.getElementById('dept-filter-group');
     if (!select) return;
     
-    // Clear old options except the first one
+    // Clear old options
     select.innerHTML = '<option value="">Todas las materias</option>';
     
     // Get unique subject names
@@ -84,6 +84,7 @@ export function populateSubjectDropdown(cycle) {
     if (cycle === 'cpc') {
         if (deptGroup) deptGroup.style.display = 'none';
         if (deptSelect) deptSelect.value = ''; // Reset dept filter
+        select.disabled = false;
         
         // Populate Materias flat
         subjects.forEach(sub => {
@@ -93,9 +94,8 @@ export function populateSubjectDropdown(cycle) {
             select.appendChild(opt);
         });
     } else {
-        // Hide the separate department dropdown, we will group inside the Materia dropdown directly
-        if (deptGroup) deptGroup.style.display = 'none';
-        if (deptSelect) deptSelect.value = '';
+        // Show orientation selector
+        if (deptGroup) deptGroup.style.display = 'block';
         
         // Group CPO subjects by department
         const groups = {};
@@ -130,19 +130,43 @@ export function populateSubjectDropdown(cycle) {
             return idxA - idxB;
         });
         
-        // Populate CPO Materias dropdown grouped with optgroups
-        presentDepts.forEach(dept => {
-            const optgroup = document.createElement('optgroup');
-            optgroup.label = dept;
-            
-            groups[dept].forEach(sub => {
+        // Populate Orientación selector
+        if (deptSelect) {
+            deptSelect.innerHTML = '<option value="">Todas las orientaciones</option>';
+            presentDepts.forEach(dept => {
                 const opt = document.createElement('option');
-                opt.value = sub;
-                opt.textContent = sub;
-                optgroup.appendChild(opt);
+                opt.value = dept;
+                opt.textContent = dept;
+                deptSelect.appendChild(opt);
             });
             
-            select.appendChild(optgroup);
-        });
+            // Set initial state: Materia dropdown is disabled until orientation is selected
+            select.innerHTML = '<option value="">Selecciona una orientación primero...</option>';
+            select.disabled = true;
+            
+            // Listen to department changes to update subjects dropdown dynamically
+            deptSelect.onchange = () => {
+                const selectedDept = deptSelect.value;
+                
+                if (selectedDept) {
+                    select.innerHTML = '<option value="">Todas las materias de la orientación</option>';
+                    select.disabled = false;
+                    const filteredSubjects = groups[selectedDept] || [];
+                    filteredSubjects.forEach(sub => {
+                        const opt = document.createElement('option');
+                        opt.value = sub;
+                        opt.textContent = sub;
+                        select.appendChild(opt);
+                    });
+                } else {
+                    select.innerHTML = '<option value="">Selecciona una orientación primero...</option>';
+                    select.disabled = true;
+                    select.value = '';
+                }
+                
+                // Triggers search filter apply when department changes
+                applyFilters();
+            };
+        }
     }
 }
