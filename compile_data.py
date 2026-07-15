@@ -168,6 +168,12 @@ def get_sheet_data(df, source_name):
         
     return data_rows
 
+def normalize_text(t):
+    t = t.lower()
+    t = t.replace('á', 'a').replace('é', 'e').replace('í', 'i').replace('ó', 'o').replace('ú', 'u')
+    t = re.sub(r'[^a-z0-9]', '', t)
+    return t
+
 def parse_cpc_row(headers, row, sheet_name, source_name):
     row_dict = {}
     for h, v in zip(headers, row):
@@ -191,7 +197,30 @@ def parse_cpc_row(headers, row, sheet_name, source_name):
         return None
         
     # Subject name
-    subject = SUBJECT_MAP_CPC.get(sheet_name.strip().upper(), sheet_name.strip())
+    subject = ""
+    for val in row:
+        sval = str(val).strip()
+        if re.match(r'^\d{3}\s*-\s*\w+', sval):
+            subject = sval
+            break
+            
+    if not subject and sheet_name.strip().upper() in ['CPC', 'CPC Y NEGRITAS']:
+        for k in ['MATERIA', 'ACTIVIDAD', 'MATERIA ', 'ACTIVIDAD ']:
+            if k in row_dict and not pd.isna(row_dict[k]):
+                subject = str(row_dict[k]).strip()
+                break
+                
+    if subject:
+        subject = re.sub(r'^\d+\s*-\s*', '', subject).strip()
+        norm_subj = normalize_text(subject)
+        for k, v in SUBJECT_MAP_CPC.items():
+            if normalize_text(k) == norm_subj or normalize_text(v) == norm_subj:
+                subject = v
+                break
+        else:
+            subject = subject.title()
+    else:
+        subject = SUBJECT_MAP_CPC.get(sheet_name.strip().upper(), sheet_name.strip())
     
     # Professor
     prof = "A designar"
@@ -443,13 +472,19 @@ def process_directory(directory, is_cpo_dir=False):
         print(f"Parsing: {filename}")
         
         # Determine source
-        source_name = "Recomellas"
+        source_name = "Otros"
         if "CAMPORA" in filename.upper() or "CÁMPORA" in filename.upper():
-            source_name = "La Campora"
+            source_name = "La Cámpora"
         elif "CENTENO" in filename.upper():
             source_name = "La Centeno"
         elif "NEXO" in filename.upper():
             source_name = "Nexo"
+        elif "FRANJA" in filename.upper():
+            source_name = "Franja Morada"
+        elif "NUEVO" in filename.upper():
+            source_name = "Nuevo Derecho"
+        elif "RECOMELLAS" in filename.upper():
+            source_name = "Recomellas"
             
         try:
             xl = pd.ExcelFile(filepath)
@@ -535,11 +570,6 @@ def process_franja_pdfs(cpc_data, directory):
     comm_re = re.compile(r'^(\d{4})\s+(Presencial|Remota|Mixta|Virtual|Mixto)\b')
     sched_rem_re = re.compile(r'^[0-9\s:a\-]+$')
     
-    def normalize_text(t):
-        t = t.lower()
-        t = t.replace('á', 'a').replace('é', 'e').replace('í', 'i').replace('ó', 'o').replace('ú', 'u')
-        t = re.sub(r'[^a-z0-9]', '', t)
-        return t
 
     def get_subject_from_filename(filename):
         name = filename.rsplit('.', 1)[0].upper()
@@ -660,6 +690,50 @@ process_franja_pdfs(cpc_data, cpc_dir)
 
 print("Parsing CPO directory...")
 cpo_data = process_directory(cpo_dir, is_cpo_dir=True)
+
+# Merge duplicates across CPC and CPO
+merged_db = {}
+for item in (cpc_data + cpo_data):
+    key = (item['subject'], item['commission'])
+    if key not in merged_db:
+        merged_db[key] = item
+    else:
+        # Merge sources
+        for s in item['sources']:
+            if s not in merged_db[key]['sources']:
+                merged_db[key]['sources'].append(s)
+        # Merge comments
+        existing_comments = [c['text'].lower() for c in merged_db[key]['comments']]
+        for c in item['comments']:
+            if c['text'].lower() not in existing_comments:
+                merged_db[key]['comments'].append(c)
+                existing_comments.append(c['text'].lower())
+        # Merge is_pro_student
+        if item.get('is_pro_student'):
+            merged_db[key]['is_pro_student'] = True
+        # Keep difficulty or other fields if they were default in one but set in another
+        if merged_db[key]['difficulty'] == 'Media' and item['difficulty'] != 'Media':
+            merged_db[key]['difficulty'] = item['difficulty']
+
+all_data = list(merged_db.values())
+
+cpc_subjects = {
+    'Teoría General del Derecho',
+    'Teoría del Estado',
+    'Elementos de Derecho Civil',
+    'Derechos Humanos y Garantías',
+    'Elementos de Análisis Económico y Financiero',
+    'Elementos de Derecho Constitucional',
+    'Obligaciones Civiles y Comerciales',
+    'Elementos de Derechos Reales',
+    'Elementos de Derecho Comercial',
+    'Elementos de Derecho Procesal Civil y Comercial',
+    'Elementos de Derecho Penal y Procesal Penal',
+    'Contratos Civiles y Comerciales'
+}
+
+cpc_data = [d for d in all_data if d['subject'] in cpc_subjects]
+cpo_data = [d for d in all_data if d['subject'] not in cpc_subjects]
 
 # Write to JSON files
 with open("cpc_data.json", "w", encoding="utf-8") as f:

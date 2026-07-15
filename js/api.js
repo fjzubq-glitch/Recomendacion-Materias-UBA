@@ -93,9 +93,11 @@ export function populateSubjectDropdown(cycle) {
             select.appendChild(opt);
         });
     } else {
-        if (deptGroup) deptGroup.style.display = 'block';
+        // Hide the separate department dropdown, we will group inside the Materia dropdown directly
+        if (deptGroup) deptGroup.style.display = 'none';
+        if (deptSelect) deptSelect.value = '';
         
-        // 1. Group CPO subjects by department
+        // Group CPO subjects by department
         const groups = {};
         subjects.forEach(sub => {
             const dept = getSubjectDepartment(sub);
@@ -128,52 +130,19 @@ export function populateSubjectDropdown(cycle) {
             return idxA - idxB;
         });
         
-        // Populate Departamento selector
-        if (deptSelect) {
-            deptSelect.innerHTML = '<option value="">Todos los departamentos</option>';
-            presentDepts.forEach(dept => {
+        // Populate CPO Materias dropdown grouped with optgroups
+        presentDepts.forEach(dept => {
+            const optgroup = document.createElement('optgroup');
+            optgroup.label = dept;
+            
+            groups[dept].forEach(sub => {
                 const opt = document.createElement('option');
-                opt.value = dept;
-                opt.textContent = dept;
-                deptSelect.appendChild(opt);
+                opt.value = sub;
+                opt.textContent = sub;
+                optgroup.appendChild(opt);
             });
             
-            // Listen to department changes to update subjects dropdown dynamically
-            deptSelect.onchange = () => {
-                const selectedDept = deptSelect.value;
-                select.innerHTML = '<option value="">Todas las materias</option>';
-                
-                if (selectedDept) {
-                    // Only show subjects belonging to the selected department
-                    const filteredSubjects = groups[selectedDept] || [];
-                    filteredSubjects.forEach(sub => {
-                        const opt = document.createElement('option');
-                        opt.value = sub;
-                        opt.textContent = sub;
-                        select.appendChild(opt);
-                    });
-                } else {
-                    // Show all subjects flat
-                    subjects.forEach(sub => {
-                        const opt = document.createElement('option');
-                        opt.value = sub;
-                        opt.textContent = sub;
-                        select.appendChild(opt);
-                    });
-                }
-                
-                // Triggers search filter apply when department changes
-                applyFilters();
-            };
-        }
-        
-        // Initial populate of subjects for CPO (with all subjects)
-        select.innerHTML = '<option value="">Todas las materias</option>';
-        subjects.forEach(sub => {
-            const opt = document.createElement('option');
-            opt.value = sub;
-            opt.textContent = sub;
-            select.appendChild(opt);
+            select.appendChild(optgroup);
         });
     }
 }
