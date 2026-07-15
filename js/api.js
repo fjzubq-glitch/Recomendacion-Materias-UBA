@@ -6,7 +6,7 @@ export async function loadCycleData(cycle) {
     const cardsContainer = document.getElementById('cards-container');
     try {
         const filename = cycle === 'cpc' ? 'cpc_data.json' : 'cpo_data.json';
-        const response = await fetch(filename);
+        const response = await fetch(`${filename}?t=${Date.now()}`);
         if (!response.ok) throw new Error(`No se pudo cargar ${filename}`);
         
         state.allCommissions = await response.json();

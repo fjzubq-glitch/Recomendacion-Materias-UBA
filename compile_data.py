@@ -3,8 +3,8 @@ import re
 import json
 import pandas as pd
 
-cpc_dir = r"c:\Users\User\Downloads\WIN10PRO64NOV-XYZ\Desktop\Proyectos Antigravity\Recomendacion Materias UBA\Recomendacion Materias UBA\Recomendaciones CPC"
-cpo_dir = r"c:\Users\User\Downloads\WIN10PRO64NOV-XYZ\Desktop\Proyectos Antigravity\Recomendacion Materias UBA\Recomendacion Materias UBA\Recomendaciones CPO"
+cpc_dir = r"c:\Users\User\Downloads\WIN10PRO64NOV-XYZ\Desktop\Proyectos Antigravity\Recomendacion Materias UBA\Recomendaciones CPC"
+cpo_dir = r"c:\Users\User\Downloads\WIN10PRO64NOV-XYZ\Desktop\Proyectos Antigravity\Recomendacion Materias UBA\Recomendaciones CPO"
 
 SUBJECT_MAP_CPC = {
     'TGD': 'Teoría General del Derecho',
@@ -527,8 +527,136 @@ def process_directory(directory, is_cpo_dir=False):
     # Convert dict to list
     return list(db.values())
 
+def process_franja_pdfs(cpc_data, directory):
+    import pdfplumber
+    import os
+    
+    commission_map = {d['commission']: d for d in cpc_data}
+    comm_re = re.compile(r'^(\d{4})\s+(Presencial|Remota|Mixta|Virtual|Mixto)\b')
+    sched_rem_re = re.compile(r'^[0-9\s:a\-]+$')
+    
+    def normalize_text(t):
+        t = t.lower()
+        t = t.replace('á', 'a').replace('é', 'e').replace('í', 'i').replace('ó', 'o').replace('ú', 'u')
+        t = re.sub(r'[^a-z0-9]', '', t)
+        return t
+
+    def get_subject_from_filename(filename):
+        name = filename.rsplit('.', 1)[0].upper()
+        name = re.sub(r'2C\d{4}', '', name)
+        name = re.sub(r'2C\d', '', name)
+        name = re.sub(r'1LL', '', name)
+        name = re.sub(r'\(.*\)', '', name)
+        name = name.replace('.DOCX', '').replace('_', '').strip()
+        norm_name = normalize_text(name)
+        for k, v in SUBJECT_MAP_CPC.items():
+            norm_k = normalize_text(k)
+            if norm_k in norm_name or norm_name in norm_k:
+                return v
+        return name.title()
+
+    for filename in os.listdir(directory):
+        if not filename.endswith('.pdf') or filename.startswith('~$'):
+            continue
+        filepath = os.path.join(directory, filename)
+        subject = get_subject_from_filename(filename)
+        print(f"Parsing Franja PDF: {filename}")
+        
+        try:
+            with pdfplumber.open(filepath) as pdf:
+                full_text = []
+                for page in pdf.pages:
+                    text = page.extract_text()
+                    if text:
+                        full_text.append(text)
+                content = '\n'.join(full_text)
+                lines = content.split('\n')
+                processed_lines = []
+                for line in lines:
+                    line = line.strip()
+                    if not line or re.match(r'^--- PAGE \d+ ---$', line):
+                        continue
+                    processed_lines.append(line)
+                
+                active_commissions = []
+                current_comment = []
+                
+                for line in processed_lines:
+                    match = comm_re.match(line)
+                    if match:
+                        if current_comment and active_commissions:
+                            comment_str = ' '.join(current_comment).strip()
+                            for c in active_commissions:
+                                if c in commission_map:
+                                    existing = [cmt['text'].lower() for cmt in commission_map[c]['comments']]
+                                    if comment_str.lower() not in existing:
+                                        commission_map[c]['comments'].append({'source': 'Franja Morada', 'text': comment_str})
+                                    if 'Franja Morada' not in commission_map[c]['sources']:
+                                        commission_map[c]['sources'].append('Franja Morada')
+                            current_comment = []
+                            active_commissions = []
+                        
+                        comm_num = match.group(1)
+                        active_commissions.append(comm_num)
+                        
+                        if comm_num not in commission_map:
+                            rest = line[match.end():].strip()
+                            day_match = re.search(r'\b(Lun|Mar|Mie|Mié|Jue|Vie|Sab|Sáb|Dom)\b', rest, re.IGNORECASE)
+                            if day_match:
+                                prof = rest[:day_match.start()].strip()
+                                sched = rest[day_match.start():].strip()
+                            else:
+                                prof = rest
+                                sched = ''
+                            
+                            new_item = {
+                                'subject': subject,
+                                'commission': comm_num,
+                                'professor': prof if prof else 'A designar',
+                                'days': [],
+                                'time_start': '08:30',
+                                'time_end': '10:00',
+                                'schedule': sched,
+                                'modality': 'Presencial' if match.group(2) == 'Presencial' else 'Remota',
+                                'difficulty': 'Media',
+                                'corte_puntos': '-',
+                                'aula': '',
+                                'comments': [],
+                                'sources': ['Franja Morada'],
+                                'is_pro_student': False
+                            }
+                            commission_map[comm_num] = new_item
+                            cpc_data.append(new_item)
+                        continue
+                        
+                    if line.startswith('Corte') or line.startswith('Bibliograf') or line.startswith('Bibliogra') or line in ['TURNO MAÑANA', 'TURNO TARDE', 'TURNO NOCHE', 'VIRTUALES', 'PRESENCIALES']:
+                        continue
+                    if sched_rem_re.match(line):
+                        for c in active_commissions:
+                            if c in commission_map and not commission_map[c]['schedule']:
+                                commission_map[c]['schedule'] = line
+                        continue
+                        
+                    if active_commissions:
+                        current_comment.append(line)
+                        
+                if current_comment and active_commissions:
+                    comment_str = ' '.join(current_comment).strip()
+                    for c in active_commissions:
+                        if c in commission_map:
+                            existing = [cmt['text'].lower() for cmt in commission_map[c]['comments']]
+                            if comment_str.lower() not in existing:
+                                commission_map[c]['comments'].append({'source': 'Franja Morada', 'text': comment_str})
+                            if 'Franja Morada' not in commission_map[c]['sources']:
+                                commission_map[c]['sources'].append('Franja Morada')
+        except Exception as e:
+            print(f"Error parsing PDF {filename}: {e}")
+
 print("Parsing CPC directory...")
 cpc_data = process_directory(cpc_dir, is_cpo_dir=False)
+
+print("Processing Franja Morada PDFs...")
+process_franja_pdfs(cpc_data, cpc_dir)
 
 print("Parsing CPO directory...")
 cpo_data = process_directory(cpo_dir, is_cpo_dir=True)
