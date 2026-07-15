@@ -45,6 +45,9 @@
             </div>
 
             <div class="header-stats">
+                <button id="btn-open-info" style="background: rgba(255,255,255,0.05); border: 1px solid var(--border-color); display: flex; align-items: center; gap: 0.5rem; padding: 0.6rem 1.2rem; border-radius: var(--radius-sm); color: var(--text-primary); font-weight: 600; cursor: pointer; transition: all 0.2s;" onmouseover="this.style.background='rgba(255,255,255,0.1)'" onmouseout="this.style.background='rgba(255,255,255,0.05)'">
+                    <span>ℹ️ Preguntas / Info</span>
+                </button>
                 <div class="stat-pill">
                     <span class="stat-val" id="total-commissions-badge">0</span>
                     <span class="stat-label">Comisiones</span>
@@ -242,10 +245,39 @@
         </div>
     </div>
 
+    <!-- Help / Info Modal -->
+    <div class="modal-overlay" id="info-modal">
+        <div class="modal-container" style="max-width: 650px;">
+            <div class="modal-header">
+                <div class="modal-titles">
+                    <h2>ℹ️ Información y Preguntas Frecuentes</h2>
+                    <p>Guía rápida para entender cómo funciona la plataforma</p>
+                </div>
+                <button class="btn-close" id="btn-close-info-modal" aria-label="Cerrar modal de información">&times;</button>
+            </div>
+            <div class="modal-body" style="padding: 1.5rem; line-height: 1.6; color: var(--text-secondary); max-height: 70vh; overflow-y: auto;">
+                <h3 style="color: var(--text-primary); margin-top: 0; font-size: 1.1rem; border-left: 3px solid var(--accent-color); padding-left: 0.5rem;">¿Qué es esta plataforma?</h3>
+                <p style="margin-bottom: 1.25rem;">Es un planificador inteligente que unifica las recomendaciones y opiniones de materias de la Facultad de Derecho UBA, permitiéndote buscar y armar tu agenda sin tener que abrir múltiples archivos de Excel por separado.</p>
+                
+                <h3 style="color: var(--text-primary); margin-top: 1.5rem; font-size: 1.1rem; border-left: 3px solid var(--accent-color); padding-left: 0.5rem;">¿De dónde provienen las opiniones?</h3>
+                <p style="margin-bottom: 1.25rem;">Toda la información proviene de las planillas y PDFs oficiales publicados por las siguientes agrupaciones estudiantiles: <strong>La Centeno, Recomellas, Nexo, Franja Morada, La Cámpora y Nuevo Derecho</strong>.</p>
+                
+                <h3 style="color: var(--text-primary); margin-top: 1.5rem; font-size: 1.1rem; border-left: 3px solid var(--accent-color); padding-left: 0.5rem;">¿Por qué algunas materias dicen "0 opiniones"?</h3>
+                <p style="margin-bottom: 1.25rem;">Las agrupaciones recomiendan ciertas cátedras y comisiones incluyéndolas en sus planillas oficiales. Si una materia dice "0 opiniones", significa que fue recomendada por ellos para cursar, pero no escribieron una reseña detallada (comentario de texto) en su listado. Igualmente se muestran para que sepas qué comisiones están recomendadas.</p>
+                
+                <h3 style="color: var(--text-primary); margin-top: 1.5rem; font-size: 1.1rem; border-left: 3px solid var(--accent-color); padding-left: 0.5rem;">¿Qué es la etiqueta "Pro-Alumno"?</h3>
+                <p style="margin-bottom: 1.25rem;">Es una etiqueta especial que se activa cuando los comentarios indican explícitamente que la cátedra tiene dinámicas favorables para el estudiante (por ejemplo: parciales choice, alta tasa de aprobados, nula exigencia de TPs o flexibilidad horaria). Puedes filtrarlas directamente en la barra lateral.</p>
+                
+                <h3 style="color: var(--text-primary); margin-top: 1.5rem; font-size: 1.1rem; border-left: 3px solid var(--accent-color); padding-left: 0.5rem;">¿Cómo uso el planificador / borrador?</h3>
+                <p style="margin-bottom: 0;">Puedes agregar comisiones a tu borrador haciendo clic en <strong>"Agregar a mi agenda"</strong> en cada tarjeta. Luego, haz clic en el botón superior <strong>"Ver Borrador"</strong> para ver tu cronograma consolidado, verificar si tienes conflictos de horarios y exportar la información para copiarla directamente a tu Notion o descargarla en un archivo PDF.</p>
+            </div>
+        </div>
+    </div>
+
     <!-- Toast Notifications Container -->
     <div id="toast-container" class="toast-container" aria-live="polite"></div>
 
-    <script type="module" src="js/main.js?v=10"></script>
+    <script type="module" src="js/main.js?v=11"></script>
     <footer class="site-footer">
         &copy; 2026 — Designed & developed by Franklin ZG
     </footer>

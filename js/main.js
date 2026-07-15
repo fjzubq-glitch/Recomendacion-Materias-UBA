@@ -206,4 +206,27 @@ function setupEventListeners() {
             if (e.target.id === 'report-modal') closeReportModal();
         });
     }
+
+    // Info Modal Event Listeners
+    const btnOpenInfo = document.getElementById('btn-open-info');
+    const infoModal = document.getElementById('info-modal');
+    const btnCloseInfoModal = document.getElementById('btn-close-info-modal');
+    
+    if (btnOpenInfo && infoModal) {
+        btnOpenInfo.addEventListener('click', () => {
+            infoModal.classList.add('active');
+        });
+    }
+    if (btnCloseInfoModal && infoModal) {
+        btnCloseInfoModal.addEventListener('click', () => {
+            infoModal.classList.remove('active');
+        });
+    }
+    if (infoModal) {
+        infoModal.addEventListener('click', (e) => {
+            if (e.target.id === 'info-modal') {
+                infoModal.classList.remove('active');
+            }
+        });
+    }
 }
