@@ -50,19 +50,6 @@ export async function loadCycleData(cycle) {
 export function getSubjectDepartment(subjectName) {
     const sub = (subjectName || '').toUpperCase();
     
-    // Check if it's one of the CPO "negritas" (comunes a todas las orientaciones)
-    if (
-        sub.includes('SOCIEDADES CIVILES') || 
-        sub.includes('DERECHO COMERCIAL (SOCIEDADES)') ||
-        sub.includes('FAMILIA Y SUCESIONES') || 
-        sub.includes('DERECHO DE FAMILIA Y SUCESIONES') ||
-        sub.includes('FINANZAS PÚBLICAS') || 
-        sub.includes('FINANZAS PUBLICAS') || 
-        sub.includes('INTERNACIONAL PRIVADO')
-    ) {
-        return 'Materias Obligatorias (Negritas)';
-    }
-    
     if (sub.includes('(PRI)') || sub.includes('PRIVADO')) return 'Derecho Privado';
     if (sub.includes('(PUB)') || sub.includes('PUBLICO') || sub.includes('PÚBLICO') || sub.includes('INTEGRACIÓN') || sub.includes('INTEGRACION')) return 'Derecho Público / Integración';
     if (sub.includes('(PEN)') || sub.includes('PENAL') || sub.includes('DELITO')) return 'Derecho Penal y Criminología';
@@ -121,7 +108,6 @@ export function populateSubjectDropdown(cycle) {
         
         // Define department sorting order (logical sequence)
         const deptOrder = [
-            'Materias Obligatorias (Negritas)',
             'Derecho Privado',
             'Derecho Público / Integración',
             'Derecho Penal y Criminología',

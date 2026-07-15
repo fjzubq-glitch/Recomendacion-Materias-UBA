@@ -745,7 +745,12 @@ cpc_subjects = {
     # 13. Derecho Administrativo
     'Derecho Administrativo',
     # 14. Derecho del Trabajo y la Seguridad Social
-    'Derecho del Trabajo y la Seguridad Social', 'Derecho del Trabajo'
+    'Derecho del Trabajo y la Seguridad Social', 'Derecho del Trabajo',
+    # --- 5 Materias Negritas (Obligatorias CPO ruteadas al CPC por solicitud del usuario) ---
+    'Finanzas Públicas y Derecho Tributario', 'Finanzas Publicas y Derecho Tributario', 'Finanzas Públicas Y Derecho Tributario',
+    'Familia y Sucesiones', 'Familia Y Sucesiones', 'Derecho de Familia y Sucesiones',
+    'Sociedades Civiles y Comerciales', 'Sociedades Civiles Y Comerciales', 'Derecho Comercial (Sociedades)',
+    'Derecho Internacional Privado', 'Derecho Internacional Público', 'Derecho Internacional Publico'
 }
 
 cpc_data = [d for d in all_data if d['subject'] in cpc_subjects]
