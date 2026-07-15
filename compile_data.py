@@ -718,18 +718,34 @@ for item in (cpc_data + cpo_data):
 all_data = list(merged_db.values())
 
 cpc_subjects = {
-    'Teoría General del Derecho',
-    'Teoría del Estado',
-    'Elementos de Derecho Civil',
-    'Derechos Humanos y Garantías',
-    'Elementos de Análisis Económico y Financiero',
-    'Elementos de Derecho Constitucional',
+    # 1. Teoría General del Derecho
+    'Teoría General del Derecho', 'Teoria General del Derecho',
+    # 2. Teoría del Estado
+    'Teoría del Estado', 'Teoria del Estado',
+    # 3. Elementos de Derecho Civil
+    'Elementos de Derecho Civil', 'Elementos del Derecho Civil',
+    # 4. Derechos Humanos y Garantías
+    'Derechos Humanos y Garantías', 'Derechos Humanos y Garantias',
+    # 5. Análisis Económico y Financiero
+    'Análisis Económico y Financiero', 'Analisis Economico y Financiero', 'Elementos de Análisis Económico y Financiero', 'Elementos de Analisis Economico y Financiero',
+    # 6. Derecho Constitucional
+    'Derecho Constitucional', 'Elementos de Derecho Constitucional',
+    # 7. Obligaciones Civiles y Comerciales
     'Obligaciones Civiles y Comerciales',
+    # 8. Elementos de Derechos Reales
     'Elementos de Derechos Reales',
-    'Elementos de Derecho Comercial',
-    'Elementos de Derecho Procesal Civil y Comercial',
-    'Elementos de Derecho Penal y Procesal Penal',
-    'Contratos Civiles y Comerciales'
+    # 9. Elementos de Derecho Comercial
+    'Elementos de Derecho Comercial', 'Elementos del Derecho Comercial',
+    # 10. Elementos de Derecho Procesal Civil
+    'Elementos de Derecho Procesal Civil y Comercial', 'Elementos del Derecho Procesal Civil', 'Procesal Civil',
+    # 11. Derecho Penal y Procesal Penal
+    'Derecho Penal y Procesal Penal', 'Elementos de Derecho Penal y Procesal Penal',
+    # 12. Contratos Civiles y Comerciales
+    'Contratos Civiles y Comerciales',
+    # 13. Derecho Administrativo
+    'Derecho Administrativo',
+    # 14. Derecho del Trabajo y la Seguridad Social
+    'Derecho del Trabajo y la Seguridad Social', 'Derecho del Trabajo'
 }
 
 cpc_data = [d for d in all_data if d['subject'] in cpc_subjects]
