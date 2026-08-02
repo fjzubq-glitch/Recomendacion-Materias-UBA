@@ -119,7 +119,9 @@ SUBJECT_MAP_CPC = {
     'DERECHO INTERNACIONAL PRIVADO': 'Derecho Internacional Privado',
     'DIPr': 'Derecho Internacional Privado',
     'INT. PRIVADO': 'Derecho Internacional Privado',
-    'INT PRIVADO': 'Derecho Internacional Privado'
+    'INT PRIVADO': 'Derecho Internacional Privado',
+    'INT. PUBLICO': 'Derecho Internacional Público',
+    'ANALISIS': 'Elementos de Análisis Económico y Financiero'
 }
 
 def normalize_subject(subject):
@@ -132,6 +134,10 @@ def normalize_subject(subject):
             return SUBJECT_MAP_CPC[key]
             
     return subject.strip()
+
+def title_case(s):
+    small = {'de', 'del', 'la', 'las', 'los', 'el', 'y', 'en', 'a', 'para', 'por', 'con', 'sin', 'su', 'al', 'e', 'o', 'u', 'i'}
+    return ' '.join(w.lower() if w.lower() in small else w[:1].upper() + w[1:].lower() for w in s.split())
 
 CPO_SHEETS = [
     'SOCIALES', 'DEPTO. SOCIALES', 'FILO', 'DEPTO. FILO', 'FILOSOFÍA', 'FILOSOFIA', 'PROCESAL', 'DEPTO. PROCESAL',
@@ -511,14 +517,15 @@ def parse_centeno_pdf(filepath):
     if not subject or subject == filename:
         subject = filename.split(".")[0].split()[0]
         
-    print(f"  [PDF La Centeno] Asignando materia: {subject}")
+    print(f"  [PDF recomendaciones] Asignando materia: {subject}")
     
     reader = pypdf.PdfReader(filepath)
     text = ""
     for page in reader.pages:
         text += page.extract_text() + "\n"
         
-    pattern = r'(\d{4})\s+(Presencial|Virtual|Mixta|Remoto|A\s+designar|Presenciales|Virtuales|Mixtas)'
+    modalities = r'Presencial\s*/\s*Remota|Remota\s*/\s*Presencial|Presencial\s*/\s*Virtual|Virtual\s*/\s*Presencial|Virtual\s*/\s*Remota|Remota\s*/\s*Virtual|Presencial|Virtual|Mixta|Remoto|Remota|A\s+designar'
+    pattern = r'(\d{4})\s+(' + modalities + r')'
     matches = list(re.finditer(pattern, text, re.IGNORECASE))
     
     parsed_items = []
@@ -531,7 +538,7 @@ def parse_centeno_pdf(filepath):
         first_line = lines[0]
         rest = " ".join(lines[1:])
         
-        m = re.match(r'^(\d{4})\s+(Presencial|Virtual|Mixta|Remoto|A\s+designar)\s+([A-ZÁÉÍÓÚÑa-záéíóúñ\s\-\.]+)', first_line, re.IGNORECASE)
+        m = re.match(r'^(\d{4})\s+(' + modalities + r')\s+([A-ZÁÉÍÓÚÑa-záéíóúñ\s\-\.]+)', first_line, re.IGNORECASE)
         if m:
             comm = m.group(1)
             modality = m.group(2)
@@ -555,6 +562,11 @@ def parse_centeno_pdf(filepath):
                 if prof.endswith(' ' + d) or prof.endswith(' ' + d.upper()):
                     prof = prof[:-len(d)-1].strip()
             
+            comment_part = re.sub(r'Recomendaci[oó]n\s*:?\s*\d+\s*:', ' ', comment_part, flags=re.IGNORECASE)
+            comment_part = re.sub(r'\s+', ' ', comment_part).strip()
+            schedule_val = full_rest.split('Corte')[0]
+            schedule_val = re.split(r'Recomendaci[oó]n\b', schedule_val, flags=re.IGNORECASE)[0].strip()
+            
             parsed_items.append({
                 'subject': subject,
                 'commission': comm,
@@ -562,7 +574,7 @@ def parse_centeno_pdf(filepath):
                 'days': days,
                 'time_start': time_start,
                 'time_end': time_end,
-                'schedule': full_rest.split('Corte')[0].strip(),
+                'schedule': schedule_val,
                 'modality': clean_modality(modality),
                 'difficulty': clean_difficulty(comment_part),
                 'corte_puntos': corte_val,
@@ -573,8 +585,168 @@ def parse_centeno_pdf(filepath):
             
     return parsed_items
 
+def parse_franja_cpo_pdf(filepath):
+    try:
+        import pypdf
+    except ImportError:
+        print("  Instalando pypdf...")
+        import subprocess
+        subprocess.check_call(["pip", "install", "pypdf"])
+        import pypdf
+
+    print(f"  [PDF Franja CPO] Procesando: {os.path.basename(filepath)}")
+    reader = pypdf.PdfReader(filepath)
+    text = " ".join((page.extract_text() or "") for page in reader.pages)
+    text = re.sub(r'\s+', ' ', text)
+
+    modalities = r'Presencial\s*/\s*Remota|Remota\s*/\s*Presencial|Presencial\s*/\s*Virtual|Virtual\s*/\s*Presencial|Virtual\s*/\s*Remota|Remota\s*/\s*Virtual|Presencial|Virtual|Mixta|Remoto|Remota|A\s+designar'
+    pattern = re.compile(
+        r'([A-Z0-9]{2,4})\s+(?:\(([A-ZÁÉÍÓÚÑ]{2,5})\)\s*)?[-–]\s*'
+        r'([A-ZÁÉÍÓÚÑ0-9][A-ZÁÉÍÓÚÑa-záéíóúñ0-9\.\'\-_ ]*?)\s+'
+        r'(\d{4})\s+(' + modalities + r')',
+        re.IGNORECASE
+    )
+    # Formato de Práctica Profesional (sin modalidad entre comision y profesor)
+    practico_pattern = re.compile(
+        r'(\d{3})\s*[-–]\s*PR[AÁ]CTICA\s+PROFESIONAL(?:\s+DE\s+ABOGAC[AÍ]A)?\s+'
+        r'(\d{4})\s+GENERAL\s+FACULTAD\s+DE\s+DERECHO\s+'
+        r'([A-ZÁÉÍÓÚÑ][A-ZÁÉÍÓÚÑa-záéíóúñ\.\- ]*?)\s+((?:Lun|Mar|Mi[ée]?|Jue|Vie|S[aá]b|Dom)\b)',
+        re.IGNORECASE
+    )
+
+    def build_item(subject, comm, modality, block, prof=None):
+        if prof is None:
+            mp = re.match(r'\s*([A-ZÁÉÍÓÚÑ][A-ZÁÉÍÓÚÑa-záéíóúñ\.\- ]*?)\s+((?:Lun|Mar|Mi[ée]?|Jue|Vie|S[aá]b|Dom)\b)', block, re.IGNORECASE)
+            if mp:
+                prof = mp.group(1)
+        if not prof:
+            prof = "A designar"
+        prof = re.sub(r'\s+', ' ', prof).strip()
+        for d in ['LUN', 'MAR', 'MIE', 'MIÉ', 'JUE', 'VIE', 'SAB', 'SÁB', 'DOM']:
+            if prof.upper().endswith(' ' + d):
+                prof = prof[:-(len(d) + 1)].strip()
+        prof = prof.strip() or "A designar"
+
+        days = parse_days(block)
+        time_start, time_end = parse_hours(block)
+
+        corte_val = "-"
+        cm = re.search(r'Corte\s*[^:]*:\s*(.*?)(?=\s*(?:Recomendaci|$))', block, re.IGNORECASE)
+        if cm:
+            corte_val = ' '.join(re.sub(r'\s+', ' ', cm.group(1)).strip().split()[:3]) or "-"
+
+        comments = []
+        for c in re.findall(r'Recomendaci[oó]n\s*\d+\s*[:\-]\s*(.*?)(?=\s*Recomendaci[oó]n\s*\d+|$)', block, re.IGNORECASE | re.DOTALL):
+            t = re.sub(r'\s+', ' ', c).strip()
+            if t and not t.lower().startswith('sin info'):
+                comments.append(t)
+        comment = ' || '.join(comments)
+
+        schedule_val = re.split(r'Recomendaci[oó]n\b', block, flags=re.IGNORECASE)[0]
+        schedule_val = re.split(r'\bCorte\b', schedule_val, flags=re.IGNORECASE)[0].strip()
+
+        return {
+            'subject': subject,
+            'commission': comm,
+            'professor': prof,
+            'days': days,
+            'time_start': time_start,
+            'time_end': time_end,
+            'schedule': schedule_val,
+            'modality': clean_modality(modality),
+            'difficulty': clean_difficulty(comment),
+            'corte_puntos': corte_val,
+            'aula': '',
+            'comment': comment,
+            'source': 'Franja Morada'
+        }
+
+    parsed_items = []
+    for m in pattern.finditer(text):
+        next_match = pattern.search(text, m.end())
+        block = text[m.end():(next_match.start() if next_match else len(text))]
+        subject = re.sub(r'\s+_[A-ZÁÉÍÓÚÑ]+(?:\s+[A-ZÁÉÍÓÚÑ]+)*', '', m.group(3)).strip()
+        subject = re.sub(r'\s+', ' ', subject).strip()
+        subject = title_case(subject)
+        if not subject:
+            continue
+        parsed_items.append(build_item(subject, m.group(4), m.group(5), block))
+
+    for m in practico_pattern.finditer(text):
+        next_match = practico_pattern.search(text, m.end())
+        block = text[m.end():(next_match.start() if next_match else len(text))]
+        prof = re.sub(r'\s+', ' ', m.group(3)).strip()
+        prof = re.sub(r'^GENERAL\s+FACULTAD\s+DE\s+DERECHO\s*', '', prof)
+        subject = "Práctica Profesional de Abogacía"
+        parsed_items.append(build_item(subject, m.group(2), "Presencial", block, prof=prof))
+
+    return parsed_items
+
+def download_franja_morada():
+    print("\n=== DESCARGANDO RECOS DE FRANJA MORADA (Linktree) ===")
+    try:
+        req = urllib.request.Request(
+            "https://linktr.ee/franjaderecho",
+            headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'}
+        )
+        with urllib.request.urlopen(req, timeout=30) as response:
+            html = response.read().decode('utf-8', 'ignore')
+    except Exception as e:
+        print(f"  [ERROR] No se pudo leer el Linktree de Franja Morada: {e}")
+        return
+
+    # Buscar carpetas de Drive cuyo link apunte a las recomendaciones (RECOS)
+    folder_urls = []
+    for m in re.finditer(r'https://drive\.google\.com/drive/folders/[^"\'<>\s]+', html):
+        url = m.group(0).split('?')[0]
+        context = html[max(0, m.start() - 200):m.end() + 200]
+        if re.search(r'recos', url + ' ' + context, re.IGNORECASE):
+            if url not in folder_urls:
+                folder_urls.append(url)
+    if not folder_urls:
+        print("  [ERROR] No se encontraron carpetas RECOS en el Linktree.")
+        return
+
+    try:
+        import gdown
+    except ImportError:
+        print("  Instalando gdown...")
+        import subprocess
+        subprocess.check_call(["pip", "install", "gdown"])
+        import gdown
+
+    for i, folder_url in enumerate(folder_urls):
+        print(f"  Descargando carpeta RECOS: {folder_url}")
+        tmp = os.path.join(TEMP_DIR, f"franja_{i}")
+        os.makedirs(tmp, exist_ok=True)
+        try:
+            gdown.download_folder(folder_url, output=tmp, quiet=True, use_cookies=False)
+            copied = 0
+            for sub in ['CPC', 'CPO']:
+                src = os.path.join(tmp, sub)
+                if os.path.isdir(src):
+                    dest = CPC_DIR if sub == 'CPC' else CPO_DIR
+                    for f in os.listdir(src):
+                        if f.lower().endswith('.pdf'):
+                            newname = "FRANJA MORADA " + f
+                            shutil.copy(os.path.join(src, f), os.path.join(dest, newname))
+                            copied += 1
+            print(f"  [OK] Copiados {copied} PDFs de Franja Morada.")
+        except Exception as e:
+            print(f"  [ERROR] No se pudo descargar la carpeta {folder_url}: {e}")
+
 def download_online_databases():
     print("\n=== DESCARGANDO RECOMENDACIONES EN LÍNEA ===")
+    
+    # Limpiar directorios fuente para que solo se compile la data fresca del cuatrimestre
+    for d in [CPC_DIR, CPO_DIR]:
+        for f in os.listdir(d):
+            fp = os.path.join(d, f)
+            try:
+                if os.path.isfile(fp):
+                    os.remove(fp)
+            except Exception as e:
+                print(f"  [WARN] No se pudo eliminar {fp}: {e}")
     
     # 1. Download Google Sheets directly
     for res in SHEET_RESOURCES:
@@ -615,6 +787,9 @@ def download_online_databases():
         print(f"  [ERROR] No se pudo descargar la carpeta de Drive de La Centeno: {e}")
         print("  (Asegúrate de que 'gdown' esté instalado y que el Drive sea público).")
         
+    # 3. Download Franja Morada RECOS PDFs from Linktree
+    download_franja_morada()
+    
     # Cleanup temp directory
     if os.path.exists(TEMP_DIR):
         shutil.rmtree(TEMP_DIR)
@@ -746,11 +921,14 @@ def compile_database():
                 except Exception as e:
                     print(f"    [Error] Falló al leer el excel {filename}: {e}")
                     
-            # Parse PDF files (Centeno PDFs)
+            # Parse PDF files (Centeno + Franja Morada)
             elif filename.endswith('.pdf'):
                 print(f"  Procesando PDF: {filename} ({source_name})")
                 try:
-                    parsed_items = parse_centeno_pdf(filepath)
+                    if is_cpo_dir and filename.startswith('FRANJA MORADA'):
+                        parsed_items = parse_franja_cpo_pdf(filepath)
+                    else:
+                        parsed_items = parse_centeno_pdf(filepath)
                     for parsed in parsed_items:
                         subj = parsed['subject']
                         comm = parsed['commission']
