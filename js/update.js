@@ -14,6 +14,57 @@ const TOKEN_KEY = 'gh_update_token';
 
 let modal = null;
 let statusEl = null;
+let pollTimer = null;
+
+function niceDate(iso) {
+    if (!iso) return '-';
+    const d = new Date(iso);
+    if (isNaN(d.getTime())) return '-';
+    return d.toLocaleString('es-AR', { day: '2-digit', month: '2-digit', year: 'numeric', hour: '2-digit', minute: '2-digit' });
+}
+
+// Consulta la fecha del ultimo commit que toco cpo_data.json (API publica, sin auth)
+async function getLastDataCommit() {
+    try {
+        const resp = await fetch('https://api.github.com/repos/' + REPO + '/commits?path=cpo_data.json&per_page=1', {
+            headers: { 'Accept': 'application/vnd.github+json' }
+        });
+        if (!resp.ok) return null;
+        const arr = await resp.json();
+        if (!arr || !arr.length || !arr[0].commit) return null;
+        return arr[0].commit.committer.date;
+    } catch (e) {
+        return null;
+    }
+}
+
+async function refreshLastUpdate() {
+    const el = document.getElementById('last-update');
+    if (!el) return;
+    const cached = localStorage.getItem('gh_last_commit');
+    const d = await getLastDataCommit() || cached;
+    if (d) localStorage.setItem('gh_last_commit', d);
+    el.textContent = 'Ultima actualizacion: ' + niceDate(d);
+}
+
+// Cuando inicia una actualizacion, sondea la API y avisa cuando hay data mas nueva
+function scheduleCompletion() {
+    if (pollTimer) return;
+    const reqAt = localStorage.getItem('gh_requested_at');
+    if (!reqAt) return;
+    pollTimer = setInterval(async () => {
+        const d = await getLastDataCommit();
+        if (d && new Date(d).getTime() >= new Date(reqAt).getTime()) {
+            clearInterval(pollTimer);
+            pollTimer = null;
+            localStorage.removeItem('gh_requested_at');
+            localStorage.setItem('gh_last_commit', d);
+            const el = document.getElementById('last-update');
+            if (el) el.textContent = 'Ultima actualizacion: ' + niceDate(d);
+            showToast('Actualizacion completada. Los datos ya estan al dia.', 'success');
+        }
+    }, 30000);
+}
 
 function showToast(msg, type = 'success') {
     const box = document.getElementById('toast-container');
@@ -57,6 +108,9 @@ async function runUpdate() {
             setStatus('Actualizacion iniciada correctamente. Tarda ~4-5 min.', '#34d399');
             showToast('Actualizacion de datos iniciada', 'success');
             if (link) link.style.display = 'block';
+            localStorage.setItem('gh_requested_at', new Date().toISOString());
+            scheduleCompletion();
+            refreshLastUpdate();
         } else {
             setStatus('Error ' + resp.status +
                 (resp.status === 401 ? ': token invalido/vencido.' :
@@ -143,4 +197,6 @@ function onKey(e) {
 document.addEventListener('DOMContentLoaded', () => {
     buildModal();
     document.addEventListener('keydown', onKey);
+    refreshLastUpdate();
+    scheduleCompletion();
 });
