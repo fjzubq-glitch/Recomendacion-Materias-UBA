@@ -23,6 +23,37 @@ function niceDate(iso) {
     return d.toLocaleString('es-AR', { day: '2-digit', month: '2-digit', year: 'numeric', hour: '2-digit', minute: '2-digit' });
 }
 
+function tokenExpiryKey() { return 'gh_token_expiry'; }
+
+// Guarda/lee la fecha de vencimiento del token (por defecto a los 90 dias)
+function setTokenExpiry(days) {
+    const d = new Date();
+    d.setDate(d.getDate() + (days ? parseInt(days, 10) : 90));
+    localStorage.setItem(tokenExpiryKey(), d.toISOString());
+}
+function getTokenExpiry() {
+    const v = localStorage.getItem(tokenExpiryKey());
+    return v ? new Date(v) : null;
+}
+
+// Avisa con antelacion cuando el token esta por vencer
+function checkTokenExpiry() {
+    const tok = (localStorage.getItem(TOKEN_KEY) || '').trim();
+    if (!tok) return;
+    const exp = getTokenExpiry();
+    if (!exp) return;
+    const daysLeft = Math.ceil((exp.getTime() - Date.now()) / 86400000);
+    const el = document.getElementById('token-expiry-note');
+    if (el) {
+        el.textContent = 'El token vence el ' + niceDate(exp.toISOString()) +
+            (daysLeft <= 10 ? ' (solo quedan ' + daysLeft + ' dias). Renovalos.' : '');
+        el.style.color = daysLeft <= 10 ? '#fbbf24' : 'var(--text-secondary)';
+    }
+    if (daysLeft <= 10) {
+        showToast('El token de actualizacion vence en ' + daysLeft + ' dias. Generalo de nuevo pronto.', 'info');
+    }
+}
+
 // Consulta la fecha del ultimo commit que toco cpo_data.json (API publica, sin auth)
 async function getLastDataCommit() {
     try {
@@ -143,8 +174,14 @@ function buildModal() {
         '    <label style="display:block; margin-bottom:0.3rem; font-weight:600; color:var(--text-primary);">Token de GitHub</label>',
         '    <input type="password" id="update-token-input" placeholder="github_pat_... o ghp_..." autocomplete="off"',
         '           style="width:100%; padding:0.6rem 0.8rem; border-radius:8px; border:1px solid var(--border-color); background:var(--bg-secondary); color:var(--text-primary); margin-bottom:0.5rem;"/>',
-        '    <p style="font-size:0.75rem; margin-bottom:1rem;">Se guarda solo en tu navegador (localStorage).',
+        '    <p style="font-size:0.75rem; margin-bottom:0.8rem;">Se guarda solo en tu navegador (localStorage).',
         '      Requiere permisos: <code>Actions: read and write</code> y <code>Contents: read and write</code>.</p>',
+        '    <div style="display:flex; align-items:center; gap:0.5rem; margin-bottom:0.8rem;">',
+        '      <label for="token-expiry-input" style="font-weight:600; color:var(--text-primary);">Vence en (dias):</label>',
+        '      <input type="number" id="token-expiry-input" value="90" min="1" max="365"',
+        '             style="width:90px; padding:0.5rem 0.6rem; border-radius:8px; border:1px solid var(--border-color); background:var(--bg-secondary); color:var(--text-primary);"/>',
+        '    </div>',
+        '    <p id="token-expiry-note" style="font-size:0.75rem; margin-bottom:1rem;"></p>',
         '    <div style="display:flex; gap:0.5rem; flex-wrap:wrap;">',
         '      <button class="btn-primary btn-inverse" id="btn-save-token">Guardar token</button>',
         '      <button class="btn-primary" id="btn-run-update" style="background:linear-gradient(135deg,#6366f1,#4f46e5);">Ejecutar actualizacion</button>',
@@ -169,6 +206,9 @@ function buildModal() {
 
     modal.querySelector('#btn-save-token').addEventListener('click', () => {
         localStorage.setItem(TOKEN_KEY, input.value.trim());
+        const daysInput = modal.querySelector('#token-expiry-input');
+        setTokenExpiry(daysInput ? daysInput.value : 90);
+        checkTokenExpiry();
         showToast('Token guardado.');
     });
 
@@ -178,6 +218,7 @@ function buildModal() {
     });
 
     statusEl = modal.querySelector('#update-status');
+    checkTokenExpiry();
 }
 
 function openModal() {
@@ -199,4 +240,5 @@ document.addEventListener('DOMContentLoaded', () => {
     document.addEventListener('keydown', onKey);
     refreshLastUpdate();
     scheduleCompletion();
+    checkTokenExpiry();
 });
