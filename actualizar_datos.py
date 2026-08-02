@@ -20,7 +20,6 @@ SHEET_RESOURCES = [
     {"name": "La Campora CPC", "id": "1reYA9Y4UwJDRLKE21TKkbKWJditcxAr0", "dest_dir": CPC_DIR},
     {"name": "La Campora CPO", "id": "1ITaX9NYIEONrQ90Iw5v3dEehPm0MEp4Wi_83-38Xkf8", "dest_dir": CPO_DIR},
     {"name": "Nexo CPC", "id": "1rieoJRgJdGU4cv2YmdLpF74o3Uo9i5IQnn_0EigsKKA", "dest_dir": CPC_DIR},
-    {"name": "Nexo CPO", "id": "1is5EcMteZ6mEWekkKVGqwotyaPtYOp86ikveshTmYhs", "dest_dir": CPO_DIR},
     {"name": "Recomellas CPC", "id": "1h2FzuceIkrnV8tuJgNiU_3H0kxcr4olK", "dest_dir": CPC_DIR},
     {"name": "Recomellas CPO", "id": "1Zo_9DZlSSvVJ-U_0JyIG5wYHUBfjYRO-", "dest_dir": CPO_DIR},
     {"name": "Nuevo Derecho CPC", "id": "13FlbgduPyDrkNAhcMMmg5bGa8jw0EY3Ps1qIpZFcQYc", "dest_dir": CPC_DIR},
@@ -29,6 +28,9 @@ SHEET_RESOURCES = [
 
 # Google Drive folder with La Centeno PDFs
 CENTENO_DRIVE_FOLDER = "https://drive.google.com/drive/folders/1gFGp3XTpPTtr06AsxAeIen0V5Vpj3vto"
+
+# Google Drive folder with Nexo (CPO) files (debe estar compartida "Cualquier persona con el enlace")
+NEXO_CPO_FOLDER = "https://drive.google.com/drive/folders/18lnU0w2gVc3d5444kHW5ujKofrKqCSZ2"
 
 SUBJECT_MAP_CPC = {
     # Full names and accents variations for CPC subjects (to normalize all-caps / alternate spellings)
@@ -737,6 +739,30 @@ def download_franja_morada():
         except Exception as e:
             print(f"  [ERROR] No se pudo descargar la carpeta {folder_url}: {e}")
 
+def download_nexo_cpo():
+    print("\n=== DESCARGANDO CARPETA DE NEXO (CPO) ===")
+    try:
+        import gdown
+    except ImportError:
+        import subprocess
+        print("  Instalando gdown...")
+        subprocess.check_call(["pip", "install", "gdown"])
+        import gdown
+    tmp = os.path.join(TEMP_DIR, "nexo_cpo")
+    os.makedirs(tmp, exist_ok=True)
+    try:
+        gdown.download_folder(NEXO_CPO_FOLDER, output=tmp, quiet=True, use_cookies=False)
+        copied = 0
+        for root, _dirs, files in os.walk(tmp):
+            for f in files:
+                if f.lower().endswith(('.xlsx', '.xls', '.pdf')):
+                    shutil.copy(os.path.join(root, f), os.path.join(CPO_DIR, f))
+                    copied += 1
+        print(f"  [OK] Copiados {copied} archivos de Nexo CPO a '{os.path.basename(CPO_DIR) or CPO_DIR}'.")
+    except Exception as e:
+        print(f"  [WARN] No se pudo descargar la carpeta de Nexo CPO: {e}")
+        print("  (La carpeta debe estar compartida como 'Cualquier persona con el enlace').")
+
 def download_online_databases():
     print("\n=== DESCARGANDO RECOMENDACIONES EN LÍNEA ===")
     
@@ -792,6 +818,9 @@ def download_online_databases():
         
     # 3. Download Franja Morada RECOS PDFs from Linktree
     download_franja_morada()
+
+    # 4. Download Nexo CPO files from Google Drive folder
+    download_nexo_cpo()
     
     # Cleanup temp directory
     if os.path.exists(TEMP_DIR):
