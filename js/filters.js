@@ -1,5 +1,5 @@
 import { state } from './state.js';
-import { renderWelcomeState, renderCards } from './ui.js';
+import { renderWelcomeState, renderCards, resetPagination } from './ui.js';
 import { getSubjectDepartment } from './api.js';
 
 // ==========================================================================
@@ -91,6 +91,9 @@ export function applyFilters() {
     // Apply Sorting
     sortCommissions();
     
+    // Reset pagination for the new result set
+    resetPagination();
+
     // Render
     renderCards();
 }

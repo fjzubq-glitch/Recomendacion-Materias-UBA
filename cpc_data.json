@@ -11,7 +11,7 @@
     "time_end": "08:30",
     "schedule": "Lun 07:00 a 08:30 - Jue 07:00 a 08:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -47,7 +47,7 @@
     "time_end": "08:30",
     "schedule": "Lun 07:00 a 08:30 - Jue 07:00 a 08:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -111,7 +111,7 @@
     "time_end": "10:00",
     "schedule": "Lun 08:30 a 10:00 - Jue 08:30 a 10:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -147,7 +147,7 @@
     "time_end": "10:00",
     "schedule": "Lun 08:30 a 10:00 - Jue 08:30 a 10:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -183,7 +183,7 @@
     "time_end": "10:00",
     "schedule": "Lun 08:30 a 10:00 - Jue 08:30 a 10:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -219,7 +219,7 @@
     "time_end": "10:00",
     "schedule": "Lun 08:30 a 10:00 - Jue 08:30 a 10:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -255,7 +255,7 @@
     "time_end": "10:00",
     "schedule": "Lun 08:30 a 10:00 - Jue 08:30 a 10:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -291,7 +291,7 @@
     "time_end": "11:30",
     "schedule": "Lun 10:00 a 11:30 - Jue 10:00 a 11:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -327,7 +327,7 @@
     "time_end": "11:30",
     "schedule": "Lun 10:00 a 11:30 - Jue 10:00 a 11:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -399,7 +399,7 @@
     "time_end": "11:30",
     "schedule": "Lun 10:00 a 11:30 - Jue 10:00 a 11:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -435,7 +435,7 @@
     "time_end": "11:30",
     "schedule": "Lun 10:00 a 11:30 - Jue 10:00 a 11:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -467,7 +467,7 @@
     "time_end": "11:30",
     "schedule": "Lun 10:00 a 11:30 - Jue 10:00 a 11:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -503,7 +503,7 @@
     "time_end": "11:30",
     "schedule": "Lun 10:00 a 11:30 - Jue 10:00 a 11:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -539,7 +539,7 @@
     "time_end": "13:00",
     "schedule": "Lun 11:30 a 13:00 - Jue 11:30 a 13:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -575,7 +575,7 @@
     "time_end": "13:00",
     "schedule": "Lun 11:30 a 13:00 - Jue 11:30 a 13:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -611,7 +611,7 @@
     "time_end": "08:30",
     "schedule": "Mar 07:00 a 08:30 - Vie 07:00 a 08:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -647,7 +647,7 @@
     "time_end": "08:30",
     "schedule": "Mar 07:00 a 08:30 - Vie 07:00 a 08:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -683,7 +683,7 @@
     "time_end": "10:00",
     "schedule": "Mar 08:30 a 10:00 - Vie 08:30 a 10:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -719,7 +719,7 @@
     "time_end": "10:00",
     "schedule": "Mar 08:30 a 10:00 - Vie 08:30 a 10:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -755,7 +755,7 @@
     "time_end": "10:00",
     "schedule": "Mar 08:30 a 10:00 - Vie 08:30 a 10:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -827,7 +827,7 @@
     "time_end": "13:00",
     "schedule": "Mar 11:30 a 13:00 - Vie 11:30 a 13:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -862,7 +862,7 @@
     "time_end": "10:00",
     "schedule": "Mie 07:00 a 10:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -897,7 +897,7 @@
     "time_end": "13:00",
     "schedule": "Mie 10:00 a 13:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -933,7 +933,7 @@
     "time_end": "14:30",
     "schedule": "Lun 13:00 a 14:30 - Jue 13:00 a 14:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -969,7 +969,7 @@
     "time_end": "15:30",
     "schedule": "Lun 14:00 a 15:30 - Jue 14:00 a 15:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -1001,7 +1001,7 @@
     "time_end": "17:00",
     "schedule": "Lun 15:30 a 17:00 - Jue 15:30 a 17:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -1037,7 +1037,7 @@
     "time_end": "17:00",
     "schedule": "Lun 15:30 a 17:00 - Jue 15:30 a 17:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -1145,7 +1145,7 @@
     "time_end": "17:00",
     "schedule": "Mar 15:30 a 17:00 - Vie 15:30 a 17:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -1181,7 +1181,7 @@
     "time_end": "17:00",
     "schedule": "Mar 15:30 a 17:00 - Vie 15:30 a 17:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -1216,7 +1216,7 @@
     "time_end": "18:30",
     "schedule": "Mie 15:30 a 18:30",
     "modality": "Virtual",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -1251,7 +1251,7 @@
     "time_end": "18:30",
     "schedule": "Mie 15:30 a 18:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -1287,7 +1287,7 @@
     "time_end": "18:30",
     "schedule": "Lun 17:00 a 18:30 - Jue 17:00 a 18:30",
     "modality": "Virtual",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -1359,7 +1359,7 @@
     "time_end": "18:30",
     "schedule": "Lun 17:00 a 18:30 - Jue 17:00 a 18:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -1391,7 +1391,7 @@
     "time_end": "18:30",
     "schedule": "Lun 17:00 a 18:30 - Jue 17:00 a 18:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -1427,7 +1427,7 @@
     "time_end": "18:30",
     "schedule": "Lun 17:00 a 18:30 - Jue 17:00 a 18:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -1463,7 +1463,7 @@
     "time_end": "20:00",
     "schedule": "Lun 18:30 a 20:00 - Jue 18:30 a 20:00",
     "modality": "Virtual",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -1499,7 +1499,7 @@
     "time_end": "20:00",
     "schedule": "Lun 18:30 a 20:00 - Jue 18:30 a 20:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -1535,7 +1535,7 @@
     "time_end": "20:00",
     "schedule": "Lun 18:30 a 20:00 - Jue 18:30 a 20:00",
     "modality": "Virtual",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -1571,7 +1571,7 @@
     "time_end": "21:30",
     "schedule": "Lun 20:00 a 21:30 - Jue 20:00 a 21:30",
     "modality": "Virtual",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -1607,7 +1607,7 @@
     "time_end": "21:30",
     "schedule": "Lun 20:00 a 21:30 - Jue 20:00 a 21:30",
     "modality": "Virtual",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -1639,7 +1639,7 @@
     "time_end": "21:30",
     "schedule": "Lun 20:00 a 21:30 - Jue 20:00 a 21:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -1675,7 +1675,7 @@
     "time_end": "21:30",
     "schedule": "Lun 20:00 a 21:30 - Jue 20:00 a 21:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -1711,7 +1711,7 @@
     "time_end": "23:00",
     "schedule": "Lun 21:30 a 23:00 - Jue 21:30 a 23:00",
     "modality": "Virtual",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -1747,7 +1747,7 @@
     "time_end": "18:30",
     "schedule": "Mar 17:00 a 18:30 - Vie 17:00 a 18:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -1819,7 +1819,7 @@
     "time_end": "20:00",
     "schedule": "Mar 18:30 a 20:00 - Vie 18:30 a 20:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -1855,7 +1855,7 @@
     "time_end": "20:00",
     "schedule": "Mar 18:30 a 20:00 - Vie 18:30 a 20:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -1891,7 +1891,7 @@
     "time_end": "20:00",
     "schedule": "Mar 18:30 a 20:00 - Vie 18:30 a 20:00",
     "modality": "Virtual",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -1959,7 +1959,7 @@
     "time_end": "21:30",
     "schedule": "Mar 20:00 a 21:30 - Vie 20:00 a 21:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -1991,7 +1991,7 @@
     "time_end": "21:30",
     "schedule": "Mar 20:00 a 21:30 - Vie 20:00 a 21:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -2097,7 +2097,7 @@
     "time_end": "21:30",
     "schedule": "Mie 18:30 a 21:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -2132,7 +2132,7 @@
     "time_end": "21:30",
     "schedule": "Mie 18:30 a 21:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -2168,7 +2168,7 @@
     "time_end": "21:30",
     "schedule": "Mie 20:00 a 21:30 - Sab 11:30 a 13:00",
     "modality": "Virtual",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -2204,7 +2204,7 @@
     "time_end": "08:30",
     "schedule": "Lun 07:00 a 08:30 - Jue 07:00 a 08:30",
     "modality": "Virtual",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -2240,7 +2240,7 @@
     "time_end": "10:00",
     "schedule": "Lun 08:30 a 10:00 - Jue 08:30 a 10:00",
     "modality": "Virtual",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -2276,7 +2276,7 @@
     "time_end": "10:00",
     "schedule": "Lun 08:30 a 10:00 - Jue 08:30 a 10:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -2308,7 +2308,7 @@
     "time_end": "10:00",
     "schedule": "Lun 08:30 a 10:00 - Jue 08:30 a 10:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -2344,7 +2344,7 @@
     "time_end": "10:00",
     "schedule": "Lun 08:30 a 10:00 - Jue 08:30 a 10:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -2380,7 +2380,7 @@
     "time_end": "10:00",
     "schedule": "Lun 08:30 a 10:00 - Jue 08:30 a 10:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -2416,7 +2416,7 @@
     "time_end": "11:30",
     "schedule": "Lun 10:00 a 11:30 - Jue 10:00 a 11:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -2452,7 +2452,7 @@
     "time_end": "11:30",
     "schedule": "Lun 10:00 a 11:30 - Jue 10:00 a 11:30",
     "modality": "Virtual",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -2488,7 +2488,7 @@
     "time_end": "13:00",
     "schedule": "Lun 11:30 a 13:00 - Jue 11:30 a 13:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -2524,7 +2524,7 @@
     "time_end": "13:00",
     "schedule": "Lun 11:30 a 13:00 - Jue 11:30 a 13:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -2560,7 +2560,7 @@
     "time_end": "08:30",
     "schedule": "Mar 07:00 a 08:30 - Vie 07:00 a 08:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -2596,7 +2596,7 @@
     "time_end": "08:30",
     "schedule": "Mar 07:00 a 08:30 - Vie 07:00 a 08:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -2632,7 +2632,7 @@
     "time_end": "10:00",
     "schedule": "Mar 08:30 a 10:00 - Vie 08:30 a 10:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -2700,7 +2700,7 @@
     "time_end": "10:00",
     "schedule": "Mar 08:30 a 10:00 - Vie 08:30 a 10:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -2736,7 +2736,7 @@
     "time_end": "11:30",
     "schedule": "Mar 10:00 a 11:30 - Vie 10:00 a 11:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -2772,7 +2772,7 @@
     "time_end": "11:30",
     "schedule": "Mar 10:00 a 11:30 - Vie 10:00 a 11:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -2808,7 +2808,7 @@
     "time_end": "11:30",
     "schedule": "Mar 10:00 a 11:30 - Vie 10:00 a 11:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -2844,7 +2844,7 @@
     "time_end": "13:00",
     "schedule": "Mar 11:30 a 13:00 - Vie 11:30 a 13:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -2916,7 +2916,7 @@
     "time_end": "13:00",
     "schedule": "Mar 11:30 a 13:00 - Vie 11:30 a 13:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -2952,7 +2952,7 @@
     "time_end": "13:00",
     "schedule": "Mar 11:30 a 13:00 - Vie 11:30 a 13:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -2988,7 +2988,7 @@
     "time_end": "13:00",
     "schedule": "Mar 11:30 a 13:00 - Vie 11:30 a 13:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -3024,7 +3024,7 @@
     "time_end": "13:00",
     "schedule": "Mar 11:30 a 13:00 - Vie 11:30 a 13:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -3055,7 +3055,7 @@
     "time_end": "11:30",
     "schedule": "Mie 08:30 a 11:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -3090,7 +3090,7 @@
     "time_end": "11:30",
     "schedule": "Mie 08:30 a 11:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -3195,7 +3195,7 @@
     "time_end": "13:00",
     "schedule": "Mie 10:00 a 13:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -3230,7 +3230,7 @@
     "time_end": "13:00",
     "schedule": "Sab 10:00 a 13:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -3266,7 +3266,7 @@
     "time_end": "17:00",
     "schedule": "Lun 15:30 a 17:00 - Jue 15:30 a 17:00",
     "modality": "Virtual",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -3298,7 +3298,7 @@
     "time_end": "17:00",
     "schedule": "Lun 15:30 a 17:00 - Jue 15:30 a 17:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -3334,7 +3334,7 @@
     "time_end": "17:00",
     "schedule": "Lun 15:30 a 17:00 - Jue 15:30 a 17:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -3370,7 +3370,7 @@
     "time_end": "15:30",
     "schedule": "Mar 14:00 a 15:30 - Vie 14:00 a 15:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -3406,7 +3406,7 @@
     "time_end": "17:00",
     "schedule": "Mar 15:30 a 17:00 - Vie 15:30 a 17:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -3442,7 +3442,7 @@
     "time_end": "17:00",
     "schedule": "Mar 15:30 a 17:00 - Vie 15:30 a 17:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -3478,7 +3478,7 @@
     "time_end": "17:00",
     "schedule": "Mar 15:30 a 17:00 - Vie 15:30 a 17:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -3513,7 +3513,7 @@
     "time_end": "17:00",
     "schedule": "Mie 14:00 a 17:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -3548,7 +3548,7 @@
     "time_end": "18:30",
     "schedule": "Mie 15:30 a 18:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -3584,7 +3584,7 @@
     "time_end": "18:30",
     "schedule": "Lun 17:00 a 18:30 - Jue 17:00 a 18:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -3656,7 +3656,7 @@
     "time_end": "18:30",
     "schedule": "Lun 17:00 a 18:30 - Jue 17:00 a 18:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -3692,7 +3692,7 @@
     "time_end": "20:00",
     "schedule": "Lun 18:30 a 20:00 - Jue 18:30 a 20:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -3728,7 +3728,7 @@
     "time_end": "20:00",
     "schedule": "Lun 18:30 a 20:00 - Jue 18:30 a 20:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -3764,7 +3764,7 @@
     "time_end": "20:00",
     "schedule": "Lun 18:30 a 20:00 - Jue 18:30 a 20:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -3872,7 +3872,7 @@
     "time_end": "21:30",
     "schedule": "Lun 20:00 a 21:30 - Jue 20:00 a 21:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -3900,7 +3900,7 @@
     "time_end": "18:30",
     "schedule": "Mar 17:00 a 18:30 - Vie 17:00 a 18:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -3936,7 +3936,7 @@
     "time_end": "18:30",
     "schedule": "Mar 17:00 a 18:30 - Vie 17:00 a 18:30",
     "modality": "Virtual",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -3972,7 +3972,7 @@
     "time_end": "20:00",
     "schedule": "Mar 18:30 a 20:00 - Vie 18:30 a 20:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -4067,7 +4067,7 @@
     "time_end": "20:00",
     "schedule": "Mar 18:30 a 20:00 - Vie 18:30 a 20:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -4103,7 +4103,7 @@
     "time_end": "21:30",
     "schedule": "Mar 20:00 a 21:30 - Vie 20:00 a 21:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -4171,7 +4171,7 @@
     "time_end": "21:30",
     "schedule": "Mar 20:00 a 21:30 - Vie 20:00 a 21:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -4242,7 +4242,7 @@
     "time_end": "20:00",
     "schedule": "Mie 17:00 a 20:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -4312,7 +4312,7 @@
     "time_end": "23:00",
     "schedule": "Mie 20:00 a 23:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -4348,7 +4348,7 @@
     "time_end": "08:30",
     "schedule": "Lun 07:00 a 08:30 - Jue 07:00 a 08:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -4416,7 +4416,7 @@
     "time_end": "08:30",
     "schedule": "Lun 07:00 a 08:30 - Jue 07:00 a 08:30",
     "modality": "Virtual",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -4452,7 +4452,7 @@
     "time_end": "10:00",
     "schedule": "Lun 08:30 a 10:00 - Jue 08:30 a 10:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -4488,7 +4488,7 @@
     "time_end": "10:00",
     "schedule": "Lun 08:30 a 10:00 - Jue 08:30 a 10:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -4524,7 +4524,7 @@
     "time_end": "10:00",
     "schedule": "Lun 08:30 a 10:00 - Jue 08:30 a 10:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -4596,7 +4596,7 @@
     "time_end": "11:30",
     "schedule": "Lun 10:00 a 11:30 - Jue 10:00 a 11:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -4632,7 +4632,7 @@
     "time_end": "13:00",
     "schedule": "Lun 11:30 a 13:00 - Jue 11:30 a 13:00",
     "modality": "Virtual",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -4668,7 +4668,7 @@
     "time_end": "13:00",
     "schedule": "Lun 11:30 a 13:00 - Jue 11:30 a 13:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -4704,7 +4704,7 @@
     "time_end": "13:00",
     "schedule": "Lun 11:30 a 13:00 - Jue 11:30 a 13:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -4740,7 +4740,7 @@
     "time_end": "08:30",
     "schedule": "Mar 07:00 a 08:30 - Vie 07:00 a 08:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -4771,7 +4771,7 @@
     "time_end": "08:30",
     "schedule": "Mar 07:00 a 08:30 - Vie 07:00 a 08:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -4802,7 +4802,7 @@
     "time_end": "10:00",
     "schedule": "Mar 08:30 a 10:00 - Vie 08:30 a 10:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -4838,7 +4838,7 @@
     "time_end": "10:00",
     "schedule": "Mar 08:30 a 10:00 - Vie 08:30 a 10:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -4874,7 +4874,7 @@
     "time_end": "11:30",
     "schedule": "Mar 10:00 a 11:30 - Vie 10:00 a 11:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -4910,7 +4910,7 @@
     "time_end": "11:30",
     "schedule": "Mar 10:00 a 11:30 - Vie 10:00 a 11:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -4946,7 +4946,7 @@
     "time_end": "13:00",
     "schedule": "Mar 11:30 a 13:00 - Vie 11:30 a 13:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -4981,7 +4981,7 @@
     "time_end": "11:30",
     "schedule": "Mie 08:30 a 11:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -5016,7 +5016,7 @@
     "time_end": "11:30",
     "schedule": "Mie 08:30 a 11:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -5148,7 +5148,7 @@
     "time_end": "15:30",
     "schedule": "Lun 14:00 a 15:30 - Jue 14:00 a 15:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -5184,7 +5184,7 @@
     "time_end": "15:30",
     "schedule": "Lun 14:00 a 15:30 - Jue 14:00 a 15:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -5220,7 +5220,7 @@
     "time_end": "17:00",
     "schedule": "Lun 15:30 a 17:00 - Jue 15:30 a 17:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -5256,7 +5256,7 @@
     "time_end": "17:00",
     "schedule": "Lun 15:30 a 17:00 - Jue 15:30 a 17:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -5292,7 +5292,7 @@
     "time_end": "17:00",
     "schedule": "Mar 15:30 a 17:00 - Vie 15:30 a 17:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -5364,7 +5364,7 @@
     "time_end": "17:00",
     "schedule": "Mar 15:30 a 17:00 - Vie 15:30 a 17:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -5399,7 +5399,7 @@
     "time_end": "17:00",
     "schedule": "Mie 14:00 a 17:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -5570,7 +5570,7 @@
     "time_end": "20:00",
     "schedule": "Lun 18:30 a 20:00 - Jue 18:30 a 20:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -5606,7 +5606,7 @@
     "time_end": "20:00",
     "schedule": "Lun 18:30 a 20:00 - Jue 18:30 a 20:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -5642,7 +5642,7 @@
     "time_end": "21:30",
     "schedule": "Lun 20:00 a 21:30 - Jue 20:00 a 21:30",
     "modality": "Virtual",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -5740,7 +5740,7 @@
     "time_end": "18:30",
     "schedule": "Mar 17:00 a 18:30 - Vie 17:00 a 18:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -5776,7 +5776,7 @@
     "time_end": "18:30",
     "schedule": "Mar 17:00 a 18:30 - Vie 17:00 a 18:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -5812,7 +5812,7 @@
     "time_end": "18:30",
     "schedule": "Mar 17:00 a 18:30 - Vie 17:00 a 18:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -5848,7 +5848,7 @@
     "time_end": "18:30",
     "schedule": "Mar 17:00 a 18:30 - Vie 17:00 a 18:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -5884,7 +5884,7 @@
     "time_end": "20:00",
     "schedule": "Mar 18:30 a 20:00 - Vie 18:30 a 20:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -5920,7 +5920,7 @@
     "time_end": "20:00",
     "schedule": "Mar 18:30 a 20:00 - Vie 18:30 a 20:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -5956,7 +5956,7 @@
     "time_end": "20:00",
     "schedule": "Mar 18:30 a 20:00 - Vie 18:30 a 20:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -6100,7 +6100,7 @@
     "time_end": "23:00",
     "schedule": "Mar 21:30 a 23:00 - Vie 21:30 a 23:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -6135,7 +6135,7 @@
     "time_end": "20:00",
     "schedule": "Mie 17:00 a 20:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -6170,7 +6170,7 @@
     "time_end": "21:30",
     "schedule": "Mie 18:30 a 21:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -6232,7 +6232,7 @@
     "time_end": "21:30",
     "schedule": "Mie 18:30 a 21:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -6267,7 +6267,7 @@
     "time_end": "23:00",
     "schedule": "Mie 20:00 a 23:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -6303,7 +6303,7 @@
     "time_end": "08:30",
     "schedule": "Lun 07:00 a 08:30 - Jue 07:00 a 08:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -6339,7 +6339,7 @@
     "time_end": "08:30",
     "schedule": "Lun 07:00 a 08:30 - Jue 07:00 a 08:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -6375,7 +6375,7 @@
     "time_end": "10:00",
     "schedule": "Lun 08:30 a 10:00 - Jue 08:30 a 10:00",
     "modality": "Virtual",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -6411,7 +6411,7 @@
     "time_end": "10:00",
     "schedule": "Lun 08:30 a 10:00 - Jue 08:30 a 10:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -6447,7 +6447,7 @@
     "time_end": "10:00",
     "schedule": "Lun 08:30 a 10:00 - Jue 08:30 a 10:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -6483,7 +6483,7 @@
     "time_end": "11:30",
     "schedule": "Lun 10:00 a 11:30 - Jue 10:00 a 11:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -6550,7 +6550,7 @@
     "time_end": "11:30",
     "schedule": "Lun 10:00 a 11:30 - Jue 10:00 a 11:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -6581,7 +6581,7 @@
     "time_end": "11:30",
     "schedule": "Lun 10:00 a 11:30 - Jue 10:00 a 11:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -6617,7 +6617,7 @@
     "time_end": "11:30",
     "schedule": "Lun 10:00 a 11:30 - Jue 10:00 a 11:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -6653,7 +6653,7 @@
     "time_end": "11:30",
     "schedule": "Lun 10:00 a 11:30 - Jue 10:00 a 11:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -6689,7 +6689,7 @@
     "time_end": "13:00",
     "schedule": "Lun 11:30 a 13:00 - Jue 11:30 a 13:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -6721,7 +6721,7 @@
     "time_end": "13:00",
     "schedule": "Lun 11:30 a 13:00 - Jue 11:30 a 13:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -6757,7 +6757,7 @@
     "time_end": "13:00",
     "schedule": "Lun 11:30 a 13:00 - Jue 11:30 a 13:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -6789,7 +6789,7 @@
     "time_end": "13:00",
     "schedule": "Lun 11:30 a 13:00 - Jue 11:30 a 13:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -6897,7 +6897,7 @@
     "time_end": "10:00",
     "schedule": "Mar 08:30 a 10:00 - Vie 08:30 a 10:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -6933,7 +6933,7 @@
     "time_end": "10:00",
     "schedule": "Mar 08:30 a 10:00 - Vie 08:30 a 10:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -6969,7 +6969,7 @@
     "time_end": "10:00",
     "schedule": "Mar 08:30 a 10:00 - Vie 08:30 a 10:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -7005,7 +7005,7 @@
     "time_end": "11:30",
     "schedule": "Mar 10:00 a 11:30 - Vie 10:00 a 11:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -7041,7 +7041,7 @@
     "time_end": "11:30",
     "schedule": "Mar 10:00 a 11:30 - Vie 10:00 a 11:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -7077,7 +7077,7 @@
     "time_end": "11:30",
     "schedule": "Mar 10:00 a 11:30 - Vie 10:00 a 11:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -7113,7 +7113,7 @@
     "time_end": "11:30",
     "schedule": "Mar 10:00 a 11:30 - Vie 10:00 a 11:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -7256,7 +7256,7 @@
     "time_end": "15:30",
     "schedule": "Lun 14:00 a 15:30 - Jue 14:00 a 15:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -7292,7 +7292,7 @@
     "time_end": "15:30",
     "schedule": "Lun 14:00 a 15:30 - Jue 14:00 a 15:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -7328,7 +7328,7 @@
     "time_end": "15:30",
     "schedule": "Lun 14:00 a 15:30 - Jue 14:00 a 15:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -7364,7 +7364,7 @@
     "time_end": "17:00",
     "schedule": "Lun 15:30 a 17:00 - Jue 15:30 a 17:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -7400,7 +7400,7 @@
     "time_end": "17:00",
     "schedule": "Lun 15:30 a 17:00 - Jue 15:30 a 17:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -7436,7 +7436,7 @@
     "time_end": "17:00",
     "schedule": "Lun 15:30 a 17:00 - Jue 15:30 a 17:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -7472,7 +7472,7 @@
     "time_end": "17:00",
     "schedule": "Lun 15:30 a 17:00 - Jue 15:30 a 17:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -7508,7 +7508,7 @@
     "time_end": "15:30",
     "schedule": "Mar 14:00 a 15:30 - Vie 14:00 a 15:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -7544,7 +7544,7 @@
     "time_end": "15:30",
     "schedule": "Mar 14:00 a 15:30 - Vie 14:00 a 15:30",
     "modality": "Virtual",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -7580,7 +7580,7 @@
     "time_end": "15:30",
     "schedule": "Mar 14:00 a 15:30 - Vie 14:00 a 15:30",
     "modality": "Virtual",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -7652,7 +7652,7 @@
     "time_end": "17:00",
     "schedule": "Mar 15:30 a 17:00 - Vie 15:30 a 17:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -7724,7 +7724,7 @@
     "time_end": "17:00",
     "schedule": "Mar 15:30 a 17:00 - Vie 15:30 a 17:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -7759,7 +7759,7 @@
     "time_end": "17:00",
     "schedule": "Mie 14:00 a 17:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -7829,7 +7829,7 @@
     "time_end": "18:30",
     "schedule": "Mie 15:30 a 18:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -7865,7 +7865,7 @@
     "time_end": "18:30",
     "schedule": "Lun 17:00 a 18:30 - Jue 17:00 a 18:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -7901,7 +7901,7 @@
     "time_end": "18:30",
     "schedule": "Lun 17:00 a 18:30 - Jue 17:00 a 18:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -7937,7 +7937,7 @@
     "time_end": "18:30",
     "schedule": "Lun 17:00 a 18:30 - Jue 17:00 a 18:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -7969,7 +7969,7 @@
     "time_end": "18:30",
     "schedule": "Lun 17:00 a 18:30 - Jue 17:00 a 18:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -8005,7 +8005,7 @@
     "time_end": "20:00",
     "schedule": "Lun 18:30 a 20:00 - Jue 18:30 a 20:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -8041,7 +8041,7 @@
     "time_end": "20:00",
     "schedule": "Lun 18:30 a 20:00 - Jue 18:30 a 20:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -8077,7 +8077,7 @@
     "time_end": "21:30",
     "schedule": "Lun 20:00 a 21:30 - Jue 20:00 a 21:30",
     "modality": "Virtual",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -8113,7 +8113,7 @@
     "time_end": "23:00",
     "schedule": "Lun 21:30 a 23:00 - Jue 21:30 a 23:00",
     "modality": "Virtual",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -8144,7 +8144,7 @@
     "time_end": "23:00",
     "schedule": "Lun 21:30 a 23:00 - Jue 21:30 a 23:00",
     "modality": "Virtual",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -8175,7 +8175,7 @@
     "time_end": "18:30",
     "schedule": "Mar 17:00 a 18:30 - Vie 17:00 a 18:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -8211,7 +8211,7 @@
     "time_end": "18:30",
     "schedule": "Mar 17:00 a 18:30 - Vie 17:00 a 18:30",
     "modality": "Virtual",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -8247,7 +8247,7 @@
     "time_end": "18:30",
     "schedule": "Mar 17:00 a 18:30 - Vie 17:00 a 18:30",
     "modality": "Virtual",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -8283,7 +8283,7 @@
     "time_end": "18:30",
     "schedule": "Mar 17:00 a 18:30 - Vie 17:00 a 18:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -8319,7 +8319,7 @@
     "time_end": "20:00",
     "schedule": "Mar 18:30 a 20:00 - Vie 18:30 a 20:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -8355,7 +8355,7 @@
     "time_end": "20:00",
     "schedule": "Mar 18:30 a 20:00 - Vie 18:30 a 20:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -8391,7 +8391,7 @@
     "time_end": "21:30",
     "schedule": "Mar 20:00 a 21:30 - Vie 20:00 a 21:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -8494,7 +8494,7 @@
     "time_end": "21:30",
     "schedule": "Mar 20:00 a 21:30 - Vie 20:00 a 21:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -8524,7 +8524,7 @@
     "time_end": "20:00",
     "schedule": "Mie 17:00 a 20:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -8559,7 +8559,7 @@
     "time_end": "20:00",
     "schedule": "Mie 17:00 a 20:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -8655,7 +8655,7 @@
     "time_end": "08:30",
     "schedule": "Lun 07:00 a 08:30 - Jue 07:00 a 08:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -8691,7 +8691,7 @@
     "time_end": "10:00",
     "schedule": "Lun 08:30 a 10:00 - Jue 08:30 a 10:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -8727,7 +8727,7 @@
     "time_end": "10:00",
     "schedule": "Lun 08:30 a 10:00 - Jue 08:30 a 10:00",
     "modality": "Virtual",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -8759,7 +8759,7 @@
     "time_end": "10:00",
     "schedule": "Lun 08:30 a 10:00 - Jue 08:30 a 10:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -8795,7 +8795,7 @@
     "time_end": "11:30",
     "schedule": "Lun 10:00 a 11:30 - Jue 10:00 a 11:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -8831,7 +8831,7 @@
     "time_end": "11:30",
     "schedule": "Lun 10:00 a 11:30 - Jue 10:00 a 11:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -8867,7 +8867,7 @@
     "time_end": "11:30",
     "schedule": "Lun 10:00 a 11:30 - Jue 10:00 a 11:30",
     "modality": "Virtual",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -8899,7 +8899,7 @@
     "time_end": "10:00",
     "schedule": "Mar 08:30 a 10:00 - Vie 08:30 a 10:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -8935,7 +8935,7 @@
     "time_end": "10:00",
     "schedule": "Mar 08:30 a 10:00 - Vie 08:30 a 10:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -8971,7 +8971,7 @@
     "time_end": "10:00",
     "schedule": "Mar 08:30 a 10:00 - Vie 08:30 a 10:00",
     "modality": "Virtual",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -9003,7 +9003,7 @@
     "time_end": "11:30",
     "schedule": "Mar 10:00 a 11:30 - Vie 10:00 a 11:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -9039,7 +9039,7 @@
     "time_end": "11:30",
     "schedule": "Mar 10:00 a 11:30 - Vie 10:00 a 11:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -9075,7 +9075,7 @@
     "time_end": "11:30",
     "schedule": "Mar 10:00 a 11:30 - Vie 10:00 a 11:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -9107,7 +9107,7 @@
     "time_end": "13:00",
     "schedule": "Mar 11:30 a 13:00 - Vie 11:30 a 13:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -9239,7 +9239,7 @@
     "time_end": "13:00",
     "schedule": "Mie 10:00 a 13:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -9274,7 +9274,7 @@
     "time_end": "13:00",
     "schedule": "Mie 10:00 a 13:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -9310,7 +9310,7 @@
     "time_end": "15:30",
     "schedule": "Lun 14:00 a 15:30 - Jue 14:00 a 15:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -9346,7 +9346,7 @@
     "time_end": "17:00",
     "schedule": "Lun 15:30 a 17:00 - Jue 15:30 a 17:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -9382,7 +9382,7 @@
     "time_end": "17:00",
     "schedule": "Lun 15:30 a 17:00 - Jue 15:30 a 17:00",
     "modality": "Virtual",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -9418,7 +9418,7 @@
     "time_end": "17:00",
     "schedule": "Lun 15:30 a 17:00 - Jue 15:30 a 17:00",
     "modality": "Virtual",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -9477,7 +9477,7 @@
     "time_end": "17:00",
     "schedule": "Lun 15:30 a 17:00 - Jue 15:30 a 17:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -9513,7 +9513,7 @@
     "time_end": "15:30",
     "schedule": "Mar 14:00 a 15:30 - Vie 14:00 a 15:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -9549,7 +9549,7 @@
     "time_end": "15:30",
     "schedule": "Mar 14:00 a 15:30 - Vie 14:00 a 15:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -9581,7 +9581,7 @@
     "time_end": "17:00",
     "schedule": "Mar 15:30 a 17:00 - Vie 15:30 a 17:00",
     "modality": "Virtual",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -9617,7 +9617,7 @@
     "time_end": "17:00",
     "schedule": "Mar 15:30 a 17:00 - Vie 15:30 a 17:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -9652,7 +9652,7 @@
     "time_end": "18:30",
     "schedule": "Mie 15:30 a 18:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -9687,7 +9687,7 @@
     "time_end": "18:30",
     "schedule": "Mie 15:30 a 18:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -9723,7 +9723,7 @@
     "time_end": "18:30",
     "schedule": "Lun 17:00 a 18:30 - Jue 17:00 a 18:30",
     "modality": "Virtual",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -9759,7 +9759,7 @@
     "time_end": "18:30",
     "schedule": "Lun 17:00 a 18:30 - Jue 17:00 a 18:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -9795,7 +9795,7 @@
     "time_end": "18:30",
     "schedule": "Lun 17:00 a 18:30 - Jue 17:00 a 18:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -9831,7 +9831,7 @@
     "time_end": "18:30",
     "schedule": "Lun 17:00 a 18:30 - Jue 17:00 a 18:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -9931,7 +9931,7 @@
     "time_end": "20:00",
     "schedule": "Lun 18:30 a 20:00 - Jue 18:30 a 20:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -9963,7 +9963,7 @@
     "time_end": "20:00",
     "schedule": "Lun 18:30 a 20:00 - Jue 18:30 a 20:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -9999,7 +9999,7 @@
     "time_end": "20:00",
     "schedule": "Lun 18:30 a 20:00 - Jue 18:30 a 20:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -10031,7 +10031,7 @@
     "time_end": "20:00",
     "schedule": "Lun 18:30 a 20:00 - Jue 18:30 a 20:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -10067,7 +10067,7 @@
     "time_end": "21:30",
     "schedule": "Lun 20:00 a 21:30 - Jue 20:00 a 21:30",
     "modality": "Virtual",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -10103,7 +10103,7 @@
     "time_end": "21:30",
     "schedule": "Lun 20:00 a 21:30 - Jue 20:00 a 21:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -10139,7 +10139,7 @@
     "time_end": "21:30",
     "schedule": "Lun 20:00 a 21:30 - Jue 20:00 a 21:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -10207,7 +10207,7 @@
     "time_end": "18:30",
     "schedule": "Mar 17:00 a 18:30 - Vie 17:00 a 18:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -10239,7 +10239,7 @@
     "time_end": "18:30",
     "schedule": "Mar 17:00 a 18:30 - Vie 17:00 a 18:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -10275,7 +10275,7 @@
     "time_end": "18:30",
     "schedule": "Mar 17:00 a 18:30 - Vie 17:00 a 18:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -10311,7 +10311,7 @@
     "time_end": "18:30",
     "schedule": "Mar 17:00 a 18:30 - Vie 17:00 a 18:30",
     "modality": "Virtual",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -10347,7 +10347,7 @@
     "time_end": "20:00",
     "schedule": "Mar 18:30 a 20:00 - Vie 18:30 a 20:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -10419,7 +10419,7 @@
     "time_end": "20:00",
     "schedule": "Mar 18:30 a 20:00 - Vie 18:30 a 20:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -10455,7 +10455,7 @@
     "time_end": "20:00",
     "schedule": "Mar 18:30 a 20:00 - Vie 18:30 a 20:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -10491,7 +10491,7 @@
     "time_end": "20:00",
     "schedule": "Mar 18:30 a 20:00 - Vie 18:30 a 20:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -10593,7 +10593,7 @@
     "time_end": "21:30",
     "schedule": "Mie 18:30 a 21:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -10625,7 +10625,7 @@
     "time_end": "10:00",
     "schedule": "Lun 08:30 a 10:00 - Jue 08:30 a 10:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -10661,7 +10661,7 @@
     "time_end": "10:00",
     "schedule": "Lun 08:30 a 10:00 - Jue 08:30 a 10:00",
     "modality": "Virtual",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -10733,7 +10733,7 @@
     "time_end": "11:30",
     "schedule": "Lun 10:00 a 11:30 - Jue 10:00 a 11:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -10765,7 +10765,7 @@
     "time_end": "11:30",
     "schedule": "Lun 10:00 a 11:30 - Jue 10:00 a 11:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -10801,7 +10801,7 @@
     "time_end": "11:30",
     "schedule": "Lun 10:00 a 11:30 - Jue 10:00 a 11:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -10873,7 +10873,7 @@
     "time_end": "13:00",
     "schedule": "Lun 11:30 a 13:00 - Jue 11:30 a 13:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -10909,7 +10909,7 @@
     "time_end": "13:00",
     "schedule": "Lun 11:30 a 13:00 - Jue 11:30 a 13:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -10945,7 +10945,7 @@
     "time_end": "08:30",
     "schedule": "Mar 07:00 a 08:30 - Vie 07:00 a 08:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -10981,7 +10981,7 @@
     "time_end": "10:00",
     "schedule": "Mar 08:30 a 10:00 - Vie 08:30 a 10:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -11017,7 +11017,7 @@
     "time_end": "10:00",
     "schedule": "Mar 08:30 a 10:00 - Vie 08:30 a 10:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -11053,7 +11053,7 @@
     "time_end": "10:00",
     "schedule": "Mar 08:30 a 10:00 - Vie 08:30 a 10:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -11089,7 +11089,7 @@
     "time_end": "11:30",
     "schedule": "Mar 10:00 a 11:30 - Vie 10:00 a 11:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -11125,7 +11125,7 @@
     "time_end": "11:30",
     "schedule": "Mar 10:00 a 11:30 - Vie 10:00 a 11:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -11223,7 +11223,7 @@
     "time_end": "13:00",
     "schedule": "Mar 11:30 a 13:00 - Vie 11:30 a 13:00",
     "modality": "Virtual",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -11293,7 +11293,7 @@
     "time_end": "10:00",
     "schedule": "Mie 07:00 a 10:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -11328,7 +11328,7 @@
     "time_end": "11:30",
     "schedule": "Mie 08:30 a 11:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -11389,7 +11389,7 @@
     "time_end": "15:30",
     "schedule": "Lun 14:00 a 15:30 - Jue 14:00 a 15:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -11425,7 +11425,7 @@
     "time_end": "15:30",
     "schedule": "Lun 14:00 a 15:30 - Jue 14:00 a 15:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -11461,7 +11461,7 @@
     "time_end": "15:30",
     "schedule": "Lun 14:00 a 15:30 - Jue 14:00 a 15:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -11497,7 +11497,7 @@
     "time_end": "17:00",
     "schedule": "Lun 15:30 a 17:00 - Jue 15:30 a 17:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -11569,7 +11569,7 @@
     "time_end": "17:00",
     "schedule": "Lun 15:30 a 17:00 - Jue 15:30 a 17:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -11605,7 +11605,7 @@
     "time_end": "15:30",
     "schedule": "Mar 14:00 a 15:30 - Vie 14:00 a 15:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -11677,7 +11677,7 @@
     "time_end": "15:30",
     "schedule": "Mar 14:00 a 15:30 - Vie 14:00 a 15:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -11713,7 +11713,7 @@
     "time_end": "17:00",
     "schedule": "Mar 15:30 a 17:00 - Vie 15:30 a 17:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -11749,7 +11749,7 @@
     "time_end": "18:30",
     "schedule": "Lun 17:00 a 18:30 - Jue 17:00 a 18:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -11849,7 +11849,7 @@
     "time_end": "18:30",
     "schedule": "Lun 17:00 a 18:30 - Jue 17:00 a 18:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -11885,7 +11885,7 @@
     "time_end": "18:30",
     "schedule": "Lun 17:00 a 18:30 - Jue 17:00 a 18:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -11916,7 +11916,7 @@
     "time_end": "18:30",
     "schedule": "Lun 17:00 a 18:30 - Jue 17:00 a 18:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -11947,7 +11947,7 @@
     "time_end": "20:00",
     "schedule": "Lun 18:30 a 20:00 - Jue 18:30 a 20:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -11983,7 +11983,7 @@
     "time_end": "20:00",
     "schedule": "Lun 18:30 a 20:00 - Jue 18:30 a 20:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -12019,7 +12019,7 @@
     "time_end": "20:00",
     "schedule": "Lun 18:30 a 20:00 - Jue 18:30 a 20:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -12051,7 +12051,7 @@
     "time_end": "21:30",
     "schedule": "Lun 20:00 a 21:30 - Jue 20:00 a 21:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -12083,7 +12083,7 @@
     "time_end": "23:00",
     "schedule": "Lun 21:30 a 23:00 - Jue 21:30 a 23:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -12119,7 +12119,7 @@
     "time_end": "23:00",
     "schedule": "Lun 21:30 a 23:00 - Jue 21:30 a 23:00",
     "modality": "Virtual",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -12181,7 +12181,7 @@
     "time_end": "18:30",
     "schedule": "Mar 17:00 a 18:30 - Vie 17:00 a 18:30",
     "modality": "Virtual",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -12217,7 +12217,7 @@
     "time_end": "18:30",
     "schedule": "Mar 17:00 a 18:30 - Vie 17:00 a 18:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -12317,7 +12317,7 @@
     "time_end": "20:00",
     "schedule": "Mar 18:30 a 20:00 - Vie 18:30 a 20:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -12353,7 +12353,7 @@
     "time_end": "20:00",
     "schedule": "Mar 18:30 a 20:00 - Vie 18:30 a 20:00",
     "modality": "Virtual",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -12389,7 +12389,7 @@
     "time_end": "21:30",
     "schedule": "Mar 20:00 a 21:30 - Vie 20:00 a 21:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -12425,7 +12425,7 @@
     "time_end": "21:30",
     "schedule": "Mar 20:00 a 21:30 - Vie 20:00 a 21:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -12461,7 +12461,7 @@
     "time_end": "21:30",
     "schedule": "Mar 20:00 a 21:30 - Vie 20:00 a 21:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -12492,7 +12492,7 @@
     "time_end": "21:30",
     "schedule": "Mar 20:00 a 21:30 - Vie 20:00 a 21:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -12523,7 +12523,7 @@
     "time_end": "21:30",
     "schedule": "Mar 20:00 a 21:30 - Vie 20:00 a 21:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -12559,7 +12559,7 @@
     "time_end": "21:30",
     "schedule": "Mar 20:00 a 21:30 - Vie 20:00 a 21:30",
     "modality": "Virtual",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -12594,7 +12594,7 @@
     "time_end": "20:00",
     "schedule": "Mie 17:00 a 20:00",
     "modality": "Virtual",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -12629,7 +12629,7 @@
     "time_end": "20:00",
     "schedule": "Mie 17:00 a 20:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -12714,7 +12714,7 @@
     "time_end": "11:30",
     "schedule": "Lun 10:00 a 11:30 - Jue 10:00 a 11:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -12741,7 +12741,7 @@
     "time_end": "11:30",
     "schedule": "Lun 10:00 a 11:30 - Jue 10:00 a 11:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -12768,7 +12768,7 @@
     "time_end": "13:00",
     "schedule": "Lun 11:30 a 13:00 - Jue 11:30 a 13:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -12849,7 +12849,7 @@
     "time_end": "10:00",
     "schedule": "Mar 08:30 a 10:00 - Vie 08:30 a 10:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -12876,7 +12876,7 @@
     "time_end": "11:30",
     "schedule": "Mar 10:00 a 11:30 - Vie 10:00 a 11:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -12957,7 +12957,7 @@
     "time_end": "13:00",
     "schedule": "Mar 11:30 a 13:00 - Vie 11:30 a 13:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -13081,7 +13081,7 @@
     "time_end": "17:00",
     "schedule": "Lun 15:30 a 17:00 - Jue 15:30 a 17:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -13108,7 +13108,7 @@
     "time_end": "17:00",
     "schedule": "Mar 15:30 a 17:00 - Vie 15:30 a 17:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -13318,7 +13318,7 @@
     "time_end": "21:30",
     "schedule": "Lun 20:00 a 21:30 - Jue 20:00 a 21:30",
     "modality": "Virtual",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -13345,7 +13345,7 @@
     "time_end": "23:00",
     "schedule": "Lun 21:30 a 23:00 - Jue 21:30 a 23:00",
     "modality": "Virtual",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -13426,7 +13426,7 @@
     "time_end": "20:00",
     "schedule": "Mar 18:30 a 20:00 - Vie 18:30 a 20:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -13453,7 +13453,7 @@
     "time_end": "20:00",
     "schedule": "Mar 18:30 a 20:00 - Vie 18:30 a 20:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -13507,7 +13507,7 @@
     "time_end": "20:00",
     "schedule": "Mar 18:30 a 20:00 - Vie 18:30 a 20:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -13635,7 +13635,7 @@
     "time_end": "08:30",
     "schedule": "Lun 07:00 a 08:30 - Jue 07:00 a 08:30",
     "modality": "Virtual",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -13671,7 +13671,7 @@
     "time_end": "10:00",
     "schedule": "Lun 08:30 a 10:00 - Jue 08:30 a 10:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -13707,7 +13707,7 @@
     "time_end": "10:00",
     "schedule": "Lun 08:30 a 10:00 - Jue 08:30 a 10:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -13743,7 +13743,7 @@
     "time_end": "11:30",
     "schedule": "Lun 10:00 a 11:30 - Jue 10:00 a 11:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -13779,7 +13779,7 @@
     "time_end": "11:30",
     "schedule": "Lun 10:00 a 11:30 - Jue 10:00 a 11:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -13839,7 +13839,7 @@
     "time_end": "11:30",
     "schedule": "Lun 10:00 a 11:30 - Jue 10:00 a 11:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -13875,7 +13875,7 @@
     "time_end": "13:00",
     "schedule": "Lun 11:30 a 13:00 - Jue 11:30 a 13:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -13935,7 +13935,7 @@
     "time_end": "08:30",
     "schedule": "Mar 07:00 a 08:30 - Vie 07:00 a 08:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -13971,7 +13971,7 @@
     "time_end": "08:30",
     "schedule": "Mar 07:00 a 08:30 - Vie 07:00 a 08:30",
     "modality": "Virtual",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -14007,7 +14007,7 @@
     "time_end": "10:00",
     "schedule": "Mar 08:30 a 10:00 - Vie 08:30 a 10:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -14079,7 +14079,7 @@
     "time_end": "11:30",
     "schedule": "Mar 10:00 a 11:30 - Vie 10:00 a 11:30",
     "modality": "Virtual",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -14114,7 +14114,7 @@
     "time_end": "13:00",
     "schedule": "Mie 10:00 a 13:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -14150,7 +14150,7 @@
     "time_end": "15:30",
     "schedule": "Lun 14:00 a 15:30 - Jue 14:00 a 15:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -14218,7 +14218,7 @@
     "time_end": "17:00",
     "schedule": "Lun 15:30 a 17:00 - Jue 15:30 a 17:00",
     "modality": "Virtual",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -14254,7 +14254,7 @@
     "time_end": "17:00",
     "schedule": "Lun 15:30 a 17:00 - Jue 15:30 a 17:00",
     "modality": "Virtual",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -14290,7 +14290,7 @@
     "time_end": "15:30",
     "schedule": "Mar 14:00 a 15:30 - Vie 14:00 a 15:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -14326,7 +14326,7 @@
     "time_end": "17:00",
     "schedule": "Mar 15:30 a 17:00 - Vie 15:30 a 17:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -14361,7 +14361,7 @@
     "time_end": "17:00",
     "schedule": "Mie 14:00 a 17:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -14431,7 +14431,7 @@
     "time_end": "18:30",
     "schedule": "Mie 15:30 a 18:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -14503,7 +14503,7 @@
     "time_end": "18:30",
     "schedule": "Lun 17:00 a 18:30 - Jue 17:00 a 18:30",
     "modality": "Virtual",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -14535,7 +14535,7 @@
     "time_end": "18:30",
     "schedule": "Lun 17:00 a 18:30 - Jue 17:00 a 18:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -14571,7 +14571,7 @@
     "time_end": "20:00",
     "schedule": "Lun 18:30 a 20:00 - Jue 18:30 a 20:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -14671,7 +14671,7 @@
     "time_end": "21:30",
     "schedule": "Lun 20:00 a 21:30 - Jue 20:00 a 21:30",
     "modality": "Virtual",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -14707,7 +14707,7 @@
     "time_end": "21:30",
     "schedule": "Lun 20:00 a 21:30 - Jue 20:00 a 21:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -14743,7 +14743,7 @@
     "time_end": "23:00",
     "schedule": "Lun 21:30 a 23:00 - Jue 21:30 a 23:00",
     "modality": "Virtual",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -14779,7 +14779,7 @@
     "time_end": "18:30",
     "schedule": "Mar 17:00 a 18:30 - Vie 17:00 a 18:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -14815,7 +14815,7 @@
     "time_end": "18:30",
     "schedule": "Mar 17:00 a 18:30 - Vie 17:00 a 18:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -14851,7 +14851,7 @@
     "time_end": "20:00",
     "schedule": "Mar 18:30 a 20:00 - Vie 18:30 a 20:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -14887,7 +14887,7 @@
     "time_end": "20:00",
     "schedule": "Mar 18:30 a 20:00 - Vie 18:30 a 20:00",
     "modality": "Virtual",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -14923,7 +14923,7 @@
     "time_end": "21:30",
     "schedule": "Mar 20:00 a 21:30 - Vie 20:00 a 21:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -14991,7 +14991,7 @@
     "time_end": "21:30",
     "schedule": "Mar 20:00 a 21:30 - Vie 20:00 a 21:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -15027,7 +15027,7 @@
     "time_end": "23:00",
     "schedule": "Mar 21:30 a 23:00 - Vie 21:30 a 23:00",
     "modality": "Virtual",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -15062,7 +15062,7 @@
     "time_end": "20:00",
     "schedule": "Mie 17:00 a 20:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -15093,7 +15093,7 @@
     "time_end": "20:00",
     "schedule": "Mie 17:00 a 20:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -15129,7 +15129,7 @@
     "time_end": "08:30",
     "schedule": "Lun 07:00 a 08:30 - Jue 07:00 a 08:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -15160,7 +15160,7 @@
     "time_end": "10:00",
     "schedule": "Lun 08:30 a 10:00 - Jue 08:30 a 10:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -15191,7 +15191,7 @@
     "time_end": "10:00",
     "schedule": "Lun 08:30 a 10:00 - Jue 08:30 a 10:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -15222,7 +15222,7 @@
     "time_end": "10:00",
     "schedule": "Lun 08:30 a 10:00 - Jue 08:30 a 10:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -15253,7 +15253,7 @@
     "time_end": "11:30",
     "schedule": "Lun 10:00 a 11:30 - Jue 10:00 a 11:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -15346,7 +15346,7 @@
     "time_end": "13:00",
     "schedule": "Lun 11:30 a 13:00 - Jue 11:30 a 13:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -15377,7 +15377,7 @@
     "time_end": "08:30",
     "schedule": "Mar 07:00 a 08:30 - Vie 07:00 a 08:30",
     "modality": "Virtual",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -15408,7 +15408,7 @@
     "time_end": "10:00",
     "schedule": "Mar 08:30 a 10:00 - Vie 08:30 a 10:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -15439,7 +15439,7 @@
     "time_end": "10:00",
     "schedule": "Mar 08:30 a 10:00 - Vie 08:30 a 10:00",
     "modality": "Virtual",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -15470,7 +15470,7 @@
     "time_end": "10:00",
     "schedule": "Mar 08:30 a 10:00 - Vie 08:30 a 10:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -15501,7 +15501,7 @@
     "time_end": "11:30",
     "schedule": "Mar 10:00 a 11:30 - Vie 10:00 a 11:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -15532,7 +15532,7 @@
     "time_end": "11:30",
     "schedule": "Mar 10:00 a 11:30 - Vie 10:00 a 11:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -15590,7 +15590,7 @@
     "time_end": "13:00",
     "schedule": "Mar 11:30 a 13:00 - Vie 11:30 a 13:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -15620,7 +15620,7 @@
     "time_end": "11:30",
     "schedule": "Mie 08:30 a 11:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -15651,7 +15651,7 @@
     "time_end": "14:30",
     "schedule": "Lun 13:00 a 14:30 - Jue 13:00 a 14:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -15682,7 +15682,7 @@
     "time_end": "15:30",
     "schedule": "Lun 14:00 a 15:30 - Jue 14:00 a 15:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -15713,7 +15713,7 @@
     "time_end": "15:30",
     "schedule": "Lun 14:00 a 15:30 - Jue 14:00 a 15:30",
     "modality": "Virtual",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -15775,7 +15775,7 @@
     "time_end": "17:00",
     "schedule": "Lun 15:30 a 17:00 - Jue 15:30 a 17:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -15806,7 +15806,7 @@
     "time_end": "14:30",
     "schedule": "Mar 13:00 a 14:30 - Vie 13:00 a 14:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -15837,7 +15837,7 @@
     "time_end": "15:30",
     "schedule": "Mar 14:00 a 15:30 - Vie 14:00 a 15:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -15868,7 +15868,7 @@
     "time_end": "17:00",
     "schedule": "Mar 15:30 a 17:00 - Vie 15:30 a 17:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -15899,7 +15899,7 @@
     "time_end": "17:00",
     "schedule": "Mar 15:30 a 17:00 - Vie 15:30 a 17:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -15930,7 +15930,7 @@
     "time_end": "17:00",
     "schedule": "Mar 15:30 a 17:00 - Vie 15:30 a 17:00",
     "modality": "Virtual",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -15960,7 +15960,7 @@
     "time_end": "18:30",
     "schedule": "Mie 15:30 a 18:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -15990,7 +15990,7 @@
     "time_end": "18:30",
     "schedule": "Mie 15:30 a 18:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -16021,7 +16021,7 @@
     "time_end": "18:30",
     "schedule": "Lun 17:00 a 18:30 - Jue 17:00 a 18:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -16052,7 +16052,7 @@
     "time_end": "18:30",
     "schedule": "Lun 17:00 a 18:30 - Jue 17:00 a 18:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -16083,7 +16083,7 @@
     "time_end": "18:30",
     "schedule": "Lun 17:00 a 18:30 - Jue 17:00 a 18:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -16114,7 +16114,7 @@
     "time_end": "18:30",
     "schedule": "Lun 17:00 a 18:30 - Jue 17:00 a 18:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -16145,7 +16145,7 @@
     "time_end": "18:30",
     "schedule": "Lun 17:00 a 18:30 - Jue 17:00 a 18:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -16176,7 +16176,7 @@
     "time_end": "20:00",
     "schedule": "Lun 18:30 a 20:00 - Jue 18:30 a 20:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -16207,7 +16207,7 @@
     "time_end": "20:00",
     "schedule": "Lun 18:30 a 20:00 - Jue 18:30 a 20:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -16264,7 +16264,7 @@
     "time_end": "20:00",
     "schedule": "Lun 18:30 a 20:00 - Jue 18:30 a 20:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -16295,7 +16295,7 @@
     "time_end": "20:00",
     "schedule": "Lun 18:30 a 20:00 - Jue 18:30 a 20:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -16326,7 +16326,7 @@
     "time_end": "21:30",
     "schedule": "Lun 20:00 a 21:30 - Jue 20:00 a 21:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -16357,7 +16357,7 @@
     "time_end": "21:30",
     "schedule": "Lun 20:00 a 21:30 - Jue 20:00 a 21:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -16388,7 +16388,7 @@
     "time_end": "23:00",
     "schedule": "Lun 21:30 a 23:00 - Jue 21:30 a 23:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -16534,7 +16534,7 @@
     "time_end": "20:00",
     "schedule": "Mar 18:30 a 20:00 - Vie 18:30 a 20:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -16565,7 +16565,7 @@
     "time_end": "20:00",
     "schedule": "Mar 18:30 a 20:00 - Vie 18:30 a 20:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -16596,7 +16596,7 @@
     "time_end": "20:00",
     "schedule": "Mar 18:30 a 20:00 - Vie 18:30 a 20:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -16623,7 +16623,7 @@
     "time_end": "20:00",
     "schedule": "Mar 18:30 a 20:00 - Vie 18:30 a 20:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -16676,7 +16676,7 @@
     "time_end": "20:00",
     "schedule": "Mar 18:30 a 20:00 - Vie 18:30 a 20:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -16707,7 +16707,7 @@
     "time_end": "21:30",
     "schedule": "Mar 20:00 a 21:30 - Vie 20:00 a 21:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -16769,7 +16769,7 @@
     "time_end": "21:30",
     "schedule": "Mar 20:00 a 21:30 - Vie 20:00 a 21:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -16800,7 +16800,7 @@
     "time_end": "23:00",
     "schedule": "Mar 21:30 a 23:00 - Vie 21:30 a 23:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -16860,7 +16860,7 @@
     "time_end": "20:00",
     "schedule": "Mie 17:00 a 20:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -16890,7 +16890,7 @@
     "time_end": "20:00",
     "schedule": "Mie 17:00 a 20:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -16920,7 +16920,7 @@
     "time_end": "21:30",
     "schedule": "Mie 18:30 a 21:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -16951,7 +16951,7 @@
     "time_end": "08:30",
     "schedule": "Lun 07:00 a 08:30 - Jue 07:00 a 08:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -16987,7 +16987,7 @@
     "time_end": "10:00",
     "schedule": "Lun 08:30 a 10:00 - Jue 08:30 a 10:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -17023,7 +17023,7 @@
     "time_end": "10:00",
     "schedule": "Lun 08:30 a 10:00 - Jue 08:30 a 10:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -17054,7 +17054,7 @@
     "time_end": "10:00",
     "schedule": "Lun 08:30 a 10:00 - Jue 08:30 a 10:00",
     "modality": "Virtual",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -17090,7 +17090,7 @@
     "time_end": "10:00",
     "schedule": "Lun 08:30 a 10:00 - Jue 08:30 a 10:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -17126,7 +17126,7 @@
     "time_end": "11:30",
     "schedule": "Lun 10:00 a 11:30 - Jue 10:00 a 11:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -17194,7 +17194,7 @@
     "time_end": "08:30",
     "schedule": "Mar 07:00 a 08:30 - Vie 07:00 a 08:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -17230,7 +17230,7 @@
     "time_end": "08:30",
     "schedule": "Mar 07:00 a 08:30 - Vie 07:00 a 08:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -17266,7 +17266,7 @@
     "time_end": "10:00",
     "schedule": "Mar 08:30 a 10:00 - Vie 08:30 a 10:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -17302,7 +17302,7 @@
     "time_end": "10:00",
     "schedule": "Mar 08:30 a 10:00 - Vie 08:30 a 10:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -17338,7 +17338,7 @@
     "time_end": "13:00",
     "schedule": "Mar 11:30 a 13:00 - Vie 11:30 a 13:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -17374,7 +17374,7 @@
     "time_end": "13:00",
     "schedule": "Mar 11:30 a 13:00 - Vie 11:30 a 13:00",
     "modality": "Virtual",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -17410,7 +17410,7 @@
     "time_end": "13:00",
     "schedule": "Mar 11:30 a 13:00 - Vie 11:30 a 13:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -17441,7 +17441,7 @@
     "time_end": "10:00",
     "schedule": "Mie 07:00 a 10:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -17476,7 +17476,7 @@
     "time_end": "11:30",
     "schedule": "Mie 08:30 a 11:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -17511,7 +17511,7 @@
     "time_end": "13:00",
     "schedule": "Mie 10:00 a 13:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -17542,7 +17542,7 @@
     "time_end": "11:30",
     "schedule": "Sab 08:30 a 11:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -17577,7 +17577,7 @@
     "time_end": "12:00",
     "schedule": "Sab 09:00 a 12:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -17613,7 +17613,7 @@
     "time_end": "15:30",
     "schedule": "Lun 14:00 a 15:30 - Jue 14:00 a 15:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -17649,7 +17649,7 @@
     "time_end": "15:30",
     "schedule": "Lun 14:00 a 15:30 - Jue 14:00 a 15:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -17721,7 +17721,7 @@
     "time_end": "15:30",
     "schedule": "Mar 14:00 a 15:30 - Vie 14:00 a 15:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -17757,7 +17757,7 @@
     "time_end": "17:00",
     "schedule": "Mar 15:30 a 17:00 - Vie 15:30 a 17:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -17793,7 +17793,7 @@
     "time_end": "18:30",
     "schedule": "Lun 17:00 a 18:30 - Jue 17:00 a 18:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -17829,7 +17829,7 @@
     "time_end": "18:30",
     "schedule": "Lun 17:00 a 18:30 - Jue 17:00 a 18:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -17865,7 +17865,7 @@
     "time_end": "18:30",
     "schedule": "Lun 17:00 a 18:30 - Jue 17:00 a 18:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -17925,7 +17925,7 @@
     "time_end": "20:00",
     "schedule": "Lun 18:30 a 20:00 - Jue 18:30 a 20:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -17957,7 +17957,7 @@
     "time_end": "21:30",
     "schedule": "Lun 20:00 a 21:30 - Jue 20:00 a 21:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -18021,7 +18021,7 @@
     "time_end": "23:00",
     "schedule": "Lun 21:30 a 23:00 - Jue 21:30 a 23:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -18121,7 +18121,7 @@
     "time_end": "20:00",
     "schedule": "Mar 18:30 a 20:00 - Vie 18:30 a 20:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -18157,7 +18157,7 @@
     "time_end": "21:30",
     "schedule": "Mar 20:00 a 21:30 - Vie 20:00 a 21:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -18192,7 +18192,7 @@
     "time_end": "21:30",
     "schedule": "Mie 18:30 a 21:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -18251,7 +18251,7 @@
     "time_end": "08:30",
     "schedule": "Lun 07:00 a 08:30 - Mie 07:00 a 08:30 - Jue 07:00 a 08:30",
     "modality": "Mixta",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -18288,7 +18288,7 @@
     "time_end": "10:00",
     "schedule": "Lun 08:30 a 10:00 - Mie 08:30 a 10:00 - Jue 08:30 a 10:00",
     "modality": "Mixta",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -18325,7 +18325,7 @@
     "time_end": "10:00",
     "schedule": "Lun 08:30 a 10:00 - Mie 08:30 a 10:00 - Jue 08:30 a 10:00",
     "modality": "Virtual",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -18399,7 +18399,7 @@
     "time_end": "10:00",
     "schedule": "Lun 08:30 a 10:00 - Mie 08:30 a 10:00 - Jue 08:30 a 10:00",
     "modality": "Mixta",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -18432,7 +18432,7 @@
     "time_end": "11:30",
     "schedule": "Lun 10:00 a 11:30 - Mie 10:00 a 11:30 - Jue 10:00 a 11:30",
     "modality": "Virtual",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -18469,7 +18469,7 @@
     "time_end": "11:30",
     "schedule": "Lun 10:00 a 11:30 - Mie 10:00 a 11:30 - Jue 10:00 a 11:30",
     "modality": "Mixta",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -18506,7 +18506,7 @@
     "time_end": "11:30",
     "schedule": "Lun 10:00 a 11:30 - Mie 10:00 a 11:30 - Jue 10:00 a 11:30",
     "modality": "Mixta",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -18543,7 +18543,7 @@
     "time_end": "10:00",
     "schedule": "Mar 08:30 a 10:00 - Mie 08:30 a 10:00 - Vie 08:30 a 10:00",
     "modality": "Mixta",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -18580,7 +18580,7 @@
     "time_end": "10:00",
     "schedule": "Mar 08:30 a 10:00 - Mie 08:30 a 10:00 - Vie 08:30 a 10:00",
     "modality": "Mixta",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -18617,7 +18617,7 @@
     "time_end": "11:30",
     "schedule": "Mar 10:00 a 11:30 - Mie 10:00 a 11:30 - Vie 10:00 a 11:30",
     "modality": "Mixta",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -18654,7 +18654,7 @@
     "time_end": "11:30",
     "schedule": "Mar 10:00 a 11:30 - Mie 10:00 a 11:30 - Vie 10:00 a 11:30",
     "modality": "Mixta",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -18691,7 +18691,7 @@
     "time_end": "11:30",
     "schedule": "Mar 10:00 a 11:30 - Mie 10:00 a 11:30 - Vie 10:00 a 11:30",
     "modality": "Mixta",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -18728,7 +18728,7 @@
     "time_end": "13:00",
     "schedule": "Mar 11:30 a 13:00 - Mie 11:30 a 13:00 - Vie 11:30 a 13:00",
     "modality": "Virtual",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -18765,7 +18765,7 @@
     "time_end": "13:00",
     "schedule": "Mar 11:30 a 13:00 - Mie 11:30 a 13:00 - Vie 11:30 a 13:00",
     "modality": "Mixta",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -18802,7 +18802,7 @@
     "time_end": "15:30",
     "schedule": "Lun 14:00 a 15:30 - Mie 14:00 a 15:30 - Jue 14:00 a 15:30",
     "modality": "Mixta",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -18876,7 +18876,7 @@
     "time_end": "15:30",
     "schedule": "Lun 14:00 a 15:30 - Mie 14:00 a 15:30 - Jue 14:00 a 15:30",
     "modality": "Virtual",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -18913,7 +18913,7 @@
     "time_end": "15:30",
     "schedule": "Lun 14:00 a 15:30 - Mie 14:00 a 15:30 - Jue 14:00 a 15:30",
     "modality": "Mixta",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -18950,7 +18950,7 @@
     "time_end": "17:00",
     "schedule": "Lun 15:30 a 17:00 - Mie 15:30 a 17:00 - Jue 15:30 a 17:00",
     "modality": "Mixta",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -18987,7 +18987,7 @@
     "time_end": "17:00",
     "schedule": "Lun 15:30 a 17:00 - Mie 15:30 a 17:00 - Jue 15:30 a 17:00",
     "modality": "Mixta",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -19024,7 +19024,7 @@
     "time_end": "17:00",
     "schedule": "Lun 15:30 a 17:00 - Mie 15:30 a 17:00 - Jue 15:30 a 17:00",
     "modality": "Mixta",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -19061,7 +19061,7 @@
     "time_end": "14:30",
     "schedule": "Mar 13:00 a 14:30 - Mie 13:00 a 14:30 - Vie 13:00 a 14:30",
     "modality": "Mixta",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -19094,7 +19094,7 @@
     "time_end": "17:00",
     "schedule": "Mar 15:30 a 17:00 - Mie 15:30 a 17:00 - Vie 15:30 a 17:00",
     "modality": "Mixta",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -19131,7 +19131,7 @@
     "time_end": "17:00",
     "schedule": "Mar 15:30 a 17:00 - Mie 15:30 a 17:00 - Vie 15:30 a 17:00",
     "modality": "Mixta",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -19205,7 +19205,7 @@
     "time_end": "18:30",
     "schedule": "Lun 17:00 a 18:30 - Mie 17:00 a 18:30 - Jue 17:00 a 18:30",
     "modality": "Mixta",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -19242,7 +19242,7 @@
     "time_end": "18:30",
     "schedule": "Lun 17:00 a 18:30 - Mie 17:00 a 18:30 - Jue 17:00 a 18:30",
     "modality": "Mixta",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -19279,7 +19279,7 @@
     "time_end": "20:00",
     "schedule": "Lun 18:30 a 20:00 - Mie 18:30 a 20:00 - Jue 18:30 a 20:00",
     "modality": "Mixta",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -19353,7 +19353,7 @@
     "time_end": "21:30",
     "schedule": "Lun 20:00 a 21:30 - Mie 20:00 a 21:30 - Jue 20:00 a 21:30",
     "modality": "Mixta",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -19386,7 +19386,7 @@
     "time_end": "23:00",
     "schedule": "Lun 21:30 a 23:00 - Mie 21:30 a 23:00 - Jue 21:30 a 23:00",
     "modality": "Mixta",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -19423,7 +19423,7 @@
     "time_end": "18:30",
     "schedule": "Mar 17:00 a 18:30 - Mie 17:00 a 18:30 - Vie 17:00 a 18:30",
     "modality": "Virtual",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -19460,7 +19460,7 @@
     "time_end": "18:30",
     "schedule": "Mar 17:00 a 18:30 - Mie 17:00 a 18:30 - Vie 17:00 a 18:30",
     "modality": "Mixta",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -19497,7 +19497,7 @@
     "time_end": "20:00",
     "schedule": "Mar 18:30 a 20:00 - Mie 18:30 a 20:00 - Vie 18:30 a 20:00",
     "modality": "Mixta",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -19571,7 +19571,7 @@
     "time_end": "20:00",
     "schedule": "Mar 18:30 a 20:00 - Mie 18:30 a 20:00 - Vie 18:30 a 20:00",
     "modality": "Virtual",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -19608,7 +19608,7 @@
     "time_end": "20:00",
     "schedule": "Mar 18:30 a 20:00 - Mie 18:30 a 20:00 - Vie 18:30 a 20:00",
     "modality": "Mixta",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -19645,7 +19645,7 @@
     "time_end": "20:00",
     "schedule": "Mar 18:30 a 20:00 - Mie 18:30 a 20:00 - Vie 18:30 a 20:00",
     "modality": "Mixta",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -19682,7 +19682,7 @@
     "time_end": "20:00",
     "schedule": "Mar 18:30 a 20:00 - Mie 18:30 a 20:00 - Vie 18:30 a 20:00",
     "modality": "Mixta",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -19719,7 +19719,7 @@
     "time_end": "21:30",
     "schedule": "Mar 20:00 a 21:30 - Mie 20:00 a 21:30 - Vie 20:00 a 21:30",
     "modality": "Mixta",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -19756,7 +19756,7 @@
     "time_end": "21:30",
     "schedule": "Mar 20:00 a 21:30 - Mie 20:00 a 21:30 - Vie 20:00 a 21:30",
     "modality": "Mixta",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -19829,7 +19829,7 @@
     "time_end": "10:00",
     "schedule": "Lun 08:30 a 10:00 - Jue 08:30 a 10:00",
     "modality": "Virtual",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -19860,7 +19860,7 @@
     "time_end": "10:00",
     "schedule": "Lun 08:30 a 10:00 - Jue 08:30 a 10:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -19891,7 +19891,7 @@
     "time_end": "10:00",
     "schedule": "Lun 08:30 a 10:00 - Jue 08:30 a 10:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -19922,7 +19922,7 @@
     "time_end": "11:30",
     "schedule": "Lun 10:00 a 11:30 - Jue 10:00 a 11:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -19953,7 +19953,7 @@
     "time_end": "11:30",
     "schedule": "Lun 10:00 a 11:30 - Jue 10:00 a 11:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -19984,7 +19984,7 @@
     "time_end": "13:00",
     "schedule": "Lun 11:30 a 13:00 - Jue 11:30 a 13:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -20015,7 +20015,7 @@
     "time_end": "10:00",
     "schedule": "Mar 08:30 a 10:00 - Vie 08:30 a 10:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -20046,7 +20046,7 @@
     "time_end": "11:30",
     "schedule": "Mar 10:00 a 11:30 - Vie 10:00 a 11:30",
     "modality": "Virtual",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -20077,7 +20077,7 @@
     "time_end": "11:30",
     "schedule": "Mar 10:00 a 11:30 - Vie 10:00 a 11:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -20107,7 +20107,7 @@
     "time_end": "13:00",
     "schedule": "Mie 10:00 a 13:00",
     "modality": "Virtual",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -20138,7 +20138,7 @@
     "time_end": "15:30",
     "schedule": "Lun 14:00 a 15:30 - Jue 14:00 a 15:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -20169,7 +20169,7 @@
     "time_end": "15:30",
     "schedule": "Lun 14:00 a 15:30 - Jue 14:00 a 15:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -20200,7 +20200,7 @@
     "time_end": "15:30",
     "schedule": "Lun 14:00 a 15:30 - Jue 14:00 a 15:30",
     "modality": "Virtual",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -20262,7 +20262,7 @@
     "time_end": "17:00",
     "schedule": "Lun 15:30 a 17:00 - Jue 15:30 a 17:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -20324,7 +20324,7 @@
     "time_end": "14:30",
     "schedule": "Mar 13:00 a 14:30 - Vie 13:00 a 14:30",
     "modality": "Virtual",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -20413,7 +20413,7 @@
     "time_end": "15:30",
     "schedule": "Mar 14:00 a 15:30 - Vie 14:00 a 15:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -20444,7 +20444,7 @@
     "time_end": "17:00",
     "schedule": "Mar 15:30 a 17:00 - Vie 15:30 a 17:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -20475,7 +20475,7 @@
     "time_end": "17:00",
     "schedule": "Mar 15:30 a 17:00 - Vie 15:30 a 17:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -20506,7 +20506,7 @@
     "time_end": "18:30",
     "schedule": "Lun 17:00 a 18:30 - Jue 17:00 a 18:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -20568,7 +20568,7 @@
     "time_end": "20:00",
     "schedule": "Lun 18:30 a 20:00 - Jue 18:30 a 20:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -20599,7 +20599,7 @@
     "time_end": "20:00",
     "schedule": "Lun 18:30 a 20:00 - Jue 18:30 a 20:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -20652,7 +20652,7 @@
     "time_end": "21:30",
     "schedule": "Lun 20:00 a 21:30 - Jue 20:00 a 21:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -20683,7 +20683,7 @@
     "time_end": "21:30",
     "schedule": "Lun 20:00 a 21:30 - Jue 20:00 a 21:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -20798,7 +20798,7 @@
     "time_end": "18:30",
     "schedule": "Mar 17:00 a 18:30 - Vie 17:00 a 18:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -20829,7 +20829,7 @@
     "time_end": "18:30",
     "schedule": "Mar 17:00 a 18:30 - Vie 17:00 a 18:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -20860,7 +20860,7 @@
     "time_end": "18:30",
     "schedule": "Mar 17:00 a 18:30 - Vie 17:00 a 18:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -20887,7 +20887,7 @@
     "time_end": "18:30",
     "schedule": "Mar 17:00 a 18:30 - Vie 17:00 a 18:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -20918,7 +20918,7 @@
     "time_end": "20:00",
     "schedule": "Mar 18:30 a 20:00 - Vie 18:30 a 20:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -20949,7 +20949,7 @@
     "time_end": "21:30",
     "schedule": "Mar 20:00 a 21:30 - Vie 20:00 a 21:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -20980,7 +20980,7 @@
     "time_end": "21:30",
     "schedule": "Mar 20:00 a 21:30 - Vie 20:00 a 21:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -21010,7 +21010,7 @@
     "time_end": "20:00",
     "schedule": "Mie 17:00 a 20:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -21040,7 +21040,7 @@
     "time_end": "21:30",
     "schedule": "Mie 18:30 a 21:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -21070,7 +21070,7 @@
     "time_end": "23:00",
     "schedule": "Mie 20:00 a 23:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -21102,7 +21102,7 @@
     "time_end": "08:30",
     "schedule": "Lun 07:00 a 08:30 - Mie 07:00 a 08:30 - Jue 07:00 a 08:30",
     "modality": "Mixta",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -21176,7 +21176,7 @@
     "time_end": "10:00",
     "schedule": "Lun 08:30 a 10:00 - Mie 08:30 a 10:00 - Jue 08:30 a 10:00",
     "modality": "Mixta",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -21283,7 +21283,7 @@
     "time_end": "11:30",
     "schedule": "Lun 10:00 a 11:30 - Mie 10:00 a 11:30 - Jue 10:00 a 11:30",
     "modality": "Mixta",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -21320,7 +21320,7 @@
     "time_end": "13:00",
     "schedule": "Lun 11:30 a 13:00 - Mie 11:30 a 13:00 - Jue 11:30 a 13:00",
     "modality": "Mixta",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -21357,7 +21357,7 @@
     "time_end": "13:00",
     "schedule": "Lun 11:30 a 13:00 - Mie 11:30 a 13:00 - Jue 11:30 a 13:00",
     "modality": "Mixta",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -21394,7 +21394,7 @@
     "time_end": "08:30",
     "schedule": "Mar 07:00 a 08:30 - Mie 07:00 a 08:30 - Vie 07:00 a 08:30",
     "modality": "Mixta",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -21431,7 +21431,7 @@
     "time_end": "10:00",
     "schedule": "Mar 08:30 a 10:00 - Mie 08:30 a 10:00 - Vie 08:30 a 10:00",
     "modality": "Mixta",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -21468,7 +21468,7 @@
     "time_end": "10:00",
     "schedule": "Mar 08:30 a 10:00 - Mie 08:30 a 10:00 - Vie 08:30 a 10:00",
     "modality": "Mixta",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -21505,7 +21505,7 @@
     "time_end": "11:30",
     "schedule": "Mar 10:00 a 11:30 - Mie 10:00 a 11:30 - Vie 10:00 a 11:30",
     "modality": "Mixta",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -21579,7 +21579,7 @@
     "time_end": "11:30",
     "schedule": "Mar 10:00 a 11:30 - Mie 10:00 a 11:30 - Vie 10:00 a 11:30",
     "modality": "Mixta",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -21616,7 +21616,7 @@
     "time_end": "13:00",
     "schedule": "Mar 11:30 a 13:00 - Mie 11:30 a 13:00 - Vie 11:30 a 13:00",
     "modality": "Virtual",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -21653,7 +21653,7 @@
     "time_end": "15:30",
     "schedule": "Lun 14:00 a 15:30 - Mie 14:00 a 15:30 - Jue 14:00 a 15:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -21686,7 +21686,7 @@
     "time_end": "15:30",
     "schedule": "Lun 14:00 a 15:30 - Mie 14:00 a 15:30 - Jue 14:00 a 15:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -21747,7 +21747,7 @@
     "time_end": "17:00",
     "schedule": "Lun 15:30 a 17:00 - Mie 15:30 a 17:00 - Jue 15:30 a 17:00",
     "modality": "Mixta",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -21784,7 +21784,7 @@
     "time_end": "17:00",
     "schedule": "Lun 15:30 a 17:00 - Mie 15:30 a 17:00 - Jue 15:30 a 17:00",
     "modality": "Mixta",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -21821,7 +21821,7 @@
     "time_end": "17:00",
     "schedule": "Lun 15:30 a 17:00 - Mie 15:30 a 17:00 - Jue 15:30 a 17:00",
     "modality": "Virtual",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -21895,7 +21895,7 @@
     "time_end": "15:30",
     "schedule": "Mar 14:00 a 15:30 - Mie 14:00 a 15:30 - Vie 14:00 a 15:30",
     "modality": "Virtual",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -21932,7 +21932,7 @@
     "time_end": "17:00",
     "schedule": "Mar 15:30 a 17:00 - Mie 15:30 a 17:00 - Vie 15:30 a 17:00",
     "modality": "Virtual",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -22006,7 +22006,7 @@
     "time_end": "17:00",
     "schedule": "Mar 15:30 a 17:00 - Mie 15:30 a 17:00 - Vie 15:30 a 17:00",
     "modality": "Virtual",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -22039,7 +22039,7 @@
     "time_end": "18:30",
     "schedule": "Lun 17:00 a 18:30 - Mie 17:00 a 18:30 - Jue 17:00 a 18:30",
     "modality": "Mixta",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -22076,7 +22076,7 @@
     "time_end": "18:30",
     "schedule": "Lun 17:00 a 18:30 - Mie 17:00 a 18:30 - Jue 17:00 a 18:30",
     "modality": "Virtual",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -22109,7 +22109,7 @@
     "time_end": "18:30",
     "schedule": "Lun 17:00 a 18:30 - Mie 17:00 a 18:30 - Jue 17:00 a 18:30",
     "modality": "Mixta",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -22146,7 +22146,7 @@
     "time_end": "18:30",
     "schedule": "Lun 17:00 a 18:30 - Mie 17:00 a 18:30 - Jue 17:00 a 18:30",
     "modality": "Mixta",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -22183,7 +22183,7 @@
     "time_end": "18:30",
     "schedule": "Lun 17:00 a 18:30 - Mie 17:00 a 18:30 - Jue 17:00 a 18:30",
     "modality": "Virtual",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -22220,7 +22220,7 @@
     "time_end": "18:30",
     "schedule": "Lun 17:00 a 18:30 - Mie 17:00 a 18:30 - Jue 17:00 a 18:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -22257,7 +22257,7 @@
     "time_end": "18:30",
     "schedule": "Lun 17:00 a 18:30 - Mie 17:00 a 18:30 - Jue 17:00 a 18:30",
     "modality": "Virtual",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -22294,7 +22294,7 @@
     "time_end": "20:00",
     "schedule": "Lun 18:30 a 20:00 - Mie 18:30 a 20:00 - Jue 18:30 a 20:00",
     "modality": "Mixta",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -22327,7 +22327,7 @@
     "time_end": "20:00",
     "schedule": "Lun 18:30 a 20:00 - Mie 18:30 a 20:00 - Jue 18:30 a 20:00",
     "modality": "Mixta",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -22360,7 +22360,7 @@
     "time_end": "20:00",
     "schedule": "Lun 18:30 a 20:00 - Mie 18:30 a 20:00 - Jue 18:30 a 20:00",
     "modality": "Mixta",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -22397,7 +22397,7 @@
     "time_end": "20:00",
     "schedule": "Lun 18:30 a 20:00 - Mie 18:30 a 20:00 - Jue 18:30 a 20:00",
     "modality": "Mixta",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -22434,7 +22434,7 @@
     "time_end": "21:30",
     "schedule": "Lun 20:00 a 21:30 - Mie 20:00 a 21:30 - Jue 20:00 a 21:30",
     "modality": "Virtual",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -22504,7 +22504,7 @@
     "time_end": "18:30",
     "schedule": "Mar 17:00 a 18:30 - Mie 17:00 a 18:30 - Vie 17:00 a 18:30",
     "modality": "Mixta",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -22531,7 +22531,7 @@
     "time_end": "18:30",
     "schedule": "Mar 17:00 a 18:30 - Mie 17:00 a 18:30 - Vie 17:00 a 18:30",
     "modality": "Mixta",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -22564,7 +22564,7 @@
     "time_end": "18:30",
     "schedule": "Mar 17:00 a 18:30 - Mie 17:00 a 18:30 - Vie 17:00 a 18:30",
     "modality": "Mixta",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -22704,7 +22704,7 @@
     "time_end": "21:30",
     "schedule": "Mar 20:00 a 21:30 - Mie 20:00 a 21:30 - Vie 20:00 a 21:30",
     "modality": "Virtual",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -22741,7 +22741,7 @@
     "time_end": "21:30",
     "schedule": "Mar 20:00 a 21:30 - Mie 20:00 a 21:30 - Vie 20:00 a 21:30",
     "modality": "Virtual",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -22774,7 +22774,7 @@
     "time_end": "21:30",
     "schedule": "Mar 20:00 a 21:30 - Mie 20:00 a 21:30 - Vie 20:00 a 21:30",
     "modality": "Mixta",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -22811,7 +22811,7 @@
     "time_end": "21:30",
     "schedule": "Mar 20:00 a 21:30 - Mie 20:00 a 21:30 - Vie 20:00 a 21:30",
     "modality": "Virtual",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -22847,7 +22847,7 @@
     "time_end": "08:30",
     "schedule": "Lun 07:00 a 08:30 - Jue 07:00 a 08:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -22883,7 +22883,7 @@
     "time_end": "10:00",
     "schedule": "Lun 08:30 a 10:00 - Jue 08:30 a 10:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -23006,7 +23006,7 @@
     "time_end": "11:30",
     "schedule": "Lun 10:00 a 11:30 - Jue 10:00 a 11:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -23038,7 +23038,7 @@
     "time_end": "13:00",
     "schedule": "Lun 11:30 a 13:00 - Jue 11:30 a 13:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -23070,7 +23070,7 @@
     "time_end": "08:30",
     "schedule": "Mar 07:00 a 08:30 - Vie 07:00 a 08:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -23106,7 +23106,7 @@
     "time_end": "08:30",
     "schedule": "Mar 07:00 a 08:30 - Vie 07:00 a 08:30",
     "modality": "Virtual",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -23142,7 +23142,7 @@
     "time_end": "10:00",
     "schedule": "Mar 08:30 a 10:00 - Vie 08:30 a 10:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -23214,7 +23214,7 @@
     "time_end": "11:30",
     "schedule": "Mar 10:00 a 11:30 - Vie 10:00 a 11:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -23245,7 +23245,7 @@
     "time_end": "13:00",
     "schedule": "Mie 10:00 a 13:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -23277,7 +23277,7 @@
     "time_end": "14:30",
     "schedule": "Lun 13:00 a 14:30 - Jue 13:00 a 14:30",
     "modality": "Virtual",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -23313,7 +23313,7 @@
     "time_end": "15:30",
     "schedule": "Lun 14:00 a 15:30 - Jue 14:00 a 15:30",
     "modality": "Virtual",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -23349,7 +23349,7 @@
     "time_end": "17:00",
     "schedule": "Lun 15:30 a 17:00 - Jue 15:30 a 17:00",
     "modality": "Virtual",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -23453,7 +23453,7 @@
     "time_end": "15:30",
     "schedule": "Mar 14:00 a 15:30 - Vie 14:00 a 15:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -23489,7 +23489,7 @@
     "time_end": "17:00",
     "schedule": "Mar 15:30 a 17:00 - Vie 15:30 a 17:00",
     "modality": "Virtual",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -23521,7 +23521,7 @@
     "time_end": "17:00",
     "schedule": "Mar 15:30 a 17:00 - Vie 15:30 a 17:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -23552,7 +23552,7 @@
     "time_end": "17:00",
     "schedule": "Mie 14:00 a 17:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -23588,7 +23588,7 @@
     "time_end": "18:30",
     "schedule": "Lun 17:00 a 18:30 - Jue 17:00 a 18:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -23624,7 +23624,7 @@
     "time_end": "18:30",
     "schedule": "Lun 17:00 a 18:30 - Jue 17:00 a 18:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -23692,7 +23692,7 @@
     "time_end": "20:00",
     "schedule": "Lun 18:30 a 20:00 - Jue 18:30 a 20:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -23724,7 +23724,7 @@
     "time_end": "20:00",
     "schedule": "Lun 18:30 a 20:00 - Jue 18:30 a 20:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -23756,7 +23756,7 @@
     "time_end": "21:30",
     "schedule": "Lun 20:00 a 21:30 - Jue 20:00 a 21:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -23792,7 +23792,7 @@
     "time_end": "21:30",
     "schedule": "Lun 20:00 a 21:30 - Jue 20:00 a 21:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -23824,7 +23824,7 @@
     "time_end": "21:30",
     "schedule": "Lun 20:00 a 21:30 - Jue 20:00 a 21:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -23860,7 +23860,7 @@
     "time_end": "21:30",
     "schedule": "Lun 20:00 a 21:30 - Jue 20:00 a 21:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -23932,7 +23932,7 @@
     "time_end": "20:00",
     "schedule": "Mar 18:30 a 20:00 - Vie 18:30 a 20:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -23964,7 +23964,7 @@
     "time_end": "20:00",
     "schedule": "Mar 18:30 a 20:00 - Vie 18:30 a 20:00",
     "modality": "Virtual",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -24096,7 +24096,7 @@
     "time_end": "21:30",
     "schedule": "Mar 20:00 a 21:30 - Vie 20:00 a 21:30",
     "modality": "Virtual",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -24164,7 +24164,7 @@
     "time_end": "21:30",
     "schedule": "Mar 20:00 a 21:30 - Vie 20:00 a 21:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -27942,7 +27942,7 @@
     "time_end": "15:30",
     "schedule": "Mar 14:00 a 15:30 - Vie 14:00 a 15:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -28097,7 +28097,7 @@
     "time_end": "20:00",
     "schedule": "Mie 17:00 a 20:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -28148,7 +28148,7 @@
     "time_end": "23:00",
     "schedule": "Mie 20:00 a 23:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -28174,7 +28174,7 @@
     "time_end": "15:30",
     "schedule": "Mar 14:00 a 15:30 - Vie 14:00 a 15:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -28252,7 +28252,7 @@
     "time_end": "21:30",
     "schedule": "Lun 20:00 a 21:30 - Jue 20:00 a 21:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -28278,7 +28278,7 @@
     "time_end": "18:30",
     "schedule": "Mar 17:00 a 18:30 - Vie 17:00 a 18:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -28304,7 +28304,7 @@
     "time_end": "17:00",
     "schedule": "Mar 15:30 a 17:00 - Vie 15:30 a 17:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -28381,7 +28381,7 @@
     "time_end": "21:30",
     "schedule": "Mar 20:00 a 21:30 - Vie 20:00 a 21:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -28433,7 +28433,7 @@
     "time_end": "11:30",
     "schedule": "Mar 10:00 a 11:30 - Vie 10:00 a 11:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -28459,7 +28459,7 @@
     "time_end": "18:30",
     "schedule": "Mar 17:00 a 18:30 - Vie 17:00 a 18:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -28485,7 +28485,7 @@
     "time_end": "20:00",
     "schedule": "Lun 18:30 a 20:00 - Jue 18:30 a 20:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -28563,7 +28563,7 @@
     "time_end": "21:30",
     "schedule": "Lun 20:00 a 21:30 - Jue 20:00 a 21:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -28589,7 +28589,7 @@
     "time_end": "18:30",
     "schedule": "Lun 17:00 a 18:30 - Jue 17:00 a 18:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -28693,7 +28693,7 @@
     "time_end": "15:30",
     "schedule": "Mar 14:00 a 15:30 - Vie 14:00 a 15:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -28953,7 +28953,7 @@
     "time_end": "10:00",
     "schedule": "Lun 08:30 a 10:00 - Jue 08:30 a 10:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -29031,7 +29031,7 @@
     "time_end": "18:30",
     "schedule": "Mar 17:00 a 18:30 - Mie 17:00 a 18:30 - Vie 17:00 a 18:30",
     "modality": "Mixta",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -29676,7 +29676,7 @@
     "time_end": "21:30",
     "schedule": "Lun 20:00 a 21:30 - Jue 20:00 a 21:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -29738,7 +29738,7 @@
     "time_end": "17:00",
     "schedule": "Mar 15:30 a 17:00 - Vie 15:30 a 17:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -29769,7 +29769,7 @@
     "time_end": "18:30",
     "schedule": "Mar 17:00 a 18:30 - Vie 17:00 a 18:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -29800,7 +29800,7 @@
     "time_end": "20:00",
     "schedule": "Mar 18:30 a 20:00 - Vie 18:30 a 20:00",
     "modality": "Virtual",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -29831,7 +29831,7 @@
     "time_end": "20:00",
     "schedule": "Mar 18:30 a 20:00 - Vie 18:30 a 20:00",
     "modality": "Virtual",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -29862,7 +29862,7 @@
     "time_end": "21:30",
     "schedule": "Lun 20:00 a 21:30 - Jue 20:00 a 21:30",
     "modality": "Virtual",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -29893,7 +29893,7 @@
     "time_end": "21:30",
     "schedule": "Mar 20:00 a 21:30 - Vie 20:00 a 21:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -29924,7 +29924,7 @@
     "time_end": "21:30",
     "schedule": "Mar 20:00 a 21:30 - Vie 20:00 a 21:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -29986,7 +29986,7 @@
     "time_end": "11:30",
     "schedule": "Mar 10:00 a 11:30 - Vie 10:00 a 11:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -30017,7 +30017,7 @@
     "time_end": "13:00",
     "schedule": "Mar 11:30 a 13:00 - Vie 11:30 a 13:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -30048,7 +30048,7 @@
     "time_end": "17:00",
     "schedule": "Lun 15:30 a 17:00 - Jue 15:30 a 17:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -30079,7 +30079,7 @@
     "time_end": "10:00",
     "schedule": "Mar 08:30 a 10:00 - Vie 08:30 a 10:00",
     "modality": "Virtual",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -30110,7 +30110,7 @@
     "time_end": "18:30",
     "schedule": "Lun 17:00 a 18:30 - Jue 17:00 a 18:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -30141,7 +30141,7 @@
     "time_end": "20:00",
     "schedule": "Lun 18:30 a 20:00 - Jue 18:30 a 20:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -30172,7 +30172,7 @@
     "time_end": "21:30",
     "schedule": "Lun 20:00 a 21:30 - Jue 20:00 a 21:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -30203,7 +30203,7 @@
     "time_end": "23:00",
     "schedule": "Mar 21:30 a 23:00 - Vie 21:30 a 23:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -30234,7 +30234,7 @@
     "time_end": "10:00",
     "schedule": "Mar 08:30 a 10:00 - Vie 08:30 a 10:00",
     "modality": "Virtual",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -30296,7 +30296,7 @@
     "time_end": "10:00",
     "schedule": "Lun 08:30 a 10:00 - Jue 08:30 a 10:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -30326,7 +30326,7 @@
     "time_end": "11:30",
     "schedule": "Sab 08:30 a 11:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -30357,7 +30357,7 @@
     "time_end": "11:30",
     "schedule": "Lun 10:00 a 11:30 - Jue 10:00 a 11:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -30449,7 +30449,7 @@
     "time_end": "21:30",
     "schedule": "Lun 20:00 a 21:30 - Jue 20:00 a 21:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -30480,7 +30480,7 @@
     "time_end": "17:00",
     "schedule": "Lun 15:30 a 17:00 - Jue 15:30 a 17:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -30511,7 +30511,7 @@
     "time_end": "08:30",
     "schedule": "Lun 07:00 a 08:30 - Jue 07:00 a 08:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -30573,7 +30573,7 @@
     "time_end": "13:00",
     "schedule": "Lun 11:30 a 13:00 - Jue 11:30 a 13:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -30604,7 +30604,7 @@
     "time_end": "15:30",
     "schedule": "Mar 14:00 a 15:30 - Vie 14:00 a 15:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -30634,7 +30634,7 @@
     "time_end": "21:30",
     "schedule": "Mie 18:30 a 21:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -30664,7 +30664,7 @@
     "time_end": "21:30",
     "schedule": "Mie 18:30 a 21:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -31487,7 +31487,7 @@
     "time_end": "13:00",
     "schedule": "Lun 11:30 a 13:00 - Jue 11:30 a 13:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -31518,7 +31518,7 @@
     "time_end": "10:00",
     "schedule": "Lun 08:30 a 10:00 - Jue 08:30 a 10:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -31549,7 +31549,7 @@
     "time_end": "10:00",
     "schedule": "Lun 08:30 a 10:00 - Jue 08:30 a 10:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -31580,7 +31580,7 @@
     "time_end": "10:00",
     "schedule": "Lun 08:30 a 10:00 - Jue 08:30 a 10:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -31611,7 +31611,7 @@
     "time_end": "11:30",
     "schedule": "Lun 10:00 a 11:30 - Jue 10:00 a 11:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -31673,7 +31673,7 @@
     "time_end": "13:00",
     "schedule": "Lun 11:30 a 13:00 - Jue 11:30 a 13:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -31704,7 +31704,7 @@
     "time_end": "08:30",
     "schedule": "Mar 07:00 a 08:30 - Vie 07:00 a 08:30",
     "modality": "Virtual",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -31735,7 +31735,7 @@
     "time_end": "08:30",
     "schedule": "Mar 07:00 a 08:30 - Vie 07:00 a 08:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -31766,7 +31766,7 @@
     "time_end": "10:00",
     "schedule": "Mar 08:30 a 10:00 - Vie 08:30 a 10:00",
     "modality": "Virtual",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -31797,7 +31797,7 @@
     "time_end": "10:00",
     "schedule": "Mar 08:30 a 10:00 - Vie 08:30 a 10:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -31859,7 +31859,7 @@
     "time_end": "10:00",
     "schedule": "Mar 08:30 a 10:00 - Vie 08:30 a 10:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -31890,7 +31890,7 @@
     "time_end": "11:30",
     "schedule": "Mar 10:00 a 11:30 - Vie 10:00 a 11:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -31921,7 +31921,7 @@
     "time_end": "11:30",
     "schedule": "Mar 10:00 a 11:30 - Vie 10:00 a 11:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -31952,7 +31952,7 @@
     "time_end": "13:00",
     "schedule": "Mar 11:30 a 13:00 - Vie 11:30 a 13:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -32072,7 +32072,7 @@
     "time_end": "17:00",
     "schedule": "Lun 15:30 a 17:00 - Jue 15:30 a 17:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -32103,7 +32103,7 @@
     "time_end": "17:00",
     "schedule": "Lun 15:30 a 17:00 - Jue 15:30 a 17:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -32165,7 +32165,7 @@
     "time_end": "17:00",
     "schedule": "Lun 15:30 a 17:00 - Jue 15:30 a 17:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -32227,7 +32227,7 @@
     "time_end": "18:30",
     "schedule": "Lun 17:00 a 18:30 - Jue 17:00 a 18:30",
     "modality": "Virtual",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -32320,7 +32320,7 @@
     "time_end": "14:30",
     "schedule": "Mar 13:00 a 14:30 - Vie 13:00 a 14:30",
     "modality": "Virtual",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -32347,7 +32347,7 @@
     "time_end": "17:00",
     "schedule": "Mar 15:30 a 17:00 - Vie 15:30 a 17:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -32440,7 +32440,7 @@
     "time_end": "18:30",
     "schedule": "Mar 17:00 a 18:30 - Vie 17:00 a 18:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -32471,7 +32471,7 @@
     "time_end": "18:30",
     "schedule": "Mar 17:00 a 18:30 - Vie 17:00 a 18:30",
     "modality": "Virtual",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -32501,7 +32501,7 @@
     "time_end": "17:00",
     "schedule": "Mie 14:00 a 17:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -32561,7 +32561,7 @@
     "time_end": "20:00",
     "schedule": "Mie 17:00 a 20:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -32591,7 +32591,7 @@
     "time_end": "20:00",
     "schedule": "Mie 17:00 a 20:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -32652,7 +32652,7 @@
     "time_end": "20:00",
     "schedule": "Lun 18:30 a 20:00 - Jue 18:30 a 20:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -32714,7 +32714,7 @@
     "time_end": "21:30",
     "schedule": "Lun 20:00 a 21:30 - Jue 20:00 a 21:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -32776,7 +32776,7 @@
     "time_end": "20:00",
     "schedule": "Mar 18:30 a 20:00 - Vie 18:30 a 20:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -32807,7 +32807,7 @@
     "time_end": "20:00",
     "schedule": "Mar 18:30 a 20:00 - Vie 18:30 a 20:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -32838,7 +32838,7 @@
     "time_end": "20:00",
     "schedule": "Mar 18:30 a 20:00 - Vie 18:30 a 20:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -32900,7 +32900,7 @@
     "time_end": "23:00",
     "schedule": "Mar 21:30 a 23:00 - Vie 21:30 a 23:00",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Alta",
     "corte_puntos": "0",
     "aula": "",
     "comments": [
@@ -32977,7 +32977,7 @@
     "time_end": "10:00",
     "schedule": "Lun 08:30 a 10:00 - Jue 08:30 a",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "-",
     "aula": "",
     "comments": [
@@ -33023,7 +33023,7 @@
     "time_end": "10:00",
     "schedule": "Mie 18:30 a 21:30",
     "modality": "Presencial",
-    "difficulty": "Media",
+    "difficulty": "Baja",
     "corte_puntos": "-",
     "aula": "",
     "comments": [

@@ -167,14 +167,24 @@ def parse_days(text):
     return [x for x in days if not (x in seen or seen.add(x))]
 
 def parse_hours(text):
-    text = str(text).lower()
-    time_matches = re.findall(r'(\d{1,2})(?::(\d{2}))?', text)
+    text = str(text).lower().replace('hs', 'h').replace('hrs', 'h')
+    # Solo horarios de reloj reales (HH:MM, HH.MM, HHhMM), nunca años/comisiones
+    patterns = [
+        re.compile(r'(?<!\d)((?:[01]?\d|2[0-3]):[0-5]\d)(?!\d)'),
+        re.compile(r'(?<!\d)((?:[01]?\d|2[0-3])[.][0-5]\d)(?!\d)'),
+        re.compile(r'(?<!\d)((?:[01]?\d|2[0-3])\s*h\s*[0-5]\d)(?!\d)')
+    ]
     times = []
-    for h, m in time_matches:
-        hour = int(h)
-        minute = int(m) if m else 0
-        times.append(f"{hour:02d}:{minute:02d}")
-    
+    for pat in patterns:
+        for m in pat.finditer(text):
+            t = m.group(1).replace('.', ':')
+            t = re.sub(r'\s*h\s*', ':', t)
+            h, mi = t.split(':')
+            if 0 <= int(h) <= 23 and 0 <= int(mi) <= 59:
+                times.append(f"{int(h):02d}:{int(mi):02d}")
+        if len(times) >= 2:
+            break
+
     if len(times) >= 2:
         return times[0], times[1]
     elif len(times) == 1:

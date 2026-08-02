@@ -3,8 +3,8 @@ import re
 import json
 import pandas as pd
 
-cpc_dir = r"c:\Users\User\Downloads\WIN10PRO64NOV-XYZ\Desktop\Proyectos Antigravity\Recomendacion Materias UBA\Recomendaciones CPC"
-cpo_dir = r"c:\Users\User\Downloads\WIN10PRO64NOV-XYZ\Desktop\Proyectos Antigravity\Recomendacion Materias UBA\Recomendaciones CPO"
+cpc_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "Recomendaciones CPC")
+cpo_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "Recomendaciones CPO")
 
 SUBJECT_MAP_CPC = {
     'TGD': 'Teoría General del Derecho',

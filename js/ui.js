@@ -1,5 +1,6 @@
 import { state, saveLocalStorageData } from './state.js';
 import { applyFilters } from './filters.js';
+import { hasScheduleOverlap, fillReportModal } from './report.js';
 
 // ==========================================================================
 // TOAST NOTIFICATIONS
@@ -140,13 +141,20 @@ export function renderWelcomeState() {
 }
 
 // ==========================================================================
-// CARD RENDERER
+// CARD RENDERER (renderizado incremental para no volcar cientos de nodos)
 // ==========================================================================
+const RENDER_BATCH = 60;
+let renderedCount = RENDER_BATCH;
+
+export function resetPagination() {
+    renderedCount = RENDER_BATCH;
+}
+
 export function renderCards() {
     const container = document.getElementById('cards-container');
     container.innerHTML = '';
 
-    document.getElementById('results-count-text').textContent = `Mostrando ${state.filteredCommissions.length} de ${state.allCommissions.length}`;
+    document.getElementById('results-count-text').textContent = `Mostrando ${Math.min(state.filteredCommissions.length, renderedCount)} de ${state.allCommissions.length}`;
 
     if (state.filteredCommissions.length === 0) {
         container.innerHTML = `
@@ -163,22 +171,26 @@ export function renderCards() {
 
     const fragment = document.createDocumentFragment(); // Optimization
 
-    state.filteredCommissions.forEach(rec => {
+    state.filteredCommissions.slice(0, renderedCount).forEach(rec => {
         const isSelected = state.draftCommissions.some(c => c.commission === rec.commission && c.subject === rec.subject);
         
-        // Inline check for personal conflict to avoid circular dependency
+        // Conflict with personal busy schedule OR with another selected commission
         const hasConflict = (() => {
-            if (!rec.days || !rec.time_start || !rec.time_end) return false;
-            const startVal = timeStrToDecimal(rec.time_start);
-            const endVal = timeStrToDecimal(rec.time_end);
-            for (const day of rec.days) {
-                for (let h = state.START_HOUR; h <= state.END_HOUR; h++) {
-                    if (h < endVal && startVal < h + 1) {
-                        if (state.busySchedule[day] && state.busySchedule[day][h] === true) return true;
+            if (rec.days && rec.time_start && rec.time_end) {
+                const startVal = timeStrToDecimal(rec.time_start);
+                const endVal = timeStrToDecimal(rec.time_end);
+                for (const day of rec.days) {
+                    for (let h = state.START_HOUR; h <= state.END_HOUR; h++) {
+                        if (h < endVal && startVal < h + 1) {
+                            if (state.busySchedule[day] && state.busySchedule[day][h] === true) return true;
+                        }
                     }
                 }
             }
-            return false;
+            return state.draftCommissions.some(d =>
+                !(d.commission === rec.commission && d.subject === rec.subject) &&
+                hasScheduleOverlap(rec, d)
+            );
         })();
 
         const card = document.createElement('div');
@@ -273,6 +285,20 @@ export function renderCards() {
     });
 
     container.appendChild(fragment); // Optimization: append all at once
+
+    // "Load more" button for large result sets
+    if (state.filteredCommissions.length > renderedCount) {
+        const remaining = state.filteredCommissions.length - renderedCount;
+        const loadMoreBtn = document.createElement('button');
+        loadMoreBtn.className = 'btn-primary';
+        loadMoreBtn.textContent = `Cargar más (${remaining} restantes)`;
+        loadMoreBtn.style.cssText = 'display:flex; margin:1.5rem auto; width:auto; justify-content:center;';
+        loadMoreBtn.addEventListener('click', () => {
+            renderedCount += RENDER_BATCH;
+            renderCards();
+        });
+        container.appendChild(loadMoreBtn);
+    }
 }
 
 // Convert "HH:MM" to float hour
@@ -290,9 +316,10 @@ function timeStrToDecimal(str) {
 export function toggleDraftSubject(commissionNum, shouldAdd) {
     if (shouldAdd) {
         const course = state.allCommissions.find(c => c.commission === commissionNum);
-        if (course && !state.draftCommissions.some(d => d.commission === commissionNum)) {
+        if (course && !state.draftCommissions.some(d => d.commission === commissionNum && d.subject === course.subject)) {
             if (state.draftCommissions.length >= 6) {
                 showToast("Has seleccionado demasiadas materias. Trata de limitar tu plan.", "error");
+                return;
             }
             state.draftCommissions.push(course);
             showToast(`Se agregó la comisión ${commissionNum} a tu agenda.`);
@@ -406,180 +433,6 @@ export function openReportModal() {
         return;
     }
 
-    const subjects = [...new Set(draftCommissions.map(c => c.subject))];
-    const subjectText = subjects.join(' / ');
-
-    // Set Modal Titles
-    document.getElementById('modal-report-title').textContent = "✨ Informe de Planificación Académica";
-    document.getElementById('modal-report-subtitle').textContent = `Resumen exclusivo para tu Notion y exportación a PDF (${subjectText})`;
-
-    // Generate Markdown
-    let md = `Aquí tienes el resumen exclusivo de las opciones para **${subjectText}** (Segunda mitad de 2026), para que las pases a tu Notion. Todas están seleccionadas para que no choquen con tu anual de **Contratos (7355)** y respeten tu meta de **promedio 8+**.\n\n`;
-
-    // Helper functions for content generation
-    const getClave8 = (rec) => {
-        if (!rec.comments || rec.comments.length === 0) {
-            return "Tomas lo que dan en clase. Con estudio constante y entregando los TPs, es muy promocionable.";
-        }
-        
-        const keywords = ['exime', 'exim', 'choice', 'quizz', 'virtual', 'tp', 'promociona', 'nota', 'graba', 'manual'];
-        let bestSentence = "";
-        
-        for (const comment of rec.comments) {
-            const sentences = comment.text.split(/[.|\n]/);
-            for (let sentence of sentences) {
-                sentence = sentence.trim();
-                if (sentence.length < 20 || sentence.length > 150) continue;
-                
-                let count = 0;
-                keywords.forEach(kw => {
-                    if (sentence.toLowerCase().includes(kw)) count++;
-                });
-                
-                if (count > 0 && (!bestSentence || count > bestSentence.count)) {
-                    bestSentence = { text: sentence, count: count };
-                }
-            }
-        }
-        
-        if (bestSentence && bestSentence.text) {
-            let s = bestSentence.text.charAt(0).toUpperCase() + bestSentence.text.slice(1);
-            if (!s.endsWith('.')) s += '.';
-            return s;
-        }
-        
-        if (rec.evaluation) {
-            return `Cursada organizada. Evaluación basada en ${rec.evaluation.toLowerCase()}.`;
-        }
-        
-        return "Los docentes tienen excelente predisposición y toman exactamente lo dado en clase.";
-    };
-
-    const getResena = (rec) => {
-        if (!rec.comments || rec.comments.length === 0) {
-            return "Sin opiniones registradas.";
-        }
-        for (const comment of rec.comments) {
-            const sentences = comment.text.split(/[.|\n]/);
-            for (let sentence of sentences) {
-                sentence = sentence.trim();
-                if (sentence.length >= 30 && sentence.length <= 120) {
-                    return `"${sentence}"`;
-                }
-            }
-        }
-        const firstText = rec.comments[0].text.trim().split('\n')[0];
-        return `"${firstText.length > 100 ? firstText.substring(0, 100) + '...' : firstText}"`;
-    };
-
-    draftCommissions.forEach((rec, idx) => {
-        md += `### Opción ${idx + 1}: ${rec.subject} - Comisión ${rec.commission}\n\n`;
-        md += `- **Horario:** ${rec.schedule}\n`;
-        md += `- **Modalidad:** **${rec.modality || 'Presencial'}**\n`;
-        md += `- **Clave del 8+:** ${getClave8(rec)}\n`;
-        md += `- **Reseña:** *${getResena(rec)}*\n\n`;
-    });
-
-    md += `---\n\n### Tabla (Planificación Estratégica)\n\n`;
-    md += `| **Prioridad** | **Comisión** | **Cátedra** | **Días** | **Modalidad** | **Beneficio 8+** |\n`;
-    md += `| --- | --- | --- | --- | --- | --- |\n`;
-
-    const getPriorityLabel = (idx) => {
-        return `Opción ${idx + 1}`;
-    };
-
-    draftCommissions.forEach((rec, idx) => {
-        const priority = getPriorityLabel(idx);
-        const daysStr = rec.days ? rec.days.join('-') : 'A designar';
-        md += `| **${priority}** | **${rec.commission}** | ${rec.professor.split('-')[0]} | ${daysStr} | ${rec.modality || 'Presencial'} | **${getClave8(rec)}** |\n`;
-    });
-
-    // Populate bodyContent
-    const bodyContent = document.getElementById('report-modal-body');
-    bodyContent.innerHTML = '';
-
-    // Create Markdown Preview container
-    const previewContainer = document.createElement('div');
-    previewContainer.className = 'report-preview-large';
-    
-    // Parse a subset of markdown for display (since we want a nice visual presentation)
-    // We can do simple HTML mapping
-    let htmlPreview = md
-        .replace(/\n\n/g, '<br><br>')
-        .replace(/\n/g, '<br>')
-        .replace(/### (.*)/g, '<h3>$1</h3>')
-        .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
-        .replace(/\*(.*?)\*/g, '<em>$1</em>')
-        .replace(/---/g, '<hr style="border: 0; border-top: 1px solid var(--border-color); margin: 2rem 0;">');
-
-    // Handle tables in HTML
-    if (htmlPreview.includes('|')) {
-        const lines = htmlPreview.split('<br>');
-        let inTable = false;
-        let tableHtml = '<div class="report-table-wrapper"><table class="report-table">';
-        
-        lines.forEach(line => {
-            if (line.trim().startsWith('|')) {
-                inTable = true;
-                const cells = line.split('|').map(c => c.trim()).filter((c, i, arr) => i > 0 && i < arr.length - 1);
-                
-                // Skip separator rows
-                if (line.includes('---')) {
-                    return;
-                }
-                
-                tableHtml += '<tr>';
-                cells.forEach(cell => {
-                    // check if header or body
-                    if (line.includes('**Prioridad**') || line.includes('Comisión')) {
-                        tableHtml += `<th>${cell}</th>`;
-                    } else {
-                        tableHtml += `<td>${cell}</td>`;
-                    }
-                });
-                tableHtml += '</tr>';
-            } else {
-                if (inTable) {
-                    inTable = false;
-                    tableHtml += '</table></div>';
-                    htmlPreview = htmlPreview.replace(line, tableHtml + line);
-                }
-            }
-        });
-        
-        // Clean up remaining markdown lines from HTML preview
-        htmlPreview = htmlPreview.replace(/\|.*?\|<br>/g, '');
-        htmlPreview = htmlPreview.replace(/\|.*?\|/g, '');
-    }
-
-    previewContainer.innerHTML = htmlPreview;
-    bodyContent.appendChild(previewContainer);
-
-    // Bind modal actions
-    const btnCopyNotion = document.getElementById('btn-modal-copy-notion');
-    const btnDownloadPdf = document.getElementById('btn-modal-download-pdf');
-    
-    // Clean old event listeners by cloning
-    const newBtnCopyNotion = btnCopyNotion.cloneNode(true);
-    btnCopyNotion.parentNode.replaceChild(newBtnCopyNotion, btnCopyNotion);
-    
-    const newBtnDownloadPdf = btnDownloadPdf.cloneNode(true);
-    btnDownloadPdf.parentNode.replaceChild(newBtnDownloadPdf, btnDownloadPdf);
-
-    newBtnCopyNotion.addEventListener('click', () => {
-        navigator.clipboard.writeText(md)
-            .then(() => {
-                showToast("¡Informe en Markdown copiado para Notion!");
-            })
-            .catch(err => {
-                console.error('Error al copiar: ', err);
-                showToast("Error al copiar el informe.", "error");
-            });
-    });
-
-    newBtnDownloadPdf.addEventListener('click', () => {
-        window.print();
-    });
-
+    fillReportModal(draftCommissions, { showToast });
     document.getElementById('report-modal').classList.add('active');
 }
