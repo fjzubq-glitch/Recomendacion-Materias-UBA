@@ -52,6 +52,12 @@ function checkTokenExpiry() {
     if (daysLeft <= 10) {
         showToast('El token de actualizacion vence en ' + daysLeft + ' dias. Generalo de nuevo pronto.', 'info');
     }
+    const elNote = document.getElementById('token-expiry-note');
+    if (elNote && daysLeft <= 10) {
+        elNote.innerHTML = 'El token vence el ' + niceDate(exp.toISOString()) +
+            ' (quedan ' + daysLeft + ' dias). <a href="https://github.com/settings/tokens" target="_blank" rel="noopener" style="color:var(--accent-color); font-weight:600;">Crear nuevo token</a>.';
+        elNote.style.color = '#fbbf24';
+    }
 }
 
 // Consulta la fecha del ultimo commit que toco cpo_data.json (API publica, sin auth)
