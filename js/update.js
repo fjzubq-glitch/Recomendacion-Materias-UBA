@@ -125,26 +125,6 @@ function buildModal() {
     statusEl = modal.querySelector('#update-status');
 }
 
-function buildTriggerButton() {
-    if (document.getElementById('btn-update-trigger')) return;
-    const b = document.createElement('button');
-    b.id = 'btn-update-trigger';
-    b.title = 'Actualizar catÃ¡logo (Ctrl+Shift+A)';
-    b.setAttribute('aria-label', 'Actualizar catÃ¡logo');
-    b.style.cssText = `
-        position: fixed; left: 14px; bottom: 14px; z-index: 1000;
-        width: 22px; height: 22px; border-radius: 50%;
-        border: 1px solid rgba(255,255,255,0.15); background: rgba(255,255,255,0.05);
-        color: var(--text-secondary); font-size: 12px; cursor: pointer;
-        opacity: 0.35; transition: opacity 0.2s; display: flex; align-items: center; justify-content: center;
-    `;
-    b.textContent = 'â†‘';
-    b.addEventListener('mouseenter', () => { b.style.opacity = '1'; });
-    b.addEventListener('mouseleave', () => { b.style.opacity = '0.35'; });
-    b.addEventListener('click', () => { buildModal(); modal.classList.add('active'); });
-    document.body.appendChild(b);
-}
-
 function onKey(e) {
     const tag = document.activeElement && document.activeElement.tagName;
     if (tag === 'INPUT' || tag === 'TEXTAREA' || tag === 'SELECT') return;
@@ -156,6 +136,5 @@ function onKey(e) {
 
 document.addEventListener('DOMContentLoaded', () => {
     buildModal();
-    buildTriggerButton();
     document.addEventListener('keydown', onKey);
 });
