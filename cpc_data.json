@@ -1768,12 +1768,7 @@
     "subject": "Derechos Humanos y Garantías",
     "commission": "6413",
     "professor": "PINTO-FILIPPINI",
-    "days": [
-      "SA",
-      "MA",
-      "JU",
-      "VI"
-    ],
+    "days": [],
     "time_start": "15:30",
     "time_end": "18:30",
     "schedule": "15:30 a 18:30",
@@ -1831,9 +1826,7 @@
     "subject": "Derechos Humanos y Garantías",
     "commission": "6404",
     "professor": "PIZZOLO-FLAX  G.",
-    "days": [
-      "JU"
-    ],
+    "days": [],
     "time_start": "17:00",
     "time_end": "20:00",
     "schedule": "17:00 a 20:00",
@@ -2581,9 +2574,7 @@
     "subject": "Derechos Humanos y Garantías",
     "commission": "6442",
     "professor": "SABA-TAMBUSSI  C.",
-    "days": [
-      "MA"
-    ],
+    "days": [],
     "time_start": "18:30",
     "time_end": "21:30",
     "schedule": "18:30 a 21:30",
@@ -4129,9 +4120,7 @@
     "subject": "Teoría General del Derecho",
     "commission": "6086",
     "professor": "GAIDO-TOLNAY",
-    "days": [
-      "MA"
-    ],
+    "days": [],
     "time_start": "18:30",
     "time_end": "21:30",
     "schedule": "18:30 a 21:30",
@@ -5257,11 +5246,7 @@
     "subject": "Elementos de Derecho Penal y Procesal Penal",
     "commission": "7670",
     "professor": "SLOKAR-MARTIN  A.",
-    "days": [
-      "SA",
-      "MI",
-      "JU"
-    ],
+    "days": [],
     "time_start": "10:00",
     "time_end": "13:00",
     "schedule": "10:00 a 13:00",
@@ -6080,9 +6065,7 @@
     "subject": "Elementos de Derecho Penal y Procesal Penal",
     "commission": "7674",
     "professor": "SLOKAR-MARTIN  A.",
-    "days": [
-      "JU"
-    ],
+    "days": [],
     "time_start": "18:30",
     "time_end": "21:30",
     "schedule": "18:30 a 21:30",
@@ -6185,9 +6168,7 @@
     "subject": "Elementos de Derecho Penal y Procesal Penal",
     "commission": "7631",
     "professor": "DONNA-DIAS  H.",
-    "days": [
-      "VI"
-    ],
+    "days": [],
     "time_start": "17:00",
     "time_end": "20:00",
     "schedule": "17:00 a 20:00",
@@ -6356,9 +6337,7 @@
     "commission": "7271",
     "professor": "WEINGARTEN  GATTO  MARÍA  CAROLINA",
     "days": [
-      "MI",
-      "MA",
-      "VI"
+      "MI"
     ],
     "time_start": "10:00",
     "time_end": "13:00",
@@ -7035,10 +7014,7 @@
     "subject": "Contratos Civiles y Comerciales",
     "commission": "7221",
     "professor": "BARBIER  ROCCA  RICARDO  LUIS",
-    "days": [
-      "VI",
-      "MA"
-    ],
+    "days": [],
     "time_start": "18:30",
     "time_end": "21:30",
     "schedule": "18:30 a 21:30",
@@ -7518,10 +7494,7 @@
     "subject": "Derecho Internacional Público",
     "commission": "9213",
     "professor": "ARMAS  DEMYDA  SOLEDAD  MARIANA",
-    "days": [
-      "MA",
-      "JU"
-    ],
+    "days": [],
     "time_start": "14:00",
     "time_end": "17:00",
     "schedule": "14:00 a 17:00",
@@ -8115,10 +8088,7 @@
     "subject": "Elementos de Derecho Constitucional",
     "commission": "6631",
     "professor": "BASTERRA  GONZALEZ  TOCCI  MARÍA  L",
-    "days": [
-      "JU",
-      "MA"
-    ],
+    "days": [],
     "time_start": "10:00",
     "time_end": "13:00",
     "schedule": "10:00 a 13:00",
@@ -8186,9 +8156,7 @@
     "subject": "Elementos de Derecho Constitucional",
     "commission": "6662",
     "professor": "GARGARELLA  TAUBER  SANZ  NICOLÁS  G",
-    "days": [
-      "MA"
-    ],
+    "days": [],
     "time_start": "10:00",
     "time_end": "13:00",
     "schedule": "10:00 a 13:00",
@@ -8365,10 +8333,7 @@
     "subject": "Elementos de Derecho Constitucional",
     "commission": "6634",
     "professor": "CLÉRICO  LARA  CORREA  EDGARDO  W",
-    "days": [
-      "MI",
-      "SA"
-    ],
+    "days": [],
     "time_start": "17:00",
     "time_end": "20:00",
     "schedule": "17:00 a 20:00",
@@ -8606,11 +8571,7 @@
     "subject": "Elementos de Derecho Constitucional",
     "commission": "6614",
     "professor": "BASTERRA  ADAGLIO  ALEJANDRO  ENZO",
-    "days": [
-      "SA",
-      "LU",
-      "MA"
-    ],
+    "days": [],
     "time_start": "18:30",
     "time_end": "21:30",
     "schedule": "18:30 a 21:30",
@@ -9259,9 +9220,7 @@
     "subject": "Derecho Internacional Privado",
     "commission": "9523",
     "professor": "UZAL-LAJE  R.",
-    "days": [
-      "MA"
-    ],
+    "days": [],
     "time_start": "08:30",
     "time_end": "11:30",
     "schedule": "08:30 a 11:30",
@@ -9391,10 +9350,7 @@
     "subject": "Derecho Internacional Privado",
     "commission": "9525",
     "professor": "CERDEIRA-RABINO",
-    "days": [
-      "SA",
-      "MA"
-    ],
+    "days": [],
     "time_start": "14:00",
     "time_end": "17:00",
     "schedule": "14:00 a 17:00",
@@ -9613,9 +9569,7 @@
     "subject": "Derecho Internacional Privado",
     "commission": "9535",
     "professor": "CERDEIRA-BLANCO  S.",
-    "days": [
-      "MA"
-    ],
+    "days": [],
     "time_start": "18:30",
     "time_end": "21:30",
     "schedule": "18:30 a 21:30",
@@ -9675,9 +9629,7 @@
     "subject": "Derecho Internacional Privado",
     "commission": "9534",
     "professor": "CERDEIRA-MARTINEZ  A.",
-    "days": [
-      "MA"
-    ],
+    "days": [],
     "time_start": "18:30",
     "time_end": "21:30",
     "schedule": "18:30 a 21:30",
@@ -11021,9 +10973,7 @@
     "subject": "Elementos de Derecho Civil",
     "commission": "6833",
     "professor": "GARRIDO  BRINSEK  MARÍA  DEL  R",
-    "days": [
-      "SA"
-    ],
+    "days": [],
     "time_start": "17:00",
     "time_end": "20:00",
     "schedule": "17:00 a 20:00",
@@ -11197,10 +11147,7 @@
     "subject": "Elementos de Derecho Civil",
     "commission": "6831",
     "professor": "GARRIDO  GIAVARINO  MAGDALENA  B",
-    "days": [
-      "SA",
-      "MA"
-    ],
+    "days": [],
     "time_start": "15:30",
     "time_end": "18:30",
     "schedule": "15:30 a 18:30",
@@ -11468,10 +11415,7 @@
     "subject": "Elementos de Derecho Civil",
     "commission": "6835",
     "professor": "GARRIDO  ROMANO  ELISA  GRACIELA",
-    "days": [
-      "VI",
-      "MA"
-    ],
+    "days": [],
     "time_start": "17:00",
     "time_end": "20:00",
     "schedule": "17:00 a 20:00",
@@ -12267,10 +12211,7 @@
     "subject": "Elementos de Análisis Económico y Financiero",
     "commission": "8623",
     "professor": "MAZZA  MAZZA  GONZALO  ARIEL",
-    "days": [
-      "LU",
-      "MA"
-    ],
+    "days": [],
     "time_start": "08:30",
     "time_end": "11:30",
     "schedule": "08:30 a 11:30",
@@ -12303,9 +12244,7 @@
     "subject": "Elementos de Análisis Económico y Financiero",
     "commission": "8621",
     "professor": "MAZZA  VALERO  JUAN  CARLOS",
-    "days": [
-      "MA"
-    ],
+    "days": [],
     "time_start": "07:00",
     "time_end": "10:00",
     "schedule": "07:00 a 10:00",
@@ -12829,9 +12768,7 @@
     "subject": "Elementos de Derechos Reales",
     "commission": "7942",
     "professor": "ABREUT-RULLANSKY  GUSTAVO",
-    "days": [
-      "MA"
-    ],
+    "days": [],
     "time_start": "10:00",
     "time_end": "13:00",
     "schedule": "10:00 a 13:00",
@@ -14187,9 +14124,7 @@
     "subject": "Teoría del Estado",
     "commission": "6212",
     "professor": "BERCHOLC-FAMA  ADRIAN",
-    "days": [
-      "MA"
-    ],
+    "days": [],
     "time_start": "08:30",
     "time_end": "11:30",
     "schedule": "08:30 a 11:30",
@@ -14564,9 +14499,7 @@
     "subject": "Teoría del Estado",
     "commission": "6242",
     "professor": "DE  LUCA-CAMPIONE",
-    "days": [
-      "MA"
-    ],
+    "days": [],
     "time_start": "08:30",
     "time_end": "11:30",
     "schedule": "08:30 a 11:30",
@@ -14805,11 +14738,7 @@
     "subject": "Teoría del Estado",
     "commission": "6272",
     "professor": "SCHERLIS-AGUIRRE  G.",
-    "days": [
-      "VI",
-      "MA",
-      "MI"
-    ],
+    "days": [],
     "time_start": "10:00",
     "time_end": "13:00",
     "schedule": "10:00 a 13:00",
@@ -15246,9 +15175,7 @@
     "subject": "Teoría del Estado",
     "commission": "6223",
     "professor": "D  AURIA-CABRERA  M.",
-    "days": [
-      "MA"
-    ],
+    "days": [],
     "time_start": "15:30",
     "time_end": "18:30",
     "schedule": "15:30 a 18:30",
@@ -15879,9 +15806,7 @@
     "subject": "Teoría del Estado",
     "commission": "6279",
     "professor": "SCHERLIS-WADDELL  J.",
-    "days": [
-      "VI"
-    ],
+    "days": [],
     "time_start": "18:30",
     "time_end": "21:30",
     "schedule": "18:30 a 21:30",
@@ -16112,9 +16037,7 @@
     "subject": "Derecho Internacional Privado",
     "commission": "9527",
     "professor": "RODRIGUEZ  MONICA  LAJE  RODRIGO",
-    "days": [
-      "MA"
-    ],
+    "days": [],
     "time_start": "08:30",
     "time_end": "11:30",
     "schedule": "08:30 a 11:30",
@@ -16625,9 +16548,7 @@
     "subject": "Obligaciones Civiles y Comerciales",
     "commission": "7041",
     "professor": "VERGARA-KOTT  CARLA",
-    "days": [
-      "MA"
-    ],
+    "days": [],
     "time_start": "07:00",
     "time_end": "10:00",
     "schedule": "07:00 a 10:00",
@@ -17858,9 +17779,7 @@
     "subject": "Obligaciones Civiles y Comerciales",
     "commission": "7021",
     "professor": "PICASSO-SAENZ  LUIS",
-    "days": [
-      "MA"
-    ],
+    "days": [],
     "time_start": "17:00",
     "time_end": "20:00",
     "schedule": "17:00 a 20:00",
@@ -18132,11 +18051,7 @@
     "subject": "Elementos de Análisis Económico y Financiero",
     "commission": "8659",
     "professor": "DI  PELINO-BARREÑA  M.",
-    "days": [
-      "VI",
-      "MA",
-      "JU"
-    ],
+    "days": [],
     "time_start": "10:00",
     "time_end": "13:00",
     "schedule": "10:00 a 13:00",
@@ -18170,8 +18085,6 @@
     "commission": "8641",
     "professor": "DI  PELINO-HERNANDEZ  SUSANA",
     "days": [
-      "MA",
-      "VI",
       "LU"
     ],
     "time_start": "08:30",
@@ -19707,9 +19620,7 @@
     "subject": "Derecho Administrativo",
     "commission": "8017",
     "professor": "BALBIN  TABOADA  FEDERICO  GERMÁN",
-    "days": [
-      "MA"
-    ],
+    "days": [],
     "time_start": "17:00",
     "time_end": "20:00",
     "schedule": "17:00 a 20:00",
@@ -20194,12 +20105,7 @@
     "subject": "Derecho Administrativo",
     "commission": "8085",
     "professor": "BALBIN  STUPENENGO  JUAN  ANTONIO",
-    "days": [
-      "SA",
-      "MA",
-      "JU",
-      "VI"
-    ],
+    "days": [],
     "time_start": "18:30",
     "time_end": "21:30",
     "schedule": "18:30 a 21:30",
@@ -20438,9 +20344,7 @@
     "subject": "Derecho del Trabajo y de la Seguridad Social",
     "commission": "8230",
     "professor": "RECALDE-GAMBACORTA",
-    "days": [
-      "MA"
-    ],
+    "days": [],
     "time_start": "10:00",
     "time_end": "13:00",
     "schedule": "10:00 a 13:00",
@@ -20720,9 +20624,7 @@
     "subject": "Derecho del Trabajo y de la Seguridad Social",
     "commission": "8240",
     "professor": "MUGNOLO-FRANZOSI  MARÍA  L.",
-    "days": [
-      "MA"
-    ],
+    "days": [],
     "time_start": "14:00",
     "time_end": "17:00",
     "schedule": "14:00 a 17:00",
@@ -20852,9 +20754,7 @@
     "subject": "Derecho del Trabajo y de la Seguridad Social",
     "commission": "8232",
     "professor": "RECALDE-GAMBACORTA",
-    "days": [
-      "MA"
-    ],
+    "days": [],
     "time_start": "14:00",
     "time_end": "17:00",
     "schedule": "14:00 a 17:00",
@@ -20986,10 +20886,7 @@
     "subject": "Derecho del Trabajo y de la Seguridad Social",
     "commission": "8215",
     "professor": "GIANIBELLI-SALPETER",
-    "days": [
-      "MI",
-      "VI"
-    ],
+    "days": [],
     "time_start": "20:00",
     "time_end": "23:00",
     "schedule": "20:00 a 23:00",
@@ -21679,10 +21576,7 @@
     "subject": "Contratos Civiles y Comerciales",
     "commission": "7230",
     "professor": "GARRIDO  C-KRIEGER",
-    "days": [
-      "SA",
-      "MA"
-    ],
+    "days": [],
     "time_start": "14:00",
     "time_end": "17:00",
     "schedule": "14:00 a 17:00",
@@ -21740,10 +21634,7 @@
     "subject": "Contratos Civiles y Comerciales",
     "commission": "7272",
     "professor": "WEINGARTEN-VAZQUEZ  G",
-    "days": [
-      "SA",
-      "MA"
-    ],
+    "days": [],
     "time_start": "14:00",
     "time_end": "17:00",
     "schedule": "14:00 a 17:00",
@@ -22160,9 +22051,7 @@
     "subject": "Elementos de Derecho Constitucional",
     "commission": "6671",
     "professor": "SABSAY-PEREZ  ANDREA",
-    "days": [
-      "MA"
-    ],
+    "days": [],
     "time_start": "08:30",
     "time_end": "11:30",
     "schedule": "08:30 a 11:30",
@@ -22311,10 +22200,7 @@
     "subject": "Elementos de Derecho Constitucional",
     "commission": "6652",
     "professor": "FERREYRA-BALBIN  F.",
-    "days": [
-      "MI",
-      "MA"
-    ],
+    "days": [],
     "time_start": "15:30",
     "time_end": "18:30",
     "schedule": "15:30 a 18:30",
