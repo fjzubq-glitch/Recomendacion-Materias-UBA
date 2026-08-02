@@ -17,20 +17,21 @@ jobs:
   update:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      # La acción checkout@v4 usaba Node 20 (deprecado) -> v5 usa Node 24
+      - uses: actions/checkout@v5
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: '3.x'
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v5
         with:
           node-version: '20'
 
       - name: Instalar dependencias
         run: pip install pandas openpyxl pypdf gdown
 
-      - name: Descargar y compilar datos (sheets + Drive La Centeno)
+      - name: Descargar y compilar datos (sheets + Drive La Centeno + Franja Morada)
         run: python actualizar_datos.py
 
       - name: Limpiar y post-procesar (dificultad, dedup, horarios)

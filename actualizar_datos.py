@@ -767,7 +767,8 @@ def download_online_databases():
                     out_file.write(response.read())
             print(f"  [OK] Guardado en: {filename}")
         except Exception as e:
-            print(f"  [ERROR] No se pudo descargar {res['name']}: {e}")
+            print(f"  [WARN] No se pudo descargar {res['name']}: {e}")
+            print(f"          Se continúa sin esta fuente ('{res['name']}'). Verificá el ID del sheet {res['id']}.")
             
     # 2. Download La Centeno PDFs using gdown
     print("\nDescargando PDFs de La Centeno desde Google Drive...")
