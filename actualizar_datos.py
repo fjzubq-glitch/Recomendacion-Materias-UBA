@@ -20,7 +20,7 @@ SHEET_RESOURCES = [
     {"name": "La Campora CPC", "id": "1reYA9Y4UwJDRLKE21TKkbKWJditcxAr0", "dest_dir": CPC_DIR},
     {"name": "La Campora CPO", "id": "1ITaX9NYIEONrQ90Iw5v3dEehPm0MEp4Wi_83-38Xkf8", "dest_dir": CPO_DIR},
     {"name": "Nexo CPC", "id": "1czNRPnFRHUw1FDzEgX7ZPLoRKpCb5uMN_7TR59pC50I", "dest_dir": CPC_DIR},
-    {"name": "Nexo CPO", "id": "1TojnE4otlz1QaZDFlb2VYThS1OzNUOfp4WyJL3KpQ2M", "dest_dir": CPO_DIR},
+    {"name": "Nexo CPO", "id": "1TojnE4otlz1QaZDFlb2VYThS1OzNUOfp7WyJL3KpQ2M", "dest_dir": CPO_DIR},
     {"name": "Recomellas CPC", "id": "1h2FzuceIkrnV8tuJgNiU_3H0kxcr4olK", "dest_dir": CPC_DIR},
     {"name": "Recomellas CPO", "id": "1Zo_9DZlSSvVJ-U_0JyIG5wYHUBfjYRO-", "dest_dir": CPO_DIR},
     {"name": "Nuevo Derecho CPC", "id": "13FlbgduPyDrkNAhcMMmg5bGa8jw0EY3Ps1qIpZFcQYc", "dest_dir": CPC_DIR},
