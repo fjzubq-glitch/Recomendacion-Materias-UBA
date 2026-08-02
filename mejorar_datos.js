@@ -121,6 +121,40 @@ function parseTimesFromSchedule(schedule) {
     return null;
 }
 
+// Recalcula los dias a partir SOLO del campo schedule (no de comentarios ni
+// profesores, para evitar dias fantasma como 'MA' por "MARIA" o 'VI' por "VILLAGRAN")
+const DAY_RE = /(lunes|lun|martes|mar|mi[ée]rcoles|mi[ée]|jueves|jue|viernes|vie|s[aá]bado|s[aá]b|dom(?:ingo)?)/gi;
+const DAY_ORDER = ['LU', 'MA', 'MI', 'JU', 'VI', 'SA', 'DO'];
+const parseDaysFromSchedule = schedule => {
+    if (!schedule) return null;
+    const seen = new Set();
+    const hourRe = /\d{1,2}\s*[:.]\s*\d{1,2}/;
+    for (const m of String(schedule).matchAll(DAY_RE)) {
+        // Un dia real en el horario va seguido (dentro de ~14 chars) de una hora.
+        // Esto ignora nombres tipo "MARIA" que no van seguidos de H:MM.
+        const window = String(schedule).slice(m.index + m[0].length, m.index + m[0].length + 14);
+        if (!hourRe.test(window)) continue;
+        let day;
+        const w = m[0].toLowerCase();
+        const second = w[1] || '';
+        if (w[0] === 'l') day = 'LU';
+        else if (w[0] === 'm') day = (second === 'a' || second === 'á') ? 'MA' : 'MI';
+        else if (w[0] === 'j') day = 'JU';
+        else if (w[0] === 'v') day = 'VI';
+        else if (w[0] === 's') day = 'SA';
+        else if (w[0] === 'd') day = 'DO';
+        if (day) seen.add(day);
+    }
+    return DAY_ORDER.filter(d => seen.has(d));
+};
+
+// Normaliza la comision a 4 digitos (381 -> 0381) para unificar dedup
+const normalizeCommission = v => {
+    const s = String(v == null ? '' : v).trim();
+    if (/^\d+$/.test(s)) return s.padStart(4, '0');
+    return s;
+};
+
 function fixTimes(rec) {
     const hasValidStart = /^\d{2}:\d{2}$/.test(rec.time_start || '');
     const hasValidEnd = /^\d{2}:\d{2}$/.test(rec.time_end || '');
@@ -159,6 +193,9 @@ function processFile(filename, opts) {
             fixed.difficulty = inferDifficulty(fixed.comments);
         }
         if (opts.fixTimes) fixTimes(fixed);
+        const recomputed = parseDaysFromSchedule(fixed.schedule);
+        if (recomputed && recomputed.length) fixed.days = recomputed;
+        fixed.commission = normalizeCommission(fixed.commission);
         cleaned.push(fixed);
     }
 

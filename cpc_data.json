@@ -5,8 +5,7 @@
     "professor": "CÓRDOBA  DURRIEU  BERNARDITA",
     "days": [
       "MI",
-      "JU",
-      "MA"
+      "JU"
     ],
     "time_start": "10:00",
     "time_end": "11:30",
@@ -80,9 +79,7 @@
     "days": [
       "MA",
       "MI",
-      "VI",
-      "SA",
-      "LU"
+      "VI"
     ],
     "time_start": "08:30",
     "time_end": "10:00",
@@ -154,8 +151,7 @@
     "professor": "BERBERE  IGNACIO  GRACIELA  C",
     "days": [
       "MI",
-      "JU",
-      "VI"
+      "JU"
     ],
     "time_start": "07:00",
     "time_end": "08:30",
@@ -192,10 +188,7 @@
     "days": [
       "LU",
       "MI",
-      "JU",
-      "MA",
-      "VI",
-      "SA"
+      "JU"
     ],
     "time_start": "08:30",
     "time_end": "10:00",
@@ -232,9 +225,7 @@
     "days": [
       "LU",
       "MI",
-      "JU",
-      "MA",
-      "SA"
+      "JU"
     ],
     "time_start": "15:30",
     "time_end": "17:00",
@@ -308,9 +299,7 @@
     "days": [
       "LU",
       "MI",
-      "JU",
-      "VI",
-      "MA"
+      "JU"
     ],
     "time_start": "15:30",
     "time_end": "17:00",
@@ -347,8 +336,7 @@
     "days": [
       "MA",
       "MI",
-      "VI",
-      "JU"
+      "VI"
     ],
     "time_start": "17:00",
     "time_end": "18:30",
@@ -484,8 +472,7 @@
     "days": [
       "LU",
       "MI",
-      "JU",
-      "MA"
+      "JU"
     ],
     "time_start": "17:00",
     "time_end": "18:30",
@@ -521,8 +508,7 @@
     "professor": "MEDINA  SEDA  JUAN  ANTONIO",
     "days": [
       "MI",
-      "VI",
-      "MA"
+      "VI"
     ],
     "time_start": "17:00",
     "time_end": "18:30",
@@ -559,9 +545,7 @@
     "days": [
       "LU",
       "MI",
-      "JU",
-      "MA",
-      "SA"
+      "JU"
     ],
     "time_start": "17:00",
     "time_end": "18:30",
@@ -597,8 +581,7 @@
     "professor": "MEDINA  ROVEDA  EDUARDO  G",
     "days": [
       "MI",
-      "VI",
-      "MA"
+      "VI"
     ],
     "time_start": "18:30",
     "time_end": "20:00",
@@ -671,9 +654,7 @@
     "professor": "UGARTE  SOJO  AGUSTIN",
     "days": [
       "MI",
-      "JU",
-      "VI",
-      "MA"
+      "JU"
     ],
     "time_start": "20:00",
     "time_end": "21:30",
@@ -709,8 +690,7 @@
     "professor": "SOLARI  MONTALTO  ANA  MARÍA  DE",
     "days": [
       "MI",
-      "VI",
-      "JU"
+      "VI"
     ],
     "time_start": "11:30",
     "time_end": "13:00",
@@ -746,9 +726,7 @@
     "professor": "MEDINA  CERRA  SILVINA  VALERIA",
     "days": [
       "MI",
-      "JU",
-      "VI",
-      "MA"
+      "JU"
     ],
     "time_start": "17:00",
     "time_end": "18:30",
@@ -820,10 +798,7 @@
     "professor": "SOLARI  DUZDEVICH  MARÍA  CECILIA",
     "days": [
       "MI",
-      "JU",
-      "MA",
-      "VI",
-      "LU"
+      "JU"
     ],
     "time_start": "15:30",
     "time_end": "17:00",
@@ -895,8 +870,7 @@
     "professor": "WAGMAISTER  WAGMAISTER  ADRIANA  M",
     "days": [
       "MI",
-      "VI",
-      "MA"
+      "VI"
     ],
     "time_start": "14:00",
     "time_end": "15:30",
@@ -964,8 +938,7 @@
     "professor": "MEDINA  SANTISO  JAVIER  ALBERTO",
     "days": [
       "MI",
-      "VI",
-      "MA"
+      "VI"
     ],
     "time_start": "20:00",
     "time_end": "21:30",
@@ -1036,9 +1009,7 @@
     "commission": "6470",
     "professor": "A  DESIGNAR-VITOLO  A.",
     "days": [
-      "VI",
-      "SA",
-      "MA"
+      "VI"
     ],
     "time_start": "08:30",
     "time_end": "10:00",
@@ -1068,8 +1039,7 @@
     "commission": "6476",
     "professor": "ABRAMOVICH-GOMEZ  LUCIA",
     "days": [
-      "VI",
-      "JU"
+      "VI"
     ],
     "time_start": "10:00",
     "time_end": "11:30",
@@ -1135,8 +1105,7 @@
     "commission": "6417",
     "professor": "ABRAMOVICH-MORALES  DIEGO",
     "days": [
-      "JU",
-      "MI"
+      "JU"
     ],
     "time_start": "08:30",
     "time_end": "10:00",
@@ -1367,8 +1336,7 @@
     "commission": "6429",
     "professor": "PIZZOLO-ROHR  ALDANA",
     "days": [
-      "JU",
-      "VI"
+      "JU"
     ],
     "time_start": "08:30",
     "time_end": "10:00",
@@ -1467,8 +1435,7 @@
     "commission": "6436",
     "professor": "SABA-ZALDUMBIDE",
     "days": [
-      "VI",
-      "MA"
+      "VI"
     ],
     "time_start": "10:00",
     "time_end": "11:30",
@@ -1736,8 +1703,7 @@
     "commission": "6473",
     "professor": "A  DESIGNAR-VITOLO  A.",
     "days": [
-      "JU",
-      "VI"
+      "JU"
     ],
     "time_start": "15:30",
     "time_end": "17:00",
@@ -2002,9 +1968,7 @@
     "commission": "6424",
     "professor": "PIZZOLO-ZIMERMAN  S",
     "days": [
-      "VI",
-      "MA",
-      "LU"
+      "VI"
     ],
     "time_start": "17:00",
     "time_end": "18:30",
@@ -2103,9 +2067,7 @@
     "commission": "6437",
     "professor": "SABA-PEREZ  ANDREA",
     "days": [
-      "JU",
-      "SA",
-      "MA"
+      "JU"
     ],
     "time_start": "14:00",
     "time_end": "15:30",
@@ -2175,8 +2137,7 @@
     "commission": "6458",
     "professor": "TRAVIESO-CURIEL",
     "days": [
-      "JU",
-      "MA"
+      "JU"
     ],
     "time_start": "15:30",
     "time_end": "17:00",
@@ -2452,9 +2413,7 @@
     "commission": "6414",
     "professor": "PINTO-CONY  GUILLERMO",
     "days": [
-      "VI",
-      "SA",
-      "MA"
+      "VI"
     ],
     "time_start": "18:30",
     "time_end": "20:00",
@@ -2489,8 +2448,7 @@
     "commission": "6426",
     "professor": "PIZZOLO-LUCHETI",
     "days": [
-      "JU",
-      "MA"
+      "JU"
     ],
     "time_start": "18:30",
     "time_end": "20:00",
@@ -2525,9 +2483,7 @@
     "commission": "6427",
     "professor": "PIZZOLO-ZIMERMAN  S",
     "days": [
-      "VI",
-      "MA",
-      "LU"
+      "VI"
     ],
     "time_start": "18:30",
     "time_end": "20:00",
@@ -2562,8 +2518,7 @@
     "commission": "6441",
     "professor": "SABA-AIMAR  K.",
     "days": [
-      "VI",
-      "MA"
+      "VI"
     ],
     "time_start": "18:30",
     "time_end": "20:00",
@@ -2697,8 +2652,7 @@
     "commission": "6466",
     "professor": "TRAVIESO-CARZOGLIO",
     "days": [
-      "VI",
-      "MA"
+      "VI"
     ],
     "time_start": "21:30",
     "time_end": "23:00",
@@ -2729,9 +2683,7 @@
     "commission": "6462",
     "professor": "TRAVIESO-IELLIMO  M.",
     "days": [
-      "JU",
-      "VI",
-      "MA"
+      "JU"
     ],
     "time_start": "18:30",
     "time_end": "20:00",
@@ -2766,8 +2718,7 @@
     "commission": "6471",
     "professor": "ABRAMOVICH-G.NAPOLITANO",
     "days": [
-      "JU",
-      "MA"
+      "JU"
     ],
     "time_start": "11:30",
     "time_end": "13:00",
@@ -2802,8 +2753,7 @@
     "commission": "6430",
     "professor": "SABA-AIMAR  K.",
     "days": [
-      "JU",
-      "MA"
+      "JU"
     ],
     "time_start": "07:00",
     "time_end": "08:30",
@@ -2838,8 +2788,7 @@
     "commission": "6472",
     "professor": "ABRAMOVICH-G.NAPOLITANO",
     "days": [
-      "JU",
-      "MA"
+      "JU"
     ],
     "time_start": "13:00",
     "time_end": "14:30",
@@ -3002,8 +2951,7 @@
     "commission": "6002",
     "professor": "ALEGRE-SANTANATOGLIA",
     "days": [
-      "JU",
-      "MA"
+      "JU"
     ],
     "time_start": "10:00",
     "time_end": "11:30",
@@ -3145,8 +3093,7 @@
     "commission": "6011",
     "professor": "ALONSO-BOICO",
     "days": [
-      "VI",
-      "MA"
+      "VI"
     ],
     "time_start": "08:30",
     "time_end": "10:00",
@@ -3212,8 +3159,7 @@
     "commission": "6074",
     "professor": "ALONSO-DIEZ  IGLESIAS  AGUSTÍN",
     "days": [
-      "VI",
-      "MA"
+      "VI"
     ],
     "time_start": "08:30",
     "time_end": "10:00",
@@ -3279,8 +3225,7 @@
     "commission": "6062",
     "professor": "ALONSO-DUQUELSKY",
     "days": [
-      "JU",
-      "MA"
+      "JU"
     ],
     "time_start": "10:00",
     "time_end": "11:30",
@@ -3544,8 +3489,7 @@
     "commission": "6061",
     "professor": "MARTYNIUK-HEFFES  AGOS  O.D.",
     "days": [
-      "VI",
-      "MA"
+      "VI"
     ],
     "time_start": "08:30",
     "time_end": "10:00",
@@ -3611,8 +3555,7 @@
     "commission": "6032",
     "professor": "MARTYNIUK-IBARRA  R.",
     "days": [
-      "VI",
-      "MA"
+      "VI"
     ],
     "time_start": "11:30",
     "time_end": "13:00",
@@ -3680,8 +3623,7 @@
     "commission": "6055",
     "professor": "ROSENKRANTZ-CALVO  SOLER",
     "days": [
-      "JU",
-      "MA"
+      "JU"
     ],
     "time_start": "10:00",
     "time_end": "11:30",
@@ -3743,10 +3685,7 @@
     "commission": "6080",
     "professor": "ZULETA-SCATAGLINI  GABRIELA",
     "days": [
-      "JU",
-      "LU",
-      "VI",
-      "MI"
+      "JU"
     ],
     "time_start": "08:30",
     "time_end": "10:00",
@@ -3851,8 +3790,7 @@
     "commission": "6023",
     "professor": "ALONSO-CAÑAL",
     "days": [
-      "VI",
-      "MA"
+      "VI"
     ],
     "time_start": "15:30",
     "time_end": "17:00",
@@ -3951,8 +3889,7 @@
     "commission": "6056",
     "professor": "BOHMER-BOHMER",
     "days": [
-      "JU",
-      "SA"
+      "JU"
     ],
     "time_start": "17:00",
     "time_end": "18:30",
@@ -3987,8 +3924,7 @@
     "commission": "6053",
     "professor": "BOHMER-MANTIÑAN  FEDERICO",
     "days": [
-      "JU",
-      "SA"
+      "JU"
     ],
     "time_start": "17:00",
     "time_end": "18:30",
@@ -4124,8 +4060,7 @@
     "commission": "6082",
     "professor": "ZULETA-REPETTO",
     "days": [
-      "JU",
-      "MI"
+      "JU"
     ],
     "time_start": "17:00",
     "time_end": "18:30",
@@ -4225,9 +4160,7 @@
     "commission": "6012",
     "professor": "MARTYNIUK-ABRAMOVICH",
     "days": [
-      "JU",
-      "MA",
-      "VI"
+      "JU"
     ],
     "time_start": "18:30",
     "time_end": "20:00",
@@ -4497,8 +4430,7 @@
     "commission": "6045",
     "professor": "RABBI  B.-MULLER",
     "days": [
-      "VI",
-      "SA"
+      "VI"
     ],
     "time_start": "20:00",
     "time_end": "21:30",
@@ -4568,8 +4500,7 @@
     "commission": "6046",
     "professor": "RABBI  B.-PACHECO",
     "days": [
-      "JU",
-      "VI"
+      "JU"
     ],
     "time_start": "20:00",
     "time_end": "21:30",
@@ -4637,8 +4568,7 @@
     "commission": "6004",
     "professor": "ALEGRE-CHORNY  E.",
     "days": [
-      "JU",
-      "MI"
+      "JU"
     ],
     "time_start": "17:00",
     "time_end": "18:30",
@@ -4673,8 +4603,7 @@
     "commission": "6021",
     "professor": "ALONSO-CAÑAL",
     "days": [
-      "VI",
-      "LU"
+      "VI"
     ],
     "time_start": "14:00",
     "time_end": "15:30",
@@ -4709,9 +4638,7 @@
     "commission": "6081",
     "professor": "ZULETA-MARTINEZ  G.",
     "days": [
-      "JU",
-      "MA",
-      "VI"
+      "JU"
     ],
     "time_start": "15:30",
     "time_end": "17:00",
@@ -4746,8 +4673,7 @@
     "commission": "6003",
     "professor": "ALEGRE-CHORNY  E.",
     "days": [
-      "JU",
-      "MA"
+      "JU"
     ],
     "time_start": "18:30",
     "time_end": "20:00",
@@ -4817,8 +4743,7 @@
     "commission": "6009",
     "professor": "ALEGRE-SEMINARIO  LAURA",
     "days": [
-      "JU",
-      "MA"
+      "JU"
     ],
     "time_start": "18:30",
     "time_end": "20:00",
@@ -4853,8 +4778,7 @@
     "commission": "6085",
     "professor": "GAIDO-TOLNAY",
     "days": [
-      "JU",
-      "MA"
+      "JU"
     ],
     "time_start": "20:00",
     "time_end": "21:30",
@@ -4920,8 +4844,7 @@
     "commission": "6036",
     "professor": "MARTYNIUK-DANAS",
     "days": [
-      "VI",
-      "MA"
+      "VI"
     ],
     "time_start": "20:00",
     "time_end": "21:30",
@@ -4952,9 +4875,7 @@
     "commission": "6065",
     "professor": "MARTYNIUK-MAS  ANALIA",
     "days": [
-      "JU",
-      "MA",
-      "VI"
+      "JU"
     ],
     "time_start": "21:30",
     "time_end": "23:00",
@@ -4985,8 +4906,7 @@
     "commission": "6040",
     "professor": "RABBI  B.-PREGNO",
     "days": [
-      "JU",
-      "MI"
+      "JU"
     ],
     "time_start": "18:30",
     "time_end": "20:00",
@@ -5052,8 +4972,7 @@
     "commission": "6084",
     "professor": "ZULETA-SGRAZUTTI",
     "days": [
-      "VI",
-      "MI"
+      "VI"
     ],
     "time_start": "18:30",
     "time_end": "20:00",
@@ -5249,8 +5168,7 @@
     "commission": "7651",
     "professor": "PASTOR-FREELAND",
     "days": [
-      "VI",
-      "MA"
+      "VI"
     ],
     "time_start": "08:30",
     "time_end": "10:00",
@@ -5280,8 +5198,7 @@
     "commission": "7660",
     "professor": "RUSCONI-BARBITTA",
     "days": [
-      "JU",
-      "SA"
+      "JU"
     ],
     "time_start": "07:00",
     "time_end": "08:30",
@@ -5311,8 +5228,7 @@
     "commission": "7690",
     "professor": "SARRABAYROUSE-LOPEZ  WARRINER",
     "days": [
-      "JU",
-      "MA"
+      "JU"
     ],
     "time_start": "08:30",
     "time_end": "10:00",
@@ -5445,9 +5361,7 @@
     "commission": "7604",
     "professor": "ALAGIA-LOCASCIO",
     "days": [
-      "VI",
-      "MA",
-      "JU"
+      "VI"
     ],
     "time_start": "17:00",
     "time_end": "18:30",
@@ -5512,8 +5426,7 @@
     "commission": "7603",
     "professor": "ALAGIA-TORRES  S.",
     "days": [
-      "JU",
-      "MA"
+      "JU"
     ],
     "time_start": "17:00",
     "time_end": "18:30",
@@ -5548,8 +5461,7 @@
     "commission": "7691",
     "professor": "BELOFF-POLANSKY",
     "days": [
-      "JU",
-      "MA"
+      "JU"
     ],
     "time_start": "17:00",
     "time_end": "18:30",
@@ -5579,8 +5491,7 @@
     "commission": "7611",
     "professor": "CORDOBA-CREDE  NATALIA",
     "days": [
-      "VI",
-      "SA"
+      "VI"
     ],
     "time_start": "17:00",
     "time_end": "18:30",
@@ -5610,8 +5521,7 @@
     "commission": "7621",
     "professor": "DE  LUCA-LOPEZ  H.",
     "days": [
-      "VI",
-      "SA"
+      "VI"
     ],
     "time_start": "17:00",
     "time_end": "18:30",
@@ -5676,8 +5586,7 @@
     "commission": "7641",
     "professor": "NIÑO-MOROSI  G.",
     "days": [
-      "VI",
-      "JU"
+      "VI"
     ],
     "time_start": "15:30",
     "time_end": "17:00",
@@ -5712,9 +5621,7 @@
     "commission": "7653",
     "professor": "PASTOR-EIROA",
     "days": [
-      "JU",
-      "SA",
-      "MA"
+      "JU"
     ],
     "time_start": "15:30",
     "time_end": "17:00",
@@ -5814,8 +5721,7 @@
     "commission": "7692",
     "professor": "SARRABAYROUSE-BORINSKY  MARIANO",
     "days": [
-      "JU",
-      "SA"
+      "JU"
     ],
     "time_start": "17:00",
     "time_end": "18:30",
@@ -5915,9 +5821,7 @@
     "commission": "7672",
     "professor": "SLOKAR-VEGA  PABLO",
     "days": [
-      "VI",
-      "JU",
-      "MA"
+      "VI"
     ],
     "time_start": "15:30",
     "time_end": "17:00",
@@ -5952,11 +5856,7 @@
     "commission": "7680",
     "professor": "VILLAR-RUA",
     "days": [
-      "VI",
-      "MI",
-      "JU",
-      "MA",
-      "LU"
+      "VI"
     ],
     "time_start": "17:00",
     "time_end": "18:30",
@@ -5991,8 +5891,7 @@
     "commission": "7606",
     "professor": "ALAGIA-GOMEZ  A.E",
     "days": [
-      "VI",
-      "MA"
+      "VI"
     ],
     "time_start": "18:30",
     "time_end": "20:00",
@@ -6027,9 +5926,7 @@
     "commission": "7605",
     "professor": "ALAGIA-LOCASCIO",
     "days": [
-      "VI",
-      "MA",
-      "JU"
+      "VI"
     ],
     "time_start": "20:00",
     "time_end": "21:30",
@@ -6064,8 +5961,7 @@
     "commission": "7620",
     "professor": "DE  LUCA-ARNAUDO",
     "days": [
-      "JU",
-      "MA"
+      "JU"
     ],
     "time_start": "20:00",
     "time_end": "21:30",
@@ -6155,8 +6051,7 @@
     "commission": "7642",
     "professor": "NIÑO-SUEIRO  CHRISTIAN",
     "days": [
-      "JU",
-      "MI"
+      "JU"
     ],
     "time_start": "18:30",
     "time_end": "20:00",
@@ -6256,8 +6151,7 @@
     "commission": "7682",
     "professor": "VILLAR-UHRLANDT  E.",
     "days": [
-      "JU",
-      "VI"
+      "JU"
     ],
     "time_start": "20:00",
     "time_end": "21:30",
@@ -6357,8 +6251,7 @@
     "commission": "7202",
     "professor": "BORDA  BAROCELLI  SERGIO  S",
     "days": [
-      "VI",
-      "SA"
+      "VI"
     ],
     "time_start": "10:00",
     "time_end": "11:30",
@@ -6393,10 +6286,7 @@
     "commission": "7267",
     "professor": "LOVECE  BLANCO  VALERIA  BETTINA",
     "days": [
-      "VI",
-      "JU",
-      "MA",
-      "MI"
+      "VI"
     ],
     "time_start": "10:00",
     "time_end": "11:30",
@@ -6431,9 +6321,7 @@
     "commission": "7209",
     "professor": "ZENTNER  BONAFINA  MARISA",
     "days": [
-      "VI",
-      "MA",
-      "JU"
+      "VI"
     ],
     "time_start": "10:00",
     "time_end": "11:30",
@@ -6505,8 +6393,7 @@
     "commission": "7210",
     "professor": "ARMELLA  MANGERI  ROBERTO  EDUARDO",
     "days": [
-      "JU",
-      "VI"
+      "JU"
     ],
     "time_start": "11:30",
     "time_end": "13:00",
@@ -6541,9 +6428,7 @@
     "commission": "7214",
     "professor": "ZENTNER  NEGRON  MANSILLA  MANUEL  J",
     "days": [
-      "VI",
-      "MA",
-      "JU"
+      "VI"
     ],
     "time_start": "11:30",
     "time_end": "13:00",
@@ -6578,8 +6463,7 @@
     "commission": "7240",
     "professor": "BORDA  PONTORIERO  MARÍA  PAULA",
     "days": [
-      "JU",
-      "MA"
+      "JU"
     ],
     "time_start": "08:30",
     "time_end": "10:00",
@@ -6639,8 +6523,7 @@
     "commission": "7212",
     "professor": "ARMELLA  BERMEJO  PAULA  NOELIA",
     "days": [
-      "VI",
-      "MA"
+      "VI"
     ],
     "time_start": "17:00",
     "time_end": "18:30",
@@ -6675,8 +6558,7 @@
     "commission": "7231",
     "professor": "GARRIDO  CORDOBA  FLORENCIA  INÉS",
     "days": [
-      "JU",
-      "MA"
+      "JU"
     ],
     "time_start": "15:30",
     "time_end": "17:00",
@@ -6711,8 +6593,7 @@
     "commission": "7205",
     "professor": "ZENTNER  CRESPO  NÉSTOR  ARIEL",
     "days": [
-      "VI",
-      "MA"
+      "VI"
     ],
     "time_start": "17:00",
     "time_end": "18:30",
@@ -6747,9 +6628,7 @@
     "commission": "7204",
     "professor": "ZENTNER  DABAH  ALEJANDRO  DANIEL",
     "days": [
-      "VI",
-      "MI",
-      "MA"
+      "VI"
     ],
     "time_start": "15:30",
     "time_end": "17:00",
@@ -6784,9 +6663,7 @@
     "commission": "7233",
     "professor": "GARRIDO  FERNANDEZ  JAVIER  H",
     "days": [
-      "JU",
-      "SA",
-      "MA"
+      "JU"
     ],
     "time_start": "14:00",
     "time_end": "15:30",
@@ -6821,9 +6698,7 @@
     "commission": "7265",
     "professor": "LOVECE  SALAGARAY  NATALIA",
     "days": [
-      "JU",
-      "MA",
-      "MI"
+      "JU"
     ],
     "time_start": "15:30",
     "time_end": "17:00",
@@ -6883,10 +6758,7 @@
     "commission": "7235",
     "professor": "GARRIDO  WISZNIACKI  LAURA",
     "days": [
-      "VI",
-      "MA",
-      "JU",
-      "SA"
+      "VI"
     ],
     "time_start": "15:30",
     "time_end": "17:00",
@@ -6956,9 +6828,7 @@
     "commission": "7211",
     "professor": "ARMELLA  FANEGO  AGUEDA  ARIADNA",
     "days": [
-      "JU",
-      "MA",
-      "MI"
+      "JU"
     ],
     "time_start": "20:00",
     "time_end": "21:30",
@@ -7028,8 +6898,7 @@
     "commission": "7203",
     "professor": "ZENTNER  GAROZZO  MARÍA  NATALIA",
     "days": [
-      "VI",
-      "MA"
+      "VI"
     ],
     "time_start": "20:00",
     "time_end": "21:30",
@@ -7099,8 +6968,7 @@
     "commission": "7274",
     "professor": "WEINGARTEN  NASSO  GONZALEZ  LUIS  I",
     "days": [
-      "VI",
-      "SA"
+      "VI"
     ],
     "time_start": "18:30",
     "time_end": "20:00",
@@ -7240,8 +7108,7 @@
     "commission": "7261",
     "professor": "LOVECE  DABOVE  SANTIAGO  HÉCTOR",
     "days": [
-      "VI",
-      "MA"
+      "VI"
     ],
     "time_start": "07:00",
     "time_end": "08:30",
@@ -7276,9 +7143,7 @@
     "commission": "7260",
     "professor": "LOVECE  MUNTANER  MARÍA  FERNANDA",
     "days": [
-      "JU",
-      "MA",
-      "VI"
+      "JU"
     ],
     "time_start": "07:00",
     "time_end": "08:30",
@@ -7313,8 +7178,7 @@
     "commission": "7234",
     "professor": "GARRIDO  LEZCANO",
     "days": [
-      "JU",
-      "VI"
+      "JU"
     ],
     "time_start": "21:30",
     "time_end": "23:00",
@@ -7349,8 +7213,7 @@
     "commission": "7268",
     "professor": "LOVECE  WAJSMAN  MARÍA  VICTORIA",
     "days": [
-      "JU",
-      "MA"
+      "JU"
     ],
     "time_start": "21:30",
     "time_end": "23:00",
@@ -7375,8 +7238,7 @@
     "commission": "9243",
     "professor": "GONZALEZ  NAPOLITANO  BOTTINI  GABRIEL",
     "days": [
-      "MI",
-      "MA"
+      "MI"
     ],
     "time_start": "10:00",
     "time_end": "13:00",
@@ -7446,8 +7308,7 @@
     "commission": "9210",
     "professor": "ARMAS  CHIRINIAN  MARIANELA",
     "days": [
-      "JU",
-      "MA"
+      "JU"
     ],
     "time_start": "07:00",
     "time_end": "08:30",
@@ -7517,10 +7378,7 @@
     "commission": "9221",
     "professor": "BUIS  GASOL  VARELA  CLAUDIA",
     "days": [
-      "VI",
-      "JU",
-      "MA",
-      "SA"
+      "VI"
     ],
     "time_start": "07:00",
     "time_end": "08:30",
@@ -7555,8 +7413,7 @@
     "commission": "9222",
     "professor": "BUIS  MALKASSIAN  ROBERTO  M",
     "days": [
-      "JU",
-      "MA"
+      "JU"
     ],
     "time_start": "11:30",
     "time_end": "13:00",
@@ -7627,8 +7484,7 @@
     "commission": "9262",
     "professor": "DELICH  TARAPOW  FERNANDO  GONZALO",
     "days": [
-      "JU",
-      "MA"
+      "JU"
     ],
     "time_start": "08:30",
     "time_end": "10:00",
@@ -7700,9 +7556,7 @@
     "professor": "GONZALEZ  NAPOLITANO  LOZZA  MARIANA  MABEL",
     "days": [
       "MA",
-      "VI",
-      "SA",
-      "JU"
+      "VI"
     ],
     "time_start": "13:00",
     "time_end": "14:30",
@@ -7732,10 +7586,7 @@
     "commission": "9232",
     "professor": "BUIS  FRYDMAN  SABRINA",
     "days": [
-      "JU",
-      "MA",
-      "VI",
-      "LU"
+      "JU"
     ],
     "time_start": "20:00",
     "time_end": "21:30",
@@ -7770,8 +7621,7 @@
     "commission": "9254",
     "professor": "PINTO  GUERRA  VALERIA  LUCIANA",
     "days": [
-      "JU",
-      "MA"
+      "JU"
     ],
     "time_start": "20:00",
     "time_end": "21:30",
@@ -7806,8 +7656,8 @@
     "commission": "9246",
     "professor": "GONZALEZ  NAPOLITANO  MIGUEZ  ADRIAN",
     "days": [
-      "MA",
       "LU",
+      "MA",
       "JU"
     ],
     "time_start": "20:00",
@@ -7878,9 +7728,7 @@
     "commission": "9230",
     "professor": "BUIS  MOLLAR  MARCOS  NELIO",
     "days": [
-      "VI",
-      "SA",
-      "MA"
+      "VI"
     ],
     "time_start": "20:00",
     "time_end": "21:30",
@@ -7951,8 +7799,7 @@
     "commission": "9241",
     "professor": "GONZALEZ  NAPOLITANO  VERNET  PAULA",
     "days": [
-      "JU",
-      "MI"
+      "JU"
     ],
     "time_start": "11:30",
     "time_end": "13:00",
@@ -8022,8 +7869,7 @@
     "commission": "9223",
     "professor": "BUIS  FERRANTE  IRMA  ALEJANDRA",
     "days": [
-      "JU",
-      "LU"
+      "JU"
     ],
     "time_start": "14:00",
     "time_end": "15:30",
@@ -8058,8 +7904,8 @@
     "commission": "9244",
     "professor": "GONZALEZ  NAPOLITANO  MIGUEZ  ADRIAN",
     "days": [
-      "MA",
       "LU",
+      "MA",
       "JU"
     ],
     "time_start": "13:00",
@@ -8130,9 +7976,7 @@
     "commission": "9212",
     "professor": "ARMAS  NOVILE  SUSANA  AMELIA",
     "days": [
-      "VI",
-      "MA",
-      "MI"
+      "VI"
     ],
     "time_start": "14:00",
     "time_end": "15:30",
@@ -8202,9 +8046,7 @@
     "commission": "6661",
     "professor": "GARGARELLA  BOUZAT  GABRIEL",
     "days": [
-      "VI",
-      "MA",
-      "JU"
+      "VI"
     ],
     "time_start": "10:00",
     "time_end": "11:30",
@@ -8239,8 +8081,7 @@
     "commission": "6681",
     "professor": "SOLA  FORONDA  ANA  CRISTINA",
     "days": [
-      "VI",
-      "MA"
+      "VI"
     ],
     "time_start": "11:30",
     "time_end": "13:00",
@@ -8381,9 +8222,7 @@
     "commission": "6654",
     "professor": "FERREYRA  CAMPORA  MARIO  FRANCISCO",
     "days": [
-      "VI",
-      "JU",
-      "MA"
+      "VI"
     ],
     "time_start": "17:00",
     "time_end": "18:30",
@@ -8418,9 +8257,7 @@
     "commission": "6607",
     "professor": "MANILI  CORCUERA  SANTIAGO  HERNÁN",
     "days": [
-      "VI",
-      "MI",
-      "MA"
+      "VI"
     ],
     "time_start": "14:00",
     "time_end": "15:30",
@@ -8455,10 +8292,7 @@
     "commission": "6606",
     "professor": "MANILI  FERNANDEZ  BARONE  MARÍA  X",
     "days": [
-      "VI",
-      "MA",
-      "JU",
-      "MI"
+      "VI"
     ],
     "time_start": "14:00",
     "time_end": "15:30",
@@ -8497,8 +8331,7 @@
     "commission": "6633",
     "professor": "CLÉRICO  GONZÁLEZ  BIONDO   MÓNICA",
     "days": [
-      "VI",
-      "MA"
+      "VI"
     ],
     "time_start": "17:00",
     "time_end": "18:30",
@@ -8569,10 +8402,7 @@
     "commission": "6608",
     "professor": "MANILI  LISZCZYNSKI  CARLOS  M",
     "days": [
-      "JU",
-      "MA",
-      "MI",
-      "VI"
+      "JU"
     ],
     "time_start": "17:00",
     "time_end": "18:30",
@@ -8602,8 +8432,7 @@
     "commission": "6610",
     "professor": "BASTERRA  LONIGRO  FELIX  VICENTE",
     "days": [
-      "JU",
-      "MA"
+      "JU"
     ],
     "time_start": "14:00",
     "time_end": "15:30",
@@ -8638,8 +8467,7 @@
     "commission": "6690",
     "professor": "MANILI  RISSO  GUIDO  IDELMAR",
     "days": [
-      "VI",
-      "MA"
+      "VI"
     ],
     "time_start": "15:30",
     "time_end": "17:00",
@@ -8674,8 +8502,7 @@
     "commission": "6655",
     "professor": "GARGARELLA  SAENZ  JUAN  IGNACIO",
     "days": [
-      "JU",
-      "MA"
+      "JU"
     ],
     "time_start": "17:00",
     "time_end": "18:30",
@@ -8710,8 +8537,7 @@
     "commission": "6673",
     "professor": "SABSAY  VENTURA  ADRIÁN  ROBERTO",
     "days": [
-      "VI",
-      "MA"
+      "VI"
     ],
     "time_start": "15:30",
     "time_end": "17:00",
@@ -8746,10 +8572,7 @@
     "commission": "6683",
     "professor": "SOLA  VIVO  GUSTAVO  ALEJANDRO",
     "days": [
-      "JU",
-      "SA",
-      "MA",
-      "MI"
+      "JU"
     ],
     "time_start": "17:00",
     "time_end": "18:30",
@@ -8821,8 +8644,7 @@
     "commission": "6657",
     "professor": "FERREYRA  KENNEDY  RICARDO  SANTIAGO",
     "days": [
-      "VI",
-      "MA"
+      "VI"
     ],
     "time_start": "20:00",
     "time_end": "21:30",
@@ -8857,8 +8679,7 @@
     "commission": "6616",
     "professor": "BASTERRA  LOZADA  EMILIO  EVARISTO",
     "days": [
-      "VI",
-      "MA"
+      "VI"
     ],
     "time_start": "18:30",
     "time_end": "20:00",
@@ -8928,10 +8749,7 @@
     "commission": "6686",
     "professor": "SOLA  MACIAS  MARTA  ANGÉLICA",
     "days": [
-      "JU",
-      "MI",
-      "VI",
-      "MA"
+      "JU"
     ],
     "time_start": "21:30",
     "time_end": "23:00",
@@ -8966,8 +8784,7 @@
     "commission": "6651",
     "professor": "FERREYRA  MARTÍNEZ  LEANDRO  ABEL",
     "days": [
-      "JU",
-      "MA"
+      "JU"
     ],
     "time_start": "18:30",
     "time_end": "20:00",
@@ -9037,11 +8854,7 @@
     "commission": "6684",
     "professor": "SOLA  VIVO  GUSTAVO  ALEJANDRO",
     "days": [
-      "JU",
-      "SA",
-      "MA",
-      "MI",
-      "VI"
+      "JU"
     ],
     "time_start": "18:30",
     "time_end": "20:00",
@@ -9110,9 +8923,7 @@
     "commission": "6672",
     "professor": "SABSAY  GORBAK  ÉRICA  ELIZABETH",
     "days": [
-      "JU",
-      "VI",
-      "MA"
+      "JU"
     ],
     "time_start": "10:00",
     "time_end": "11:30",
@@ -9142,8 +8953,7 @@
     "commission": "6643",
     "professor": "DALLA  VIA  DJEDJEIAN  MARIA  M",
     "days": [
-      "VI",
-      "MI"
+      "VI"
     ],
     "time_start": "15:30",
     "time_end": "17:00",
@@ -9213,9 +9023,7 @@
     "commission": "9532",
     "professor": "A  DESIGNAR-SOTO",
     "days": [
-      "JU",
-      "MI",
-      "MA"
+      "JU"
     ],
     "time_start": "11:30",
     "time_end": "13:00",
@@ -9246,9 +9054,7 @@
     "commission": "9530",
     "professor": "CERDEIRA-MARTINEZ  RUIZ",
     "days": [
-      "JU",
-      "SA",
-      "MA"
+      "JU"
     ],
     "time_start": "07:00",
     "time_end": "08:30",
@@ -9279,9 +9085,7 @@
     "commission": "9512",
     "professor": "CERDEIRA-PAREDES",
     "days": [
-      "VI",
-      "SA",
-      "MA"
+      "VI"
     ],
     "time_start": "11:30",
     "time_end": "13:00",
@@ -9316,9 +9120,7 @@
     "commission": "9500",
     "professor": "NAJURIETA-RODRIGUEZ",
     "days": [
-      "VI",
-      "SA",
-      "MA"
+      "VI"
     ],
     "time_start": "08:30",
     "time_end": "10:00",
@@ -9353,9 +9155,7 @@
     "commission": "9511",
     "professor": "NOODT  T-GONZALEZ  JOHANSEN",
     "days": [
-      "VI",
-      "SA",
-      "MA"
+      "VI"
     ],
     "time_start": "10:00",
     "time_end": "11:30",
@@ -9390,8 +9190,7 @@
     "commission": "9510",
     "professor": "NOODT  T-VILLA",
     "days": [
-      "JU",
-      "SA"
+      "JU"
     ],
     "time_start": "10:00",
     "time_end": "11:30",
@@ -9426,9 +9225,7 @@
     "commission": "9524",
     "professor": "UZAL-ESPARZA",
     "days": [
-      "JU",
-      "SA",
-      "MA"
+      "JU"
     ],
     "time_start": "10:00",
     "time_end": "11:30",
@@ -9494,8 +9291,7 @@
     "commission": "9521",
     "professor": "UZAL-MEDINA  F.",
     "days": [
-      "JU",
-      "MA"
+      "JU"
     ],
     "time_start": "08:30",
     "time_end": "10:00",
@@ -9530,8 +9326,7 @@
     "commission": "9520",
     "professor": "UZAL-ZACUR  ANA  B.",
     "days": [
-      "VI",
-      "MA"
+      "VI"
     ],
     "time_start": "07:00",
     "time_end": "08:30",
@@ -9562,9 +9357,7 @@
     "commission": "9533",
     "professor": "A  DESIGNAR-QUARANTA  C.",
     "days": [
-      "VI",
-      "SA",
-      "MA"
+      "VI"
     ],
     "time_start": "14:00",
     "time_end": "15:30",
@@ -9631,8 +9424,7 @@
     "commission": "9515",
     "professor": "NOODT  TAQUELA  MARÍA",
     "days": [
-      "JU",
-      "MA"
+      "JU"
     ],
     "time_start": "17:00",
     "time_end": "18:30",
@@ -9663,8 +9455,7 @@
     "commission": "9513",
     "professor": "NOODT  T-ORDOÑEZ  PENAGOS",
     "days": [
-      "JU",
-      "MA"
+      "JU"
     ],
     "time_start": "15:30",
     "time_end": "17:00",
@@ -9699,9 +9490,7 @@
     "commission": "9502",
     "professor": "SCOTTI-BALTAR",
     "days": [
-      "VI",
-      "SA",
-      "MA"
+      "VI"
     ],
     "time_start": "14:00",
     "time_end": "15:30",
@@ -9732,9 +9521,7 @@
     "commission": "9504",
     "professor": "SCOTTI-RUBAJA  N.",
     "days": [
-      "VI",
-      "SA",
-      "MA"
+      "VI"
     ],
     "time_start": "17:00",
     "time_end": "18:30",
@@ -9765,9 +9552,7 @@
     "commission": "9503",
     "professor": "SCOTTI-SCOTTI",
     "days": [
-      "VI",
-      "SA",
-      "MA"
+      "VI"
     ],
     "time_start": "15:30",
     "time_end": "17:00",
@@ -9798,8 +9583,7 @@
     "commission": "9529",
     "professor": "UZAL-ZACUR  ANA  B.",
     "days": [
-      "JU",
-      "MA"
+      "JU"
     ],
     "time_start": "15:30",
     "time_end": "17:00",
@@ -9861,8 +9645,7 @@
     "commission": "9509",
     "professor": "CERDEIRA-CERDEIRA",
     "days": [
-      "VI",
-      "MA"
+      "VI"
     ],
     "time_start": "20:00",
     "time_end": "21:30",
@@ -9924,9 +9707,7 @@
     "commission": "9508",
     "professor": "NAJURIETA-PEREZ  M.",
     "days": [
-      "VI",
-      "SA",
-      "MA"
+      "VI"
     ],
     "time_start": "20:00",
     "time_end": "21:30",
@@ -9957,9 +9738,7 @@
     "commission": "9517",
     "professor": "NOODT  T-ROSA  VILARDO  MARÍA  L.",
     "days": [
-      "JU",
-      "SA",
-      "MA"
+      "JU"
     ],
     "time_start": "20:00",
     "time_end": "21:30",
@@ -9990,9 +9769,7 @@
     "commission": "9516",
     "professor": "NOODT  T-VILARDO  MARIA  ROSA",
     "days": [
-      "JU",
-      "SA",
-      "MA"
+      "JU"
     ],
     "time_start": "18:30",
     "time_end": "20:00",
@@ -10023,9 +9800,7 @@
     "commission": "9501",
     "professor": "SCOTTI-ANTON  PEREZ",
     "days": [
-      "JU",
-      "SA",
-      "MA"
+      "JU"
     ],
     "time_start": "20:00",
     "time_end": "21:30",
@@ -10056,9 +9831,7 @@
     "commission": "9528",
     "professor": "UZAL-MEDINA  F.",
     "days": [
-      "JU",
-      "SA",
-      "MA"
+      "JU"
     ],
     "time_start": "20:00",
     "time_end": "21:30",
@@ -10089,9 +9862,7 @@
     "commission": "9526",
     "professor": "UZAL-UZAL",
     "days": [
-      "JU",
-      "MA",
-      "VI"
+      "JU"
     ],
     "time_start": "18:30",
     "time_end": "20:00",
@@ -10122,8 +9893,7 @@
     "commission": "9514",
     "professor": "NOODT  T-ARGERICH",
     "days": [
-      "VI",
-      "MA"
+      "VI"
     ],
     "time_start": "08:30",
     "time_end": "10:00",
@@ -10158,8 +9928,7 @@
     "commission": "9519",
     "professor": "UZAL-LAJE  R.",
     "days": [
-      "VI",
-      "MA"
+      "VI"
     ],
     "time_start": "08:30",
     "time_end": "10:00",
@@ -10194,8 +9963,7 @@
     "commission": "9531",
     "professor": "CERDEIRA-BLANCO  SANDRA",
     "days": [
-      "VI",
-      "MA"
+      "VI"
     ],
     "time_start": "14:00",
     "time_end": "15:30",
@@ -10226,9 +9994,7 @@
     "commission": "9507",
     "professor": "NAJURIETA  M-BRODSKY  J.",
     "days": [
-      "JU",
-      "SA",
-      "MA"
+      "JU"
     ],
     "time_start": "20:00",
     "time_end": "21:30",
@@ -10259,9 +10025,7 @@
     "commission": "9505",
     "professor": "NAJURIETA-RODRIGUEZ",
     "days": [
-      "VI",
-      "SA",
-      "MA"
+      "VI"
     ],
     "time_start": "18:30",
     "time_end": "20:00",
@@ -10296,8 +10060,7 @@
     "commission": "9518",
     "professor": "NOODT  T-GARCIA  RIVERA  PAOLA",
     "days": [
-      "VI",
-      "MA"
+      "VI"
     ],
     "time_start": "21:30",
     "time_end": "23:00",
@@ -10328,9 +10091,7 @@
     "commission": "9506",
     "professor": "SCOTTI-IUD",
     "days": [
-      "VI",
-      "SA",
-      "MA"
+      "VI"
     ],
     "time_start": "18:30",
     "time_end": "20:00",
@@ -10431,8 +10192,7 @@
     "commission": "9431",
     "professor": "NAVEIRA  KUMOR  DANIELA",
     "days": [
-      "JU",
-      "MA"
+      "JU"
     ],
     "time_start": "08:30",
     "time_end": "10:00",
@@ -10463,8 +10223,7 @@
     "commission": "9445",
     "professor": "SCHAFRIK  NIGRELLI  JUAN  MANUEL",
     "days": [
-      "VI",
-      "LU"
+      "VI"
     ],
     "time_start": "08:30",
     "time_end": "10:00",
@@ -10499,9 +10258,7 @@
     "commission": "9400",
     "professor": "CORTI  NUÑEZ  LUIS  M",
     "days": [
-      "JU",
-      "MI",
-      "MA"
+      "JU"
     ],
     "time_start": "11:30",
     "time_end": "13:00",
@@ -10531,8 +10288,7 @@
     "commission": "9442",
     "professor": "SCHAFRIK  VENSLAVICIUS  MARÍA  JULIA",
     "days": [
-      "VI",
-      "MA"
+      "VI"
     ],
     "time_start": "10:00",
     "time_end": "11:30",
@@ -10567,9 +10323,7 @@
     "commission": "9401",
     "professor": "CORTI  NUÑEZ  LUIS  M",
     "days": [
-      "JU",
-      "MI",
-      "MA"
+      "JU"
     ],
     "time_start": "14:00",
     "time_end": "15:30",
@@ -10636,10 +10390,7 @@
     "professor": "LAFERRIERE  ARCOS  VALCARCEL  SANDRA  S",
     "days": [
       "LU",
-      "JU",
-      "SA",
-      "MI",
-      "MA"
+      "JU"
     ],
     "time_start": "08:30",
     "time_end": "10:00",
@@ -10709,8 +10460,7 @@
     "commission": "6822",
     "professor": "GARRIDO  BALMACEDA  MÓNICA  P",
     "days": [
-      "VI",
-      "MA"
+      "VI"
     ],
     "time_start": "08:30",
     "time_end": "10:00",
@@ -10745,10 +10495,7 @@
     "commission": "6846",
     "professor": "LAFERRIERE  CRISCI  ANABELLA",
     "days": [
-      "JU",
-      "MA",
-      "SA",
-      "VI"
+      "JU"
     ],
     "time_start": "11:30",
     "time_end": "13:00",
@@ -10783,8 +10530,7 @@
     "commission": "6872",
     "professor": "CROVI  FISSORE  DIEGO  MIGUEL",
     "days": [
-      "VI",
-      "MA"
+      "VI"
     ],
     "time_start": "08:30",
     "time_end": "10:00",
@@ -10823,10 +10569,7 @@
     "commission": "6850",
     "professor": "SANTARELLI  FORNARI  MARÍA  JULIA",
     "days": [
-      "VI",
-      "MA",
-      "SA",
-      "MI"
+      "VI"
     ],
     "time_start": "08:30",
     "time_end": "10:00",
@@ -10896,8 +10639,7 @@
     "commission": "6880",
     "professor": "DE  LORENZO  LAVALLE  GONZALO",
     "days": [
-      "VI",
-      "MA"
+      "VI"
     ],
     "time_start": "08:30",
     "time_end": "10:00",
@@ -10933,8 +10675,7 @@
     "professor": "PERALTA  MARISCAL  MORENO  MARÍA  FERNANDA",
     "days": [
       "MA",
-      "VI",
-      "MI"
+      "VI"
     ],
     "time_start": "11:30",
     "time_end": "13:00",
@@ -10970,9 +10711,7 @@
     "professor": "PERALTA  MARISCAL  MORENO  MARÍA  FERNANDA",
     "days": [
       "LU",
-      "JU",
-      "MI",
-      "MA"
+      "JU"
     ],
     "time_start": "11:30",
     "time_end": "13:00",
@@ -11036,11 +10775,7 @@
     "commission": "6840",
     "professor": "LAFERRIERE  MUÑIZ  CARLOS",
     "days": [
-      "JU",
-      "VI",
-      "MA",
-      "MI",
-      "SA"
+      "JU"
     ],
     "time_start": "07:00",
     "time_end": "08:30",
@@ -11075,9 +10810,7 @@
     "commission": "6813",
     "professor": "PERALTA  MARISCAL  REY  MARIANA",
     "days": [
-      "JU",
-      "MI",
-      "MA"
+      "JU"
     ],
     "time_start": "07:00",
     "time_end": "08:30",
@@ -11112,10 +10845,7 @@
     "commission": "6801",
     "professor": "BORDA  ZOTTO  RODOLFO  SEBASTIÁN",
     "days": [
-      "JU",
-      "VI",
-      "MA",
-      "MI"
+      "JU"
     ],
     "time_start": "08:30",
     "time_end": "10:00",
@@ -11185,10 +10915,7 @@
     "commission": "6810",
     "professor": "GARRIDO  AIZENBERG  MARISA  SANDRA",
     "days": [
-      "VI",
-      "MI",
-      "SA",
-      "MA"
+      "VI"
     ],
     "time_start": "17:00",
     "time_end": "18:30",
@@ -11223,8 +10950,7 @@
     "commission": "6878",
     "professor": "CROVI  BELTRAMO  ANDRÉS  NICOLÁS",
     "days": [
-      "JU",
-      "VI"
+      "JU"
     ],
     "time_start": "15:30",
     "time_end": "17:00",
@@ -11331,8 +11057,7 @@
     "commission": "6861",
     "professor": "BORDA  CAPRA  SUSANA",
     "days": [
-      "VI",
-      "MA"
+      "VI"
     ],
     "time_start": "15:30",
     "time_end": "17:00",
@@ -11367,10 +11092,7 @@
     "commission": "6889",
     "professor": "PICASSO  CICCHINO  PAULA  MARIA",
     "days": [
-      "VI",
-      "MA",
-      "MI",
-      "SA"
+      "VI"
     ],
     "time_start": "15:30",
     "time_end": "17:00",
@@ -11406,9 +11128,7 @@
     "professor": "PERALTA  MARISCAL  CUIÑAS  RODRIGUEZ  MANUEL",
     "days": [
       "LU",
-      "JU",
-      "VI",
-      "MA"
+      "JU"
     ],
     "time_start": "17:00",
     "time_end": "18:30",
@@ -11443,8 +11163,7 @@
     "commission": "6883",
     "professor": "DE  LORENZO  FELDMAN  PAULA  ANDREA",
     "days": [
-      "VI",
-      "MA"
+      "VI"
     ],
     "time_start": "14:00",
     "time_end": "15:30",
@@ -11515,9 +11234,7 @@
     "commission": "6877",
     "professor": "CROVI  GRAFEUILLE  CAROLINA  E",
     "days": [
-      "JU",
-      "MA",
-      "SA"
+      "JU"
     ],
     "time_start": "15:30",
     "time_end": "17:00",
@@ -11552,9 +11269,7 @@
     "commission": "6827",
     "professor": "GARRIDO  MONTALTO  ANA  MARÍA  DE",
     "days": [
-      "JU",
-      "MA",
-      "SA"
+      "JU"
     ],
     "time_start": "14:00",
     "time_end": "15:30",
@@ -11649,8 +11364,7 @@
     "commission": "6874",
     "professor": "CROVI  PEREIRA  MARÍA  VICTORIA",
     "days": [
-      "JU",
-      "MA"
+      "JU"
     ],
     "time_start": "15:30",
     "time_end": "17:00",
@@ -11720,9 +11434,7 @@
     "commission": "6875",
     "professor": "CROVI  REVIRIEGO  NICOLÁS",
     "days": [
-      "JU",
-      "MA",
-      "MI"
+      "JU"
     ],
     "time_start": "15:30",
     "time_end": "17:00",
@@ -11793,8 +11505,7 @@
     "commission": "6887",
     "professor": "PICASSO  SAENZ  LUIS  RICARDO  JOSÉ",
     "days": [
-      "JU",
-      "MA"
+      "JU"
     ],
     "time_start": "17:00",
     "time_end": "18:30",
@@ -11829,8 +11540,7 @@
     "commission": "6832",
     "professor": "GARRIDO  SALMASO  CARLOS  FERNANDO",
     "days": [
-      "JU",
-      "LU"
+      "JU"
     ],
     "time_start": "17:00",
     "time_end": "18:30",
@@ -11902,8 +11612,7 @@
     "professor": "BORDA  ALONSO  DE  SANTIAGO  LOURDES",
     "days": [
       "MA",
-      "VI",
-      "JU"
+      "VI"
     ],
     "time_start": "20:00",
     "time_end": "21:30",
@@ -11973,8 +11682,7 @@
     "commission": "6811",
     "professor": "GARRIDO  MARTELLO  SEBASTIÁN  C",
     "days": [
-      "VI",
-      "JU"
+      "VI"
     ],
     "time_start": "20:00",
     "time_end": "21:30",
@@ -12044,8 +11752,7 @@
     "commission": "6886",
     "professor": "DE  LORENZO  SANTI  ANDREA  MARIANA",
     "days": [
-      "VI",
-      "MA"
+      "VI"
     ],
     "time_start": "18:30",
     "time_end": "20:00",
@@ -12114,10 +11821,7 @@
     "professor": "PERALTA  MARISCAL  LOVECE  GRACIELA  ISABEL",
     "days": [
       "MA",
-      "VI",
-      "JU",
-      "SA",
-      "MI"
+      "VI"
     ],
     "time_start": "07:00",
     "time_end": "08:30",
@@ -12153,10 +11857,7 @@
     "professor": "PERALTA  MARISCAL  MAGGIO  LORENA  FERNANDA",
     "days": [
       "MA",
-      "VI",
-      "JU",
-      "SA",
-      "MI"
+      "VI"
     ],
     "time_start": "10:00",
     "time_end": "11:30",
@@ -12191,9 +11892,7 @@
     "commission": "6843",
     "professor": "LAFERRIERE  BENAVENTE  MARIA  ISABEL",
     "days": [
-      "VI",
-      "MA",
-      "SA"
+      "VI"
     ],
     "time_start": "14:00",
     "time_end": "15:30",
@@ -12253,9 +11952,7 @@
     "commission": "6820",
     "professor": "GARRIDO  LEIVA  RICARDO  JORGE",
     "days": [
-      "VI",
-      "MI",
-      "MA"
+      "VI"
     ],
     "time_start": "17:00",
     "time_end": "18:30",
@@ -12360,9 +12057,7 @@
     "commission": "6837",
     "professor": "GARRIDO  LOPEZ  CASTIÑEIRA  JOSÉ  L",
     "days": [
-      "JU",
-      "MA",
-      "VI"
+      "JU"
     ],
     "time_start": "21:30",
     "time_end": "23:00",
@@ -12397,8 +12092,7 @@
     "commission": "6870",
     "professor": "PERALTA  MARISCAL  REY  MARIANA",
     "days": [
-      "JU",
-      "MA"
+      "JU"
     ],
     "time_start": "20:00",
     "time_end": "21:30",
@@ -12433,9 +12127,7 @@
     "commission": "8610",
     "professor": "STORDEUR  BIDART  MARINA",
     "days": [
-      "JU",
-      "VI",
-      "MA"
+      "JU"
     ],
     "time_start": "07:00",
     "time_end": "08:30",
@@ -12470,9 +12162,7 @@
     "commission": "8651",
     "professor": "PEREZ  ENRRI  GARCIA  FORNASERO  MARINA",
     "days": [
-      "SA",
-      "MA",
-      "VI"
+      "SA"
     ],
     "time_start": "09:00",
     "time_end": "12:00",
@@ -12508,8 +12198,7 @@
     "professor": "ARGENTO  GONZALEZ  RODRIGUEZ  ANA  CAROLINA",
     "days": [
       "LU",
-      "JU",
-      "MA"
+      "JU"
     ],
     "time_start": "08:30",
     "time_end": "10:00",
@@ -12650,10 +12339,7 @@
     "commission": "8611",
     "professor": "STORDEUR  ZUNINO  GUSTAVO  RAFAEL",
     "days": [
-      "VI",
-      "MA",
-      "SA",
-      "JU"
+      "VI"
     ],
     "time_start": "07:00",
     "time_end": "08:30",
@@ -12688,8 +12374,7 @@
     "commission": "8633",
     "professor": "ARGENTO  ARGENTO  ALEJANDRO  N",
     "days": [
-      "JU",
-      "MA"
+      "JU"
     ],
     "time_start": "14:00",
     "time_end": "15:30",
@@ -12724,8 +12409,7 @@
     "commission": "8654",
     "professor": "PEREZ  ENRRI  BALDINO  MAYER  NICOLÁS",
     "days": [
-      "JU",
-      "MA"
+      "JU"
     ],
     "time_start": "15:30",
     "time_end": "17:00",
@@ -12760,9 +12444,7 @@
     "commission": "8644",
     "professor": "DI  PELINO  DI  PELINO  ANDRÉS  ERNESTO",
     "days": [
-      "VI",
-      "MI",
-      "SA"
+      "VI"
     ],
     "time_start": "17:00",
     "time_end": "18:30",
@@ -12798,9 +12480,7 @@
     "professor": "PEREZ  ENRRI  DOMINGUEZ  Y  VENCE  GABRIEL",
     "days": [
       "MA",
-      "VI",
-      "JU",
-      "MI"
+      "VI"
     ],
     "time_start": "14:00",
     "time_end": "15:30",
@@ -12835,8 +12515,7 @@
     "commission": "8657",
     "professor": "PEREZ  ENRRI  BALDINO  MAYER  NICOLÁS",
     "days": [
-      "JU",
-      "MA"
+      "JU"
     ],
     "time_start": "21:30",
     "time_end": "23:00",
@@ -12871,8 +12550,7 @@
     "commission": "8637",
     "professor": "STORDEUR  DONNA  SEBASTIÁN  ALBERTO",
     "days": [
-      "JU",
-      "MA"
+      "JU"
     ],
     "time_start": "20:00",
     "time_end": "21:30",
@@ -12907,10 +12585,7 @@
     "commission": "8656",
     "professor": "PEREZ  ENRRI  GARCIA  FORNASERO  MARINA",
     "days": [
-      "MI",
-      "MA",
-      "VI",
-      "SA"
+      "MI"
     ],
     "time_start": "18:30",
     "time_end": "21:30",
@@ -12980,9 +12655,7 @@
     "commission": "8601",
     "professor": "A  DESIGNAR  GONZALEZ  NIEVES  ISABEL  C",
     "days": [
-      "VI",
-      "MI",
-      "MA"
+      "VI"
     ],
     "time_start": "20:00",
     "time_end": "21:30",
@@ -13017,9 +12690,7 @@
     "commission": "8660",
     "professor": "DI  PELINO  REY  LUIS  ALBERTO",
     "days": [
-      "JU",
-      "SA",
-      "MA"
+      "JU"
     ],
     "time_start": "18:30",
     "time_end": "20:00",
@@ -13225,8 +12896,7 @@
     "commission": "7911",
     "professor": "CARTA-DE  LARA  ROMINA  G.",
     "days": [
-      "VI",
-      "MA"
+      "VI"
     ],
     "time_start": "08:30",
     "time_end": "10:00",
@@ -13257,8 +12927,7 @@
     "commission": "7921",
     "professor": "KIPER-MALIZIA  ROBERTO",
     "days": [
-      "VI",
-      "MI"
+      "VI"
     ],
     "time_start": "08:30",
     "time_end": "10:00",
@@ -13293,8 +12962,7 @@
     "commission": "7938",
     "professor": "VAZQUEZ  G.-BOQUE  ROBERTO",
     "days": [
-      "JU",
-      "MA"
+      "JU"
     ],
     "time_start": "11:30",
     "time_end": "13:00",
@@ -13329,8 +12997,7 @@
     "commission": "7930",
     "professor": "VAZQUEZ  G.-FARINA  M.",
     "days": [
-      "JU",
-      "MA"
+      "JU"
     ],
     "time_start": "08:30",
     "time_end": "10:00",
@@ -13365,8 +13032,7 @@
     "commission": "7931",
     "professor": "VAZQUEZ  G.-FARINA  M.",
     "days": [
-      "JU",
-      "VI"
+      "JU"
     ],
     "time_start": "10:00",
     "time_end": "11:30",
@@ -13401,8 +13067,7 @@
     "commission": "7914",
     "professor": "A  DESIGNAR-PEPE  M.",
     "days": [
-      "VI",
-      "MA"
+      "VI"
     ],
     "time_start": "17:00",
     "time_end": "18:30",
@@ -13501,8 +13166,7 @@
     "commission": "7943",
     "professor": "ABREUT-LOPEZ",
     "days": [
-      "JU",
-      "MA"
+      "JU"
     ],
     "time_start": "14:00",
     "time_end": "15:30",
@@ -13661,8 +13325,7 @@
     "commission": "7925",
     "professor": "KIPER-G.SILVANO",
     "days": [
-      "JU",
-      "MA"
+      "JU"
     ],
     "time_start": "17:00",
     "time_end": "18:30",
@@ -13697,8 +13360,7 @@
     "commission": "7926",
     "professor": "KIPER-RODRIGUEZ  JUAN",
     "days": [
-      "VI",
-      "MA"
+      "VI"
     ],
     "time_start": "17:00",
     "time_end": "18:30",
@@ -13834,8 +13496,7 @@
     "commission": "7957",
     "professor": "PERALTA  MARISCAL-PEREZ  PEJCIC  GONZALO",
     "days": [
-      "JU",
-      "VI"
+      "JU"
     ],
     "time_start": "20:00",
     "time_end": "21:30",
@@ -13870,8 +13531,7 @@
     "commission": "7917",
     "professor": "A  DESIGNAR-PEPE  M.",
     "days": [
-      "VI",
-      "MA"
+      "VI"
     ],
     "time_start": "18:30",
     "time_end": "20:00",
@@ -13910,9 +13570,7 @@
     "commission": "7915",
     "professor": "CARTA  -  CURA  GRASSI",
     "days": [
-      "JU",
-      "SA",
-      "VI"
+      "JU"
     ],
     "time_start": "18:30",
     "time_end": "20:00",
@@ -13943,8 +13601,7 @@
     "commission": "7918",
     "professor": "CARTA-DOCAMPO  MIÑO",
     "days": [
-      "VI",
-      "MA"
+      "VI"
     ],
     "time_start": "20:00",
     "time_end": "21:30",
@@ -13979,8 +13636,7 @@
     "commission": "7928",
     "professor": "KIPER-RODRIGUEZ  JUAN",
     "days": [
-      "VI",
-      "MA"
+      "VI"
     ],
     "time_start": "20:00",
     "time_end": "21:30",
@@ -14046,8 +13702,7 @@
     "commission": "7936",
     "professor": "VAZQUEZ  G.-NACUCCHIO  JUAN  MANUEL",
     "days": [
-      "VI",
-      "MA"
+      "VI"
     ],
     "time_start": "20:00",
     "time_end": "21:30",
@@ -14113,8 +13768,7 @@
     "commission": "7922",
     "professor": "KIPER-CASTRO  LAURA",
     "days": [
-      "VI",
-      "MA"
+      "VI"
     ],
     "time_start": "10:00",
     "time_end": "11:30",
@@ -14145,8 +13799,7 @@
     "commission": "7919",
     "professor": "CARTA-MACCHI  SEMERIA",
     "days": [
-      "JU",
-      "MA"
+      "JU"
     ],
     "time_start": "14:00",
     "time_end": "15:30",
@@ -14278,8 +13931,7 @@
     "commission": "7947",
     "professor": "ABREUT-GAETA",
     "days": [
-      "JU",
-      "MA"
+      "JU"
     ],
     "time_start": "20:00",
     "time_end": "21:30",
@@ -14376,9 +14028,7 @@
     "commission": "7950",
     "professor": "PERALTA  MARISCAL-REY  MARIANA",
     "days": [
-      "JU",
-      "VI",
-      "MA"
+      "JU"
     ],
     "time_start": "18:30",
     "time_end": "20:00",
@@ -14413,8 +14063,7 @@
     "commission": "7951",
     "professor": "PERALTA  MARISCAL-REY  MARIANA",
     "days": [
-      "VI",
-      "MA"
+      "VI"
     ],
     "time_start": "18:30",
     "time_end": "20:00",
@@ -14504,8 +14153,7 @@
     "commission": "6200",
     "professor": "A  DESIG.-DI  GIOIA",
     "days": [
-      "VI",
-      "MA"
+      "VI"
     ],
     "time_start": "11:30",
     "time_end": "13:00",
@@ -14643,9 +14291,7 @@
     "commission": "6228",
     "professor": "CAO  C.-PIERPAULI  RICARDO",
     "days": [
-      "JU",
-      "MA",
-      "MI"
+      "JU"
     ],
     "time_start": "08:30",
     "time_end": "10:00",
@@ -14713,8 +14359,7 @@
     "commission": "6236",
     "professor": "D  AURIA-HEFFES  AGOS  O.D.",
     "days": [
-      "VI",
-      "MI"
+      "VI"
     ],
     "time_start": "07:00",
     "time_end": "08:30",
@@ -14780,8 +14425,7 @@
     "commission": "6231",
     "professor": "D  AURIA-VITA  LETICIA",
     "days": [
-      "VI",
-      "MA"
+      "VI"
     ],
     "time_start": "11:30",
     "time_end": "13:00",
@@ -14851,8 +14495,7 @@
     "commission": "6243",
     "professor": "DE  LUCA-BURSZTYN  DEBORA",
     "days": [
-      "VI",
-      "MA"
+      "VI"
     ],
     "time_start": "10:00",
     "time_end": "11:30",
@@ -14957,8 +14600,7 @@
     "commission": "6244",
     "professor": "DE  LUCA-FINOCCHIARO",
     "days": [
-      "VI",
-      "MA"
+      "VI"
     ],
     "time_start": "11:30",
     "time_end": "13:00",
@@ -15028,8 +14670,7 @@
     "commission": "6261",
     "professor": "FEDERICI-ARLOTTI",
     "days": [
-      "VI",
-      "MA"
+      "VI"
     ],
     "time_start": "08:30",
     "time_end": "10:00",
@@ -15237,9 +14878,7 @@
     "commission": "6273",
     "professor": "SCHERLIS-GABRIEL  S.",
     "days": [
-      "JU",
-      "VI",
-      "MA"
+      "JU"
     ],
     "time_start": "11:30",
     "time_end": "13:00",
@@ -15301,8 +14940,7 @@
     "commission": "6275",
     "professor": "SCHERLIS-LESCANO  G.",
     "days": [
-      "VI",
-      "MA"
+      "VI"
     ],
     "time_start": "11:30",
     "time_end": "13:00",
@@ -15440,8 +15078,7 @@
     "commission": "6217",
     "professor": "BERCHOLC-BARRAZA",
     "days": [
-      "VI",
-      "JU"
+      "VI"
     ],
     "time_start": "17:00",
     "time_end": "18:30",
@@ -15544,8 +15181,7 @@
     "commission": "6224",
     "professor": "CAO  C.-GARGARELLA",
     "days": [
-      "JU",
-      "MA"
+      "JU"
     ],
     "time_start": "17:00",
     "time_end": "18:30",
@@ -15850,9 +15486,7 @@
     "commission": "6218",
     "professor": "BERCHOLC",
     "days": [
-      "VI",
-      "MA",
-      "JU"
+      "VI"
     ],
     "time_start": "20:00",
     "time_end": "21:30",
@@ -15918,8 +15552,7 @@
     "commission": "6216",
     "professor": "BERCHOLC-BARRAZA",
     "days": [
-      "VI",
-      "JU"
+      "VI"
     ],
     "time_start": "18:30",
     "time_end": "20:00",
@@ -16150,8 +15783,7 @@
     "commission": "6269",
     "professor": "FEDERICI-GALLARDO",
     "days": [
-      "VI",
-      "MA"
+      "VI"
     ],
     "time_start": "20:00",
     "time_end": "21:30",
@@ -16217,9 +15849,7 @@
     "commission": "6278",
     "professor": "SCHERLIS-AGUIRRE  G.",
     "days": [
-      "VI",
-      "MA",
-      "MI"
+      "VI"
     ],
     "time_start": "18:30",
     "time_end": "20:00",
@@ -16281,10 +15911,7 @@
     "commission": "6280",
     "professor": "SCHERLIS-WINER",
     "days": [
-      "JU",
-      "SA",
-      "VI",
-      "MA"
+      "JU"
     ],
     "time_start": "18:30",
     "time_end": "20:00",
@@ -16354,8 +15981,7 @@
     "commission": "6211",
     "professor": "BERCHOLC-BARRAZA",
     "days": [
-      "VI",
-      "MA"
+      "VI"
     ],
     "time_start": "07:00",
     "time_end": "08:30",
@@ -16390,8 +16016,7 @@
     "commission": "6252",
     "professor": "DE  LUCA-VIDELA  MONTILLA",
     "days": [
-      "JU",
-      "MA"
+      "JU"
     ],
     "time_start": "10:00",
     "time_end": "11:30",
@@ -16549,8 +16174,7 @@
     "commission": "7001",
     "professor": "CALVO  COSTA-KITAINIK",
     "days": [
-      "JU",
-      "SA"
+      "JU"
     ],
     "time_start": "10:00",
     "time_end": "11:30",
@@ -16612,8 +16236,7 @@
     "commission": "7011",
     "professor": "GOSENDE-CAPUA  JUAN  M",
     "days": [
-      "JU",
-      "MA"
+      "JU"
     ],
     "time_start": "10:00",
     "time_end": "11:30",
@@ -16644,8 +16267,7 @@
     "commission": "7032",
     "professor": "SILVESTRE-BURGOS",
     "days": [
-      "JU",
-      "SA"
+      "JU"
     ],
     "time_start": "10:00",
     "time_end": "11:30",
@@ -16738,8 +16360,7 @@
     "commission": "7031",
     "professor": "SILVESTRE-MARINO  A.",
     "days": [
-      "JU",
-      "MA"
+      "JU"
     ],
     "time_start": "08:30",
     "time_end": "10:00",
@@ -17067,8 +16688,7 @@
     "commission": "7073",
     "professor": "WIERZBA-PANIAGUA",
     "days": [
-      "JU",
-      "SA"
+      "JU"
     ],
     "time_start": "11:30",
     "time_end": "13:00",
@@ -17270,8 +16890,7 @@
     "commission": "7013",
     "professor": "GOSENDE-BENAVENTE  M.",
     "days": [
-      "JU",
-      "SA"
+      "JU"
     ],
     "time_start": "15:30",
     "time_end": "17:00",
@@ -17906,8 +17525,7 @@
     "commission": "7056",
     "professor": "VERGARA-AGUIRRE  P.",
     "days": [
-      "JU",
-      "SA"
+      "JU"
     ],
     "time_start": "20:00",
     "time_end": "21:30",
@@ -18043,9 +17661,7 @@
     "commission": "7062",
     "professor": "VERGARA-NICOLI  DIEGO",
     "days": [
-      "JU",
-      "VI",
-      "MA"
+      "JU"
     ],
     "time_start": "21:30",
     "time_end": "23:00",
@@ -18111,8 +17727,7 @@
     "commission": "7030",
     "professor": "SILVESTRE-MARINO  A.",
     "days": [
-      "JU",
-      "SA"
+      "JU"
     ],
     "time_start": "08:30",
     "time_end": "10:00",
@@ -18143,8 +17758,7 @@
     "commission": "7005",
     "professor": "CALVO  COSTA-LOMBARDI",
     "days": [
-      "VI",
-      "JU"
+      "VI"
     ],
     "time_start": "17:00",
     "time_end": "18:30",
@@ -18179,8 +17793,7 @@
     "commission": "7020",
     "professor": "PICASSO-BESALU  P.",
     "days": [
-      "VI",
-      "MA"
+      "VI"
     ],
     "time_start": "14:00",
     "time_end": "15:30",
@@ -18807,8 +18420,7 @@
     "commission": "8643",
     "professor": "DI  PELINO-MAC  DONALD",
     "days": [
-      "VI",
-      "MA"
+      "VI"
     ],
     "time_start": "15:30",
     "time_end": "17:00",
@@ -18870,8 +18482,7 @@
     "commission": "8655",
     "professor": "PEREZ  E-A  DESIGNAR",
     "days": [
-      "JU",
-      "SA"
+      "JU"
     ],
     "time_start": "17:00",
     "time_end": "18:30",
@@ -18933,8 +18544,7 @@
     "commission": "8635",
     "professor": "STORDEUR-IANELLO",
     "days": [
-      "VI",
-      "JU"
+      "VI"
     ],
     "time_start": "18:30",
     "time_end": "20:00",
@@ -18965,10 +18575,7 @@
     "commission": "8646",
     "professor": "DI  PELINO-HERNANDEZ  SUSANA",
     "days": [
-      "JU",
-      "MA",
-      "VI",
-      "LU"
+      "JU"
     ],
     "time_start": "08:30",
     "time_end": "10:00",
@@ -19062,8 +18669,7 @@
     "professor": "ALVAREZ",
     "days": [
       "MA",
-      "VI",
-      "JU"
+      "VI"
     ],
     "time_start": "07:00",
     "time_end": "08:30",
@@ -19095,8 +18701,7 @@
     "professor": "ALVAREZ  ECHAG",
     "days": [
       "MA",
-      "VI",
-      "JU"
+      "VI"
     ],
     "time_start": "08:30",
     "time_end": "10:00",
@@ -19155,8 +18760,7 @@
     "professor": "",
     "days": [
       "MA",
-      "VI",
-      "JU"
+      "VI"
     ],
     "time_start": "10:00",
     "time_end": "11:30",
@@ -19251,8 +18855,8 @@
     "commission": "9411",
     "professor": "",
     "days": [
-      "JU",
-      "LU"
+      "LU",
+      "JU"
     ],
     "time_start": "15:30",
     "time_end": "17:00",
@@ -19315,9 +18919,7 @@
     "commission": "9402",
     "professor": "",
     "days": [
-      "SA",
-      "MI",
-      "JU"
+      "MI"
     ],
     "time_start": "15:30",
     "time_end": "18:30",
@@ -19348,7 +18950,6 @@
     "commission": "9421",
     "professor": "",
     "days": [
-      "SA",
       "MI"
     ],
     "time_start": "17:00",
@@ -19380,7 +18981,6 @@
     "commission": "9422",
     "professor": "",
     "days": [
-      "SA",
       "MI"
     ],
     "time_start": "17:00",
@@ -19472,8 +19072,7 @@
     "professor": "",
     "days": [
       "LU",
-      "JU",
-      "VI"
+      "JU"
     ],
     "time_start": "18:30",
     "time_end": "20:00",
@@ -19569,8 +19168,7 @@
     "professor": "",
     "days": [
       "LU",
-      "JU",
-      "VI"
+      "JU"
     ],
     "time_start": "20:00",
     "time_end": "21:30",
@@ -19598,9 +19196,7 @@
     "professor": "",
     "days": [
       "LU",
-      "JU",
-      "VI",
-      "MA"
+      "JU"
     ],
     "time_start": "20:00",
     "time_end": "21:30",
@@ -19659,7 +19255,6 @@
     "commission": "9409",
     "professor": "ALVAREZ",
     "days": [
-      "JU",
       "MI"
     ],
     "time_start": "15:30",
@@ -19691,9 +19286,7 @@
     "commission": "8051",
     "professor": "MARCER  LARREA  MARÍA  SOLEDAD",
     "days": [
-      "JU",
-      "MA",
-      "MI"
+      "JU"
     ],
     "time_start": "08:30",
     "time_end": "10:00",
@@ -19763,11 +19356,7 @@
     "commission": "8080",
     "professor": "BALBIN  MANTARAS  PABLO  CÉSAR",
     "days": [
-      "VI",
-      "MA",
-      "MI",
-      "JU",
-      "SA"
+      "VI"
     ],
     "time_start": "10:00",
     "time_end": "11:30",
@@ -19839,8 +19428,7 @@
     "professor": "GARCÍA  PULLES  MORTIER  NATALIA  VICTORIA",
     "days": [
       "MA",
-      "VI",
-      "MI"
+      "VI"
     ],
     "time_start": "08:30",
     "time_end": "10:00",
@@ -19875,10 +19463,7 @@
     "commission": "8070",
     "professor": "GARCÍA  PULLES  SEIJAS  GABRIELA",
     "days": [
-      "VI",
-      "SA",
-      "MA",
-      "MI"
+      "VI"
     ],
     "time_start": "10:00",
     "time_end": "11:30",
@@ -19913,9 +19498,7 @@
     "commission": "8084",
     "professor": "BALBIN  STUPENENGO  JUAN  ANTONIO",
     "days": [
-      "JU",
-      "SA",
-      "MA"
+      "JU"
     ],
     "time_start": "08:30",
     "time_end": "10:00",
@@ -20020,10 +19603,7 @@
     "commission": "8044",
     "professor": "GALLEGOS  FEDRIANI  CARDUCCI  PABLO  SEBASTIÁN",
     "days": [
-      "MI",
-      "MA",
-      "JU",
-      "VI"
+      "MI"
     ],
     "time_start": "17:00",
     "time_end": "20:00",
@@ -20058,8 +19638,7 @@
     "commission": "8024",
     "professor": "GARCÍA  PULLES  DAMSKY  ISAAC  AUGUSTO",
     "days": [
-      "JU",
-      "MA"
+      "JU"
     ],
     "time_start": "15:30",
     "time_end": "17:00",
@@ -20094,8 +19673,7 @@
     "commission": "8023",
     "professor": "GARCÍA  PULLES  FURNARI  ESTEBAN  CARLOS",
     "days": [
-      "VI",
-      "MA"
+      "VI"
     ],
     "time_start": "17:00",
     "time_end": "18:30",
@@ -20165,8 +19743,7 @@
     "commission": "8004",
     "professor": "BALBIN  VEGA  SUSANA  ELENA",
     "days": [
-      "JU",
-      "MA"
+      "JU"
     ],
     "time_start": "17:00",
     "time_end": "18:30",
@@ -20237,8 +19814,7 @@
     "commission": "8008",
     "professor": "BALBIN  ARIAS  VERÓNICA  LORENA",
     "days": [
-      "VI",
-      "JU"
+      "VI"
     ],
     "time_start": "18:30",
     "time_end": "20:00",
@@ -20273,9 +19849,7 @@
     "commission": "8005",
     "professor": "BALBIN  BARRAZA  JAVIER  I",
     "days": [
-      "VI",
-      "JU",
-      "MA"
+      "VI"
     ],
     "time_start": "20:00",
     "time_end": "21:30",
@@ -20310,8 +19884,7 @@
     "commission": "8016",
     "professor": "GALLEGOS  FEDRIANI  BIGLIERI  ALBERTO",
     "days": [
-      "JU",
-      "MA"
+      "JU"
     ],
     "time_start": "18:30",
     "time_end": "20:00",
@@ -20381,8 +19954,7 @@
     "commission": "8075",
     "professor": "MARCER  CANDA  FABIÁN  OMAR",
     "days": [
-      "VI",
-      "SA"
+      "VI"
     ],
     "time_start": "20:00",
     "time_end": "21:30",
@@ -20523,9 +20095,7 @@
     "commission": "8009",
     "professor": "BALBIN  LISTE  PABLO  ANDRÉS",
     "days": [
-      "JU",
-      "MA",
-      "SA"
+      "JU"
     ],
     "time_start": "20:00",
     "time_end": "21:30",
@@ -20560,8 +20130,7 @@
     "commission": "8060",
     "professor": "MARCER  OLMOS  JOSÉ  MARIA",
     "days": [
-      "JU",
-      "MI"
+      "JU"
     ],
     "time_start": "20:00",
     "time_end": "21:30",
@@ -20769,8 +20338,7 @@
     "commission": "8211",
     "professor": "GIANIBELLI-TOSCA  DIEGO",
     "days": [
-      "VI",
-      "MI"
+      "VI"
     ],
     "time_start": "10:00",
     "time_end": "11:30",
@@ -20836,9 +20404,7 @@
     "commission": "8250",
     "professor": "MAZA-MANAUTA",
     "days": [
-      "JU",
-      "SA",
-      "MA"
+      "JU"
     ],
     "time_start": "07:00",
     "time_end": "08:30",
@@ -20976,8 +20542,7 @@
     "commission": "8214",
     "professor": "GIANIBELLI-PINTO  V.S.",
     "days": [
-      "VI",
-      "SA"
+      "VI"
     ],
     "time_start": "17:00",
     "time_end": "18:30",
@@ -21012,8 +20577,7 @@
     "commission": "8212",
     "professor": "GIANIBELLI-SUDERA  A.",
     "days": [
-      "JU",
-      "SA"
+      "JU"
     ],
     "time_start": "15:30",
     "time_end": "17:00",
@@ -21048,8 +20612,7 @@
     "commission": "8264",
     "professor": "LITTERIO-HOCKL  CECILIA",
     "days": [
-      "VI",
-      "SA"
+      "VI"
     ],
     "time_start": "17:00",
     "time_end": "18:30",
@@ -21193,9 +20756,7 @@
     "commission": "8241",
     "professor": "MUGNOLO-GUISADO",
     "days": [
-      "JU",
-      "MA",
-      "SA"
+      "JU"
     ],
     "time_start": "15:30",
     "time_end": "17:00",
@@ -21226,9 +20787,7 @@
     "commission": "8243",
     "professor": "MUGNOLO-MONSALVO",
     "days": [
-      "JU",
-      "SA",
-      "MA"
+      "JU"
     ],
     "time_start": "17:00",
     "time_end": "18:30",
@@ -21329,9 +20888,7 @@
     "commission": "8226",
     "professor": "TOPET-PRECEDO  E.",
     "days": [
-      "JU",
-      "VI",
-      "SA"
+      "JU"
     ],
     "time_start": "14:00",
     "time_end": "15:30",
@@ -21366,8 +20923,7 @@
     "commission": "8270",
     "professor": "GARCÍA-GARCÍA  VIOR  A.",
     "days": [
-      "JU",
-      "SA"
+      "JU"
     ],
     "time_start": "18:30",
     "time_end": "20:00",
@@ -21502,8 +21058,7 @@
     "commission": "8262",
     "professor": "LITTERIO-  MUSA  ALEJANDRO  CARLOS",
     "days": [
-      "JU",
-      "MA"
+      "JU"
     ],
     "time_start": "20:00",
     "time_end": "21:30",
@@ -21538,9 +21093,7 @@
     "commission": "8255",
     "professor": "MAZA-URRETAVIZCAYA",
     "days": [
-      "VI",
-      "SA",
-      "MA"
+      "VI"
     ],
     "time_start": "18:30",
     "time_end": "20:00",
@@ -21579,9 +21132,7 @@
     "commission": "8245",
     "professor": "MUGNOLO-CAPARROS  LUCAS  JOSE",
     "days": [
-      "JU",
-      "MA",
-      "SA"
+      "JU"
     ],
     "time_start": "18:30",
     "time_end": "20:00",
@@ -21612,8 +21163,7 @@
     "commission": "8246",
     "professor": "MUGNOLO-RODRIGUEZ  H.",
     "days": [
-      "VI",
-      "SA"
+      "VI"
     ],
     "time_start": "20:00",
     "time_end": "21:30",
@@ -21648,8 +21198,7 @@
     "commission": "8244",
     "professor": "MUGNOLO-ZEBALLOS  MARIANO",
     "days": [
-      "VI",
-      "SA"
+      "VI"
     ],
     "time_start": "18:30",
     "time_end": "20:00",
@@ -21715,10 +21264,7 @@
     "commission": "8222",
     "professor": "TOPET-REYBET  C.",
     "days": [
-      "JU",
-      "LU",
-      "VI",
-      "MA"
+      "JU"
     ],
     "time_start": "20:00",
     "time_end": "21:30",
@@ -21788,8 +21334,7 @@
     "commission": "8252",
     "professor": "MAZA-MANAUTA",
     "days": [
-      "JU",
-      "MA"
+      "JU"
     ],
     "time_start": "14:00",
     "time_end": "15:30",
@@ -21855,9 +21400,7 @@
     "commission": "8233",
     "professor": "RECALDE-FERNANDEZ  MADRID  JAVIER",
     "days": [
-      "JU",
-      "SA",
-      "VI"
+      "JU"
     ],
     "time_start": "15:30",
     "time_end": "17:00",
@@ -21888,8 +21431,7 @@
     "commission": "8221",
     "professor": "TOPET-MURUA",
     "days": [
-      "VI",
-      "MA"
+      "VI"
     ],
     "time_start": "15:30",
     "time_end": "17:00",
@@ -21986,9 +21528,7 @@
     "commission": "8223",
     "professor": "TOPET-COPANI",
     "days": [
-      "JU",
-      "SA",
-      "MI"
+      "JU"
     ],
     "time_start": "21:30",
     "time_end": "23:00",
@@ -22019,9 +21559,7 @@
     "commission": "8224",
     "professor": "TOPET-DUCROS  NOVELLI  D.",
     "days": [
-      "JU",
-      "SA",
-      "MA"
+      "JU"
     ],
     "time_start": "18:30",
     "time_end": "20:00",
@@ -22052,8 +21590,7 @@
     "commission": "7264",
     "professor": "LOVECE-DABOVE  SANTIAGO",
     "days": [
-      "VI",
-      "MA"
+      "VI"
     ],
     "time_start": "11:30",
     "time_end": "13:00",
@@ -22083,9 +21620,7 @@
     "commission": "7262",
     "professor": "LOVECE-FRANCESCUT  D",
     "days": [
-      "JU",
-      "SA",
-      "MA"
+      "JU"
     ],
     "time_start": "10:00",
     "time_end": "11:30",
@@ -22115,10 +21650,7 @@
     "commission": "7263",
     "professor": "LOVECE-HISE  MONICA",
     "days": [
-      "JU",
-      "SA",
-      "VI",
-      "MA"
+      "JU"
     ],
     "time_start": "10:00",
     "time_end": "11:30",
@@ -22179,9 +21711,7 @@
     "commission": "7266",
     "professor": "LOVECE-NUCCIARONE  G",
     "days": [
-      "JU",
-      "SA",
-      "MA"
+      "JU"
     ],
     "time_start": "17:00",
     "time_end": "18:30",
@@ -22246,9 +21776,7 @@
     "commission": "7213",
     "professor": "ARMELLA-BERMEJO  P.",
     "days": [
-      "VI",
-      "SA",
-      "MA"
+      "VI"
     ],
     "time_start": "18:30",
     "time_end": "20:00",
@@ -22450,9 +21978,7 @@
     "commission": "6611",
     "professor": "BASTERRA-LOZADA",
     "days": [
-      "VI",
-      "MA",
-      "MI"
+      "VI"
     ],
     "time_start": "08:30",
     "time_end": "10:00",
@@ -22483,8 +22009,7 @@
     "commission": "6641",
     "professor": "DALLA  VIA-ARAYA  L.",
     "days": [
-      "JU",
-      "MA"
+      "JU"
     ],
     "time_start": "10:00",
     "time_end": "11:30",
@@ -22515,8 +22040,7 @@
     "commission": "6642",
     "professor": "DALLA  VIA-DJEDJEIAN",
     "days": [
-      "VI",
-      "MA"
+      "VI"
     ],
     "time_start": "10:00",
     "time_end": "11:30",
@@ -22606,8 +22130,7 @@
     "commission": "6615",
     "professor": "MANILI-LAPLACETTE  CARLOS",
     "days": [
-      "VI",
-      "MA"
+      "VI"
     ],
     "time_start": "10:00",
     "time_end": "11:30",
@@ -22698,8 +22221,7 @@
     "commission": "6680",
     "professor": "SOLA-VITOLO  A.",
     "days": [
-      "JU",
-      "SA"
+      "JU"
     ],
     "time_start": "08:30",
     "time_end": "10:00",
@@ -22730,9 +22252,7 @@
     "commission": "6602",
     "professor": "BASTERRA-BERRA  ELIZABETH",
     "days": [
-      "JU",
-      "MI",
-      "VI"
+      "JU"
     ],
     "time_start": "15:30",
     "time_end": "17:00",
@@ -22855,10 +22375,7 @@
     "commission": "6612",
     "professor": "MANILI-MARANIELLO",
     "days": [
-      "VI",
-      "SA",
-      "MI",
-      "MA"
+      "VI"
     ],
     "time_start": "17:00",
     "time_end": "18:30",
@@ -22889,9 +22406,7 @@
     "commission": "6689",
     "professor": "DALLA  VIA-SPOTA  ALBERTO",
     "days": [
-      "JU",
-      "SA",
-      "VI"
+      "JU"
     ],
     "time_start": "18:30",
     "time_end": "20:00",
@@ -22984,9 +22499,7 @@
     "commission": "6605",
     "professor": "MANILI-BERGALLO  OSCAR",
     "days": [
-      "VI",
-      "MA",
-      "JU"
+      "VI"
     ],
     "time_start": "18:30",
     "time_end": "20:00",
@@ -23017,10 +22530,7 @@
     "commission": "6609",
     "professor": "MANILI-MARANIELLO",
     "days": [
-      "VI",
-      "SA",
-      "MI",
-      "MA"
+      "VI"
     ],
     "time_start": "18:30",
     "time_end": "20:00",
@@ -23051,8 +22561,7 @@
     "commission": "6675",
     "professor": "SABSAY-PIZZOLO",
     "days": [
-      "VI",
-      "MA"
+      "VI"
     ],
     "time_start": "18:30",
     "time_end": "20:00",
@@ -23083,9 +22592,7 @@
     "commission": "6603",
     "professor": "BASTERRA-BERRA  ELIZABETH",
     "days": [
-      "JU",
-      "MI",
-      "VI"
+      "JU"
     ],
     "time_start": "15:30",
     "time_end": "17:00",
@@ -23147,8 +22654,7 @@
     "commission": "6636",
     "professor": "CLERICO-SCIOSCIOLI",
     "days": [
-      "JU",
-      "MI"
+      "JU"
     ],
     "time_start": "17:00",
     "time_end": "18:30",
@@ -23179,8 +22685,7 @@
     "commission": "6613",
     "professor": "MANILI-MORA  ANGELA",
     "days": [
-      "VI",
-      "MA"
+      "VI"
     ],
     "time_start": "17:00",
     "time_end": "18:30",
@@ -23211,8 +22716,7 @@
     "commission": "6644",
     "professor": "DALLA  VIA-LUGONES  ALBERTO",
     "days": [
-      "JU",
-      "VI"
+      "JU"
     ],
     "time_start": "20:00",
     "time_end": "21:30",
@@ -34909,7 +34413,7 @@
   },
   {
     "subject": "Elementos de Derecho Comercial",
-    "commission": "35",
+    "commission": "0035",
     "professor": "FERRER DE FERNANDEZ",
     "days": [
       "LU",
@@ -34936,7 +34440,7 @@
   },
   {
     "subject": "Derecho de Familia y Sucesiones",
-    "commission": "928",
+    "commission": "0928",
     "professor": "RODRIGUEZ REMIS M.",
     "days": [
       "LU",
@@ -34963,7 +34467,7 @@
   },
   {
     "subject": "Contratos Civiles y Comerciales",
-    "commission": "87",
+    "commission": "0087",
     "professor": "FERRER DE FERNANDEZ",
     "days": [
       "LU",
@@ -34990,7 +34494,7 @@
   },
   {
     "subject": "Elementos de Derecho Civil",
-    "commission": "279",
+    "commission": "0279",
     "professor": "DAL ZOTTO JORGE",
     "days": [
       "LU",
@@ -35017,7 +34521,7 @@
   },
   {
     "subject": "Contratos Civiles y Comerciales",
-    "commission": "33",
+    "commission": "0033",
     "professor": "FERRER DE FERNANDEZ",
     "days": [
       "LU",
@@ -35044,7 +34548,7 @@
   },
   {
     "subject": "Derecho de Familia y Sucesiones",
-    "commission": "638",
+    "commission": "0638",
     "professor": "FERRER DE FERNANDEZ",
     "days": [
       "LU",
@@ -35092,7 +34596,7 @@
   },
   {
     "subject": "Derecho de Familia y Sucesiones",
-    "commission": "465",
+    "commission": "0465",
     "professor": "FILLIA LAURA EVANGELINA",
     "days": [
       "LU",
@@ -35161,7 +34665,7 @@
   },
   {
     "subject": "Derecho Comercial (Sociedades)",
-    "commission": "424",
+    "commission": "0424",
     "professor": "PIÑEIRO RODRIGO",
     "days": [
       "LU",
@@ -35183,7 +34687,7 @@
   },
   {
     "subject": "Derecho de Familia y Sucesiones",
-    "commission": "416",
+    "commission": "0416",
     "professor": "HERRERA MARISA",
     "days": [
       "LU",
@@ -35204,7 +34708,7 @@
   },
   {
     "subject": "Elementos de Derecho Comercial",
-    "commission": "19",
+    "commission": "0019",
     "professor": "CAIVANO ROQUE",
     "days": [
       "LU",
@@ -35226,7 +34730,7 @@
   },
   {
     "subject": "Elementos de Derecho Comercial",
-    "commission": "29",
+    "commission": "0029",
     "professor": "CAIVANO ROQUE",
     "days": [
       "LU",
@@ -35248,7 +34752,7 @@
   },
   {
     "subject": "Contratos Civiles y Comerciales",
-    "commission": "466",
+    "commission": "0466",
     "professor": "SOLIGNAC NIDIA",
     "days": [
       "LU",
@@ -35269,7 +34773,7 @@
   },
   {
     "subject": "Derecho de Familia y Sucesiones",
-    "commission": "135",
+    "commission": "0135",
     "professor": "OLMO JUAN PABLO",
     "days": [
       "LU",
@@ -35290,7 +34794,7 @@
   },
   {
     "subject": "Contratos Civiles y Comerciales",
-    "commission": "882",
+    "commission": "0882",
     "professor": "BONAFINA MARISA",
     "days": [
       "LU",
@@ -35317,7 +34821,7 @@
   },
   {
     "subject": "Elementos de Derecho Civil",
-    "commission": "98",
+    "commission": "0098",
     "professor": "NEGRI NICOLÁS JORGE",
     "days": [
       "LU",
@@ -35386,7 +34890,7 @@
   },
   {
     "subject": "Derecho de Familia y Sucesiones",
-    "commission": "476",
+    "commission": "0476",
     "professor": "GUGLIELMINO ADRIANA DEL CARMEN",
     "days": [
       "MA",
@@ -35407,7 +34911,7 @@
   },
   {
     "subject": "Elementos de Derechos Reales",
-    "commission": "103",
+    "commission": "0103",
     "professor": "DESAGES MARIANELA",
     "days": [
       "MA",
@@ -35434,7 +34938,7 @@
   },
   {
     "subject": "Elementos de Derecho Penal y Procesal Penal",
-    "commission": "302",
+    "commission": "0302",
     "professor": "SEDA JUAN",
     "days": [
       "MA",
@@ -35461,7 +34965,7 @@
   },
   {
     "subject": "Derecho de Familia y Sucesiones",
-    "commission": "854",
+    "commission": "0854",
     "professor": "FERRER ARROYO F.",
     "days": [
       "MA",
@@ -35488,7 +34992,7 @@
   },
   {
     "subject": "Derecho de Familia y Sucesiones",
-    "commission": "915",
+    "commission": "0915",
     "professor": "FERRER ARROYO F.",
     "days": [
       "MA",
@@ -35541,7 +35045,7 @@
   },
   {
     "subject": "Elementos de Derecho Civil",
-    "commission": "409",
+    "commission": "0409",
     "professor": "BESALU PARKINSON A.",
     "days": [
       "MA",
@@ -35568,7 +35072,7 @@
   },
   {
     "subject": "Elementos de Derecho Civil",
-    "commission": "377",
+    "commission": "0377",
     "professor": "BESALU PARKINSON A.",
     "days": [
       "MA",
@@ -35595,7 +35099,7 @@
   },
   {
     "subject": "Elementos de Derecho Comercial",
-    "commission": "446",
+    "commission": "0446",
     "professor": "NOODT TAQUELA MARÍA",
     "days": [
       "MA",
@@ -35643,7 +35147,7 @@
   },
   {
     "subject": "Derecho de Familia y Sucesiones",
-    "commission": "406",
+    "commission": "0406",
     "professor": "PATIÑO SERGIO ARIEL",
     "days": [
       "MA",
@@ -35664,7 +35168,7 @@
   },
   {
     "subject": "Elementos de Derecho Procesal Civil y Comercial",
-    "commission": "920",
+    "commission": "0920",
     "professor": "CAMPANELLA FLORENCIA",
     "days": [
       "MA",
@@ -35691,7 +35195,7 @@
   },
   {
     "subject": "Elementos de Derecho Procesal Civil y Comercial",
-    "commission": "921",
+    "commission": "0921",
     "professor": "CAMPANELLA FLORENCIA",
     "days": [
       "MA",
@@ -35718,7 +35222,7 @@
   },
   {
     "subject": "Contratos Civiles y Comerciales",
-    "commission": "987",
+    "commission": "0987",
     "professor": "IUD CAROLINA",
     "days": [
       "MA",
@@ -35772,7 +35276,7 @@
   },
   {
     "subject": "Obligaciones Civiles y Comerciales",
-    "commission": "474",
+    "commission": "0474",
     "professor": "MODI CARLA",
     "days": [
       "MI"
@@ -35896,7 +35400,7 @@
   },
   {
     "subject": "Elementos de Derecho Civil",
-    "commission": "282",
+    "commission": "0282",
     "professor": "PEREZ ALBERTO",
     "days": [
       "MI"
@@ -35922,7 +35426,7 @@
   },
   {
     "subject": "Elementos de Derecho Comercial",
-    "commission": "871",
+    "commission": "0871",
     "professor": "REVIRIEGO NICOLAS",
     "days": [
       "MI"
@@ -35987,7 +35491,7 @@
   },
   {
     "subject": "Elementos de Derecho Comercial",
-    "commission": "951",
+    "commission": "0951",
     "professor": "CAIVANO ROQUE",
     "days": [
       "LU",
@@ -36014,7 +35518,7 @@
   },
   {
     "subject": "Elementos de Derecho Comercial",
-    "commission": "956",
+    "commission": "0956",
     "professor": "CAIVANO ROQUE",
     "days": [
       "LU",
@@ -36200,7 +35704,7 @@
   },
   {
     "subject": "Contratos Civiles y Comerciales",
-    "commission": "802",
+    "commission": "0802",
     "professor": "DE LEO WALTER",
     "days": [
       "MA",
@@ -36359,7 +35863,7 @@
   },
   {
     "subject": "Derecho Tributario y Finanzas Públicas",
-    "commission": "155",
+    "commission": "0155",
     "professor": "LOPEZ BISCAYART J.",
     "days": [
       "MI"
@@ -36385,7 +35889,7 @@
   },
   {
     "subject": "Derecho Tributario y Finanzas Públicas",
-    "commission": "923",
+    "commission": "0923",
     "professor": "MOJICO FACUNDO",
     "days": [
       "MI"
@@ -36411,7 +35915,7 @@
   },
   {
     "subject": "Teoría General del Derecho",
-    "commission": "538",
+    "commission": "0538",
     "professor": "ROA LUIS",
     "days": [
       "LU",
@@ -36485,7 +35989,7 @@
   },
   {
     "subject": "Elementos de Derecho Procesal Civil y Comercial",
-    "commission": "188",
+    "commission": "0188",
     "professor": "KLEIMAN PABLO DARÍO",
     "days": [
       "LU",
@@ -36512,7 +36016,7 @@
   },
   {
     "subject": "Teoría General del Derecho",
-    "commission": "111",
+    "commission": "0111",
     "professor": "RODRIGUEZ HORACIO",
     "days": [
       "LU",
@@ -36539,7 +36043,7 @@
   },
   {
     "subject": "Elementos de Derecho Procesal Civil y Comercial",
-    "commission": "41",
+    "commission": "0041",
     "professor": "STAMPONE ROMINA",
     "days": [
       "LU",
@@ -36566,7 +36070,7 @@
   },
   {
     "subject": "Teoría General del Derecho",
-    "commission": "516",
+    "commission": "0516",
     "professor": "CARUGO AGUSTÍN",
     "days": [
       "LU",
@@ -36593,7 +36097,7 @@
   },
   {
     "subject": "Teoría General del Derecho",
-    "commission": "218",
+    "commission": "0218",
     "professor": "MIRASSON JULIO",
     "days": [
       "LU",
@@ -36620,7 +36124,7 @@
   },
   {
     "subject": "Derecho del Trabajo y de la Seguridad Social",
-    "commission": "134",
+    "commission": "0134",
     "professor": "LAS HERAS HORACIO",
     "days": [
       "LU",
@@ -36647,7 +36151,7 @@
   },
   {
     "subject": "Derecho del Trabajo y de la Seguridad Social",
-    "commission": "142",
+    "commission": "0142",
     "professor": "LAS HERAS HORACIO",
     "days": [
       "LU",
@@ -36695,7 +36199,7 @@
   },
   {
     "subject": "Teoría General del Derecho",
-    "commission": "502",
+    "commission": "0502",
     "professor": "DIXON LILIANA",
     "days": [
       "MA",
@@ -36743,7 +36247,7 @@
   },
   {
     "subject": "Derecho del Trabajo y de la Seguridad Social",
-    "commission": "181",
+    "commission": "0181",
     "professor": "NOVOA MARISA",
     "days": [
       "MA",
@@ -36770,7 +36274,7 @@
   },
   {
     "subject": "Teoría General del Derecho",
-    "commission": "110",
+    "commission": "0110",
     "professor": "VIRGILI CLAUDIO S.",
     "days": [
       "MA",
@@ -36824,7 +36328,7 @@
   },
   {
     "subject": "Elementos de Derecho Procesal Civil y Comercial",
-    "commission": "168",
+    "commission": "0168",
     "professor": "REYBET CECILIA",
     "days": [
       "MA",
@@ -36924,7 +36428,7 @@
   },
   {
     "subject": "Teoría General del Derecho",
-    "commission": "422",
+    "commission": "0422",
     "professor": "YASIN OMAR",
     "days": [
       "MI"
@@ -36976,7 +36480,7 @@
   },
   {
     "subject": "Teoría General del Derecho",
-    "commission": "211",
+    "commission": "0211",
     "professor": "SEREN NOVOA GUIDO",
     "days": [
       "MI"
@@ -37033,7 +36537,7 @@
   },
   {
     "subject": "Derecho del Trabajo y de la Seguridad Social",
-    "commission": "136",
+    "commission": "0136",
     "professor": "PEPE CARLOS",
     "days": [
       "MI"
@@ -37064,7 +36568,7 @@
   },
   {
     "subject": "Elementos de Derecho Procesal Civil y Comercial",
-    "commission": "32",
+    "commission": "0032",
     "professor": "RIZZO PABLO DANIEL",
     "days": [
       "MI"
@@ -37122,7 +36626,7 @@
   },
   {
     "subject": "Derechos Humanos y Garantías",
-    "commission": "442",
+    "commission": "0442",
     "professor": "PAUTASSI LAURA",
     "days": [
       "LU",
@@ -37185,7 +36689,7 @@
   },
   {
     "subject": "Derechos Humanos y Garantías",
-    "commission": "210",
+    "commission": "0210",
     "professor": "BETTENDORFF LUCAS",
     "days": [
       "LU",
@@ -37212,7 +36716,7 @@
   },
   {
     "subject": "Derecho de Familia y Sucesiones",
-    "commission": "144",
+    "commission": "0144",
     "professor": "GASTRON ANDREA",
     "days": [
       "MA",
@@ -37239,7 +36743,7 @@
   },
   {
     "subject": "Elementos de Derecho Penal y Procesal Penal",
-    "commission": "714",
+    "commission": "0714",
     "professor": "MACHIAVELO LILIANA",
     "days": [
       "MA",
@@ -37292,7 +36796,7 @@
   },
   {
     "subject": "Elementos de Derecho Penal y Procesal Penal",
-    "commission": "498",
+    "commission": "0498",
     "professor": "BOUYSSOU NORMA",
     "days": [
       "LU",
@@ -37361,7 +36865,7 @@
   },
   {
     "subject": "Elementos de Derecho Penal y Procesal Penal",
-    "commission": "62",
+    "commission": "0062",
     "professor": "SGRO MARCELO",
     "days": [
       "LU",
@@ -37388,7 +36892,7 @@
   },
   {
     "subject": "Elementos de Análisis Económico y Financiero",
-    "commission": "202",
+    "commission": "0202",
     "professor": "BARBITTA MARIANA",
     "days": [
       "LU",
@@ -37415,7 +36919,7 @@
   },
   {
     "subject": "Elementos de Análisis Económico y Financiero",
-    "commission": "207",
+    "commission": "0207",
     "professor": "BARBITTA MARIANA",
     "days": [
       "LU",
@@ -37442,7 +36946,7 @@
   },
   {
     "subject": "Elementos de Derecho Penal y Procesal Penal",
-    "commission": "520",
+    "commission": "0520",
     "professor": "VEGEZZI SANTIAGO",
     "days": [
       "LU",
@@ -37517,7 +37021,7 @@
   },
   {
     "subject": "Elementos de Derecho Penal y Procesal Penal",
-    "commission": "688",
+    "commission": "0688",
     "professor": "LIONE PABLO",
     "days": [
       "LU",
@@ -37544,7 +37048,7 @@
   },
   {
     "subject": "Elementos de Derecho Penal y Procesal Penal",
-    "commission": "63",
+    "commission": "0063",
     "professor": "MÁRQUEZ MARÍA JULIANA",
     "days": [
       "LU",
@@ -37571,7 +37075,7 @@
   },
   {
     "subject": "Elementos de Derecho Penal y Procesal Penal",
-    "commission": "178",
+    "commission": "0178",
     "professor": "LANCESTREMERE JAVIER",
     "days": [
       "LU",
@@ -37625,7 +37129,7 @@
   },
   {
     "subject": "Elementos de Derecho Penal y Procesal Penal",
-    "commission": "550",
+    "commission": "0550",
     "professor": "RUA GONZALO",
     "days": [
       "LU",
@@ -37700,7 +37204,7 @@
   },
   {
     "subject": "Elementos de Derecho Procesal Civil y Comercial",
-    "commission": "191",
+    "commission": "0191",
     "professor": "ALLIAUD ALEJANDRA",
     "days": [
       "LU",
@@ -37727,7 +37231,7 @@
   },
   {
     "subject": "Elementos de Derecho Penal y Procesal Penal",
-    "commission": "534",
+    "commission": "0534",
     "professor": "RODRIGUEZ PONTE JUAN",
     "days": [
       "LU",
@@ -37754,7 +37258,7 @@
   },
   {
     "subject": "Elementos de Derecho Penal y Procesal Penal",
-    "commission": "692",
+    "commission": "0692",
     "professor": "VISMARA SANTIAGO",
     "days": [
       "LU",
@@ -37813,7 +37317,7 @@
   },
   {
     "subject": "Elementos de Derecho Penal y Procesal Penal",
-    "commission": "428",
+    "commission": "0428",
     "professor": "D ALBORA NICOLAS",
     "days": [
       "LU",
@@ -37840,7 +37344,7 @@
   },
   {
     "subject": "Elementos de Derecho Penal y Procesal Penal",
-    "commission": "436",
+    "commission": "0436",
     "professor": "TEDESCO IGNACIO",
     "days": [
       "LU",
@@ -37867,7 +37371,7 @@
   },
   {
     "subject": "Elementos de Derecho Penal y Procesal Penal",
-    "commission": "764",
+    "commission": "0764",
     "professor": "DIAZ CANTON FERNANDO",
     "days": [
       "LU",
@@ -37894,7 +37398,7 @@
   },
   {
     "subject": "Elementos de Derecho Penal y Procesal Penal",
-    "commission": "56",
+    "commission": "0056",
     "professor": "BUNGE CAMPOS LUIS",
     "days": [
       "LU",
@@ -37921,7 +37425,7 @@
   },
   {
     "subject": "Elementos de Derecho Penal y Procesal Penal",
-    "commission": "405",
+    "commission": "0405",
     "professor": "JUAREZ ANA LUISA",
     "days": [
       "LU",
@@ -38002,7 +37506,7 @@
   },
   {
     "subject": "Elementos de Derecho Penal y Procesal Penal",
-    "commission": "533",
+    "commission": "0533",
     "professor": "JUGO GABRIELA",
     "days": [
       "LU",
@@ -38023,7 +37527,7 @@
   },
   {
     "subject": "Elementos de Derecho Penal y Procesal Penal",
-    "commission": "122",
+    "commission": "0122",
     "professor": "MONES RUIZ MIGUEL",
     "days": [
       "LU",
@@ -38044,7 +37548,7 @@
   },
   {
     "subject": "Elementos de Derecho Penal y Procesal Penal",
-    "commission": "104",
+    "commission": "0104",
     "professor": "MONES RUIZ MIGUEL",
     "days": [
       "LU",
@@ -38092,7 +37596,7 @@
   },
   {
     "subject": "Elementos de Derecho Penal y Procesal Penal",
-    "commission": "192",
+    "commission": "0192",
     "professor": "HERBEL GUSTAVO",
     "days": [
       "LU",
@@ -38119,7 +37623,7 @@
   },
   {
     "subject": "Elementos de Derecho Penal y Procesal Penal",
-    "commission": "408",
+    "commission": "0408",
     "professor": "WAGNER FEDERICO",
     "days": [
       "LU",
@@ -38200,7 +37704,7 @@
   },
   {
     "subject": "Elementos de Derecho Penal y Procesal Penal",
-    "commission": "306",
+    "commission": "0306",
     "professor": "RAMIREZ NICOLAS",
     "days": [
       "LU",
@@ -38232,7 +37736,7 @@
   },
   {
     "subject": "Elementos de Derecho Penal y Procesal Penal",
-    "commission": "492",
+    "commission": "0492",
     "professor": "BELOFF MARY-KIERSZENBAUM MARIANO",
     "days": [
       "LU",
@@ -38253,7 +37757,7 @@
   },
   {
     "subject": "Elementos de Derecho Penal y Procesal Penal",
-    "commission": "260",
+    "commission": "0260",
     "professor": "LAINO GABRIELA",
     "days": [
       "LU",
@@ -38280,7 +37784,7 @@
   },
   {
     "subject": "Elementos de Derecho Penal y Procesal Penal",
-    "commission": "922",
+    "commission": "0922",
     "professor": "LAINO GABRIELA",
     "days": [
       "LU",
@@ -38349,7 +37853,7 @@
   },
   {
     "subject": "Elementos de Derecho Penal y Procesal Penal",
-    "commission": "175",
+    "commission": "0175",
     "professor": "CARTOLANO MARIANO",
     "days": [
       "LU",
@@ -38418,7 +37922,7 @@
   },
   {
     "subject": "Elementos de Derecho Penal y Procesal Penal",
-    "commission": "412",
+    "commission": "0412",
     "professor": "MARTINEZ SEBASTIAN",
     "days": [
       "LU",
@@ -38472,7 +37976,7 @@
   },
   {
     "subject": "Elementos de Derecho Constitucional",
-    "commission": "217",
+    "commission": "0217",
     "professor": "ROVATTI PABLO",
     "days": [
       "MA",
@@ -38526,7 +38030,7 @@
   },
   {
     "subject": "Elementos de Derecho Penal y Procesal Penal",
-    "commission": "565",
+    "commission": "0565",
     "professor": "ORCE GUILLERMO",
     "days": [
       "MA",
@@ -38547,7 +38051,7 @@
   },
   {
     "subject": "Elementos de Derecho Penal y Procesal Penal",
-    "commission": "569",
+    "commission": "0569",
     "professor": "ORCE GUILLERMO",
     "days": [
       "MA",
@@ -38568,7 +38072,7 @@
   },
   {
     "subject": "Elementos de Derecho Penal y Procesal Penal",
-    "commission": "460",
+    "commission": "0460",
     "professor": "PALMEIRO GABRIEL",
     "days": [
       "MA",
@@ -38735,7 +38239,7 @@
   },
   {
     "subject": "Elementos de Derecho Penal y Procesal Penal",
-    "commission": "265",
+    "commission": "0265",
     "professor": "FIGUEROA FRANCISCO",
     "days": [
       "MA",
@@ -38766,7 +38270,7 @@
   },
   {
     "subject": "Elementos de Derecho Penal y Procesal Penal",
-    "commission": "525",
+    "commission": "0525",
     "professor": "GORSD PAULA",
     "days": [
       "MA",
@@ -38787,7 +38291,7 @@
   },
   {
     "subject": "Elementos de Derecho Penal y Procesal Penal",
-    "commission": "243",
+    "commission": "0243",
     "professor": "SEDA JUAN",
     "days": [
       "MA",
@@ -38868,7 +38372,7 @@
   },
   {
     "subject": "Elementos de Derecho Penal y Procesal Penal",
-    "commission": "401",
+    "commission": "0401",
     "professor": "BERALDI CARLOS",
     "days": [
       "MA",
@@ -38900,7 +38404,7 @@
   },
   {
     "subject": "Elementos de Derecho Penal y Procesal Penal",
-    "commission": "269",
+    "commission": "0269",
     "professor": "DE LUCA JAVIER",
     "days": [
       "MA",
@@ -38928,7 +38432,7 @@
   },
   {
     "subject": "Elementos de Derecho Penal y Procesal Penal",
-    "commission": "526",
+    "commission": "0526",
     "professor": "DI CORLETO JULIETA",
     "days": [
       "MA",
@@ -39051,7 +38555,7 @@
   },
   {
     "subject": "Elementos de Derecho Penal y Procesal Penal",
-    "commission": "281",
+    "commission": "0281",
     "professor": "REBEQUI JULIO M.",
     "days": [
       "MA",
@@ -39078,7 +38582,7 @@
   },
   {
     "subject": "Elementos de Derecho Penal y Procesal Penal",
-    "commission": "455",
+    "commission": "0455",
     "professor": "FINKELSTEIN NAPPI L.",
     "days": [
       "MA",
@@ -39105,7 +38609,7 @@
   },
   {
     "subject": "Elementos de Derecho Penal y Procesal Penal",
-    "commission": "507",
+    "commission": "0507",
     "professor": "LUMIENTO MARÍA ELENA",
     "days": [
       "MI"
@@ -39172,7 +38676,7 @@
   },
   {
     "subject": "Elementos de Derecho Penal y Procesal Penal",
-    "commission": "478",
+    "commission": "0478",
     "professor": "BERTELOTTI MARIANO",
     "days": [
       "MI"
@@ -39198,7 +38702,7 @@
   },
   {
     "subject": "Elementos de Derecho Penal y Procesal Penal",
-    "commission": "40",
+    "commission": "0040",
     "professor": "BRESSIA CAROLINA",
     "days": [
       "MI"
@@ -39245,7 +38749,7 @@
   },
   {
     "subject": "Derechos Humanos y Garantías",
-    "commission": "523",
+    "commission": "0523",
     "professor": "THUS VALERIA",
     "days": [
       "MI"
@@ -39317,7 +38821,7 @@
   },
   {
     "subject": "Elementos de Derecho Penal y Procesal Penal",
-    "commission": "549",
+    "commission": "0549",
     "professor": "CONDE GABRIELA",
     "days": [
       "MI"
@@ -39344,7 +38848,7 @@
   },
   {
     "subject": "Derecho Tributario y Finanzas Públicas",
-    "commission": "273",
+    "commission": "0273",
     "professor": "LOPEZ BISCAYART J.",
     "days": [
       "MI"
@@ -39448,7 +38952,7 @@
   },
   {
     "subject": "Elementos de Derecho Constitucional",
-    "commission": "617",
+    "commission": "0617",
     "professor": "CANTARUTTI SILVIA",
     "days": [
       "LU",
@@ -39502,7 +39006,7 @@
   },
   {
     "subject": "Elementos de Derecho Constitucional",
-    "commission": "917",
+    "commission": "0917",
     "professor": "MALAVOLTA VICTOR",
     "days": [
       "LU",
@@ -39556,7 +39060,7 @@
   },
   {
     "subject": "Elementos de Derecho Constitucional",
-    "commission": "626",
+    "commission": "0626",
     "professor": "FORONDA ANA C.",
     "days": [
       "LU",
@@ -39659,7 +39163,7 @@
   },
   {
     "subject": "Elementos de Derecho Constitucional",
-    "commission": "588",
+    "commission": "0588",
     "professor": "PELUFFO LAURA",
     "days": [
       "LU",
@@ -39686,7 +39190,7 @@
   },
   {
     "subject": "Elementos de Derecho Constitucional",
-    "commission": "644",
+    "commission": "0644",
     "professor": "VIGLIERO JUAN PABLO",
     "days": [
       "LU",
@@ -39713,7 +39217,7 @@
   },
   {
     "subject": "Derecho Administrativo",
-    "commission": "868",
+    "commission": "0868",
     "professor": "BARBAGELATA JORGE",
     "days": [
       "LU",
@@ -39740,7 +39244,7 @@
   },
   {
     "subject": "Elementos de Derecho Constitucional",
-    "commission": "740",
+    "commission": "0740",
     "professor": "BERCHOLC JORGE",
     "days": [
       "LU",
@@ -39821,7 +39325,7 @@
   },
   {
     "subject": "Elementos de Derecho Constitucional",
-    "commission": "157",
+    "commission": "0157",
     "professor": "SAGUES MARIA SOFIA",
     "days": [
       "LU",
@@ -39848,7 +39352,7 @@
   },
   {
     "subject": "Elementos de Derecho Constitucional",
-    "commission": "595",
+    "commission": "0595",
     "professor": "GUSMAN ALFREDO",
     "days": [
       "LU",
@@ -39875,7 +39379,7 @@
   },
   {
     "subject": "Elementos de Derecho Constitucional",
-    "commission": "346",
+    "commission": "0346",
     "professor": "TREACY GUILLERMO",
     "days": [
       "LU",
@@ -39902,7 +39406,7 @@
   },
   {
     "subject": "Elementos de Derecho Constitucional",
-    "commission": "603",
+    "commission": "0603",
     "professor": "BERMUDEZ HORACIO",
     "days": [
       "LU",
@@ -39929,7 +39433,7 @@
   },
   {
     "subject": "Derecho Administrativo",
-    "commission": "616",
+    "commission": "0616",
     "professor": "CORVALAN JUAN",
     "days": [
       "LU",
@@ -40037,7 +39541,7 @@
   },
   {
     "subject": "Elementos de Derecho Penal y Procesal Penal",
-    "commission": "57",
+    "commission": "0057",
     "professor": "ANELLO CAROLINA",
     "days": [
       "LU",
@@ -40064,7 +39568,7 @@
   },
   {
     "subject": "Elementos de Derecho Constitucional",
-    "commission": "675",
+    "commission": "0675",
     "professor": "IPPOLITO ANDRADA DIEGO",
     "days": [
       "LU",
@@ -40118,7 +39622,7 @@
   },
   {
     "subject": "Derecho Administrativo",
-    "commission": "788",
+    "commission": "0788",
     "professor": "ABERASTURY PEDRO",
     "days": [
       "LU",
@@ -40145,7 +39649,7 @@
   },
   {
     "subject": "Elementos de Derecho Constitucional",
-    "commission": "126",
+    "commission": "0126",
     "professor": "GOMEZ ELENA",
     "days": [
       "LU",
@@ -40199,7 +39703,7 @@
   },
   {
     "subject": "Derecho Administrativo",
-    "commission": "969",
+    "commission": "0969",
     "professor": "CAVALLO CLAUDIO",
     "days": [
       "LU",
@@ -40230,7 +39734,7 @@
   },
   {
     "subject": "Elementos de Derecho Constitucional",
-    "commission": "610",
+    "commission": "0610",
     "professor": "CARNOTA WALTER",
     "days": [
       "LU",
@@ -40257,7 +39761,7 @@
   },
   {
     "subject": "Elementos de Derecho Constitucional",
-    "commission": "647",
+    "commission": "0647",
     "professor": "HIRSCHMANN PABLO",
     "days": [
       "LU",
@@ -40284,7 +39788,7 @@
   },
   {
     "subject": "Derechos Humanos y Garantías",
-    "commission": "662",
+    "commission": "0662",
     "professor": "NATO ALEJANDRO",
     "days": [
       "LU",
@@ -40311,7 +39815,7 @@
   },
   {
     "subject": "Derecho Administrativo",
-    "commission": "471",
+    "commission": "0471",
     "professor": "CERDEIRAS ROSAURA",
     "days": [
       "LU",
@@ -40408,7 +39912,7 @@
   },
   {
     "subject": "Derechos Humanos y Garantías",
-    "commission": "629",
+    "commission": "0629",
     "professor": "BARCESAT EDUARDO",
     "days": [
       "LU",
@@ -40440,7 +39944,7 @@
   },
   {
     "subject": "Elementos de Derecho Constitucional",
-    "commission": "341",
+    "commission": "0341",
     "professor": "YULAN OSCAR",
     "days": [
       "LU",
@@ -40467,7 +39971,7 @@
   },
   {
     "subject": "Elementos de Derecho Constitucional",
-    "commission": "38",
+    "commission": "0038",
     "professor": "AYALA JAVIER",
     "days": [
       "LU",
@@ -40494,7 +39998,7 @@
   },
   {
     "subject": "Elementos de Derecho Constitucional",
-    "commission": "668",
+    "commission": "0668",
     "professor": "SOLA JUAN VICENTE",
     "days": [
       "LU",
@@ -40548,7 +40052,7 @@
   },
   {
     "subject": "Derecho Administrativo",
-    "commission": "713",
+    "commission": "0713",
     "professor": "UGARTE JOSE MANUEL",
     "days": [
       "LU",
@@ -40575,7 +40079,7 @@
   },
   {
     "subject": "Elementos de Derecho Constitucional",
-    "commission": "251",
+    "commission": "0251",
     "professor": "CARRASCO MAXIMILIANO",
     "days": [
       "LU",
@@ -40607,7 +40111,7 @@
   },
   {
     "subject": "Elementos de Derecho Constitucional",
-    "commission": "13",
+    "commission": "0013",
     "professor": "ZULETA PUCEIRO E.",
     "days": [
       "MA",
@@ -40634,7 +40138,7 @@
   },
   {
     "subject": "Elementos de Derecho Constitucional",
-    "commission": "703",
+    "commission": "0703",
     "professor": "GIL DOMÍNGUEZ ANDRÉS",
     "days": [
       "MA",
@@ -40666,7 +40170,7 @@
   },
   {
     "subject": "Elementos de Derecho Constitucional",
-    "commission": "362",
+    "commission": "0362",
     "professor": "BLANCO MUIÑO F.",
     "days": [
       "MA",
@@ -40693,7 +40197,7 @@
   },
   {
     "subject": "Elementos de Derecho Constitucional",
-    "commission": "108",
+    "commission": "0108",
     "professor": "PEREZ SAMMARTINO",
     "days": [
       "MA",
@@ -40720,7 +40224,7 @@
   },
   {
     "subject": "Derecho Administrativo",
-    "commission": "684",
+    "commission": "0684",
     "professor": "CAVALLO CLAUDIO",
     "days": [
       "MA",
@@ -40774,7 +40278,7 @@
   },
   {
     "subject": "Elementos de Derecho Constitucional",
-    "commission": "711",
+    "commission": "0711",
     "professor": "ZAYAT DEMIAN",
     "days": [
       "MA",
@@ -40801,7 +40305,7 @@
   },
   {
     "subject": "Elementos de Derecho Constitucional",
-    "commission": "612",
+    "commission": "0612",
     "professor": "LOZADA EMILIO",
     "days": [
       "MA",
@@ -40828,7 +40332,7 @@
   },
   {
     "subject": "Elementos de Derecho Constitucional",
-    "commission": "664",
+    "commission": "0664",
     "professor": "ALICE BEATRIZ",
     "days": [
       "MA",
@@ -40936,7 +40440,7 @@
   },
   {
     "subject": "Derecho Administrativo",
-    "commission": "816",
+    "commission": "0816",
     "professor": "CUEVA REY ANA",
     "days": [
       "MA",
@@ -41021,7 +40525,7 @@
   },
   {
     "subject": "Elementos de Derecho Constitucional",
-    "commission": "548",
+    "commission": "0548",
     "professor": "PIQUE MARIA LUISA",
     "days": [
       "MA",
@@ -41075,7 +40579,7 @@
   },
   {
     "subject": "Derechos Humanos y Garantías",
-    "commission": "477",
+    "commission": "0477",
     "professor": "MENSA GONZALEZ",
     "days": [
       "MA",
@@ -41102,7 +40606,7 @@
   },
   {
     "subject": "Elementos de Derecho Constitucional",
-    "commission": "615",
+    "commission": "0615",
     "professor": "NOVELLI CELESTE",
     "days": [
       "MA",
@@ -41129,7 +40633,7 @@
   },
   {
     "subject": "Elementos de Derecho Constitucional",
-    "commission": "732",
+    "commission": "0732",
     "professor": "PIESCO MARIA ANDREA",
     "days": [
       "MA",
@@ -41178,7 +40682,7 @@
   },
   {
     "subject": "Derecho Administrativo",
-    "commission": "287",
+    "commission": "0287",
     "professor": "RUBIO SANTIAGO",
     "days": [
       "MA",
@@ -41205,7 +40709,7 @@
   },
   {
     "subject": "Elementos de Derecho Constitucional",
-    "commission": "527",
+    "commission": "0527",
     "professor": "GIROTTI MARÍA CRISTINA",
     "days": [
       "MA",
@@ -41281,7 +40785,7 @@
   },
   {
     "subject": "Elementos de Derecho Constitucional",
-    "commission": "171",
+    "commission": "0171",
     "professor": "SUAREZ PAULA",
     "days": [
       "MA",
@@ -41313,7 +40817,7 @@
   },
   {
     "subject": "Derechos Humanos y Garantías",
-    "commission": "283",
+    "commission": "0283",
     "professor": "RONDANINI ALEJANDRO",
     "days": [
       "MA",
@@ -41475,7 +40979,7 @@
   },
   {
     "subject": "Elementos de Derecho Constitucional",
-    "commission": "472",
+    "commission": "0472",
     "professor": "JUAREZ PEÑALBA INES",
     "days": [
       "MI"
@@ -41496,7 +41000,7 @@
   },
   {
     "subject": "Elementos de Derecho Constitucional",
-    "commission": "881",
+    "commission": "0881",
     "professor": "BISSERIER DIAZ P.",
     "days": [
       "MI"
@@ -41522,7 +41026,7 @@
   },
   {
     "subject": "Elementos de Derecho Constitucional",
-    "commission": "839",
+    "commission": "0839",
     "professor": "GOMEZ ELENA",
     "days": [
       "MI"
@@ -41595,7 +41099,7 @@
   },
   {
     "subject": "Elementos de Derecho Constitucional",
-    "commission": "143",
+    "commission": "0143",
     "professor": "TAMBUSSI CARLOS",
     "days": [
       "MI"
@@ -41621,7 +41125,7 @@
   },
   {
     "subject": "Elementos de Derecho Constitucional",
-    "commission": "322",
+    "commission": "0322",
     "professor": "TAMBUSSI CARLOS",
     "days": [
       "MI"
@@ -41647,7 +41151,7 @@
   },
   {
     "subject": "Derecho Administrativo",
-    "commission": "908",
+    "commission": "0908",
     "professor": "GONZALEZ MORAS JUAN",
     "days": [
       "MI"
@@ -41890,7 +41394,7 @@
   },
   {
     "subject": "Derecho Administrativo",
-    "commission": "356",
+    "commission": "0356",
     "professor": "BIANCO SILVIA",
     "days": [
       "MI"
@@ -41911,7 +41415,7 @@
   },
   {
     "subject": "Derecho Administrativo",
-    "commission": "359",
+    "commission": "0359",
     "professor": "BIANCO SILVIA",
     "days": [
       "MI"
@@ -41932,7 +41436,7 @@
   },
   {
     "subject": "Elementos de Derecho Constitucional",
-    "commission": "430",
+    "commission": "0430",
     "professor": "UBERTALLI ALBERTO",
     "days": [
       "MI"
@@ -42000,7 +41504,7 @@
   },
   {
     "subject": "Derecho Administrativo",
-    "commission": "755",
+    "commission": "0755",
     "professor": "GUSMAN ALFREDO",
     "days": [
       "SA"
@@ -42021,7 +41525,7 @@
   },
   {
     "subject": "Derecho del Trabajo y de la Seguridad Social",
-    "commission": "772",
+    "commission": "0772",
     "professor": "ARIAS GIBERT ENRIQUE",
     "days": [
       "LU",
@@ -42048,7 +41552,7 @@
   },
   {
     "subject": "Elementos de Derecho Constitucional",
-    "commission": "786",
+    "commission": "0786",
     "professor": "RABBI BALDI RENATO",
     "days": [
       "LU",
@@ -42069,7 +41573,7 @@
   },
   {
     "subject": "Derechos Humanos y Garantías",
-    "commission": "722",
+    "commission": "0722",
     "professor": "BARCESAT EDUARDO",
     "days": [
       "LU",
@@ -42096,7 +41600,7 @@
   },
   {
     "subject": "Elementos de Derecho Constitucional",
-    "commission": "259",
+    "commission": "0259",
     "professor": "ZULETA PUCEIRO E.",
     "days": [
       "MA",
@@ -42171,7 +41675,7 @@
   },
   {
     "subject": "Elementos de Derecho Penal y Procesal Penal",
-    "commission": "114",
+    "commission": "0114",
     "professor": "LUNA DIEGO",
     "days": [
       "MA",
@@ -42192,7 +41696,7 @@
   },
   {
     "subject": "Elementos de Derecho Constitucional",
-    "commission": "797",
+    "commission": "0797",
     "professor": "FIHMAN DEBORA",
     "days": [
       "MI"
@@ -42212,7 +41716,7 @@
   },
   {
     "subject": "Elementos de Derecho Penal y Procesal Penal",
-    "commission": "818",
+    "commission": "0818",
     "professor": "MAGISTRIS OSCAR",
     "days": [
       "MI"
@@ -42278,7 +41782,7 @@
   },
   {
     "subject": "Elementos de Derecho Constitucional",
-    "commission": "333",
+    "commission": "0333",
     "professor": "BOHMER MARTÍN",
     "days": [
       "MI"
@@ -42344,7 +41848,7 @@
   },
   {
     "subject": "Derecho de Familia y Sucesiones",
-    "commission": "4",
+    "commission": "0004",
     "professor": "MASRI VICTORIA",
     "days": [
       "LU",
@@ -42398,7 +41902,7 @@
   },
   {
     "subject": "Contratos Civiles y Comerciales",
-    "commission": "49",
+    "commission": "0049",
     "professor": "DE HOZ MARCELO",
     "days": [
       "MA",
@@ -42425,7 +41929,7 @@
   },
   {
     "subject": "Derecho Tributario y Finanzas Públicas",
-    "commission": "991",
+    "commission": "0991",
     "professor": "DI PIETROMICA VIVIANA",
     "days": [
       "MI"
@@ -42510,7 +42014,7 @@
   },
   {
     "subject": "Derecho Tributario y Finanzas Públicas",
-    "commission": "938",
+    "commission": "0938",
     "professor": "VIDAL QUERA G.",
     "days": [
       "LU",
@@ -42537,7 +42041,7 @@
   },
   {
     "subject": "Derecho Tributario y Finanzas Públicas",
-    "commission": "819",
+    "commission": "0819",
     "professor": "LUCHESSI MARIANO",
     "days": [
       "LU",
@@ -42586,7 +42090,7 @@
   },
   {
     "subject": "Derecho Tributario y Finanzas Públicas",
-    "commission": "564",
+    "commission": "0564",
     "professor": "LUIS CLAUDIO",
     "days": [
       "LU",
@@ -42613,7 +42117,7 @@
   },
   {
     "subject": "Elementos de Derecho Constitucional",
-    "commission": "65",
+    "commission": "0065",
     "professor": "PEREZ ANAHI",
     "days": [
       "LU",
@@ -42645,7 +42149,7 @@
   },
   {
     "subject": "Derecho Tributario y Finanzas Públicas",
-    "commission": "930",
+    "commission": "0930",
     "professor": "QUEIROLO DIANA",
     "days": [
       "LU",
@@ -42677,7 +42181,7 @@
   },
   {
     "subject": "Elementos de Derecho Penal y Procesal Penal",
-    "commission": "321",
+    "commission": "0321",
     "professor": "BARROETAVEÑA DIEGO",
     "days": [
       "LU",
@@ -42767,7 +42271,7 @@
   },
   {
     "subject": "Teoría General del Derecho",
-    "commission": "389",
+    "commission": "0389",
     "professor": "URRESTI PATRICIO",
     "days": [
       "LU",
@@ -42799,7 +42303,7 @@
   },
   {
     "subject": "Derecho Tributario y Finanzas Públicas",
-    "commission": "380",
+    "commission": "0380",
     "professor": "NIETO MARCELO",
     "days": [
       "LU",
@@ -42831,7 +42335,7 @@
   },
   {
     "subject": "Derecho Tributario y Finanzas Públicas",
-    "commission": "702",
+    "commission": "0702",
     "professor": "CARDOZO HORACIO",
     "days": [
       "MA",
@@ -42890,7 +42394,7 @@
   },
   {
     "subject": "Derecho Tributario y Finanzas Públicas",
-    "commission": "877",
+    "commission": "0877",
     "professor": "HORISCH PALACIO G.",
     "days": [
       "MA",
@@ -42917,7 +42421,7 @@
   },
   {
     "subject": "Teoría General del Derecho",
-    "commission": "757",
+    "commission": "0757",
     "professor": "MIRKO JUAN",
     "days": [
       "MA",
@@ -42971,7 +42475,7 @@
   },
   {
     "subject": "Elementos de Derecho Constitucional",
-    "commission": "421",
+    "commission": "0421",
     "professor": "FONTANA MARIA FLORENCIA",
     "days": [
       "MA",
@@ -42998,7 +42502,7 @@
   },
   {
     "subject": "Elementos de Derecho Penal y Procesal Penal",
-    "commission": "907",
+    "commission": "0907",
     "professor": "LUDUEÑA GABRIEL ESTEBAN",
     "days": [
       "MI"
@@ -43044,7 +42548,7 @@
   },
   {
     "subject": "Teoría General del Derecho",
-    "commission": "724",
+    "commission": "0724",
     "professor": "VIDAL GLADYS",
     "days": [
       "MI"
@@ -43075,7 +42579,7 @@
   },
   {
     "subject": "Derecho Tributario y Finanzas Públicas",
-    "commission": "827",
+    "commission": "0827",
     "professor": "VARELA PABLO SERGIO",
     "days": [
       "MI"
@@ -43096,7 +42600,7 @@
   },
   {
     "subject": "Derecho Tributario y Finanzas Públicas",
-    "commission": "413",
+    "commission": "0413",
     "professor": "DI PIETROMICA VIVIANA",
     "days": [
       "MI"
@@ -43122,7 +42626,7 @@
   },
   {
     "subject": "Elementos de Derecho Constitucional",
-    "commission": "909",
+    "commission": "0909",
     "professor": "FREEDMAN DIEGO",
     "days": [
       "MI"
@@ -43200,7 +42704,7 @@
   },
   {
     "subject": "Elementos de Derecho Constitucional",
-    "commission": "591",
+    "commission": "0591",
     "professor": "LIBERATORE GLORIA",
     "days": [
       "MA",
@@ -43227,7 +42731,7 @@
   },
   {
     "subject": "Elementos de Derecho Comercial",
-    "commission": "246",
+    "commission": "0246",
     "professor": "GIACIN CLAUDIO",
     "days": [
       "LU",
@@ -43249,7 +42753,7 @@
   },
   {
     "subject": "Elementos de Derecho Civil",
-    "commission": "88",
+    "commission": "0088",
     "professor": "LATA GUADALUPE",
     "days": [
       "LU",
@@ -43276,7 +42780,7 @@
   },
   {
     "subject": "Elementos de Derecho Civil",
-    "commission": "102",
+    "commission": "0102",
     "professor": "LATA GUADALUPE",
     "days": [
       "LU",
@@ -43330,7 +42834,7 @@
   },
   {
     "subject": "Elementos de Derecho Procesal Civil y Comercial",
-    "commission": "731",
+    "commission": "0731",
     "professor": "CONVERSET JUAN M.",
     "days": [
       "LU",
@@ -43460,7 +42964,7 @@
   },
   {
     "subject": "Elementos de Derecho Procesal Civil y Comercial",
-    "commission": "934",
+    "commission": "0934",
     "professor": "LEMMO ANA MARÍA",
     "days": [
       "MA",
@@ -43487,7 +42991,7 @@
   },
   {
     "subject": "Elementos de Derecho Procesal Civil y Comercial",
-    "commission": "583",
+    "commission": "0583",
     "professor": "LEMMO ANA MARÍA",
     "days": [
       "MA",
@@ -43514,7 +43018,7 @@
   },
   {
     "subject": "Elementos de Derecho Civil",
-    "commission": "656",
+    "commission": "0656",
     "professor": "DELLA SCHIAVA L.",
     "days": [
       "MA",
@@ -43541,7 +43045,7 @@
   },
   {
     "subject": "Elementos de Derecho Civil",
-    "commission": "670",
+    "commission": "0670",
     "professor": "DELLA SCHIAVA L.",
     "days": [
       "MA",
@@ -43622,7 +43126,7 @@
   },
   {
     "subject": "Elementos de Derecho Constitucional",
-    "commission": "754",
+    "commission": "0754",
     "professor": "LIBERATORE GLORIA",
     "days": [
       "MA",
@@ -43649,7 +43153,7 @@
   },
   {
     "subject": "Elementos de Derecho Procesal Civil y Comercial",
-    "commission": "173",
+    "commission": "0173",
     "professor": "CAMPANELLA FLORENCIA",
     "days": [
       "MA",
@@ -43676,7 +43180,7 @@
   },
   {
     "subject": "Elementos de Derecho Procesal Civil y Comercial",
-    "commission": "196",
+    "commission": "0196",
     "professor": "CAMPANELLA FLORENCIA",
     "days": [
       "MA",
@@ -43703,7 +43207,7 @@
   },
   {
     "subject": "Elementos de Derecho Procesal Civil y Comercial",
-    "commission": "255",
+    "commission": "0255",
     "professor": "REYBET CECILIA",
     "days": [
       "MA",
@@ -43804,7 +43308,7 @@
   },
   {
     "subject": "Elementos de Derecho Penal y Procesal Penal",
-    "commission": "44",
+    "commission": "0044",
     "professor": "VELAZQUEZ SUSANA A.",
     "days": [
       "MI"
@@ -43830,7 +43334,7 @@
   },
   {
     "subject": "Elementos de Derecho Procesal Civil y Comercial",
-    "commission": "194",
+    "commission": "0194",
     "professor": "TAMBORENEA GABRIEL A.",
     "days": [
       "MI"
@@ -43934,8 +43438,7 @@
     "commission": "9084",
     "professor": "ALLENDE  CULTRARO  G.",
     "days": [
-      "VI",
-      "SA"
+      "VI"
     ],
     "time_start": "15:30",
     "time_end": "17:00",
@@ -43960,8 +43463,7 @@
     "commission": "6405",
     "professor": "PINTO  SIGAL  MARTÍN",
     "days": [
-      "JU",
-      "MA"
+      "JU"
     ],
     "time_start": "17:00",
     "time_end": "18:30",
@@ -44009,7 +43511,7 @@
   },
   {
     "subject": "Derecho de Familia y Sucesiones",
-    "commission": "493",
+    "commission": "0493",
     "professor": "BRAÑA IA CELESTINA",
     "days": [],
     "time_start": "17:00",
@@ -44078,7 +43580,7 @@
   },
   {
     "subject": "Elementos de Derecho Procesal Civil y Comercial",
-    "commission": "985",
+    "commission": "0985",
     "professor": "VALDEZ MIRTA",
     "days": [
       "LU",
@@ -44104,7 +43606,7 @@
   },
   {
     "subject": "Elementos de Derecho Procesal Civil y Comercial",
-    "commission": "216",
+    "commission": "0216",
     "professor": "TAMBORANEA GABRIEL",
     "days": [
       "MI"
@@ -44183,7 +43685,7 @@
   },
   {
     "subject": "Derecho del Trabajo y de la Seguridad Social",
-    "commission": "567",
+    "commission": "0567",
     "professor": "RUGGIERO MARTA",
     "days": [],
     "time_start": "08:30",
@@ -44224,7 +43726,7 @@
   },
   {
     "subject": "Derecho del Trabajo y de la Seguridad Social",
-    "commission": "597",
+    "commission": "0597",
     "professor": "SEDA JUAN",
     "days": [],
     "time_start": "21:30",
@@ -44250,7 +43752,6 @@
     "commission": "4236",
     "professor": "VÁSQUEZ PEREDA FERNANDO ELÍAS",
     "days": [
-      "LU",
       "JU"
     ],
     "time_start": "08:30",
@@ -44271,7 +43772,6 @@
     "commission": "4235",
     "professor": "VÁSQUEZ PEREDA FERNANDO ELÍAS",
     "days": [
-      "LU",
       "JU"
     ],
     "time_start": "08:30",
@@ -44289,10 +43789,9 @@
   },
   {
     "subject": "Elementos de Derecho Penal y Procesal Penal",
-    "commission": "47",
+    "commission": "0047",
     "professor": "ESNAL AGUSTÍN",
     "days": [
-      "LU",
       "JU"
     ],
     "time_start": "15:30",
@@ -44318,7 +43817,6 @@
     "commission": "4731",
     "professor": "CEBALLOS SANDRA",
     "days": [
-      "LU",
       "JU"
     ],
     "time_start": "15:30",
@@ -44344,7 +43842,6 @@
     "commission": "4257",
     "professor": "BELOFF MARY",
     "days": [
-      "LU",
       "JU"
     ],
     "time_start": "15:30",
@@ -44370,7 +43867,6 @@
     "commission": "4243",
     "professor": "BELOFF MARY",
     "days": [
-      "LU",
       "JU"
     ],
     "time_start": "18:30",
@@ -44393,10 +43889,9 @@
   },
   {
     "subject": "Elementos de Derecho Constitucional",
-    "commission": "222",
+    "commission": "0222",
     "professor": "MORALES DEGANUT C.",
     "days": [
-      "MA",
       "VI"
     ],
     "time_start": "15:30",
@@ -44419,10 +43914,9 @@
   },
   {
     "subject": "Elementos de Derecho Constitucional",
-    "commission": "221",
+    "commission": "0221",
     "professor": "MORALES DEGANUT",
     "days": [
-      "MA",
       "VI"
     ],
     "time_start": "15:30",
@@ -44448,7 +43942,6 @@
     "commission": "4244",
     "professor": "FILLIA LEONARDO C.",
     "days": [
-      "MA",
       "VI"
     ],
     "time_start": "15:30",
@@ -44492,7 +43985,7 @@
   },
   {
     "subject": "Elementos de Derecho Penal y Procesal Penal",
-    "commission": "237",
+    "commission": "0237",
     "professor": "VIÑA GONZALO",
     "days": [
       "MA",
@@ -44518,7 +44011,7 @@
   },
   {
     "subject": "Elementos de Derecho Penal y Procesal Penal",
-    "commission": "270",
+    "commission": "0270",
     "professor": "GORSD PAULA",
     "days": [
       "MA",
@@ -44544,7 +44037,7 @@
   },
   {
     "subject": "Elementos de Derecho Penal y Procesal Penal",
-    "commission": "883",
+    "commission": "0883",
     "professor": "CAPUCCIO EMILIO",
     "days": [
       "MI"
@@ -44592,7 +44085,6 @@
     "commission": "1873",
     "professor": "OBLIGADO DANIEL",
     "days": [
-      "LU",
       "JU"
     ],
     "time_start": "21:30",
@@ -44615,7 +44107,7 @@
   },
   {
     "subject": "Elementos de Derecho Constitucional",
-    "commission": "359",
+    "commission": "0359",
     "professor": "DE LANGHE MARCELA",
     "days": [
       "MA",
@@ -44641,7 +44133,7 @@
   },
   {
     "subject": "Derecho de Familia y Sucesiones",
-    "commission": "335",
+    "commission": "0335",
     "professor": "WILDE ZULEMA",
     "days": [],
     "time_start": "08:30",
@@ -44664,7 +44156,7 @@
   },
   {
     "subject": "Derecho de Familia y Sucesiones",
-    "commission": "841",
+    "commission": "0841",
     "professor": "GHIGLINO SILVIA",
     "days": [],
     "time_start": "08:30",
@@ -44687,7 +44179,7 @@
   },
   {
     "subject": "Derecho de Familia y Sucesiones",
-    "commission": "843",
+    "commission": "0843",
     "professor": "GHIGLINO SILVIA",
     "days": [],
     "time_start": "08:30",
@@ -44710,7 +44202,7 @@
   },
   {
     "subject": "Elementos de Derecho Comercial",
-    "commission": "884",
+    "commission": "0884",
     "professor": "LEBENSOHN FLORENCIA",
     "days": [],
     "time_start": "08:30",
@@ -44728,7 +44220,7 @@
   },
   {
     "subject": "Elementos de Derechos Reales",
-    "commission": "495",
+    "commission": "0495",
     "professor": "CARTA ADRIAN",
     "days": [],
     "time_start": "11:30",
@@ -44751,7 +44243,7 @@
   },
   {
     "subject": "Derecho de Familia y Sucesiones",
-    "commission": "66",
+    "commission": "0066",
     "professor": "TORRES SANTOME",
     "days": [],
     "time_start": "08:30",
@@ -44774,7 +44266,7 @@
   },
   {
     "subject": "Obligaciones Civiles y Comerciales",
-    "commission": "124",
+    "commission": "0124",
     "professor": "MODI CARLA",
     "days": [],
     "time_start": "08:30",
@@ -44828,7 +44320,7 @@
   },
   {
     "subject": "Contratos Civiles y Comerciales",
-    "commission": "293",
+    "commission": "0293",
     "professor": "SOLIGNAG NIDIA",
     "days": [],
     "time_start": "15:30",
@@ -44851,7 +44343,7 @@
   },
   {
     "subject": "Derecho Internacional Privado",
-    "commission": "889",
+    "commission": "0889",
     "professor": "SCOTTI LUCIANA",
     "days": [],
     "time_start": "18:30",
@@ -44874,7 +44366,7 @@
   },
   {
     "subject": "Derecho de Familia y Sucesiones",
-    "commission": "899",
+    "commission": "0899",
     "professor": "MARISA HERRERA",
     "days": [],
     "time_start": "18:30",
@@ -44915,7 +44407,7 @@
   },
   {
     "subject": "Derecho de Familia y Sucesiones",
-    "commission": "504",
+    "commission": "0504",
     "professor": "LENCINA MARCELO",
     "days": [],
     "time_start": "08:30",
@@ -44933,7 +44425,7 @@
   },
   {
     "subject": "Derecho de Familia y Sucesiones",
-    "commission": "25",
+    "commission": "0025",
     "professor": "ARIANNA CARLOS",
     "days": [],
     "time_start": "18:30",
@@ -44951,7 +44443,7 @@
   },
   {
     "subject": "Contratos Civiles y Comerciales",
-    "commission": "355",
+    "commission": "0355",
     "professor": "ROCCA RICARDO LUIS",
     "days": [],
     "time_start": "18:30",
@@ -44974,7 +44466,7 @@
   },
   {
     "subject": "Derecho de Familia y Sucesiones",
-    "commission": "153",
+    "commission": "0153",
     "professor": "SALMASO CARLOS",
     "days": [],
     "time_start": "21:30",
@@ -44992,7 +44484,7 @@
   },
   {
     "subject": "Derecho de Familia y Sucesiones",
-    "commission": "109",
+    "commission": "0109",
     "professor": "SALMASO CARLOS",
     "days": [],
     "time_start": "21:30",
@@ -45010,7 +44502,7 @@
   },
   {
     "subject": "Elementos de Derecho Comercial",
-    "commission": "42",
+    "commission": "0042",
     "professor": "NOODT TAQUELA",
     "days": [],
     "time_start": "18:30",
@@ -45028,7 +44520,7 @@
   },
   {
     "subject": "Contratos Civiles y Comerciales",
-    "commission": "976",
+    "commission": "0976",
     "professor": "PEREZ MORENO G",
     "days": [],
     "time_start": "18:30",
@@ -45051,7 +44543,7 @@
   },
   {
     "subject": "Contratos Civiles y Comerciales",
-    "commission": "997",
+    "commission": "0997",
     "professor": "GONZALEZ JOHANSEN",
     "days": [],
     "time_start": "21:30",
@@ -45143,7 +44635,7 @@
   },
   {
     "subject": "Derecho Administrativo",
-    "commission": "434",
+    "commission": "0434",
     "professor": "CILURZO MARIA ROSA",
     "days": [],
     "time_start": "08:30",
@@ -45207,7 +44699,7 @@
   },
   {
     "subject": "Derechos Humanos y Garantías",
-    "commission": "684",
+    "commission": "0684",
     "professor": "CAVALLO CLAUDIO",
     "days": [],
     "time_start": "11:30",
@@ -45289,7 +44781,7 @@
   },
   {
     "subject": "Derechos Humanos y Garantías",
-    "commission": "398",
+    "commission": "0398",
     "professor": "GARCIA MIRA JOSE F",
     "days": [],
     "time_start": "11:30",
@@ -45404,7 +44896,7 @@
   },
   {
     "subject": "Derecho Administrativo",
-    "commission": "622",
+    "commission": "0622",
     "professor": "FACIO RODOLFO",
     "days": [
       "LU",
@@ -45500,7 +44992,7 @@
   },
   {
     "subject": "Derecho Administrativo",
-    "commission": "627",
+    "commission": "0627",
     "professor": "CERDEIRAS ROSAURA",
     "days": [],
     "time_start": "18:30",
@@ -45523,7 +45015,7 @@
   },
   {
     "subject": "Derechos Humanos y Garantías",
-    "commission": "614",
+    "commission": "0614",
     "professor": "SOTELO FERNANDO",
     "days": [],
     "time_start": "21:30",
@@ -45546,7 +45038,7 @@
   },
   {
     "subject": "Derechos Humanos y Garantías",
-    "commission": "931",
+    "commission": "0931",
     "professor": "GAMA ÍA VICTORIA",
     "days": [],
     "time_start": "08:30",
@@ -45582,7 +45074,7 @@
   },
   {
     "subject": "Derecho Administrativo",
-    "commission": "580",
+    "commission": "0580",
     "professor": "CUEVA REY ANA",
     "days": [],
     "time_start": "08:30",
@@ -45633,7 +45125,7 @@
   },
   {
     "subject": "Derechos Humanos y Garantías",
-    "commission": "837",
+    "commission": "0837",
     "professor": "ROSSI JULIETA",
     "days": [],
     "time_start": "10:00",
@@ -45720,7 +45212,7 @@
   },
   {
     "subject": "Elementos de Derecho Penal y Procesal Penal",
-    "commission": "501",
+    "commission": "0501",
     "professor": "VIÑA GONZALO",
     "days": [],
     "time_start": "15:30",
@@ -45743,7 +45235,7 @@
   },
   {
     "subject": "Elementos de Derecho Penal y Procesal Penal",
-    "commission": "728",
+    "commission": "0728",
     "professor": "MICHILINI JOSE A.",
     "days": [],
     "time_start": "17:00",
@@ -45766,7 +45258,7 @@
   },
   {
     "subject": "Elementos de Derecho Constitucional",
-    "commission": "328",
+    "commission": "0328",
     "professor": "MICIELI CELA",
     "days": [],
     "time_start": "18:30",
@@ -45835,7 +45327,7 @@
   },
   {
     "subject": "Elementos de Derecho Constitucional",
-    "commission": "673",
+    "commission": "0673",
     "professor": "CLAVERIA ROBERTO",
     "days": [],
     "time_start": "20:00",
@@ -45904,7 +45396,7 @@
   },
   {
     "subject": "Elementos de Derecho Constitucional",
-    "commission": "771",
+    "commission": "0771",
     "professor": "IBARLUCIA EMILIO",
     "days": [],
     "time_start": "08:30",
@@ -45981,7 +45473,7 @@
   },
   {
     "subject": "Elementos de Derecho Constitucional",
-    "commission": "665",
+    "commission": "0665",
     "professor": "MALDONADO SUSANA",
     "days": [],
     "time_start": "14:00",
@@ -46004,7 +45496,7 @@
   },
   {
     "subject": "Elementos de Derecho Constitucional",
-    "commission": "613",
+    "commission": "0613",
     "professor": "IENTILE VERONICA",
     "days": [],
     "time_start": "15:30",
@@ -46096,7 +45588,7 @@
   },
   {
     "subject": "Elementos de Derecho Constitucional",
-    "commission": "275",
+    "commission": "0275",
     "professor": "RABBI BALDI RENATO",
     "days": [],
     "time_start": "20:00",
@@ -46142,7 +45634,7 @@
   },
   {
     "subject": "Teoría General del Derecho",
-    "commission": "966",
+    "commission": "0966",
     "professor": "DELLA PICA PABLO",
     "days": [],
     "time_start": "08:30",
@@ -46178,7 +45670,7 @@
   },
   {
     "subject": "Elementos de Derecho Constitucional",
-    "commission": "164",
+    "commission": "0164",
     "professor": "GELMETTI AGOSTINA",
     "days": [],
     "time_start": "15:30",
@@ -46224,7 +45716,7 @@
   },
   {
     "subject": "Derecho Tributario y Finanzas Públicas",
-    "commission": "953",
+    "commission": "0953",
     "professor": "SEMACHOWICZ ESTEBAN",
     "days": [],
     "time_start": "08:30",
@@ -48574,10 +48066,9 @@
   },
   {
     "subject": "Elementos de Derecho Procesal Civil y Comercial",
-    "commission": "968",
+    "commission": "0968",
     "professor": "KISMAN GUILLERMO",
     "days": [
-      "MA",
       "VI"
     ],
     "time_start": "08:30",
@@ -48600,10 +48091,9 @@
   },
   {
     "subject": "Elementos de Derecho Procesal Civil y Comercial",
-    "commission": "172",
+    "commission": "0172",
     "professor": "NUÑEZ ANGEL",
     "days": [
-      "LU",
       "JU"
     ],
     "time_start": "11:30",
@@ -48626,10 +48116,9 @@
   },
   {
     "subject": "Elementos de Derecho Procesal Civil y Comercial",
-    "commission": "347",
+    "commission": "0347",
     "professor": "PARISE DANIEL",
     "days": [
-      "MA",
       "VI"
     ],
     "time_start": "18:30",
@@ -48652,7 +48141,7 @@
   },
   {
     "subject": "Elementos de Derecho Procesal Civil y Comercial",
-    "commission": "90",
+    "commission": "0090",
     "professor": "KERNER GUILLERMO",
     "days": [
       "MI"
@@ -48677,10 +48166,9 @@
   },
   {
     "subject": "Contratos Civiles y Comerciales",
-    "commission": "607",
+    "commission": "0607",
     "professor": "SOBRINO AUGUSTO",
     "days": [
-      "MA",
       "VI"
     ],
     "time_start": "18:30",
@@ -48870,7 +48358,6 @@
     "commission": "8802",
     "professor": "PISANI - BARBAROSCH",
     "days": [
-      "MA",
       "MI",
       "VI"
     ],

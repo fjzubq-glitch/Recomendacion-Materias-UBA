@@ -162,12 +162,14 @@ def parse_days(text):
     for tok in tokens:
         if tok in day_map:
             days.append(day_map[tok])
-        elif tok.startswith('LU'): days.append('LU')
-        elif tok.startswith('MA'): days.append('MA')
-        elif tok.startswith('MI'): days.append('MI')
-        elif tok.startswith('JU'): days.append('JU')
-        elif tok.startswith('VI'): days.append('VI')
-        elif tok.startswith('SA'): days.append('SA')
+        # Fallback solo para abreviaturas cortas (2-3 letras) para no capturar
+        # palabras como MARIA, MATERIA, VILLAGRAN, LUGAR, MIENTRAS, etc.
+        elif len(tok) <= 3 and tok.startswith('LU'): days.append('LU')
+        elif len(tok) <= 3 and tok.startswith('MA'): days.append('MA')
+        elif len(tok) <= 3 and tok.startswith('MI'): days.append('MI')
+        elif len(tok) <= 3 and tok.startswith('JU'): days.append('JU')
+        elif len(tok) <= 3 and tok.startswith('VI'): days.append('VI')
+        elif len(tok) <= 3 and tok.startswith('SA'): days.append('SA')
     
     seen = set()
     return [x for x in days if not (x in seen or seen.add(x))]
