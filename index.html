@@ -13,6 +13,8 @@
     
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Search Console -->
+    <meta name="google-site-verification" content="QfEkkau9rkHf-qIqQezL1cJXK-mTzhX4PeB_KC_VEUs" />
     <title>UBA Derecho - Recomendador y Planificador de Materias</title>
     <meta name="description" content="Investiga cátedras, filtra comisiones por dificultad, opiniones, modalidad y detecta conflictos con tu agenda laboral o familiar.">
     <!-- Open Graph SEO -->
@@ -160,6 +162,14 @@
                         </div>
                     </div>
 
+                    <!-- Source Filter (Recommendation grouping) -->
+                    <div class="filter-group" id="source-filter-group">
+                        <label>Fuente de Recomendación</label>
+                        <div class="checkbox-group flex-row" id="source-options" style="flex-wrap: wrap;">
+                            <!-- Populated dynamically -->
+                        </div>
+                    </div>
+
                     <!-- Toggle Filters -->
                     <div class="filter-group toggle-group">
                         <label class="toggle-switch">
@@ -262,6 +272,11 @@
             <div class="modal-body" style="padding: 1.5rem; line-height: 1.6; color: var(--text-secondary); max-height: 70vh; overflow-y: auto;">
                 <h3 style="color: var(--text-primary); margin-top: 0; font-size: 1.1rem; border-left: 3px solid var(--accent-color); padding-left: 0.5rem;">¿Qué es esta plataforma?</h3>
                 <p style="margin-bottom: 1.25rem;">Es un planificador inteligente que unifica las recomendaciones y opiniones de materias de la Facultad de Derecho UBA, permitiéndote buscar y armar tu agenda sin tener que abrir múltiples archivos de Excel por separado.</p>
+
+                <div id="info-data-stats" style="background: rgba(255,255,255,0.04); border: 1px solid var(--border-color); border-radius: var(--radius-sm); padding: 0.9rem 1.1rem; margin-bottom: 1.25rem; font-size: 0.9rem;">
+                    <strong style="color: var(--text-primary); display: block; margin-bottom: 0.4rem;">📊 Datos en uso</strong>
+                    <span id="info-data-stats-content">Cargando...</span>
+                </div>
                 
                 <h3 style="color: var(--text-primary); margin-top: 1.5rem; font-size: 1.1rem; border-left: 3px solid var(--accent-color); padding-left: 0.5rem;">¿De dónde provienen las opiniones?</h3>
                 <p style="margin-bottom: 1.25rem;">Toda la información proviene de las planillas y PDFs oficiales publicados por las siguientes agrupaciones estudiantiles: <strong>La Centeno, Recomellas, Nexo, Franja Morada, La Cámpora y Nuevo Derecho</strong>.</p>
@@ -281,7 +296,7 @@
     <!-- Toast Notifications Container -->
     <div id="toast-container" class="toast-container" aria-live="polite"></div>
 
-    <script type="module" src="js/main.js?v=14"></script>
+    <script type="module" src="js/main.js?v=15"></script>
     <script type="module" src="js/update.js?v=5"></script>
     <footer class="site-footer">
         &copy; 2026 — Designed & developed by Franklin ZG

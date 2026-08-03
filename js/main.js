@@ -1,7 +1,7 @@
 import { state, loadLocalStorageData, saveLocalStorageData } from './state.js';
-import { loadCycleData } from './api.js?v=4';
-import { applyFilters } from './filters.js?v=4';
-import { renderCards, renderDraftList, closeDrawer, showToast, openReportModal, closeReportModal, updateSelectedBadge } from './ui.js?v=4';
+import { loadCycleData } from './api.js?v=5';
+import { applyFilters } from './filters.js?v=5';
+import { renderCards, renderDraftList, closeDrawer, showToast, openReportModal, closeReportModal, updateSelectedBadge } from './ui.js?v=5';
 
 // ==========================================================================
 // INITIALIZATION

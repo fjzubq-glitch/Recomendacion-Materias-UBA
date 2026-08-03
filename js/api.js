@@ -27,6 +27,9 @@ export async function loadCycleData(cycle) {
         // Populate subject dropdown
         populateSubjectDropdown(cycle);
         
+        // Populate source filter options + "datos en uso" stats
+        populateSourceData(cycle);
+
         // Update stats
         document.getElementById('total-commissions-badge').textContent = state.allCommissions.length;
         updateSelectedBadge();
@@ -43,6 +46,67 @@ export async function loadCycleData(cycle) {
                 <small>${error.message}</small>
             </div>
         `;
+    }
+}
+
+// Populate subject dropdown
+// Builds the "Fuente de Recomendación" checkbox group and the
+// "Datos en uso" summary (counts per source) from the loaded cycle data.
+export function populateSourceData(cycle) {
+    const optionsContainer = document.getElementById('source-options');
+    const statsContent = document.getElementById('info-data-stats-content');
+
+    // Distinct sources across allCommissions
+    const sources = [...new Set(state.allCommissions.flatMap(c => c.sources || []))].sort();
+
+    // Per-source commission counts
+    const counts = {};
+    state.allCommissions.forEach(rec => {
+        (rec.sources || []).forEach(s => {
+            counts[s] = (counts[s] || 0) + 1;
+        });
+    });
+
+    // Build checkboxes (all checked by default)
+    if (optionsContainer) {
+        optionsContainer.innerHTML = '';
+        if (sources.length === 0) {
+            optionsContainer.innerHTML = '<span style="font-size:0.8rem; color:var(--text-secondary);">No hay fuentes.</span>';
+        }
+        sources.forEach(src => {
+            const label = document.createElement('label');
+            label.className = 'chip-checkbox';
+            label.style.margin = '2px';
+            const input = document.createElement('input');
+            input.type = 'checkbox';
+            input.name = 'sources';
+            input.value = src;
+            input.checked = true;
+            const span = document.createElement('span');
+            span.textContent = `${src} (${counts[src] || 0})`;
+            label.appendChild(input);
+            label.appendChild(span);
+            optionsContainer.appendChild(label);
+
+            input.addEventListener('change', applyFilters);
+        });
+    }
+
+    // Fill "Datos en uso" panel
+    if (statsContent) {
+        const total = state.allCommissions.length;
+        const cycleName = cycle === 'cpc' ? 'CPC' : 'CPO';
+        let html = `Ahora estás viendo <strong>${cycleName}</strong> · <strong>${total.toLocaleString()}</strong> comisiones.<br><br><strong>Comisiones por fuente:</strong>`;
+        if (sources.length === 0) {
+            html += '<br>Sin datos de fuente.';
+        } else {
+            const lines = sources.map(s =>
+                `<span style="color: var(--text-primary);">${s}</span>: ${(counts[s] || 0).toLocaleString()}`
+            );
+            html += '<ul style="margin: 0.4rem 0 0; padding-left: 1.2rem;">' +
+                    lines.map(l => `<li>${l}</li>`).join('') + '</ul>';
+        }
+        statsContent.innerHTML = html;
     }
 }
 
