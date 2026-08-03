@@ -15,14 +15,8 @@ export function applyFilters() {
     const subjectFilter = document.getElementById('subject-filter');
     const subjectVal = subjectFilter ? subjectFilter.value : '';
     
-    // Source filter (read here so unchecking alone triggers filtering)
-    const sourceEls = document.querySelectorAll('input[name="sources"]');
-    const checkedSourceEls = document.querySelectorAll('input[name="sources"]:checked');
-    const allowedSources = Array.from(checkedSourceEls).map(el => el.value);
-    const sourceActive = sourceEls.length > 0 && allowedSources.length > 0 && allowedSources.length < sourceEls.length;
-    
     // Toggle welcome/initial search state if no searches are active
-    if (!searchVal && !subjectVal && !deptVal && !sourceActive && !state.showAllByDefault) {
+    if (!searchVal && !subjectVal && !deptVal && !state.showAllByDefault) {
         renderWelcomeState();
         return;
     }
@@ -66,14 +60,6 @@ export function applyFilters() {
 
         // 3. Difficulty filter
         if (allowedDiffs.length > 0 && !allowedDiffs.includes(rec.difficulty)) return false;
-
-        // 3.5 Source filter
-        if (allowedSources.length > 0) {
-            const recSources = rec.sources || [];
-            if (!recSources.some(s => allowedSources.includes(s))) return false;
-        }
-
-
 
         // 5. Pro Student filter
         if (onlyPro && !rec.is_pro_student) return false;

@@ -144,7 +144,6 @@ function setupEventListeners() {
             // Reset checkboxes
             document.querySelectorAll('input[name="difficulty"]').forEach(el => el.checked = true);
             document.querySelectorAll('input[name="shifts"]').forEach(el => el.checked = true);
-            document.querySelectorAll('input[name="sources"]').forEach(el => el.checked = true);
 
             applyFilters();
             showToast("Filtros limpiados.", "success");
