@@ -15,8 +15,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Google Search Console -->
     <meta name="google-site-verification" content="QfEkkau9rkHf-qIqQezL1cJXK-mTzhX4PeB_KC_VEUs" />
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
     <title>UBA Derecho - Recomendador y Planificador de Materias</title>
-    <meta name="description" content="Investiga cátedras, filtra comisiones por dificultad, opiniones, modalidad y detecta conflictos con tu agenda laboral o familiar.">
+    <meta name="description" id="meta-description" content="Planificador inteligente para UBA Derecho. Buscá cátedras por dificultad, opiniones de 6 agrupaciones, detectá conflictos horarios, evitá solapamientos y armá tu cuatrimestre ideal.">
     <!-- Open Graph SEO -->
     <meta property="og:title" content="UBA Derecho - Recomendador de Materias">
     <meta property="og:description" content="Planificador inteligente para organizar tu cuatrimestre y evitar conflictos horarios.">
@@ -202,8 +204,42 @@
                 <div class="panel-content cards-container" id="cards-container">
                     <!-- Cards will be populated dynamically by JavaScript -->
                     <div class="loading-state">
-                        <div class="spinner"></div>
-                        <p>Cargando catálogo de materias unificado...</p>
+                        <div class="skeleton-card">
+                            <div class="skeleton-header">
+                                <div class="skeleton-avatar"></div>
+                                <div>
+                                    <div class="skeleton-line skeleton-line-long"></div>
+                                    <div class="skeleton-line skeleton-line-medium"></div>
+                                </div>
+                            </div>
+                            <div class="skeleton-line skeleton-line-long"></div>
+                            <div class="skeleton-line skeleton-line-medium"></div>
+                            <div class="skeleton-line skeleton-line-short"></div>
+                        </div>
+                        <div class="skeleton-card">
+                            <div class="skeleton-header">
+                                <div class="skeleton-avatar"></div>
+                                <div>
+                                    <div class="skeleton-line skeleton-line-long"></div>
+                                    <div class="skeleton-line skeleton-line-medium"></div>
+                                </div>
+                            </div>
+                            <div class="skeleton-line skeleton-line-long"></div>
+                            <div class="skeleton-line skeleton-line-medium"></div>
+                            <div class="skeleton-line skeleton-line-short"></div>
+                        </div>
+                        <div class="skeleton-card">
+                            <div class="skeleton-header">
+                                <div class="skeleton-avatar"></div>
+                                <div>
+                                    <div class="skeleton-line skeleton-line-long"></div>
+                                    <div class="skeleton-line skeleton-line-medium"></div>
+                                </div>
+                            </div>
+                            <div class="skeleton-line skeleton-line-long"></div>
+                            <div class="skeleton-line skeleton-line-medium"></div>
+                            <div class="skeleton-line skeleton-line-short"></div>
+                        </div>
                     </div>
                 </div>
             </section>

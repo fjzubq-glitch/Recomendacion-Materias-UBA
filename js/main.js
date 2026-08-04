@@ -12,13 +12,64 @@ document.addEventListener('DOMContentLoaded', async () => {
     setupCycleSelectorListeners();
     updateSelectedBadge(); // Make sure the header badge is updated initially
     
+    // Update meta description for initial CPC load
+    const metaDescription = document.getElementById('meta-description');
+    if (metaDescription) {
+        metaDescription.content = "Planificador para el Ciclo Profesional Común (CPC) de la UBA. Filtra por dificultad, opiniones, modalidad y horario para armar tu cuatrimestre ideal.";
+    }
+    
     // Sync draft state in real-time across browser tabs
     window.addEventListener('storage', () => {
         loadLocalStorageData();
         updateSelectedBadge();
         applyFilters(); // Re-render course cards selection state
     });
-
+    
+    // Show loading state with skeleton cards for initial load
+    const container = document.getElementById('cards-container');
+    if (container) {
+        container.innerHTML = `
+            <div class="loading-state">
+                <div class="skeleton-card">
+                    <div class="skeleton-header">
+                        <div class="skeleton-avatar"></div>
+                        <div>
+                            <div class="skeleton-line skeleton-line-long"></div>
+                            <div class="skeleton-line skeleton-line-medium"></div>
+                        </div>
+                    </div>
+                    <div class="skeleton-line skeleton-line-long"></div>
+                    <div class="skeleton-line skeleton-line-medium"></div>
+                    <div class="skeleton-line skeleton-line-short"></div>
+                </div>
+                <div class="skeleton-card">
+                    <div class="skeleton-header">
+                        <div class="skeleton-avatar"></div>
+                        <div>
+                            <div class="skeleton-line skeleton-line-long"></div>
+                            <div class="skeleton-line skeleton-line-medium"></div>
+                        </div>
+                    </div>
+                    <div class="skeleton-line skeleton-line-long"></div>
+                    <div class="skeleton-line skeleton-line-medium"></div>
+                    <div class="skeleton-line skeleton-line-short"></div>
+                </div>
+                <div class="skeleton-card">
+                    <div class="skeleton-header">
+                        <div class="skeleton-avatar"></div>
+                        <div>
+                            <div class="skeleton-line skeleton-line-long"></div>
+                            <div class="skeleton-line skeleton-line-medium"></div>
+                        </div>
+                    </div>
+                    <div class="skeleton-line skeleton-line-long"></div>
+                    <div class="skeleton-line skeleton-line-medium"></div>
+                    <div class="skeleton-line skeleton-line-short"></div>
+                </div>
+            </div>
+        `;
+    }
+    
     await loadCycleData('cpc'); // Load CPC by default
 });
 
@@ -31,6 +82,7 @@ function setupCycleSelectorListeners() {
     const btnCPC = document.getElementById('btn-cycle-cpc');
     const btnCPO = document.getElementById('btn-cycle-cpo');
     const subtitle = document.getElementById('app-subtitle');
+    const metaDescription = document.getElementById('meta-description');
     
     if (btnCPC && btnCPO) {
         btnCPC.addEventListener('click', async () => {
@@ -38,14 +90,49 @@ function setupCycleSelectorListeners() {
             btnCPC.classList.add('active');
             btnCPO.classList.remove('active');
             if (subtitle) subtitle.textContent = "Ciclo Profesional Común (CPC) — Recomendaciones";
+            if (metaDescription) metaDescription.content = "Planificador para el Ciclo Profesional Común (CPC) de la UBA. Filtra por dificultad, opiniones, modalidad y horario para armar tu cuatrimestre ideal.";
             
-            // Show loading state
+            // Show loading state with skeleton cards
             const container = document.getElementById('cards-container');
             if (container) {
                 container.innerHTML = `
                     <div class="loading-state">
-                        <div class="spinner"></div>
-                        <p>Cargando CPC...</p>
+                        <div class="skeleton-card">
+                            <div class="skeleton-header">
+                                <div class="skeleton-avatar"></div>
+                                <div>
+                                    <div class="skeleton-line skeleton-line-long"></div>
+                                    <div class="skeleton-line skeleton-line-medium"></div>
+                                </div>
+                            </div>
+                            <div class="skeleton-line skeleton-line-long"></div>
+                            <div class="skeleton-line skeleton-line-medium"></div>
+                            <div class="skeleton-line skeleton-line-short"></div>
+                        </div>
+                        <div class="skeleton-card">
+                            <div class="skeleton-header">
+                                <div class="skeleton-avatar"></div>
+                                <div>
+                                    <div class="skeleton-line skeleton-line-long"></div>
+                                    <div class="skeleton-line skeleton-line-medium"></div>
+                                </div>
+                            </div>
+                            <div class="skeleton-line skeleton-line-long"></div>
+                            <div class="skeleton-line skeleton-line-medium"></div>
+                            <div class="skeleton-line skeleton-line-short"></div>
+                        </div>
+                        <div class="skeleton-card">
+                            <div class="skeleton-header">
+                                <div class="skeleton-avatar"></div>
+                                <div>
+                                    <div class="skeleton-line skeleton-line-long"></div>
+                                    <div class="skeleton-line skeleton-line-medium"></div>
+                                </div>
+                            </div>
+                            <div class="skeleton-line skeleton-line-long"></div>
+                            <div class="skeleton-line skeleton-line-medium"></div>
+                            <div class="skeleton-line skeleton-line-short"></div>
+                        </div>
                     </div>
                 `;
             }
@@ -57,14 +144,49 @@ function setupCycleSelectorListeners() {
             btnCPO.classList.add('active');
             btnCPC.classList.remove('active');
             if (subtitle) subtitle.textContent = "Ciclo Profesional Orientado (CPO) — Recomendaciones";
+            if (metaDescription) metaDescription.content = "Planificador para el Ciclo Profesional Orientado (CPO) de la UBA. Filtra por orientación, dificultad, opiniones y horario para planificar tu especialización.";
             
-            // Show loading state
+            // Show loading state with skeleton cards
             const container = document.getElementById('cards-container');
             if (container) {
                 container.innerHTML = `
                     <div class="loading-state">
-                        <div class="spinner"></div>
-                        <p>Cargando CPO...</p>
+                        <div class="skeleton-card">
+                            <div class="skeleton-header">
+                                <div class="skeleton-avatar"></div>
+                                <div>
+                                    <div class="skeleton-line skeleton-line-long"></div>
+                                    <div class="skeleton-line skeleton-line-medium"></div>
+                                </div>
+                            </div>
+                            <div class="skeleton-line skeleton-line-long"></div>
+                            <div class="skeleton-line skeleton-line-medium"></div>
+                            <div class="skeleton-line skeleton-line-short"></div>
+                        </div>
+                        <div class="skeleton-card">
+                            <div class="skeleton-header">
+                                <div class="skeleton-avatar"></div>
+                                <div>
+                                    <div class="skeleton-line skeleton-line-long"></div>
+                                    <div class="skeleton-line skeleton-line-medium"></div>
+                                </div>
+                            </div>
+                            <div class="skeleton-line skeleton-line-long"></div>
+                            <div class="skeleton-line skeleton-line-medium"></div>
+                            <div class="skeleton-line skeleton-line-short"></div>
+                        </div>
+                        <div class="skeleton-card">
+                            <div class="skeleton-header">
+                                <div class="skeleton-avatar"></div>
+                                <div>
+                                    <div class="skeleton-line skeleton-line-long"></div>
+                                    <div class="skeleton-line skeleton-line-medium"></div>
+                                </div>
+                            </div>
+                            <div class="skeleton-line skeleton-line-long"></div>
+                            <div class="skeleton-line skeleton-line-medium"></div>
+                            <div class="skeleton-line skeleton-line-short"></div>
+                        </div>
                     </div>
                 `;
             }

@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Exclude technical files from indexing
+Disallow: /js/
+Disallow: *.json
+
+# Sitemap location
+Sitemap: https://fjzubq-glitch.github.io/Recomendacion-Materias-UBA/sitemap.xml
