@@ -1,14 +1,5 @@
-# Dependencias de Node
-Recomendacion Materias UBA/node_modules/
+﻿.dsh/
 node_modules/
-
-# Archivos de configuración de editores/sistema
-.vscode/
-.idea/
-*.log
-.DS_Store
-Thumbs.db
-
-# Generados por el pipeline de datos
-__pycache__/
-temp_downloads/
+*.xlsx
+backup_*/
+token_*.txt
